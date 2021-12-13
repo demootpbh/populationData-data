@@ -232,6 +232,7 @@ live_births: Live births
 deaths: Deaths
 natural_increase: Natural increase
 number_birth_rate: Number per 1000 population
+crude_death_rate_1000: Number per 1000 population
 infant_(up_to_12_months_of_age)_mortality_rate: Infant (up to 12 months of age) mortality rate
 VITAL_STATISTICS: Vital statistics
 UNIT_MEASUREMENT: Unit of measurement
@@ -244,3 +245,79 @@ NO_PER_1000_LIVE_BIRTHS: Number per 1000 live births
 no_per_1000_marriages: Number per 1000 marriages
 census_pyramid: Census
 projection_pyramid: Year of projection
+LIVE_BORN_CHILDREN: Live-born children
+did_not_give_birth: Did not give birth
+10_and_more: 10 and more
+Ethnicity_national_affiliation: Ethnicity/national affiliation
+Bosnian_and_Herzegovinian: Bosnian and Herzegovinian
+Religion: Religion
+Islam: Islam
+Orthodox: Orthodox
+Catholic: Catholic
+Muslim: Muslim
+Roman_Catholic: Roman Catholic
+Serbian: Serbian
+jehovah_s_witnesses: Jehovah's Witnesses
+Greek_Catholic: Greek Catholic
+Protestant: Protestant
+Romani: Romani
+Protestant: Protestant
+Christian: Christian
+Bosniak: Bosniak
+Croat: Croat
+Adventist: Adventist
+Bosnian: Bosnian
+Agnostic: Agnostic
+Atheist: Atheist
+Others: Others
+Undeclared: Undaclared
+Mother_tongue: Mother tongue
+Bosnian: Bosnian
+Serbian: Serbian
+Croatian: Croatian
+Serbo_Croatian: Serbo_Croatian
+Romani: Romani
+Albanian: Albanian
+Bosnian_Croatian_Serbian: Bosnian_Croatian_Serbian
+Turkish: Turkish
+Croato_Serbian: Croato_Serbian
+Bosniak: Bosniak
+Ukranian: Ukranian
+Bosnian_Serbian_Croatian: Bosnian_Serbian_Croatian
+Bosnian_Croatian: Bosnian_Croatian
+Bosnian_Herzegovinian: Bosnian_Herzegovinian
+German: German
+AGRICULTURAL_ACTIVITY: Agricultural activity
+Performing_agricultural_activity: Performing agricultural activity
+Performing_agricultural_activity_and_selling_agricultural_products_in_the_market: Performing agricultural activity and selling agricultural products in the market
+LITERACY: Literacy
+Literate: Literate
+Illiterate: Illiterate
+Highest_education_atainment: Highest education atainment 
+No_education: No education
+Incomplete_primary_education: Incomplete primary education
+Primary_school: Primary school
+Secondary_school: Secondary school
+Post-secondary_school_specialization: Post-secondary school specialization
+High_school_and_first_grade_of_faculty: High school and first grade of faculty
+Advanced_schools_faculty_academy_university: Advanced schools/faculty/academy/university
+private: Private
+public: Public
+gymnasium: Gymnasium
+technical_schools: Technical schools
+art_schools: Art schools
+religion_schools: Religion schools
+vocational_schools: Vocational schools
+high_schools_for_children_with_special_needs: High schools for children with special needs
+school_year_end: End of the school year
+school_year_beginning: Begininng of the school year 
+minor_beneficiaries: Minor beneficiaries
+adult_beneficiaries: Adult beneficiaries
+homes_for_children_and_youth_without_parental_care: Homes for children and youth without parental care
+adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults_with_mental_and_physical_disabilities: Social protection institutions for children, youth and adults with mental and physical disabilities
+social_welfare_institutions_for_adults_with_disabilities: Social welfare institutions for adults with disabilities
+social_welfare_institutions_for_adults: Social welfare institutions for adults
+type_of_institution: Type of institution
+_T: Total
+total: Total
+school_year: School year
