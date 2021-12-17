@@ -288,3 +288,78 @@ NO_PER_1000_LIVE_BIRTHS: Број на 1000 живорођених
 no_per_1000_marriages: Број на 1000 бракова
 census_pyramid: Ценсус
 projection_pyramid: Година пројектовања
+LIVE_BORN_CHILDREN: Живорођена дјеца
+did_not_give_birth: Нису рађале
+10_and_more: 10 и више
+Ethnicity_national_affiliation: Етничка/национална припадност
+Bosnian_and_Herzegovinian: Босанско-херцеговачка
+Religion: Религија
+Islam: Ислам
+Orthodox: Православна
+Catholic: Католичка
+Muslim: Муслиманска
+Roman_Catholic: Римо-католичка
+Serbian: Србин
+jehovah_s_witnesses: Јеховини свједоци
+Greek_Catholic: Гркокатоличка
+Protestant: Протестантска
+Romani: Ромска
+Christian: Кршћанска
+Bosniak: Бошњак
+Croat: Хрват
+Adventist: Адвентист
+Bosnian: Босанац
+Agnostic: Агностик
+Atheist: Атеист
+Others: Друго
+Undeclared: Неопредијељен
+Mother_tongue: Матерњи језик
+Bosnian: Босански
+Serbian: Српски
+Croatian: Хрватски
+Serbo_Croatian: Српско-хрватски
+Romani: Ромски
+Albanian: Албански
+Bosnian_Croatian_Serbian: Босански-хрватски-српски
+Turkish: Турски
+Croato_Serbian: Хрватско-српски
+Bosniak: Бошњачки
+Ukranian: Украјински
+Bosnian_Serbian_Croatian: Босански-српски-хрватски
+Bosnian_Croatian: Босански-хрватски
+Bosnian_Herzegovinian: Босанско-херцеговачки
+German: Њемачки
+AGRICULTURAL_ACTIVITY: Пољопривредна активност
+Performing_agricultural_activity: Обављање пољопривредне дјелатности
+Performing_agricultural_activity_and_selling_agricultural_products_in_the_market: Обављање пољопривредне дјелатности и продаја пољопривредних производа на пијаци
+LITERACY: Писменост
+Literate: Писмен
+Illiterate: Неписмен
+Highest_education_atainment: Највиши достигнути степен образовања 
+No_education: Необразован
+Incomplete_primary_education: Незавршено основно образовање
+Primary_school: Основна школа
+High_school: Средња школа
+Post-secondary_school_specialization: Специјализација након завршене средње школе
+High_school_and_first_grade_of_faculty: Средња школа и прва година факултета
+Advanced_schools_faculty_academy_university: Напредне школе/факултет/академија/универзитет
+private: Приватна
+public: Јавна
+gymnasium: Гимназија
+technical_schools: Техничке школе
+art_schools: Школе умјетности
+religion_schools: Вјерске школе
+vocational_schools: Школе за стручно образовање
+high_schools_for_children_with_special_needs: Средње школе за дјецу са посебним потребама
+school_year_end: Крај школске године
+school_year_beginning: Почетак школске године 
+minor_beneficiaries: Малољетни корисници
+adult_beneficiaries: Одрасли корисници
+homes_for_children_and_youth_without_parental_care: Домови за дјецу и младе без родитељског старања
+adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults_with_mental_and_physical_disabilities: Установе социјалне заштите за дјецу, младе и одрасле са менталним и физичким инвалидитетом
+social_welfare_institutions_for_adults_with_disabilities: Установе социјалне заштите за одрасле особе са инвалидитетом
+social_welfare_institutions_for_adults: Установе социјалне заштите за одрасле
+type_of_institution: Врста установе
+_T: Укупно
+total: Укупно
+school_year: Школска година
