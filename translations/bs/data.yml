@@ -368,17 +368,17 @@ type_of_education: Vrsta obrazovanja
 Type_of_user: Vrsta korisnika
 Type_of_disability: Vrsta invaliditeta
 arts_and_humanities: Umjetnost i humanističke nauke
-social_sciences,_journalism_and_information: Društvene nauke, novinarstvo i informisanje
-business,_administration_and_the_law_of_everything: Poslovanje, administracija i pravo svega
-natural_sciences,_mathematics_and_statistics_of_all: Prirodne nauke, matematika i statistika svega
+social_sciences_journalism_and_information: Društvene nauke, novinarstvo i informisanje
+business_administration_and_the_law_of_everything: Poslovanje, administracija i pravo svega
+natural_sciences_mathematics_and_statistics_of_all: Prirodne nauke, matematika i statistika svega
 information and communication technologies: Informacione i komunikacione tehnologije
-engineering,_manufacturing_and_construction: Inženjerstvo, proizvodnja i građevinarstvo
-agriculture,_forestry,_fisheries_and_veterinary_medicine: Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo
+engineering_manufacturing_and_construction: Inženjerstvo, proizvodnja i građevinarstvo
+agriculture_forestry_fisheries_and_veterinary_medicine: Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo
 health_and_social_protection: Zdravstvo i socijalna zaštita
 unknown: Nepoznato
 enrolled_in_integrated_studies: Upisani  na integrisane studije
 graduated: Diplomirani
-enrolled_in_master's,_master's_and_specialist_studies : Upisani na magistarske, master i specijalističke studije
-masters_of_science,_masters_and_specialists : Magistri nauka, masteri i specijalisti
+enrolled_in_master's_master's_and_specialist_studies: Upisani na magistarske, master i specijalističke studije
+masters_of_science_masters_and_specialists: Magistri nauka, masteri i specijalisti
 enrolled_in_doctoral_studies: Upisani na doktorske studije
 doctors_of_science: Doktori nauka
