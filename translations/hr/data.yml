@@ -42,16 +42,16 @@ per_capita: Po glavi stanovnika
 real_gdp_growth: Rast realnog BDP-a
 total_millions: Ukupno (u milijunima)
 QUANTITY: Količina
-households_in_poverty: „Kućanstva u siromaštvu (%)“
-population_in_poverty: „Stanovništvo u siromaštvu (%)“
-males_in_poverty: „Muškarci u siromaštvu (%)“
-females_in_poverty: „Žene u siromaštvu (%)“
+households_in_poverty: "Kućanstva u siromaštvu (%)"
+population_in_poverty: "Stanovništvo u siromaštvu (%)"
+males_in_poverty: "Muškarci u siromaštvu (%)"
+females_in_poverty: "Žene u siromaštvu (%)"
 POVERTY_RATE: Stopa siromaštva
-active_labour_force: „Aktivna (radna snaga) kao % radno sposobnog stanovništva“
-employed_as_of_working: „Zaposleni kao % radno sposobnog stanovništva“
-unemployed_as_of_working: „Nezaposleni kao % radno sposobnog stanovništva“
-unemployed_as_of_labour: „Nezaposleni kao % radne snage“
-inactive_as_of_working: „Neaktivni kao % radno sposobnog stanovništva“
+active_labour_force: "Aktivna (radna snaga) kao % radno sposobnog stanovništva"
+employed_as_of_working: "Zaposleni kao % radno sposobnog stanovništva"
+unemployed_as_of_working: "Nezaposleni kao % radno sposobnog stanovništva"
+unemployed_as_of_labour: "Nezaposleni kao % radne snage"
+inactive_as_of_working: "Neaktivni kao % radno sposobnog stanovništva"
 ACTIVITY_RATES: Stope aktivnosti
 total_15: Ukupno 15+
 no_education: Bez obrazovanja
@@ -62,28 +62,28 @@ higher_school_and_first_grade_of_faculty: Visoko obrazovanje i prva godina fakul
 advanced_schools_faculty_academy_university: Napredne škole /fakultet /akademija /sveučilište
 unknown: Nepoznato
 total_illiterate: Ukupno nepismeni
-of_total_for_age_group: „% od ukupno za dobnu skupinu“
+of_total_for_age_group: "% od ukupno za dobnu skupinu"
 CAUSE_OF_DEATH: Uzrok smrti (prema šiframa bolesti po MKB-10)
-infectious_and_parasitic: „(A00-B99) Zarazne i parazitarne bolesti“
-neoplasms: „(C00-C97,D00-D48) Neoplazme“
-diseases_of_the_blood: „(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sustava“
-endocrine_metabolic_and_nutritional: „(E00-E90) Endokrine bolesti, bolesti prehrane i bolesti metabolizma“
-mental_and_behavioural_disorders: „(F00-F99) Duševni poremećaji i poremećaji ponašanja“
-diseases_of_the_nervous: „(G00-G99) Bolesti nervnog sustava“
-diseases_of_the_eye: „(H00-H93) Bolesti oka, uha i adneksa"
-diseases_of_the_circulatory: „(I00-I99) Bolesti cirkulacijskog sustava“
-diseases_of_the_respiratory: „(J00-J99) Bolesti respiratornog sustava“
-diseases_of_the_digestive: „(K00-K93) Bolesti digestivnog sustava“
-diseases_of_the_skin: „(L00-L99) Bolesti kože i potkožnog tkiva“ 
-diseases_of_the_musculoskeletal: „(M00-M99) Bolesti muskuloskeletnog sustava i vezivnog tkiva“
-diseases_of_the_genitourinary: „(N00-N99) Bolesti genitalno-urinarnog sustava“
-pregnancy_childbirth_and_the: „(O00-O99) Trudnoća, porođaj i postporođajni period“
-certain_conditions_originating: „(P00-P96) Određena stanja nastala u perinatalnom periodu“
-congenital_malformations_deformations: „(Q00-Q99) Kongenitalne malformacije, deformiteti i kromosomske abnormalnosti“
-symptoms_signs_and_abnormal: „(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi nesvrstani drugamo“
-injuries_poisoning_and_consequences: „(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka“
-external_causes_of_mortality: „(V01-Y98) Vanjski uzroci mortaliteta“
-factors_influencing_health_status: „(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom“
+infectious_and_parasitic: "(A00-B99) Zarazne i parazitarne bolesti"
+neoplasms: "(C00-C97,D00-D48) Neoplazme"
+diseases_of_the_blood: "(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sustava"
+endocrine_metabolic_and_nutritional: "(E00-E90) Endokrine bolesti, bolesti prehrane i bolesti metabolizma"
+mental_and_behavioural_disorders: "(F00-F99) Duševni poremećaji i poremećaji ponašanja"
+diseases_of_the_nervous: "(G00-G99) Bolesti nervnog sustava"
+diseases_of_the_eye: "(H00-H93) Bolesti oka, uha i adneksa"
+diseases_of_the_circulatory: "(I00-I99) Bolesti cirkulacijskog sustava"
+diseases_of_the_respiratory: "(J00-J99) Bolesti respiratornog sustava"
+diseases_of_the_digestive: "(K00-K93) Bolesti digestivnog sustava"
+diseases_of_the_skin: "(L00-L99) Bolesti kože i potkožnog tkiva" 
+diseases_of_the_musculoskeletal: "(M00-M99) Bolesti muskuloskeletnog sustava i vezivnog tkiva"
+diseases_of_the_genitourinary: "(N00-N99) Bolesti genitalno-urinarnog sustava"
+pregnancy_childbirth_and_the: "(O00-O99) Trudnoća, porođaj i postporođajni period"
+certain_conditions_originating: "(P00-P96) Određena stanja nastala u perinatalnom periodu"
+congenital_malformations_deformations: "(Q00-Q99) Kongenitalne malformacije, deformiteti i kromosomske abnormalnosti"
+symptoms_signs_and_abnormal: "(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi nesvrstani drugamo"
+injuries_poisoning_and_consequences: "(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka"
+external_causes_of_mortality: "(V01-Y98) Vanjski uzroci mortaliteta"
+factors_influencing_health_status: "(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom"
 total: Ukupno
 EDUCATION: Razina obrazovanja
 women_who_have_experienced_any_form_of_violence_after_the_age_of_15_(ever): Žene koje su doživjele bilo koji oblik nasilja u dobi od 15 godina (bilo kad)
@@ -124,7 +124,7 @@ women_who_have_experienced_economic_violence_after_the_age_of_15_(ever): Žene k
 women_who_have_experienced_economic_violence_after_the_age_of_15_(past_12_months): Žene koje su doživjele gospodarsko nasilje nakon navršenih 15 godina života (u proteklih 12 mjeseci)
 FORM_OF_VIOLENCE: Oblik nasilja
 SURVEY_IMPLEMENTED_BY: Istraživanje proveo
-_%_labour: „% radne snage“
+_%_labour: "% radne snage"
 estimated_number_of_population: Procjena stanovništva
 STILLBIRTH_RATE: Stopa mrtvorođenih
 per_1000: Na 1.000 živorođenih
