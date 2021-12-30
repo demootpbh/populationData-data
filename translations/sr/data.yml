@@ -347,9 +347,9 @@ private: Приватна
 public: Јавна
 gymnasium: Гимназија
 technical_schools: Техничке школе
-art_schools: Школе умјетности
+art_schools: Умјетничке школе
 religion_schools: Вјерске школе
-vocational_schools: Школе за стручно образовање
+vocational_schools: Стручне школ
 high_schools_for_children_with_special_needs: Средње школе за дјецу са посебним потребама
 school_year_end: Крај школске године
 school_year_beginning: Почетак школске године 

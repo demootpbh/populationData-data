@@ -347,9 +347,9 @@ private: Privatna
 public: Javna
 gymnasium: Gimnazija
 technical_schools: Tehničke škole
-art_schools: Škole umjetnosti
+art_schools: Umjetničke škole
 religion_schools: Vjerske škole
-vocational_schools: Škole za stručno obrazovanje
+vocational_schools: Stručne škole
 high_schools_for_children_with_special_needs: Srednje škole za djecu s posebnim potrebama
 school_year_end: Kraj školske godine
 school_year_beginning: Početak školske godine
