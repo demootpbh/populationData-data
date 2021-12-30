@@ -21,8 +21,8 @@ Age: Старосна доб
 all: Сви
 BIRTHS: Витална статистика
 LIVE_BIRTH: Живорођени
-DEATHS: Смртни случајеви
-NATURAL_CHANGE: Природно кретање
+DEATHS: Умрли
+NATURAL_CHANGE: Природни прираштај
 total_support_ratio: Укупан омјер економске подршке
 young_age_support_ratio: Омјер економске подршке младима
 old_age_support_ratio: Омјер економске подршке старијим лицима
