@@ -1,4 +1,4 @@
-Year,SEX,CAUSE_OF_DEATH,UNIT_MEASURE,Value
+Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 1999,_T,neoplasms,NUMBER,4591
 1999,_T,diseases_of_the_circulatory,NUMBER,15911
 1999,_T,diseases_of_the_respiratory,NUMBER,866
