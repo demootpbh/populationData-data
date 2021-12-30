@@ -96,10 +96,13 @@
 5-4-1-title: Enrolled in undergraduate studies by sex
 5-4-2-title: Graduated students by sex
 5-4-3-title: Graduated students by type of education
-5-5-1-title: Enrolled in master and specialist studies by sex
-5-5-2-title: Enrolled in master and specialist studies by type of education
-5-5-3-title: Students graduated in master and special studies by sex
-5-5-4-title: Students graduated in master and special studies by type of education
+5-5-1-title: Enrolled in integrated studies by sex
+5-5-2-title: Students graduated in integrated studies by sex
+5-5-3-title: Students graduated in integrated studies by type of education
+5-5-4-title: Enrolled in master and specialist studies by sex
+5-5-5-title: Enrolled in master and specialist studies by type of education
+5-5-6-title: Students graduated in master and special studies by sex
+5-5-7-title: Students graduated in master and special studies by type of education
 5-6-1-title: Enrolled in doctoral studies by sex
 5-6-2-title: Enrolled in doctoral studies by type of education
 5-6-3-title: Students graduated in doctoral studies by sex
