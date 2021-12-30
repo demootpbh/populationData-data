@@ -38,19 +38,16 @@
 2-1-4-title: Populacijska piramida
 2-1-5-title: Ženska populacija u dobi od 15 i više godina prema broju živorođene djece
 2-1-6-title: Koeficijenti zavisnosti prema spolu
-2-2-1-title: Stanovništvo prema gradu/općini, etničkoj/nacionalnoj pripadnosti i spolu
-2-2-2-title: Stanovništvo prema gradu/općini, vjeroispovijesti i spolu
-2-2-3-title: Stanovništvo prema gradu/općini, maternjem jeziku i spolu
-2-3-1-title: Domaćinstva prema gradu/općini i broju članova
-2-3-2-title: Domaćinstva prema gradu/općini i poljoprivrednoj aktivnosti
-2-4-1-title: Stanovništvo staro 10 i više godina prema pismenosti i spolu
-2-4-2-title: Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu
-2-5-1-title: Stanovništvo sa poteškoćama prema vrsti poteškoće, starosnim grupama i spolu
-3-1-1-title: Umrla novorođenčad prema spolu (LINK na 1-3-2-title:)
-3-1-2-title: Stopa smrtnosti dojenčadi (LINK na 1-3-3-title:)
-3-1-3-title: Umrli prema uzroku smrti i spolu (LINK na 1-3-4-title:)
-3-1-4-title: Mrtvorođeni prema spolu (LINK na 1-3-5-title:)
-3-1-5-title: Stopa mrtvorođenih (LINK na 1-3-6-title:)
+2-2-1-title: Domaćinstva prema broju članova
+2-2-2-title: Domaćinstva prema poljoprivrednoj aktivnosti
+2-3-1-title: Stanovništvo staro 10 i više godina prema pismenosti i spolu
+2-3-2-title: Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu
+2-4-1-title: Stanovništvo sa poteškoćama prema vrsti poteškoće, starosnim grupama i spolu
+3-1-1-title: Umrla novorođenčad prema spolu
+3-1-2-title: Stopa smrtnosti dojenčadi
+3-1-3-title: Umrli prema uzroku smrti i spolu 
+3-1-4-title: Mrtvorođeni prema spolu
+3-1-5-title: Stopa mrtvorođenih
 3-2-1-title: Incidenca karcinoma cerviksa
 3-2-2-title: Incidenca karcinoma dojke 
 3-2-3-title: Incidenca karcinoma cerviksa na 100-000 ženske populacije
