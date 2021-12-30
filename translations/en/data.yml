@@ -325,6 +325,23 @@ Type_of_school: Type of school
 type_of_education: Type of education
 Type_of_user: Type of beneficiary
 Type_of_disability: Type of disability
+arts_and_humanities: Arts and humanities
+social_sciences_journalism_and_information: Social sciences, journalism and information
+business_administration_and_the_law_of_everything: Business administration and the law of everything
+natural_sciences_mathematics_and_statistics_of_all: Natural sciences, mathematics and statistics of all
+information_and_communication_technologies: Information and communication technologies
+engineering_manufacturing_and_construction: Engineering, manufacturing and construction
+agriculture_forestry_fisheries_and_veterinary_medicine: Agriculture, forestry, fisheries and veterinary medicine
+health_and_social_protection: Health and social protection
+unknown: Unknown
+enrolled_in_integrated_studies: Enrolled in integrated studies
+graduated: Graduated
+enrolled_in_master's_master's_and_specialist_studies: Enrolled in master's and specialist studies
+masters_of_science_masters_and_specialists: Masters of science masters and specialists
+enrolled_in_doctoral_studies: Enrolled in doctoral studies
+doctors_of_science: Doctors of sciense
+education: Education
+Services: Services
 Seeing: Seeing
 Hearing: Hearing
 walking_or_climbing_up_the_stairs: Walking or climbing up the stairs

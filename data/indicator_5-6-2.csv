@@ -5,7 +5,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2018,NUMBER,social_sciences_journalism_and_information,_T,90
 2018,NUMBER,business_administration_and_the_law_of_everything,_T,190
 2018,NUMBER,natural_sciences_mathematics_and_statistics_of_all,_T,88
-2018,NUMBER,information and communication technologies,_T,51
+2018,NUMBER,information_and_communication_technologies,_T,51
 2018,NUMBER,engineering_manufacturing_and_construction,_T,103
 2018,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,_T,20
 2018,NUMBER,health_and_social_protection,_T,222
@@ -17,7 +17,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2018,NUMBER,social_sciences_journalism_and_information,M,55
 2018,NUMBER,business_administration_and_the_law_of_everything,M,111
 2018,NUMBER,natural_sciences_mathematics_and_statistics_of_all,M,32
-2018,NUMBER,information and communication technologies,M,42
+2018,NUMBER,information_and_communication_technologies,M,42
 2018,NUMBER,engineering_manufacturing_and_construction,M,70
 2018,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,M,11
 2018,NUMBER,health_and_social_protection,M,80
@@ -29,7 +29,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2018,NUMBER,social_sciences_journalism_and_information,F,35
 2018,NUMBER,business_administration_and_the_law_of_everything,F,79
 2018,NUMBER,natural_sciences_mathematics_and_statistics_of_all,F,56
-2018,NUMBER,information and communication technologies,F,9
+2018,NUMBER,information_and_communication_technologies,F,9
 2018,NUMBER,engineering_manufacturing_and_construction,F,33
 2018,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,F,9
 2018,NUMBER,health_and_social_protection,F,142
@@ -41,7 +41,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2019,NUMBER,social_sciences_journalism_and_information,_T,173
 2019,NUMBER,business_administration_and_the_law_of_everything,_T,183
 2019,NUMBER,natural_sciences_mathematics_and_statistics_of_all,_T,85
-2019,NUMBER,information and communication technologies,_T,12
+2019,NUMBER,information_and_communication_technologies,_T,12
 2019,NUMBER,engineering_manufacturing_and_construction,_T,88
 2019,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,_T,97
 2019,NUMBER,health_and_social_protection,_T,173
@@ -53,7 +53,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2019,NUMBER,social_sciences_journalism_and_information,M,91
 2019,NUMBER,business_administration_and_the_law_of_everything,M,97
 2019,NUMBER,natural_sciences_mathematics_and_statistics_of_all,M,36
-2019,NUMBER,information and communication technologies,M,7
+2019,NUMBER,information_and_communication_technologies,M,7
 2019,NUMBER,engineering_manufacturing_and_construction,M,54
 2019,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,M,17
 2019,NUMBER,health_and_social_protection,M,88
@@ -65,7 +65,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2019,NUMBER,social_sciences_journalism_and_information,F,82
 2019,NUMBER,business_administration_and_the_law_of_everything,F,86
 2019,NUMBER,natural_sciences_mathematics_and_statistics_of_all,F,49
-2019,NUMBER,information and communication technologies,F,5
+2019,NUMBER,information_and_communication_technologies,F,5
 2019,NUMBER,engineering_manufacturing_and_construction,F,25
 2019,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,F,24
 2019,NUMBER,health_and_social_protection,F,150
@@ -77,7 +77,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2020,NUMBER,social_sciences_journalism_and_information,_T,56
 2020,NUMBER,business_administration_and_the_law_of_everything,_T,188
 2020,NUMBER,natural_sciences_mathematics_and_statistics_of_all,_T,116
-2020,NUMBER,information and communication technologies,_T,56
+2020,NUMBER,information_and_communication_technologies,_T,56
 2020,NUMBER,engineering_manufacturing_and_construction,_T,163
 2020,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,_T,43
 2020,NUMBER,health_and_social_protection,_T,371
@@ -89,7 +89,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2020,NUMBER,social_sciences_journalism_and_information,M,28
 2020,NUMBER,business_administration_and_the_law_of_everything,M,99
 2020,NUMBER,natural_sciences_mathematics_and_statistics_of_all,M,50
-2020,NUMBER,information and communication technologies,M,41
+2020,NUMBER,information_and_communication_technologies,M,41
 2020,NUMBER,engineering_manufacturing_and_construction,M,130
 2020,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,M,22
 2020,NUMBER,health_and_social_protection,M,151
@@ -101,7 +101,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2020,NUMBER,social_sciences_journalism_and_information,F,28
 2020,NUMBER,business_administration_and_the_law_of_everything,F,89
 2020,NUMBER,natural_sciences_mathematics_and_statistics_of_all,F,66
-2020,NUMBER,information and communication technologies,F,15
+2020,NUMBER,information_and_communication_technologies,F,15
 2020,NUMBER,engineering_manufacturing_and_construction,F,33
 2020,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,F,21
 2020,NUMBER,health_and_social_protection,F,220
