@@ -367,6 +367,23 @@ Type_of_school: Vrsta škole
 type_of_education: Vrsta obrazovanja
 Type_of_user: Vrsta korisnika
 Type_of_disability: Vrsta invaliditeta
+arts_and_humanities: Umjetnost i humanističke znanosti
+social_sciences_journalism_and_information: Društvene znanosti, novinarstvo i informiranje
+business_administration_and_the_law_of_everything: Poslovanje, administracija i pravo
+natural_sciences_mathematics_and_statistics_of_all: Prirodne znanosti, matematika i statistika
+information_and_communication_technologies: Informacijske i komunikacijske tehnologije
+engineering_manufacturing_and_construction: Inženjerstvo, proizvodnja i građevinarstvo
+agriculture_forestry_fisheries_and_veterinary_medicine: Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo
+health_and_social_protection: Zdravstvo i socijalna skrb
+unknown: Nepoznato
+enrolled_in_integrated_studies: Upisani  na integrirane studije
+graduated: Diplomirani
+enrolled_in_master's_master's_and_specialist_studies: Upisani na magistarske, master i specijalističke studije
+masters_of_science_masters_and_specialists: Magistri nauka, masteri i specijalisti
+enrolled_in_doctoral_studies: Upisani na doktorske studije
+doctors_of_science: Doktori znanosti
+education: Obrazovanje
+services: Usluge
 F: Ž
 M: M
 _T: Oba spola

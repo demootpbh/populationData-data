@@ -366,6 +366,23 @@ Type_of_school: Врста школе
 type_of_education: Врста образовања
 Type_of_user: Врста корисника
 Type_of_disability: Врста инвалидитета
+arts_and_humanities: Умјетност и хуманистичке науке
+social_sciences_journalism_and_information: Друштвене науке, новинарство и информисање
+business_administration_and_the_law_of_everything: Пословање, администрација, и право
+natural_sciences_mathematics_and_statistics_of_all: Природне науке, математика, и статистика
+information_and_communication_technologies: Информационе и комуникационе технологије
+engineering_manufacturing_and_construction: Инжењерство, производња и грађевинарство
+agriculture_forestry_fisheries_and_veterinary_medicine: Пољопривреда, шумарство, рибарство и ветеринарство
+health_and_social_protection: Здравство и социјална заштита
+unknown: Непознато
+enrolled_in_integrated_studies: Уписани на интегрисане студије
+graduated: Дипломирани
+enrolled_in_master's_master's_and_specialist_studies: Уписани на магистарске, мастер и специјалистичке студије
+masters_of_science_masters_and_specialists: Магистри наука, мастери и специјалисти
+enrolled_in_doctoral_studies: Уписани на докторске студије
+doctors_of_science: Доктори наука
+education: Образовање
+services: Услуге
 BHAS: БХАС
 F: Ж
 M: M
