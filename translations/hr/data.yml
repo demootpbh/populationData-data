@@ -361,10 +361,13 @@ adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults
 social_welfare_institutions_for_adults_with_disabilities: Ustanove socijalne skrbi za odrasle osobe s invaliditetom
 social_welfare_institutions_for_adults: Ustanove socijalne skrbi za odrasle
 type_of_institution: Vrsta ustanove
-_T: Ukupno
 total: Ukupno
 school_year: Školska godina
 Type_of_school: Vrsta škole
 type_of_education: Vrsta obrazovanja
 Type_of_user: Vrsta korisnika
 Type_of_disability: Vrsta invaliditeta
+F: Ž
+M: M
+_T: Oba spola
+statistics_sex: Spol

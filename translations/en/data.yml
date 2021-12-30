@@ -318,7 +318,6 @@ adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults
 social_welfare_institutions_for_adults_with_disabilities: Social welfare institutions for adults with disabilities
 social_welfare_institutions_for_adults: Social welfare institutions for adults
 type_of_institution: Type of institution
-_T: Total
 total: Total
 school_year: School year
 Type_of_school: Type of school
@@ -349,3 +348,7 @@ remembering_or_concentration: Remembering or concentration
 self_care: Self-care
 Communication: Communication
 multiple_disabilities: Multiple disabilities
+F: F
+M: M
+_T: Both sexes
+statistics_sex: Spol
