@@ -352,9 +352,6 @@ F: F
 M: M
 _T: Both sexes
 population_sex: Sex
-employees: Employees
-self_employed: Self-employed
-unpaid_family_workers: Unpaid family workers
 status_in_employment: Status in employment
 banja_luka: "Banja Luka"
 banovici: "Banovici"
@@ -499,3 +496,6 @@ zepce: "Zepce"
 zivinice: "Zivinice"
 zvornik: "Zvornik"
 bhas_labour_force_survey: "BHAS, Labour Force Survey"
+employees: Employees
+self_employed: Self-employed
+unpaid_family_workers: Unpaid family workers
