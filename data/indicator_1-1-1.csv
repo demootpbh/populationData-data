@@ -15,7 +15,7 @@ Year,UNIT_MEASURE,SEX,Admin Area,BIRTHS,Value
 2011,NUMBER,M,posavina_canton,LIVE_BIRTH,112
 2011,NUMBER,M,tuzla_canton,LIVE_BIRTH,2305
 2011,NUMBER,M,zenica-doboj_canton,LIVE_BIRTH,1945
-2011,NUMBER,M,bosnian-podrinje_canton,LIVE_BIRTH,9999
+2011,NUMBER,M,bosnian-podrinje_canton,LIVE_BIRTH,99
 2011,NUMBER,M,central_bosnia_canton,LIVE_BIRTH,1219
 2011,NUMBER,M,herzegovina-neretva_canton,LIVE_BIRTH,946
 2011,NUMBER,M,west_herzegovina_canton,LIVE_BIRTH,401
