@@ -1,0 +1,100 @@
+Year,Spol,Vitalna statistika,UNIT_MEASURE,Value
+2020,Oba spola,Živorođeni,Broj,29511
+2020,Oba spola,Umrli,Broj,37517
+2020,Oba spola,Prirodni priraštaj,Broj,-8006
+2025,Oba spola,Živorođeni,Broj,26090
+2025,Oba spola,Umrli,Broj,39013
+2025,Oba spola,Prirodni priraštaj,Broj,-12924
+2030,Oba spola,Živorođeni,Broj,22815
+2030,Oba spola,Umrli,Broj,40539
+2030,Oba spola,Prirodni priraštaj,Broj,-17724
+2035,Oba spola,Živorođeni,Broj,20041
+2035,Oba spola,Umrli,Broj,42144
+2035,Oba spola,Prirodni priraštaj,Broj,-22103
+2040,Oba spola,Živorođeni,Broj,18095
+2040,Oba spola,Umrli,Broj,43514
+2040,Oba spola,Prirodni priraštaj,Broj,-25419
+2045,Oba spola,Živorođeni,Broj,16461
+2045,Oba spola,Umrli,Broj,44097
+2045,Oba spola,Prirodni priraštaj,Broj,-27635
+2050,Oba spola,Živorođeni,Broj,14955
+2050,Oba spola,Umrli,Broj,43537
+2050,Oba spola,Prirodni priraštaj,Broj,-28582
+2055,Oba spola,Živorođeni,Broj,13510
+2055,Oba spola,Umrli,Broj,42130
+2055,Oba spola,Prirodni priraštaj,Broj,-28620
+2060,Oba spola,Živorođeni,Broj,12120
+2060,Oba spola,Umrli,Broj,40129
+2060,Oba spola,Prirodni priraštaj,Broj,-28009
+2065,Oba spola,Živorođeni,Broj,10861
+2065,Oba spola,Umrli,Broj,37783
+2065,Oba spola,Prirodni priraštaj,Broj,-26921
+2070,Oba spola,Živorođeni,Broj,9813
+2070,Oba spola,Umrli,Broj,35279
+2070,Oba spola,Prirodni priraštaj,Broj,-25466
+2020,M,Živorođeni,Broj,15198
+2020,M,Umrli,Broj,19067
+2020,M,Prirodni priraštaj,Broj,-3869
+2025,M,Živorođeni,Broj,13436
+2025,M,Umrli,Broj,19749
+2025,M,Prirodni priraštaj,Broj,-6313
+2030,M,Živorođeni,Broj,11750
+2030,M,Umrli,Broj,20416
+2030,M,Prirodni priraštaj,Broj,-8666
+2035,M,Živorođeni,Broj,10321
+2035,M,Umrli,Broj,21110
+2035,M,Prirodni priraštaj,Broj,-10788
+2040,M,Živorođeni,Broj,9319
+2040,M,Umrli,Broj,21636
+2040,M,Prirodni priraštaj,Broj,-12317
+2045,M,Živorođeni,Broj,84778
+2045,M,Umrli,Broj,21687
+2045,M,Prirodni priraštaj,Broj,-13210
+2050,M,Živorođeni,Broj,7702
+2050,M,Umrli,Broj,21195
+2050,M,Prirodni priraštaj,Broj,-13493
+2055,M,Živorođeni,Broj,6958
+2055,M,Umrli,Broj,20338
+2055,M,Prirodni priraštaj,Broj,-13181
+2060,M,Živorođeni,Broj,6242
+2060,M,Umrli,Broj,19208
+2060,M,Prirodni priraštaj,Broj,-12966
+2065,M,Živorođeni,Broj,5593
+2065,M,Umrli,Broj,17838
+2065,M,Prirodni priraštaj,Broj,-12245
+2070,M,Živorođeni,Broj,5054
+2070,M,Umrli,Broj,16376
+2070,M,Prirodni priraštaj,Broj,-11322
+2020,Ž,Živorođeni,Broj,14313
+2020,Ž,Umrli,Broj,18449
+2020,Ž,Prirodni priraštaj,Broj,-4137
+2025,Ž,Živorođeni,Broj,12653
+2025,Ž,Umrli,Broj,19264
+2025,Ž,Prirodni priraštaj,Broj,-6610
+2030,Ž,Živorođeni,Broj,11065
+2030,Ž,Umrli,Broj,20123
+2030,Ž,Prirodni priraštaj,Broj,-9058
+2035,Ž,Živorođeni,Broj,9720
+2035,Ž,Umrli,Broj,21034
+2035,Ž,Prirodni priraštaj,Broj,-11314
+2040,Ž,Živorođeni,Broj,8776
+2040,Ž,Umrli,Broj,21878
+2040,Ž,Prirodni priraštaj,Broj,-13102
+2045,Ž,Živorođeni,Broj,7984
+2045,Ž,Umrli,Broj,22409
+2045,Ž,Prirodni priraštaj,Broj,-14426
+2050,Ž,Živorođeni,Broj,7253
+2050,Ž,Umrli,Broj,22342
+2050,Ž,Prirodni priraštaj,Broj,-15088
+2055,Ž,Živorođeni,Broj,6552
+2055,Ž,Umrli,Broj,21792
+2055,Ž,Prirodni priraštaj,Broj,-15239
+2060,Ž,Živorođeni,Broj,5878
+2060,Ž,Umrli,Broj,20921
+2060,Ž,Prirodni priraštaj,Broj,-15043
+2065,Ž,Živorođeni,Broj,5268
+2065,Ž,Umrli,Broj,19944
+2065,Ž,Prirodni priraštaj,Broj,-14677
+2070,Ž,Živorođeni,Broj,4760
+2070,Ž,Umrli,Broj,18904
+2070,Ž,Prirodni priraštaj,Broj,-14144

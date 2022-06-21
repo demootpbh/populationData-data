@@ -1,0 +1,65 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "total",
+                "education",
+                "arts_and_humanities",
+                "social_sciences_journalism_and_information",
+                "business_administration_and_the_law_of_everything",
+                "natural_sciences_mathematics_and_statistics_of_all",
+                "information_and_communication_technologies",
+                "engineering_manufacturing_and_construction",
+                "agriculture_forestry_fisheries_and_veterinary_medicine",
+                "health_and_social_protection",
+                "services",
+                "unknown",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-5-5",
+  "title": "global_indicators.5-5-5-title"
+}

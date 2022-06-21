@@ -1,0 +1,211 @@
+Year,UNIT_MEASURE,Type of school,Sex,Value
+2011,Number,Both sexes,Both sexes,163284
+2012,Number,Both sexes,Both sexes,166662
+2013,Number,Both sexes,Both sexes,156350
+2014,Number,Both sexes,Both sexes,143881
+2015,Number,Both sexes,Both sexes,133228
+2016,Number,Both sexes,Both sexes,126824
+2017,Number,Both sexes,Both sexes,124148
+2018,Number,Both sexes,Both sexes,117475
+2019,Number,Both sexes,Both sexes,112796
+2020,Number,Both sexes,Both sexes,110404
+2011,Number,Gymnasium,Both sexes,41081
+2012,Number,Gymnasium,Both sexes,42225
+2013,Number,Gymnasium,Both sexes,40065
+2014,Number,Gymnasium,Both sexes,37132
+2015,Number,Gymnasium,Both sexes,33321
+2016,Number,Gymnasium,Both sexes,30615
+2017,Number,Gymnasium,Both sexes,29591
+2018,Number,Gymnasium,Both sexes,26731
+2019,Number,Gymnasium,Both sexes,24817
+2020,Number,Gymnasium,Both sexes,23867
+2011,Number,Technical schools,Both sexes,83704
+2012,Number,Technical schools,Both sexes,86539
+2013,Number,Technical schools,Both sexes,82743
+2014,Number,Technical schools,Both sexes,77388
+2015,Number,Technical schools,Both sexes,72109
+2016,Number,Technical schools,Both sexes,68743
+2017,Number,Technical schools,Both sexes,67895
+2018,Number,Technical schools,Both sexes,64706
+2019,Number,Technical schools,Both sexes,62846
+2020,Number,Technical schools,Both sexes,61811
+2011,Number,Art schools,Both sexes,1514
+2012,Number,Art schools,Both sexes,1520
+2013,Number,Art schools,Both sexes,1445
+2014,Number,Art schools,Both sexes,1291
+2015,Number,Art schools,Both sexes,1216
+2016,Number,Art schools,Both sexes,1203
+2017,Number,Art schools,Both sexes,1154
+2018,Number,Art schools,Both sexes,1166
+2019,Number,Art schools,Both sexes,1139
+2020,Number,Art schools,Both sexes,1151
+2011,Number,Religion schools,Both sexes,2095
+2012,Number,Religion schools,Both sexes,2266
+2013,Number,Religion schools,Both sexes,2258
+2014,Number,Religion schools,Both sexes,2222
+2015,Number,Religion schools,Both sexes,2189
+2016,Number,Religion schools,Both sexes,2227
+2017,Number,Religion schools,Both sexes,2309
+2018,Number,Religion schools,Both sexes,2245
+2019,Number,Religion schools,Both sexes,2197
+2020,Number,Religion schools,Both sexes,2196
+2011,Number,Vocational schools,Both sexes,34479
+2012,Number,Vocational schools,Both sexes,33672
+2013,Number,Vocational schools,Both sexes,29414
+2014,Number,Vocational schools,Both sexes,25463
+2015,Number,Vocational schools,Both sexes,23995
+2016,Number,Vocational schools,Both sexes,23642
+2017,Number,Vocational schools,Both sexes,22819
+2018,Number,Vocational schools,Both sexes,22280
+2019,Number,Vocational schools,Both sexes,21481
+2020,Number,Vocational schools,Both sexes,21054
+2011,Number,High schools for children with special needs,Both sexes,411
+2012,Number,High schools for children with special needs,Both sexes,440
+2013,Number,High schools for children with special needs,Both sexes,425
+2014,Number,High schools for children with special needs,Both sexes,385
+2015,Number,High schools for children with special needs,Both sexes,398
+2016,Number,High schools for children with special needs,Both sexes,394
+2017,Number,High schools for children with special needs,Both sexes,380
+2018,Number,High schools for children with special needs,Both sexes,347
+2019,Number,High schools for children with special needs,Both sexes,316
+2020,Number,High schools for children with special needs,Both sexes,325
+2011,Number,Both sexes,M,82745
+2012,Number,Both sexes,M,84420
+2013,Number,Both sexes,M,78882
+2014,Number,Both sexes,M,72095
+2015,Number,Both sexes,M,66708
+2016,Number,Both sexes,M,63232
+2017,Number,Both sexes,M,61934
+2018,Number,Both sexes,M,58821
+2019,Number,Both sexes,M,56328
+2020,Number,Both sexes,M,55068
+2011,Number,Gymnasium,M,15329
+2012,Number,Gymnasium,M,15779
+2013,Number,Gymnasium,M,14829
+2014,Number,Gymnasium,M,13802
+2015,Number,Gymnasium,M,12424
+2016,Number,Gymnasium,M,11379
+2017,Number,Gymnasium,M,10929
+2018,Number,Gymnasium,M,9694
+2019,Number,Gymnasium,M,8899
+2020,Number,Gymnasium,M,8451
+2011,Number,Technical schools,M,41624
+2012,Number,Technical schools,M,43010
+2013,Number,Technical schools,M,41216
+2014,Number,Technical schools,M,38340
+2015,Number,Technical schools,M,35563
+2016,Number,Technical schools,M,33308
+2017,Number,Technical schools,M,32926
+2018,Number,Technical schools,M,31248
+2019,Number,Technical schools,M,30030
+2020,Number,Technical schools,M,29382
+2011,Number,Art schools,M,657
+2012,Number,Art schools,M,645
+2013,Number,Art schools,M,581
+2014,Number,Art schools,M,512
+2015,Number,Art schools,M,471
+2016,Number,Art schools,M,454
+2017,Number,Art schools,M,432
+2018,Number,Art schools,M,447
+2019,Number,Art schools,M,403
+2020,Number,Art schools,M,411
+2011,Number,Religion schools,M,1089
+2012,Number,Religion schools,M,1138
+2013,Number,Religion schools,M,1149
+2014,Number,Religion schools,M,1106
+2015,Number,Religion schools,M,1070
+2016,Number,Religion schools,M,1099
+2017,Number,Religion schools,M,1121
+2018,Number,Religion schools,M,1075
+2019,Number,Religion schools,M,1053
+2020,Number,Religion schools,M,1027
+2011,Number,Vocational schools,M,23787
+2012,Number,Vocational schools,M,23567
+2013,Number,Vocational schools,M,20832
+2014,Number,Vocational schools,M,18088
+2015,Number,Vocational schools,M,16937
+2016,Number,Vocational schools,M,16746
+2017,Number,Vocational schools,M,16292
+2018,Number,Vocational schools,M,16137
+2019,Number,Vocational schools,M,15739
+2020,Number,Vocational schools,M,15588
+2011,Number,High schools for children with special needs,M,259
+2012,Number,High schools for children with special needs,M,281
+2013,Number,High schools for children with special needs,M,275
+2014,Number,High schools for children with special needs,M,247
+2015,Number,High schools for children with special needs,M,243
+2016,Number,High schools for children with special needs,M,246
+2017,Number,High schools for children with special needs,M,234
+2018,Number,High schools for children with special needs,M,220
+2019,Number,High schools for children with special needs,M,204
+2020,Number,High schools for children with special needs,M,209
+2011,Number,Both sexes,F,80539
+2012,Number,Both sexes,F,82242
+2013,Number,Both sexes,F,77468
+2014,Number,Both sexes,F,71786
+2015,Number,Both sexes,F,66520
+2016,Number,Both sexes,F,63592
+2017,Number,Both sexes,F,62214
+2018,Number,Both sexes,F,58654
+2019,Number,Both sexes,F,56468
+2020,Number,Both sexes,F,55336
+2011,Number,Gymnasium,F,25752
+2012,Number,Gymnasium,F,26446
+2013,Number,Gymnasium,F,25236
+2014,Number,Gymnasium,F,23330
+2015,Number,Gymnasium,F,20897
+2016,Number,Gymnasium,F,19236
+2017,Number,Gymnasium,F,18662
+2018,Number,Gymnasium,F,17037
+2019,Number,Gymnasium,F,15918
+2020,Number,Gymnasium,F,15416
+2011,Number,Technical schools,F,42080
+2012,Number,Technical schools,F,43529
+2013,Number,Technical schools,F,41527
+2014,Number,Technical schools,F,39048
+2015,Number,Technical schools,F,36546
+2016,Number,Technical schools,F,35435
+2017,Number,Technical schools,F,34969
+2018,Number,Technical schools,F,33458
+2019,Number,Technical schools,F,32816
+2020,Number,Technical schools,F,32429
+2011,Number,Art schools,F,857
+2012,Number,Art schools,F,875
+2013,Number,Art schools,F,864
+2014,Number,Art schools,F,779
+2015,Number,Art schools,F,745
+2016,Number,Art schools,F,749
+2017,Number,Art schools,F,722
+2018,Number,Art schools,F,719
+2019,Number,Art schools,F,736
+2020,Number,Art schools,F,740
+2011,Number,Religion schools,F,1006
+2012,Number,Religion schools,F,1128
+2013,Number,Religion schools,F,1109
+2014,Number,Religion schools,F,1116
+2015,Number,Religion schools,F,1119
+2016,Number,Religion schools,F,1128
+2017,Number,Religion schools,F,1188
+2018,Number,Religion schools,F,1170
+2019,Number,Religion schools,F,1144
+2020,Number,Religion schools,F,1169
+2011,Number,Vocational schools,F,10692
+2012,Number,Vocational schools,F,10105
+2013,Number,Vocational schools,F,8582
+2014,Number,Vocational schools,F,7375
+2015,Number,Vocational schools,F,7058
+2016,Number,Vocational schools,F,6896
+2017,Number,Vocational schools,F,6527
+2018,Number,Vocational schools,F,6143
+2019,Number,Vocational schools,F,5742
+2020,Number,Vocational schools,F,5466
+2011,Number,High schools for children with special needs,F,152
+2012,Number,High schools for children with special needs,F,159
+2013,Number,High schools for children with special needs,F,150
+2014,Number,High schools for children with special needs,F,138
+2015,Number,High schools for children with special needs,F,155
+2016,Number,High schools for children with special needs,F,148
+2017,Number,High schools for children with special needs,F,146
+2018,Number,High schools for children with special needs,F,127
+2019,Number,High schools for children with special needs,F,112
+2020,Number,High schools for children with special needs,F,116

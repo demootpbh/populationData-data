@@ -1,0 +1,155 @@
+Year,Type of disability,Sex,Age,UNIT_MEASURE,Value
+2013,Seeing,Both sexes,0-14,Number,1084
+2013,Hearing,Both sexes,0-14,Number,262
+2013,Walking or climbing up the stairs,Both sexes,0-14,Number,671
+2013,Remembering or concentration,Both sexes,0-14,Number,200
+2013,Self-care,Both sexes,0-14,Number,164
+2013,Communication,Both sexes,0-14,Number,318
+2013,Multiple disabilities,Both sexes,0-14,Number,1826
+2013,Seeing,Both sexes,15-19,Number,862
+2013,Hearing,Both sexes,15-19,Number,191
+2013,Walking or climbing up the stairs,Both sexes,15-19,Number,478
+2013,Remembering or concentration,Both sexes,15-19,Number,129
+2013,Self-care,Both sexes,15-19,Number,32
+2013,Communication,Both sexes,15-19,Number,112
+2013,Multiple disabilities,Both sexes,15-19,Number,1082
+2013,Seeing,Both sexes,20-29,Number,1819
+2013,Hearing,Both sexes,20-29,Number,370
+2013,Walking or climbing up the stairs,Both sexes,20-29,Number,1350
+2013,Remembering or concentration,Both sexes,20-29,Number,380
+2013,Self-care,Both sexes,20-29,Number,72
+2013,Communication,Both sexes,20-29,Number,208
+2013,Multiple disabilities,Both sexes,20-29,Number,2199
+2013,Seeing,Both sexes,30-49,Number,7841
+2013,Hearing,Both sexes,30-49,Number,2460
+2013,Walking or climbing up the stairs,Both sexes,30-49,Number,15862
+2013,Remembering or concentration,Both sexes,30-49,Number,2337
+2013,Self-care,Both sexes,30-49,Number,319
+2013,Communication,Both sexes,30-49,Number,683
+2013,Multiple disabilities,Both sexes,30-49,Number,10694
+2013,Seeing,Both sexes,50-59,Number,12870
+2013,Hearing,Both sexes,50-59,Number,3498
+2013,Walking or climbing up the stairs,Both sexes,50-59,Number,21484
+2013,Remembering or concentration,Both sexes,50-59,Number,2035
+2013,Self-care,Both sexes,50-59,Number,259
+2013,Communication,Both sexes,50-59,Number,488
+2013,Multiple disabilities,Both sexes,50-59,Number,16861
+2013,Seeing,Both sexes,60-64,Number,7189
+2013,Hearing,Both sexes,60-64,Number,2289
+2013,Walking or climbing up the stairs,Both sexes,60-64,Number,12727
+2013,Remembering or concentration,Both sexes,60-64,Number,870
+2013,Self-care,Both sexes,60-64,Number,100
+2013,Communication,Both sexes,60-64,Number,259
+2013,Multiple disabilities,Both sexes,60-64,Number,11125
+2013,Seeing,Both sexes,60-64,Number,20636
+2013,Hearing,Both sexes,60-64,Number,12505
+2013,Walking or climbing up the stairs,Both sexes,60-64,Number,44406
+2013,Remembering or concentration,Both sexes,60-64,Number,2836
+2013,Self-care,Both sexes,60-64,Number,587
+2013,Communication,Both sexes,60-64,Number,586
+2013,Multiple disabilities,Both sexes,60-64,Number,66443
+2013,Seeing,Both sexes,65+,Number,20636
+2013,Hearing,Both sexes,65+,Number,12505
+2013,Walking or climbing up the stairs,Both sexes,65+,Number,44406
+2013,Remembering or concentration,Both sexes,65+,Number,2836
+2013,Self-care,Both sexes,65+,Number,587
+2013,Communication,Both sexes,65+,Number,586
+2013,Multiple disabilities,Both sexes,65+,Number,66443
+2013,Seeing,M,0-14,Number,571
+2013,Hearing,M,0-14,Number,146
+2013,Walking or climbing up the stairs,M,0-14,Number,370
+2013,Remembering or concentration,M,0-14,Number,123
+2013,Self-care,M,0-14,Number,104
+2013,Communication,M,0-14,Number,215
+2013,Multiple disabilities,M,0-14,Number,1077
+2013,Seeing,M,15-19,Number,430
+2013,Hearing,M,15-19,Number,101
+2013,Walking or climbing up the stairs,M,15-19,Number,268
+2013,Remembering or concentration,M,15-19,Number,95
+2013,Self-care,M,15-19,Number,19
+2013,Communication,M,15-19,Number,75
+2013,Multiple disabilities,M,15-19,Number,653
+2013,Seeing,M,20-29,Number,976
+2013,Hearing,M,20-29,Number,223
+2013,Walking or climbing up the stairs,M,20-29,Number,883
+2013,Remembering or concentration,M,20-29,Number,256
+2013,Self-care,M,20-29,Number,44
+2013,Communication,M,20-29,Number,133
+2013,Multiple disabilities,M,20-29,Number,1306
+2013,Seeing,M,30-49,Number,4313
+2013,Hearing,M,30-49,Number,1722
+2013,Walking or climbing up the stairs,M,30-49,Number,10912
+2013,Remembering or concentration,M,30-49,Number,1488
+2013,Self-care,M,30-49,Number,216
+2013,Communication,M,30-49,Number,442
+2013,Multiple disabilities,M,30-49,Number,6669
+2013,Seeing,M,50-59,Number,6088
+2013,Hearing,M,50-59,Number,2282
+2013,Walking or climbing up the stairs,M,50-59,Number,11557
+2013,Remembering or concentration,M,50-59,Number,1170
+2013,Self-care,M,50-59,Number,179
+2013,Communication,M,50-59,Number,338
+2013,Multiple disabilities,M,50-59,Number,9039
+2013,Seeing,M,60-64,Number,3155
+2013,Hearing,M,60-64,Number,1432
+2013,Walking or climbing up the stairs,M,60-64,Number,5672
+2013,Remembering or concentration,M,60-64,Number,440
+2013,Self-care,M,60-64,Number,57
+2013,Communication,M,60-64,Number,198
+2013,Multiple disabilities,M,60-64,Number,5203
+2013,Seeing,M,65+,Number,8036
+2013,Hearing,M,65+,Number,6620
+2013,Walking or climbing up the stairs,M,65+,Number,13529
+2013,Remembering or concentration,M,65+,Number,1092
+2013,Self-care,M,65+,Number,266
+2013,Communication,M,65+,Number,360
+2013,Multiple disabilities,M,65+,Number,22432
+2013,Seeing,F,0-14,Number,513
+2013,Hearing,F,0-14,Number,116
+2013,Walking or climbing up the stairs,F,0-14,Number,301
+2013,Remembering or concentration,F,0-14,Number,77
+2013,Self-care,F,0-14,Number,60
+2013,Communication,F,0-14,Number,103
+2013,Multiple disabilities,F,0-14,Number,749
+2013,Seeing,F,15-19,Number,432
+2013,Hearing,F,15-19,Number,90
+2013,Walking or climbing up the stairs,F,15-19,Number,210
+2013,Remembering or concentration,F,15-19,Number,34
+2013,Self-care,F,15-19,Number,13
+2013,Communication,F,15-19,Number,37
+2013,Multiple disabilities,F,15-19,Number,429
+2013,Seeing,F,20-29,Number,843
+2013,Hearing,F,20-29,Number,147
+2013,Walking or climbing up the stairs,F,20-29,Number,467
+2013,Remembering or concentration,F,20-29,Number,124
+2013,Self-care,F,20-29,Number,28
+2013,Communication,F,20-29,Number,75
+2013,Multiple disabilities,F,20-29,Number,893
+2013,Seeing,F,30-49,Number,3528
+2013,Hearing,F,30-49,Number,738
+2013,Walking or climbing up the stairs,F,30-49,Number,4950
+2013,Remembering or concentration,F,30-49,Number,849
+2013,Self-care,F,30-49,Number,103
+2013,Communication,F,30-49,Number,241
+2013,Multiple disabilities,F,30-49,Number,4025
+2013,Seeing,F,50-59,Number,6782
+2013,Hearing,F,50-59,Number,1216
+2013,Walking or climbing up the stairs,F,50-59,Number,9927
+2013,Remembering or concentration,F,50-59,Number,865
+2013,Self-care,F,50-59,Number,80
+2013,Communication,F,50-59,Number,150
+2013,Multiple disabilities,F,50-59,Number,7822
+2013,Seeing,F,60-64,Number,4034
+2013,Hearing,F,60-64,Number,857
+2013,Walking or climbing up the stairs,F,60-64,Number,7055
+2013,Remembering or concentration,F,60-64,Number,430
+2013,Self-care,F,60-64,Number,43
+2013,Communication,F,60-64,Number,61
+2013,Multiple disabilities,F,60-64,Number,5922
+2013,Seeing,F,65+,Number,12600
+2013,Hearing,F,65+,Number,5885
+2013,Walking or climbing up the stairs,F,65+,Number,30877
+2013,Remembering or concentration,F,65+,Number,1744
+2013,Self-care,F,65+,Number,321
+2013,Communication,F,65+,Number,226
+2013,Multiple disabilities,F,65+,Number,44011

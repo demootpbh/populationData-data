@@ -1,0 +1,63 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Dan"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Mjerna jedinica"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Oba spola",
+                "Domovi za djecu i mlade bez roditeljskog staranja",
+                "Ustanove socijalne zaštite za djecu, mlade i odrasle s mentalnim i fizičkim invaliditetom",
+                "Ustanove socijalne zaštite za odrasle osobe s invaliditetom",
+                "Ustanove socijalne zaštite za odrasle",
+                ""
+              ]
+            },
+            "title": "Vrsta ustanove"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Oba spola",
+                "M",
+                "Ž",
+                ""
+              ]
+            },
+            "title": "Spol"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Vrijednost"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "4-1-2",
+  "title": "Korisnici socijalne zaštite prema vrsti ustanove i spolu"
+}

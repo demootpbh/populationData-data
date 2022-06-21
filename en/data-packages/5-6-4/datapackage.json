@@ -1,0 +1,70 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "F",
+                "M",
+                "Both sexes"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "type_of_education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Agriculture, forestry, fisheries and veterinary medicine",
+                "Arts and humanities",
+                "Business administration and the law",
+                "Education",
+                "Engineering, manufacturing and construction",
+                "Health and social protection",
+                "Information and communication technologies",
+                "Natural sciences, mathematics and statistics",
+                "Services",
+                "Social sciences, journalism and information",
+                "Total",
+                "Unknown"
+              ]
+            },
+            "title": "Type of education"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "5-6-4",
+  "title": "Students graduated in doctoral studies by type of education"
+}

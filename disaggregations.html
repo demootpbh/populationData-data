@@ -1,0 +1,895 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation report - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #1D70B8;
+                    border-color: #1D70B8;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+            </style>
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation report</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#by-disaggregation">By disaggregation</a></li>
+                <li><a href="#by-indicator">By indicator</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="by-disaggregation" tabindex="-1">By disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="disaggregation-report.csv" role="button" class="btn btn-primary" aria-describedby="disaggregation-report">Download CSV of disaggregations</a>
+            <div id="disaggregation-report" class="download-info">Size: 2.3 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">23</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="disaggregation-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Disaggregation</th>
+      <th>en</th>
+      <th>bs</th>
+      <th>sr</th>
+      <th>hr</th>
+      <th>Number of indicators</th>
+      <th>Number of values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation--age.html">AGE</a></td>
+      <td>Age</td>
+      <td>Starosna dob</td>
+      <td>Старосна доб</td>
+      <td>Starosna dob</td>
+      <td>15</td>
+      <td>185</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--agricultural_activity.html">AGRICULTURAL_ACTIVITY</a></td>
+      <td>Agricultural activity</td>
+      <td>Poljoprivredna aktivnost</td>
+      <td>Пољопривредна активност</td>
+      <td>Poljoprivredna aktivnost</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--births.html">BIRTHS</a></td>
+      <td>Vital statistics</td>
+      <td>Vitalna statistika</td>
+      <td>Витална статистика</td>
+      <td>Vitalna statistika</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--cause_of_death.html">CAUSE_OF_DEATH</a></td>
+      <td>Cause of death (as per ICD-10 codes)</td>
+      <td>Uzrok smrti (prema šiframa bolesti po MKB-10)</td>
+      <td>Узрок смрти (према шифрама болести по МКБ-10)</td>
+      <td>Uzrok smrti (prema šiframa bolesti po MKB-10)</td>
+      <td>3</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--highest_education_atainment.html">Highest_education_atainment</a></td>
+      <td>Highest education atainment</td>
+      <td>Najviši dostignuti stepen obrazovanja</td>
+      <td>Највиши достигнути степен образовања</td>
+      <td>Najviši dostignuti stupanj obrazovanja</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--literacy.html">Literacy</a></td>
+      <td>Literacy</td>
+      <td>Literacy</td>
+      <td>Literacy</td>
+      <td>Literacy</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--live_born_children.html">LIVE_BORN_CHILDREN</a></td>
+      <td>Live-born children</td>
+      <td>Živorođena djeca</td>
+      <td>Живорођена дјеца</td>
+      <td>Živorođena djeca</td>
+      <td>1</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--mics_number.html">MICS_NUMBER</a></td>
+      <td>Method</td>
+      <td>Metoda</td>
+      <td>Метода</td>
+      <td>Metoda</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--municipality.html">Municipality</a></td>
+      <td>Municipality</td>
+      <td>Općina</td>
+      <td>Oпштина</td>
+      <td>Općina</td>
+      <td>1</td>
+      <td>142</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--number_of_households_by_household_size.html">NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE</a></td>
+      <td>Household size</td>
+      <td>Veličina domaćinstva</td>
+      <td>Величина домаћинства</td>
+      <td>Veličina kućanstva</td>
+      <td>1</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--population_sex.html">population_sex</a></td>
+      <td>Sex</td>
+      <td>Spol</td>
+      <td>Пол</td>
+      <td>Spol</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--pyramid_age.html">PYRAMID_AGE</a></td>
+      <td>PYRAMID_AGE</td>
+      <td>PYRAMID_AGE</td>
+      <td>PYRAMID_AGE</td>
+      <td>PYRAMID_AGE</td>
+      <td>2</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--pyramid_sex.html">PYRAMID_SEX</a></td>
+      <td>PYRAMID_SEX</td>
+      <td>PYRAMID_SEX</td>
+      <td>PYRAMID_SEX</td>
+      <td>PYRAMID_SEX</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--sex.html">SEX</a></td>
+      <td>Sex</td>
+      <td>Spol</td>
+      <td>Пол</td>
+      <td>Spol</td>
+      <td>60</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--sex_.html">Sex</a></td>
+      <td>Sex</td>
+      <td>Spol</td>
+      <td>Пол</td>
+      <td>Spol</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--status_in_employment.html">status_in_employment</a></td>
+      <td>Status in employment</td>
+      <td>Radni status</td>
+      <td>Радни статус</td>
+      <td>Radni status</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--type_of_dependency_ratio.html">TYPE_OF_DEPENDENCY_RATIO</a></td>
+      <td>Type of dependency ratio</td>
+      <td>Tip odnosa zavisnosti</td>
+      <td>Тип односа зависности</td>
+      <td>Tip odnosa zavisnosti</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--type_of_disability.html">Type_of_disability</a></td>
+      <td>Type of disability</td>
+      <td>Vrsta invaliditeta</td>
+      <td>Врста инвалидитета</td>
+      <td>Vrsta invaliditeta</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--type_of_education.html">type_of_education</a></td>
+      <td>Type of education</td>
+      <td>Vrsta obrazovanja</td>
+      <td>Врста образовања</td>
+      <td>Vrsta obrazovanja</td>
+      <td>6</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--type_of_institution.html">type_of_institution</a></td>
+      <td>Type of institution</td>
+      <td>Vrsta ustanove</td>
+      <td>Врста установе</td>
+      <td>Vrsta ustanove</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--type_of_school.html">Type_of_school</a></td>
+      <td>Type of school</td>
+      <td>Vrsta škole</td>
+      <td>Врста школе</td>
+      <td>Vrsta škole</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--type_of_user.html">Type_of_user</a></td>
+      <td>Type of beneficiary</td>
+      <td>Vrsta korisnika</td>
+      <td>Врста корисника</td>
+      <td>Vrsta korisnika</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>Unit measure</td>
+      <td>Mjerna jedinica</td>
+      <td>Мјерна јединица</td>
+      <td>Mjerna jedinica</td>
+      <td>111</td>
+      <td>29</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['disaggregation-table'] = [{"Disaggregation":"<a href=\"disaggregation--age.html\">AGE<\/a>","en":"Age","bs":"Starosna dob","sr":"\u0421\u0442\u0430\u0440\u043e\u0441\u043d\u0430 \u0434\u043e\u0431","hr":"Starosna dob","Number of indicators":15,"Number of values":185},{"Disaggregation":"<a href=\"disaggregation--agricultural_activity.html\">AGRICULTURAL_ACTIVITY<\/a>","en":"Agricultural activity","bs":"Poljoprivredna aktivnost","sr":"\u041f\u043e\u0459\u043e\u043f\u0440\u0438\u0432\u0440\u0435\u0434\u043d\u0430 \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442","hr":"Poljoprivredna aktivnost","Number of indicators":1,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--births.html\">BIRTHS<\/a>","en":"Vital statistics","bs":"Vitalna statistika","sr":"\u0412\u0438\u0442\u0430\u043b\u043d\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430","hr":"Vitalna statistika","Number of indicators":2,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--cause_of_death.html\">CAUSE_OF_DEATH<\/a>","en":"Cause of death (as per ICD-10 codes)","bs":"Uzrok smrti (prema \u0161iframa bolesti po MKB-10)","sr":"\u0423\u0437\u0440\u043e\u043a \u0441\u043c\u0440\u0442\u0438 (\u043f\u0440\u0435\u043c\u0430 \u0448\u0438\u0444\u0440\u0430\u043c\u0430 \u0431\u043e\u043b\u0435\u0441\u0442\u0438 \u043f\u043e \u041c\u041a\u0411-10)","hr":"Uzrok smrti (prema \u0161iframa bolesti po MKB-10)","Number of indicators":3,"Number of values":22},{"Disaggregation":"<a href=\"disaggregation--highest_education_atainment.html\">Highest_education_atainment<\/a>","en":"Highest education atainment","bs":"Najvi\u0161i dostignuti stepen obrazovanja","sr":"\u041d\u0430\u0458\u0432\u0438\u0448\u0438 \u0434\u043e\u0441\u0442\u0438\u0433\u043d\u0443\u0442\u0438 \u0441\u0442\u0435\u043f\u0435\u043d \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u045a\u0430","hr":"Najvi\u0161i dostignuti stupanj obrazovanja","Number of indicators":1,"Number of values":7},{"Disaggregation":"<a href=\"disaggregation--literacy.html\">Literacy<\/a>","en":"Literacy","bs":"Literacy","sr":"Literacy","hr":"Literacy","Number of indicators":1,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--live_born_children.html\">LIVE_BORN_CHILDREN<\/a>","en":"Live-born children","bs":"\u017divoro\u0111ena djeca","sr":"\u0416\u0438\u0432\u043e\u0440\u043e\u0452\u0435\u043d\u0430 \u0434\u0458\u0435\u0446\u0430","hr":"\u017divoro\u0111ena djeca","Number of indicators":1,"Number of values":11},{"Disaggregation":"<a href=\"disaggregation--mics_number.html\">MICS_NUMBER<\/a>","en":"Method","bs":"Metoda","sr":"\u041c\u0435\u0442\u043e\u0434\u0430","hr":"Metoda","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--municipality.html\">Municipality<\/a>","en":"Municipality","bs":"Op\u0107ina","sr":"O\u043f\u0448\u0442\u0438\u043d\u0430","hr":"Op\u0107ina","Number of indicators":1,"Number of values":142},{"Disaggregation":"<a href=\"disaggregation--number_of_households_by_household_size.html\">NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE<\/a>","en":"Household size","bs":"Veli\u010dina doma\u0107instva","sr":"\u0412\u0435\u043b\u0438\u0447\u0438\u043d\u0430 \u0434\u043e\u043c\u0430\u045b\u0438\u043d\u0441\u0442\u0432\u0430","hr":"Veli\u010dina ku\u0107anstva","Number of indicators":1,"Number of values":8},{"Disaggregation":"<a href=\"disaggregation--population_sex.html\">population_sex<\/a>","en":"Sex","bs":"Spol","sr":"\u041f\u043e\u043b","hr":"Spol","Number of indicators":2,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--pyramid_age.html\">PYRAMID_AGE<\/a>","en":"PYRAMID_AGE","bs":"PYRAMID_AGE","sr":"PYRAMID_AGE","hr":"PYRAMID_AGE","Number of indicators":2,"Number of values":35},{"Disaggregation":"<a href=\"disaggregation--pyramid_sex.html\">PYRAMID_SEX<\/a>","en":"PYRAMID_SEX","bs":"PYRAMID_SEX","sr":"PYRAMID_SEX","hr":"PYRAMID_SEX","Number of indicators":2,"Number of values":2},{"Disaggregation":"<a href=\"disaggregation--sex.html\">SEX<\/a>","en":"Sex","bs":"Spol","sr":"\u041f\u043e\u043b","hr":"Spol","Number of indicators":60,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--sex_.html\">Sex<\/a>","en":"Sex","bs":"Spol","sr":"\u041f\u043e\u043b","hr":"Spol","Number of indicators":2,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--status_in_employment.html\">status_in_employment<\/a>","en":"Status in employment","bs":"Radni status","sr":"\u0420\u0430\u0434\u043d\u0438 \u0441\u0442\u0430\u0442\u0443\u0441","hr":"Radni status","Number of indicators":2,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--type_of_dependency_ratio.html\">TYPE_OF_DEPENDENCY_RATIO<\/a>","en":"Type of dependency ratio","bs":"Tip odnosa zavisnosti","sr":"\u0422\u0438\u043f \u043e\u0434\u043d\u043e\u0441\u0430 \u0437\u0430\u0432\u0438\u0441\u043d\u043e\u0441\u0442\u0438","hr":"Tip odnosa zavisnosti","Number of indicators":2,"Number of values":4},{"Disaggregation":"<a href=\"disaggregation--type_of_disability.html\">Type_of_disability<\/a>","en":"Type of disability","bs":"Vrsta invaliditeta","sr":"\u0412\u0440\u0441\u0442\u0430 \u0438\u043d\u0432\u0430\u043b\u0438\u0434\u0438\u0442\u0435\u0442\u0430","hr":"Vrsta invaliditeta","Number of indicators":1,"Number of values":7},{"Disaggregation":"<a href=\"disaggregation--type_of_education.html\">type_of_education<\/a>","en":"Type of education","bs":"Vrsta obrazovanja","sr":"\u0412\u0440\u0441\u0442\u0430 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u045a\u0430","hr":"Vrsta obrazovanja","Number of indicators":6,"Number of values":12},{"Disaggregation":"<a href=\"disaggregation--type_of_institution.html\">type_of_institution<\/a>","en":"Type of institution","bs":"Vrsta ustanove","sr":"\u0412\u0440\u0441\u0442\u0430 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0435","hr":"Vrsta ustanove","Number of indicators":4,"Number of values":7},{"Disaggregation":"<a href=\"disaggregation--type_of_school.html\">Type_of_school<\/a>","en":"Type of school","bs":"Vrsta \u0161kole","sr":"\u0412\u0440\u0441\u0442\u0430 \u0448\u043a\u043e\u043b\u0435","hr":"Vrsta \u0161kole","Number of indicators":2,"Number of values":7},{"Disaggregation":"<a href=\"disaggregation--type_of_user.html\">Type_of_user<\/a>","en":"Type of beneficiary","bs":"Vrsta korisnika","sr":"\u0412\u0440\u0441\u0442\u0430 \u043a\u043e\u0440\u0438\u0441\u043d\u0438\u043a\u0430","hr":"Vrsta korisnika","Number of indicators":1,"Number of values":3},{"Disaggregation":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","en":"Unit measure","bs":"Mjerna jedinica","sr":"\u041c\u0458\u0435\u0440\u043d\u0430 \u0458\u0435\u0434\u0438\u043d\u0438\u0446\u0430","hr":"Mjerna jedinica","Number of indicators":111,"Number of values":29}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="by-indicator" tabindex="-1">By indicator</h2>
+            
+        <div class="my-3">
+            <a href="disaggregation-by-indicator-report.csv" role="button" class="btn btn-primary" aria-describedby="disaggregation-by-indicator-report">Download CSV of indicators</a>
+            <div id="disaggregation-by-indicator-report" class="download-info">Size: 3.7 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">111</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicator-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+      <th>Disaggregations</th>
+      <th>Number of disaggregations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://popdata/work/1-1-1">#1-1-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--births.html">BIRTHS</a>, <a href="disaggregation--population_sex.html">population_sex</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-1-2">#1-1-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-2-1">#1-2-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-2-2">#1-2-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-2-3">#1-2-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-2-4">#1-2-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-2-5">#1-2-5</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-3-1">#1-3-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-3-2">#1-3-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-3-3">#1-3-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-3-4">#1-3-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--population_sex.html">population_sex</a>, <a href="disaggregation--cause_of_death.html">CAUSE_OF_DEATH</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-3-5">#1-3-5</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-3-6">#1-3-6</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-4-1">#1-4-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-4-2">#1-4-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-4-3">#1-4-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-4-4">#1-4-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-5-1">#1-5-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-6-1">#1-6-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-6-2">#1-6-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-6-3">#1-6-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-6-4">#1-6-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-1">#1-7-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-2">#1-7-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-3">#1-7-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_dependency_ratio.html">TYPE_OF_DEPENDENCY_RATIO</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-4">#1-7-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--births.html">BIRTHS</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-5">#1-7-5</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-6">#1-7-6</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-7">#1-7-7</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/1-7-8">#1-7-8</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--pyramid_sex.html">PYRAMID_SEX</a>, <a href="disaggregation--pyramid_age.html">PYRAMID_AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-1-1">#2-1-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-1-2">#2-1-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-1-3">#2-1-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a>, <a href="disaggregation--municipality.html">Municipality</a></td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-1-4">#2-1-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--pyramid_sex.html">PYRAMID_SEX</a>, <a href="disaggregation--pyramid_age.html">PYRAMID_AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-1-5">#2-1-5</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--live_born_children.html">LIVE_BORN_CHILDREN</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-1-6">#2-1-6</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_dependency_ratio.html">TYPE_OF_DEPENDENCY_RATIO</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-2-1">#2-2-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--number_of_households_by_household_size.html">NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-2-2">#2-2-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--agricultural_activity.html">AGRICULTURAL_ACTIVITY</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-3-1">#2-3-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--literacy.html">Literacy</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-3-2">#2-3-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--highest_education_atainment.html">Highest_education_atainment</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/2-4-1">#2-4-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a>, <a href="disaggregation--type_of_disability.html">Type_of_disability</a></td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-1-1">#3-1-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--cause_of_death.html">CAUSE_OF_DEATH</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-1-2">#3-1-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--cause_of_death.html">CAUSE_OF_DEATH</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-1-3">#3-1-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-1-4">#3-1-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-1-5">#3-1-5</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-2-1">#3-2-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-2-2">#3-2-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-2-3">#3-2-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-2-4">#3-2-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-3-1">#3-3-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-3-2">#3-3-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-3-3">#3-3-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-3-4">#3-3-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-3-5">#3-3-5</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-4-1">#3-4-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-4-2">#3-4-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-5-1">#3-5-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-5-2">#3-5-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-5-3">#3-5-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--sex_.html">Sex</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-5-4">#3-5-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--sex_.html">Sex</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-5-5">#3-5-5</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-5-6">#3-5-6</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-6-1">#3-6-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--mics_number.html">MICS_NUMBER</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-6-2">#3-6-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-6-3">#3-6-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-6-4">#3-6-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/3-7-1">#3-7-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/4-1-1">#4-1-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_user.html">Type_of_user</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/4-1-2">#4-1-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_institution.html">type_of_institution</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-1-1">#5-1-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_institution.html">type_of_institution</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-1-2">#5-1-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-1-3">#5-1-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-1-4">#5-1-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-2-1">#5-2-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-2-2">#5-2-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-2-3">#5-2-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-3-1">#5-3-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-3-2">#5-3-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_school.html">Type_of_school</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-3-3">#5-3-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-3-4">#5-3-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_school.html">Type_of_school</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-3-5">#5-3-5</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-4-1">#5-4-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-4-2">#5-4-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-4-3">#5-4-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_education.html">type_of_education</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-5-1">#5-5-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-5-2">#5-5-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-5-3">#5-5-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_education.html">type_of_education</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-5-4">#5-5-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-5-5">#5-5-5</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_education.html">type_of_education</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-5-6">#5-5-6</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-5-7">#5-5-7</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_education.html">type_of_education</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-6-1">#5-6-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-6-2">#5-6-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_education.html">type_of_education</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-6-3">#5-6-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-6-4">#5-6-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_education.html">type_of_education</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-7-1">#5-7-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-7-2">#5-7-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-7-3">#5-7-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_institution.html">type_of_institution</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/5-7-4">#5-7-4</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--type_of_institution.html">type_of_institution</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/6-1-1">#6-1-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/6-1-2">#6-1-2</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/6-1-3">#6-1-3</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/7-1-1">#7-1-1</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/7-1-2">#7-1-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/7-1-3">#7-1-3</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/7-1-4">#7-1-4</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--status_in_employment.html">status_in_employment</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/7-1-5">#7-1-5</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--status_in_employment.html">status_in_employment</a></td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/7-2-1">#7-2-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/7-2-2">#7-2-2</a></td>
+      <td><a href="disaggregation--sex.html">SEX</a>, <a href="disaggregation--unit_measure.html">UNIT_MEASURE</a></td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><a href="https://popdata/work/8-1-1">#8-1-1</a></td>
+      <td><a href="disaggregation--unit_measure.html">UNIT_MEASURE</a>, <a href="disaggregation--age.html">AGE</a></td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicator-table'] = [{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-1-1\">#1-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--births.html\">BIRTHS<\/a>, <a href=\"disaggregation--population_sex.html\">population_sex<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-1-2\">#1-1-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-2-1\">#1-2-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-2-2\">#1-2-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-2-3\">#1-2-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-2-4\">#1-2-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-2-5\">#1-2-5<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-3-1\">#1-3-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-3-2\">#1-3-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-3-3\">#1-3-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-3-4\">#1-3-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--population_sex.html\">population_sex<\/a>, <a href=\"disaggregation--cause_of_death.html\">CAUSE_OF_DEATH<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-3-5\">#1-3-5<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-3-6\">#1-3-6<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-4-1\">#1-4-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-4-2\">#1-4-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-4-3\">#1-4-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-4-4\">#1-4-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-5-1\">#1-5-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-6-1\">#1-6-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-6-2\">#1-6-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-6-3\">#1-6-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-6-4\">#1-6-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-1\">#1-7-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-2\">#1-7-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-3\">#1-7-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_dependency_ratio.html\">TYPE_OF_DEPENDENCY_RATIO<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-4\">#1-7-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--births.html\">BIRTHS<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-5\">#1-7-5<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-6\">#1-7-6<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-7\">#1-7-7<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/1-7-8\">#1-7-8<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--pyramid_sex.html\">PYRAMID_SEX<\/a>, <a href=\"disaggregation--pyramid_age.html\">PYRAMID_AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-1-1\">#2-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-1-2\">#2-1-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-1-3\">#2-1-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>, <a href=\"disaggregation--municipality.html\">Municipality<\/a>","Number of disaggregations":4},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-1-4\">#2-1-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--pyramid_sex.html\">PYRAMID_SEX<\/a>, <a href=\"disaggregation--pyramid_age.html\">PYRAMID_AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-1-5\">#2-1-5<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--live_born_children.html\">LIVE_BORN_CHILDREN<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-1-6\">#2-1-6<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_dependency_ratio.html\">TYPE_OF_DEPENDENCY_RATIO<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-2-1\">#2-2-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--number_of_households_by_household_size.html\">NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-2-2\">#2-2-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--agricultural_activity.html\">AGRICULTURAL_ACTIVITY<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-3-1\">#2-3-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--literacy.html\">Literacy<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-3-2\">#2-3-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--highest_education_atainment.html\">Highest_education_atainment<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-4-1\">#2-4-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>, <a href=\"disaggregation--type_of_disability.html\">Type_of_disability<\/a>","Number of disaggregations":4},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-1-1\">#3-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--cause_of_death.html\">CAUSE_OF_DEATH<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-1-2\">#3-1-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--cause_of_death.html\">CAUSE_OF_DEATH<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-1-3\">#3-1-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-1-4\">#3-1-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-1-5\">#3-1-5<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-2-1\">#3-2-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-2-2\">#3-2-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-2-3\">#3-2-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-2-4\">#3-2-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-3-1\">#3-3-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-3-2\">#3-3-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-3-3\">#3-3-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-3-4\">#3-3-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-3-5\">#3-3-5<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-4-1\">#3-4-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-4-2\">#3-4-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-5-1\">#3-5-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-5-2\">#3-5-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-5-3\">#3-5-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--sex_.html\">Sex<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-5-4\">#3-5-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--sex_.html\">Sex<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-5-5\">#3-5-5<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-5-6\">#3-5-6<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-6-1\">#3-6-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--mics_number.html\">MICS_NUMBER<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-6-2\">#3-6-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-6-3\">#3-6-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-6-4\">#3-6-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/3-7-1\">#3-7-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/4-1-1\">#4-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_user.html\">Type_of_user<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/4-1-2\">#4-1-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_institution.html\">type_of_institution<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-1-1\">#5-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_institution.html\">type_of_institution<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-1-2\">#5-1-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-1-3\">#5-1-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-1-4\">#5-1-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-2-1\">#5-2-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-2-2\">#5-2-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-2-3\">#5-2-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-3-1\">#5-3-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-3-2\">#5-3-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_school.html\">Type_of_school<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-3-3\">#5-3-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-3-4\">#5-3-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_school.html\">Type_of_school<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-3-5\">#5-3-5<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-4-1\">#5-4-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-4-2\">#5-4-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-4-3\">#5-4-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_education.html\">type_of_education<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-5-1\">#5-5-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-5-2\">#5-5-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-5-3\">#5-5-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_education.html\">type_of_education<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-5-4\">#5-5-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-5-5\">#5-5-5<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_education.html\">type_of_education<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-5-6\">#5-5-6<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-5-7\">#5-5-7<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_education.html\">type_of_education<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-6-1\">#5-6-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-6-2\">#5-6-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_education.html\">type_of_education<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-6-3\">#5-6-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-6-4\">#5-6-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_education.html\">type_of_education<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-7-1\">#5-7-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-7-2\">#5-7-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-7-3\">#5-7-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_institution.html\">type_of_institution<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/5-7-4\">#5-7-4<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--type_of_institution.html\">type_of_institution<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/6-1-1\">#6-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/6-1-2\">#6-1-2<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/6-1-3\">#6-1-3<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/7-1-1\">#7-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/7-1-2\">#7-1-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/7-1-3\">#7-1-3<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/7-1-4\">#7-1-4<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--status_in_employment.html\">status_in_employment<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/7-1-5\">#7-1-5<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--status_in_employment.html\">status_in_employment<\/a>","Number of disaggregations":3},{"Indicator":"<a href=\"https:\/\/popdata\/work\/7-2-1\">#7-2-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":1},{"Indicator":"<a href=\"https:\/\/popdata\/work\/7-2-2\">#7-2-2<\/a>","Disaggregations":"<a href=\"disaggregation--sex.html\">SEX<\/a>, <a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>","Number of disaggregations":2},{"Indicator":"<a href=\"https:\/\/popdata\/work\/8-1-1\">#8-1-1<\/a>","Disaggregations":"<a href=\"disaggregation--unit_measure.html\">UNIT_MEASURE<\/a>, <a href=\"disaggregation--age.html\">AGE<\/a>","Number of disaggregations":2}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        

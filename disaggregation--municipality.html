@@ -1,0 +1,1412 @@
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>Disaggregation: Municipality - SDG data build documentation</title>
+
+            <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.css">
+            <style>
+                .btn-primary {
+                    background-color: #1D70B8;
+                    border-color: #1D70B8;
+                }
+                a {
+                    color: #1D70B8;
+                    text-decoration: underline;
+                }
+                .download-info {
+                    margin-left: 12px;
+                }
+            </style>
+        </head>
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">SDG data build documentation</a>
+                </div>
+            </nav>
+            <main role="main">
+                <div class="container">
+                    <h1 style="margin:20px 0">Disaggregation: Municipality</h1>
+                    <div>
+                        
+        <div role="navigation" aria-describedby="contents-heading">
+            <h2 id="contents-heading">On this page</h2>
+            <ul>
+                <li><a href="#values-used">Values used in disaggregation</a></li>
+                <li><a href="#indicators-using">Indicators using disaggregation</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 id="values-used" tabindex="-1">Values used in disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="values--disaggregation--municipality.csv" role="button" class="btn btn-primary" aria-describedby="values--disaggregation--municipality">Download CSV of values used in this disaggregation</a>
+            <div id="values--disaggregation--municipality" class="download-info">Size: 9.0 kB</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">142</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="values-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Value</th>
+      <th>en</th>
+      <th>bs</th>
+      <th>sr</th>
+      <th>hr</th>
+      <th>Disaggregation combinations using this value</th>
+      <th>Number of indicators</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="disaggregation-value--banja_luka.html">banja_luka</a></td>
+      <td>Banja Luka</td>
+      <td>Banja Luka</td>
+      <td>Бања Лука</td>
+      <td>Banja Luka</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--banovici.html">banovici</a></td>
+      <td>Banovici</td>
+      <td>Banovići</td>
+      <td>Бановићи</td>
+      <td>Banovići</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--berkovici.html">berkovici</a></td>
+      <td>Berkovici</td>
+      <td>Berkovići</td>
+      <td>Берковићи</td>
+      <td>Berkovići</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bihac.html">bihac</a></td>
+      <td>Bihac</td>
+      <td>Bihać</td>
+      <td>Бихаћ</td>
+      <td>Bihać</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bijeljina.html">bijeljina</a></td>
+      <td>Bijeljina</td>
+      <td>Bijeljina</td>
+      <td>Бијељина</td>
+      <td>Bijeljina</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bileca.html">bileca</a></td>
+      <td>Bileca</td>
+      <td>Bileća</td>
+      <td>Билећа</td>
+      <td>Bileća</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bosanska_krupa.html">bosanska_krupa</a></td>
+      <td>Bosanska Krupa</td>
+      <td>Bosanska Krupa</td>
+      <td>Босанска Крупа</td>
+      <td>Bosanska Krupa</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bosanski_petrovac.html">bosanski_petrovac</a></td>
+      <td>Bosanski Petrovac</td>
+      <td>Bosanski Petrovac</td>
+      <td>Босански Петровац</td>
+      <td>Bosanski Petrovac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bosansko_grahovo.html">bosansko_grahovo</a></td>
+      <td>Bosansko Grahovo</td>
+      <td>Bosansko Grahovo</td>
+      <td>Босанско Грахово</td>
+      <td>Bosansko Grahovo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bratunac.html">bratunac</a></td>
+      <td>Bratunac</td>
+      <td>Bratunac</td>
+      <td>Братунац</td>
+      <td>Bratunac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--brcko.html">brcko</a></td>
+      <td>Brcko</td>
+      <td>Brčko</td>
+      <td>Брчко</td>
+      <td>Brčko</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--breza.html">breza</a></td>
+      <td>Breza</td>
+      <td>Breza</td>
+      <td>Бреза</td>
+      <td>Breza</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--brod.html">brod</a></td>
+      <td>Brod</td>
+      <td>Brod</td>
+      <td>Брод</td>
+      <td>Brod</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--bugojno.html">bugojno</a></td>
+      <td>Bugojno</td>
+      <td>Bugojno</td>
+      <td>Бугојно</td>
+      <td>Bugojno</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--busovaca.html">busovaca</a></td>
+      <td>Busovaca</td>
+      <td>Busovača</td>
+      <td>Бусовача</td>
+      <td>Busovača</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--buzim.html">buzim</a></td>
+      <td>Buzim</td>
+      <td>Bužim</td>
+      <td>Бужим</td>
+      <td>Bužim</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--cajnice.html">cajnice</a></td>
+      <td>Cajnice</td>
+      <td>Čajniče</td>
+      <td>Чајниче</td>
+      <td>Čajniče</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--capljina.html">capljina</a></td>
+      <td>Capljina</td>
+      <td>Čapljina</td>
+      <td>Чапљина</td>
+      <td>Čapljina</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--cazin.html">cazin</a></td>
+      <td>Cazin</td>
+      <td>Cazin</td>
+      <td>Цазин</td>
+      <td>Cazin</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--celic.html">celic</a></td>
+      <td>Celic</td>
+      <td>Čelić</td>
+      <td>Челић</td>
+      <td>Čelić</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--celinac.html">celinac</a></td>
+      <td>Celinac</td>
+      <td>Čelinac</td>
+      <td>Челинац</td>
+      <td>Čelinac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--citluk.html">citluk</a></td>
+      <td>Citluk</td>
+      <td>Čitluk</td>
+      <td>Читлук</td>
+      <td>Čitluk</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--derventa.html">derventa</a></td>
+      <td>Derventa</td>
+      <td>Derventa</td>
+      <td>Дервента</td>
+      <td>Derventa</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--doboj.html">doboj</a></td>
+      <td>Doboj</td>
+      <td>Doboj</td>
+      <td>Добој</td>
+      <td>Doboj</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--doboj_istok.html">doboj_istok</a></td>
+      <td>Doboj-East</td>
+      <td>Doboj-Istok</td>
+      <td>Добој-Исток</td>
+      <td>Doboj-Istok</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--doboj_jug.html">doboj_jug</a></td>
+      <td>Doboj-South</td>
+      <td>Doboj-Jug</td>
+      <td>Добој-Југ</td>
+      <td>Doboj-Jug</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--dobretici.html">dobretici</a></td>
+      <td>Dobretici</td>
+      <td>Dobretići</td>
+      <td>Добретићи</td>
+      <td>Dobretići</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--domaljevac_samac.html">domaljevac_samac</a></td>
+      <td>Domaljevac-Samac</td>
+      <td>Domaljevac-Šamac</td>
+      <td>Домаљевац-Шамац</td>
+      <td>Domaljevac-Šamac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--donji_vakuf.html">donji_vakuf</a></td>
+      <td>Donji Vakuf</td>
+      <td>Donji Vakuf</td>
+      <td>Доњи Вакуф</td>
+      <td>Donji Vakuf</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--donji_zabar.html">donji_zabar</a></td>
+      <td>Donji Zabar</td>
+      <td>Donji Žabar</td>
+      <td>Доњи Жабар</td>
+      <td>Donji Žabar</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--drvar.html">drvar</a></td>
+      <td>Drvar</td>
+      <td>Drvar</td>
+      <td>Дрвар</td>
+      <td>Drvar</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--foca_fbih.html">foca_fbih</a></td>
+      <td>Foca-FBiH</td>
+      <td>Foča-FBiH</td>
+      <td>Фоча-ФБиХ</td>
+      <td>Foča-FBiH</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--foca_rs.html">foca_rs</a></td>
+      <td>Foca-RS</td>
+      <td>Foča-RS</td>
+      <td>Фоча-РС</td>
+      <td>Foča-RS</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--fojnica.html">fojnica</a></td>
+      <td>Fojnica</td>
+      <td>Fojnica</td>
+      <td>Фојница</td>
+      <td>Fojnica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gacko.html">gacko</a></td>
+      <td>Gacko</td>
+      <td>Gacko</td>
+      <td>Гацко</td>
+      <td>Gacko</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--glamoc.html">glamoc</a></td>
+      <td>Glamoc</td>
+      <td>Glamoč</td>
+      <td>Гламоч</td>
+      <td>Glamoč</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gorazde.html">gorazde</a></td>
+      <td>Gorazde</td>
+      <td>Goražde</td>
+      <td>Горажде</td>
+      <td>Goražde</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gornji_vakuf_uskoplje.html">gornji_vakuf_uskoplje</a></td>
+      <td>Gornji Vakuf-Uskoplje</td>
+      <td>Gornji Vakuf-Uskoplje</td>
+      <td>Горњи Вакуф-Ускопље</td>
+      <td>Gornji Vakuf-Uskoplje</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gracanica.html">gracanica</a></td>
+      <td>Gracanica</td>
+      <td>Gračanica</td>
+      <td>Грачаница</td>
+      <td>Gračanica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gradacac.html">gradacac</a></td>
+      <td>Gradacac</td>
+      <td>Gradačac</td>
+      <td>Градачац</td>
+      <td>Gradačac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--gradiska.html">gradiska</a></td>
+      <td>Gradiska</td>
+      <td>Gradiška</td>
+      <td>Градишка</td>
+      <td>Gradiška</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--grude.html">grude</a></td>
+      <td>Grude</td>
+      <td>Grude</td>
+      <td>Груде</td>
+      <td>Grude</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--han_pijesak.html">han_pijesak</a></td>
+      <td>Han Pijesak</td>
+      <td>Han Pijesak</td>
+      <td>Хан Пијесак</td>
+      <td>Han Pijesak</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--istocna_ilidza.html">istocna_ilidza</a></td>
+      <td>East Ilidza</td>
+      <td>Istočna Ilidža</td>
+      <td>Источна Илиџа</td>
+      <td>Istočna Ilidža</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--istocni_drvar.html">istocni_drvar</a></td>
+      <td>East Drvar</td>
+      <td>Istočni Drvar</td>
+      <td>Источни Дрвар</td>
+      <td>Istočni Drvar</td>
+      <td>54</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--istocni_mostar.html">istocni_mostar</a></td>
+      <td>East Mostar</td>
+      <td>Istočni Mostar</td>
+      <td>Источни Мостар</td>
+      <td>Istočni Mostar</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--istocni_stari_grad.html">istocni_stari_grad</a></td>
+      <td>East Stari Grad</td>
+      <td>Istočni Stari Grad</td>
+      <td>Источни Стари Град</td>
+      <td>Istočni Stari Grad</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--istocno_novo_sarajevo.html">istocno_novo_sarajevo</a></td>
+      <td>East Novo Sarajevo</td>
+      <td>Istočno Novo Sarajevo</td>
+      <td>Источно Ново Сарајево</td>
+      <td>Istočno Novo Sarajevo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--jablanica.html">jablanica</a></td>
+      <td>Jablanica</td>
+      <td>Jablanica</td>
+      <td>Јабланица</td>
+      <td>Jablanica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--jajce.html">jajce</a></td>
+      <td>Jajce</td>
+      <td>Jajce</td>
+      <td>Јајце</td>
+      <td>Jajce</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--jezero.html">jezero</a></td>
+      <td>Jezero</td>
+      <td>Jezero</td>
+      <td>Језеро</td>
+      <td>Jezero</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kakanj.html">kakanj</a></td>
+      <td>Kakanj</td>
+      <td>Kakanj</td>
+      <td>Какањ</td>
+      <td>Kakanj</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kalesija.html">kalesija</a></td>
+      <td>Kalesija</td>
+      <td>Kalesija</td>
+      <td>Калесија</td>
+      <td>Kalesija</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kalinovik.html">kalinovik</a></td>
+      <td>Kalinovik</td>
+      <td>Kalinovik</td>
+      <td>Калиновик</td>
+      <td>Kalinovik</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kiseljak.html">kiseljak</a></td>
+      <td>Kiseljak</td>
+      <td>Kiseljak</td>
+      <td>Кисељак</td>
+      <td>Kiseljak</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kladanj.html">kladanj</a></td>
+      <td>Kladanj</td>
+      <td>Kladanj</td>
+      <td>Кладањ</td>
+      <td>Kladanj</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kljuc.html">kljuc</a></td>
+      <td>Ključ</td>
+      <td>Ključ</td>
+      <td>Кључ</td>
+      <td>Ključ</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--knezevo.html">knezevo</a></td>
+      <td>Knezevo</td>
+      <td>Kneževo</td>
+      <td>Кнежево</td>
+      <td>Kneževo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--konjic.html">konjic</a></td>
+      <td>Konjic</td>
+      <td>Konjic</td>
+      <td>Коњиц</td>
+      <td>Konjic</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kostajnica.html">kostajnica</a></td>
+      <td>Kostajnica</td>
+      <td>Kostajnica</td>
+      <td>Костајница</td>
+      <td>Kostajnica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kotor_varos.html">kotor_varos</a></td>
+      <td>Kotor Varos</td>
+      <td>Kotor Varoš</td>
+      <td>Котор Варош</td>
+      <td>Kotor Varoš</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kozarska_dubica.html">kozarska_dubica</a></td>
+      <td>Kozarska Dubica</td>
+      <td>Kozarska Dubica</td>
+      <td>Козарска Дубица</td>
+      <td>Kozarska Dubica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kresevo.html">kresevo</a></td>
+      <td>Kresevo</td>
+      <td>Kreševo</td>
+      <td>Крешево</td>
+      <td>Kreševo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--krupa_na_uni.html">krupa_na_uni</a></td>
+      <td>Krupa Na Uni</td>
+      <td>Krupa Na Uni</td>
+      <td>Крупа на Уни</td>
+      <td>Krupa Na Uni</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kupres_fbih.html">kupres_fbih</a></td>
+      <td>Kupres-FBiH</td>
+      <td>Kupres-FBiH</td>
+      <td>Купрес-ФБиХ</td>
+      <td>Kupres-FBiH</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--kupres_rs.html">kupres_rs</a></td>
+      <td>Kupres-RS</td>
+      <td>Kupres-RS</td>
+      <td>Купрес-РС</td>
+      <td>Kupres-RS</td>
+      <td>56</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--laktasi.html">laktasi</a></td>
+      <td>Laktasi</td>
+      <td>Laktaši</td>
+      <td>Лакташи</td>
+      <td>Laktaši</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--livno.html">livno</a></td>
+      <td>Livno</td>
+      <td>Livno</td>
+      <td>Ливно</td>
+      <td>Livno</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ljubinje.html">ljubinje</a></td>
+      <td>Ljubinje</td>
+      <td>Ljubinje</td>
+      <td>Љубиње</td>
+      <td>Ljubinje</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ljubuski.html">ljubuski</a></td>
+      <td>Ljubuski</td>
+      <td>Ljubuški</td>
+      <td>Љубушки</td>
+      <td>Ljubuški</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lopare.html">lopare</a></td>
+      <td>Lopare</td>
+      <td>Lopare</td>
+      <td>Лопаре</td>
+      <td>Lopare</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--lukavac.html">lukavac</a></td>
+      <td>Lukavac</td>
+      <td>Lukavac</td>
+      <td>Лукавац</td>
+      <td>Lukavac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--maglaj.html">maglaj</a></td>
+      <td>Maglaj</td>
+      <td>Maglaj</td>
+      <td>Маглај</td>
+      <td>Maglaj</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--milici.html">milici</a></td>
+      <td>Milici</td>
+      <td>Milići</td>
+      <td>Милићи</td>
+      <td>Milići</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--modrica.html">modrica</a></td>
+      <td>Modrica</td>
+      <td>Modriča</td>
+      <td>Модрича</td>
+      <td>Modriča</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mostar.html">mostar</a></td>
+      <td>Mostar</td>
+      <td>Mostar</td>
+      <td>Мостар</td>
+      <td>Mostar</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--mrkonjic_grad.html">mrkonjic_grad</a></td>
+      <td>Mrkonjic Grad</td>
+      <td>Mrkonjić Grad</td>
+      <td>Мркоњић Град</td>
+      <td>Mrkonjić Grad</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--neum.html">neum</a></td>
+      <td>Neum</td>
+      <td>Neum</td>
+      <td>Неум</td>
+      <td>Neum</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--nevesinje.html">nevesinje</a></td>
+      <td>Nevesinje</td>
+      <td>Nevesinje</td>
+      <td>Невесиње</td>
+      <td>Nevesinje</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--novi_grad.html">novi_grad</a></td>
+      <td>Novi Grad</td>
+      <td>Novi Grad</td>
+      <td>Нови Град</td>
+      <td>Novi Grad</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--novi_travnik.html">novi_travnik</a></td>
+      <td>Novi Travnik</td>
+      <td>Novi Travnik</td>
+      <td>Нови Травник</td>
+      <td>Novi Travnik</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--novo_gorazde.html">novo_gorazde</a></td>
+      <td>Novo Gorazde</td>
+      <td>Novo Goražde</td>
+      <td>Ново Горажде</td>
+      <td>Novo Goražde</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--odzak.html">odzak</a></td>
+      <td>Odzak</td>
+      <td>Odžak</td>
+      <td>Оџак</td>
+      <td>Odžak</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--olovo.html">olovo</a></td>
+      <td>Olovo</td>
+      <td>Olovo</td>
+      <td>Олово</td>
+      <td>Olovo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--orasje.html">orasje</a></td>
+      <td>Orasje</td>
+      <td>Orašje</td>
+      <td>Орашје</td>
+      <td>Orašje</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--osmaci.html">osmaci</a></td>
+      <td>Osmaci</td>
+      <td>Osmaci</td>
+      <td>Осмаци</td>
+      <td>Osmaci</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ostra_luka.html">ostra_luka</a></td>
+      <td>Ostra Luka</td>
+      <td>Oštra Luka</td>
+      <td>Оштра Лука</td>
+      <td>Oštra Luka</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pale_fbih.html">pale_fbih</a></td>
+      <td>Pale-FBiH</td>
+      <td>Pale-FBiH</td>
+      <td>Пале-ФБиХ</td>
+      <td>Pale-FBiH</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pale_rs.html">pale_rs</a></td>
+      <td>Pale-RS</td>
+      <td>Pale-RS</td>
+      <td>Пале-РС</td>
+      <td>Pale-RS</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--pelagicevo.html">pelagicevo</a></td>
+      <td>Pelagicevo</td>
+      <td>Pelagićevo</td>
+      <td>Пелагићево</td>
+      <td>Pelagićevo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--petrovac.html">petrovac</a></td>
+      <td>Petrovac</td>
+      <td>Petrovac</td>
+      <td>Петровац</td>
+      <td>Petrovac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--petrovo.html">petrovo</a></td>
+      <td>Petrovo</td>
+      <td>Petrovo</td>
+      <td>Петрово</td>
+      <td>Petrovo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--posusje.html">posusje</a></td>
+      <td>Posusje</td>
+      <td>Posušje</td>
+      <td>Посушје</td>
+      <td>Posušje</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--prijedor.html">prijedor</a></td>
+      <td>Prijedor</td>
+      <td>Prijedor</td>
+      <td>Приједор</td>
+      <td>Prijedor</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--prnjavor.html">prnjavor</a></td>
+      <td>Prnjavor</td>
+      <td>Prnjavor</td>
+      <td>Прњавор</td>
+      <td>Prnjavor</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--prozor.html">prozor</a></td>
+      <td>Prozor</td>
+      <td>Prozor</td>
+      <td>Прозор</td>
+      <td>Prozor</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ravno.html">ravno</a></td>
+      <td>Ravno</td>
+      <td>Ravno</td>
+      <td>Равно</td>
+      <td>Ravno</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ribnik.html">ribnik</a></td>
+      <td>Ribnik</td>
+      <td>Ribnik</td>
+      <td>Рибник</td>
+      <td>Ribnik</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rogatica.html">rogatica</a></td>
+      <td>Rogatica</td>
+      <td>Rogatica</td>
+      <td>Рогатица</td>
+      <td>Rogatica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--rudo.html">rudo</a></td>
+      <td>Rudo</td>
+      <td>Rudo</td>
+      <td>Рудо</td>
+      <td>Rudo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--samac.html">samac</a></td>
+      <td>Samac</td>
+      <td>Šamac</td>
+      <td>Шамац</td>
+      <td>Šamac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sanski_most.html">sanski_most</a></td>
+      <td>Sanski Most</td>
+      <td>Sanski Most</td>
+      <td>Сански Мост</td>
+      <td>Sanski Most</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sapna.html">sapna</a></td>
+      <td>Sapna</td>
+      <td>Sapna</td>
+      <td>Сапна</td>
+      <td>Sapna</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_centar.html">sarajevo_centar</a></td>
+      <td>Sarajevo-Centar</td>
+      <td>Sarajevo-Centar</td>
+      <td>Сарајево-Центар</td>
+      <td>Sarajevo-Centar</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_hadzici.html">sarajevo_hadzici</a></td>
+      <td>Sarajevo-Hadzici</td>
+      <td>Sarajevo-Hadžići</td>
+      <td>Сарајево-Хаџићи</td>
+      <td>Sarajevo-Hadžići</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_ilidza.html">sarajevo_ilidza</a></td>
+      <td>Sarajevo-Ilidza</td>
+      <td>Sarajevo-Ilidža</td>
+      <td>Сарајево-Илиџа</td>
+      <td>Sarajevo-Ilidža</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_ilijas.html">sarajevo_ilijas</a></td>
+      <td>Sarajevo-Ilijas</td>
+      <td>Sarajevo-Ilijaš</td>
+      <td>Сарајево-Илијаш</td>
+      <td>Sarajevo-Ilijaš</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_novi_grad.html">sarajevo_novi_grad</a></td>
+      <td>Sarajevo-Novi Grad</td>
+      <td>Sarajevo-Novi Grad</td>
+      <td>Сарајево-Нови Град</td>
+      <td>Sarajevo-Novi Grad</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_novo_sarajevo.html">sarajevo_novo_sarajevo</a></td>
+      <td>Sarajevo-Novo Sarajevo</td>
+      <td>Sarajevo-Novo Sarajevo</td>
+      <td>Сарајево-Ново Сарајево</td>
+      <td>Sarajevo-Novo Sarajevo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_stari_grad.html">sarajevo_stari_grad</a></td>
+      <td>Sarajevo-Stari Grad</td>
+      <td>Sarajevo-Stari Grad</td>
+      <td>Сарајево-Стари Град</td>
+      <td>Sarajevo-Stari Grad</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sarajevo_vogosca.html">sarajevo_vogosca</a></td>
+      <td>Sarajevo-Vogosca</td>
+      <td>Sarajevo-Vogošća</td>
+      <td>Сарајево-Вогошћа</td>
+      <td>Sarajevo-Vogošća</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sekovici.html">sekovici</a></td>
+      <td>Sekovici</td>
+      <td>Šekovići</td>
+      <td>Шековићи</td>
+      <td>Šekovići</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sipovo.html">sipovo</a></td>
+      <td>Sipovo</td>
+      <td>Šipovo</td>
+      <td>Шипово</td>
+      <td>Šipovo</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--siroki_brijeg.html">siroki_brijeg</a></td>
+      <td>Siroki Brijeg</td>
+      <td>Široki Brijeg</td>
+      <td>Широки Бријег</td>
+      <td>Široki Brijeg</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--sokolac.html">sokolac</a></td>
+      <td>Sokolac</td>
+      <td>Sokolac</td>
+      <td>Соколац</td>
+      <td>Sokolac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--srbac.html">srbac</a></td>
+      <td>Srbac</td>
+      <td>Srbac</td>
+      <td>Србац</td>
+      <td>Srbac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--srebrenica.html">srebrenica</a></td>
+      <td>Srebrenica</td>
+      <td>Srebrenica</td>
+      <td>Сребреница</td>
+      <td>Srebrenica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--srebrenik.html">srebrenik</a></td>
+      <td>Srebrenik</td>
+      <td>Srebrenik</td>
+      <td>Сребреник</td>
+      <td>Srebrenik</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--stolac.html">stolac</a></td>
+      <td>Stolac</td>
+      <td>Stolac</td>
+      <td>Столац</td>
+      <td>Stolac</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--teocak.html">teocak</a></td>
+      <td>Teocak</td>
+      <td>Teočak</td>
+      <td>Теочак</td>
+      <td>Teočak</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tesanj.html">tesanj</a></td>
+      <td>Tesanj</td>
+      <td>Tešanj</td>
+      <td>Тешањ</td>
+      <td>Tešanj</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--teslic.html">teslic</a></td>
+      <td>Teslic</td>
+      <td>Teslić</td>
+      <td>Теслић</td>
+      <td>Teslić</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tomislavgrad.html">tomislavgrad</a></td>
+      <td>Tomislavgrad</td>
+      <td>Tomislavgrad</td>
+      <td>Томиславград</td>
+      <td>Tomislavgrad</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--travnik.html">travnik</a></td>
+      <td>Travnik</td>
+      <td>Travnik</td>
+      <td>Травник</td>
+      <td>Travnik</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--trebinje.html">trebinje</a></td>
+      <td>Trebinje</td>
+      <td>Trebinje</td>
+      <td>Требиње</td>
+      <td>Trebinje</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--trnovo_fbih.html">trnovo_fbih</a></td>
+      <td>Trnovo-FBiH</td>
+      <td>Trnovo-FBiH</td>
+      <td>Трново-ФБиХ</td>
+      <td>Trnovo-FBiH</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--trnovo_rs.html">trnovo_rs</a></td>
+      <td>Trnovo-RS</td>
+      <td>Trnovo-RS</td>
+      <td>Трново-РС</td>
+      <td>Trnovo-RS</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--tuzla.html">tuzla</a></td>
+      <td>Tuzla</td>
+      <td>Tuzla</td>
+      <td>Тузла</td>
+      <td>Tuzla</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--ugljevik.html">ugljevik</a></td>
+      <td>Ugljevik</td>
+      <td>Ugljevik</td>
+      <td>Угљевик</td>
+      <td>Ugljevik</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--usora.html">usora</a></td>
+      <td>Usora</td>
+      <td>Usora</td>
+      <td>Усора</td>
+      <td>Usora</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vares.html">vares</a></td>
+      <td>Vares</td>
+      <td>Vareš</td>
+      <td>Вареш</td>
+      <td>Vareš</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--velika_kladusa.html">velika_kladusa</a></td>
+      <td>Velika Kladusa</td>
+      <td>Velika Kladuša</td>
+      <td>Велика Кладуша</td>
+      <td>Velika Kladuša</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--visegrad.html">visegrad</a></td>
+      <td>Visegrad</td>
+      <td>Višegrad</td>
+      <td>Вишеград</td>
+      <td>Višegrad</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--visoko.html">visoko</a></td>
+      <td>Visoko</td>
+      <td>Visoko</td>
+      <td>Високо</td>
+      <td>Visoko</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vitez.html">vitez</a></td>
+      <td>Vitez</td>
+      <td>Vitez</td>
+      <td>Витез</td>
+      <td>Vitez</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vlasenica.html">vlasenica</a></td>
+      <td>Vlasenica</td>
+      <td>Vlasenica</td>
+      <td>Власеница</td>
+      <td>Vlasenica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--vukosavlje.html">vukosavlje</a></td>
+      <td>Vukosavlje</td>
+      <td>Vukosavlje</td>
+      <td>Вукосавље</td>
+      <td>Vukosavlje</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--zavidovici.html">zavidovici</a></td>
+      <td>Zavidovici</td>
+      <td>Zavidovići</td>
+      <td>Завидовићи</td>
+      <td>Zavidovići</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--zenica.html">zenica</a></td>
+      <td>Zenica</td>
+      <td>Zenica</td>
+      <td>Зеница</td>
+      <td>Zenica</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--zepce.html">zepce</a></td>
+      <td>Zepce</td>
+      <td>Žepče</td>
+      <td>Жепче</td>
+      <td>Žepče</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--zivinice.html">zivinice</a></td>
+      <td>Zivinice</td>
+      <td>Živinice</td>
+      <td>Живинице</td>
+      <td>Živinice</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><a href="disaggregation-value--zvornik.html">zvornik</a></td>
+      <td>Zvornik</td>
+      <td>Zvornik</td>
+      <td>Зворник</td>
+      <td>Zvornik</td>
+      <td>57</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['values-table'] = [{"Value":"<a href=\"disaggregation-value--banja_luka.html\">banja_luka<\/a>","en":"Banja Luka","bs":"Banja Luka","sr":"\u0411\u0430\u045a\u0430 \u041b\u0443\u043a\u0430","hr":"Banja Luka","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--banovici.html\">banovici<\/a>","en":"Banovici","bs":"Banovi\u0107i","sr":"\u0411\u0430\u043d\u043e\u0432\u0438\u045b\u0438","hr":"Banovi\u0107i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--berkovici.html\">berkovici<\/a>","en":"Berkovici","bs":"Berkovi\u0107i","sr":"\u0411\u0435\u0440\u043a\u043e\u0432\u0438\u045b\u0438","hr":"Berkovi\u0107i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bihac.html\">bihac<\/a>","en":"Bihac","bs":"Biha\u0107","sr":"\u0411\u0438\u0445\u0430\u045b","hr":"Biha\u0107","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bijeljina.html\">bijeljina<\/a>","en":"Bijeljina","bs":"Bijeljina","sr":"\u0411\u0438\u0458\u0435\u0459\u0438\u043d\u0430","hr":"Bijeljina","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bileca.html\">bileca<\/a>","en":"Bileca","bs":"Bile\u0107a","sr":"\u0411\u0438\u043b\u0435\u045b\u0430","hr":"Bile\u0107a","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bosanska_krupa.html\">bosanska_krupa<\/a>","en":"Bosanska Krupa","bs":"Bosanska Krupa","sr":"\u0411\u043e\u0441\u0430\u043d\u0441\u043a\u0430 \u041a\u0440\u0443\u043f\u0430","hr":"Bosanska Krupa","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bosanski_petrovac.html\">bosanski_petrovac<\/a>","en":"Bosanski Petrovac","bs":"Bosanski Petrovac","sr":"\u0411\u043e\u0441\u0430\u043d\u0441\u043a\u0438 \u041f\u0435\u0442\u0440\u043e\u0432\u0430\u0446","hr":"Bosanski Petrovac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bosansko_grahovo.html\">bosansko_grahovo<\/a>","en":"Bosansko Grahovo","bs":"Bosansko Grahovo","sr":"\u0411\u043e\u0441\u0430\u043d\u0441\u043a\u043e \u0413\u0440\u0430\u0445\u043e\u0432\u043e","hr":"Bosansko Grahovo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bratunac.html\">bratunac<\/a>","en":"Bratunac","bs":"Bratunac","sr":"\u0411\u0440\u0430\u0442\u0443\u043d\u0430\u0446","hr":"Bratunac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--brcko.html\">brcko<\/a>","en":"Brcko","bs":"Br\u010dko","sr":"\u0411\u0440\u0447\u043a\u043e","hr":"Br\u010dko","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--breza.html\">breza<\/a>","en":"Breza","bs":"Breza","sr":"\u0411\u0440\u0435\u0437\u0430","hr":"Breza","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--brod.html\">brod<\/a>","en":"Brod","bs":"Brod","sr":"\u0411\u0440\u043e\u0434","hr":"Brod","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--bugojno.html\">bugojno<\/a>","en":"Bugojno","bs":"Bugojno","sr":"\u0411\u0443\u0433\u043e\u0458\u043d\u043e","hr":"Bugojno","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--busovaca.html\">busovaca<\/a>","en":"Busovaca","bs":"Busova\u010da","sr":"\u0411\u0443\u0441\u043e\u0432\u0430\u0447\u0430","hr":"Busova\u010da","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--buzim.html\">buzim<\/a>","en":"Buzim","bs":"Bu\u017eim","sr":"\u0411\u0443\u0436\u0438\u043c","hr":"Bu\u017eim","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--cajnice.html\">cajnice<\/a>","en":"Cajnice","bs":"\u010cajni\u010de","sr":"\u0427\u0430\u0458\u043d\u0438\u0447\u0435","hr":"\u010cajni\u010de","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--capljina.html\">capljina<\/a>","en":"Capljina","bs":"\u010capljina","sr":"\u0427\u0430\u043f\u0459\u0438\u043d\u0430","hr":"\u010capljina","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--cazin.html\">cazin<\/a>","en":"Cazin","bs":"Cazin","sr":"\u0426\u0430\u0437\u0438\u043d","hr":"Cazin","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--celic.html\">celic<\/a>","en":"Celic","bs":"\u010celi\u0107","sr":"\u0427\u0435\u043b\u0438\u045b","hr":"\u010celi\u0107","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--celinac.html\">celinac<\/a>","en":"Celinac","bs":"\u010celinac","sr":"\u0427\u0435\u043b\u0438\u043d\u0430\u0446","hr":"\u010celinac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--citluk.html\">citluk<\/a>","en":"Citluk","bs":"\u010citluk","sr":"\u0427\u0438\u0442\u043b\u0443\u043a","hr":"\u010citluk","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--derventa.html\">derventa<\/a>","en":"Derventa","bs":"Derventa","sr":"\u0414\u0435\u0440\u0432\u0435\u043d\u0442\u0430","hr":"Derventa","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--doboj.html\">doboj<\/a>","en":"Doboj","bs":"Doboj","sr":"\u0414\u043e\u0431\u043e\u0458","hr":"Doboj","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--doboj_istok.html\">doboj_istok<\/a>","en":"Doboj-East","bs":"Doboj-Istok","sr":"\u0414\u043e\u0431\u043e\u0458-\u0418\u0441\u0442\u043e\u043a","hr":"Doboj-Istok","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--doboj_jug.html\">doboj_jug<\/a>","en":"Doboj-South","bs":"Doboj-Jug","sr":"\u0414\u043e\u0431\u043e\u0458-\u0408\u0443\u0433","hr":"Doboj-Jug","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--dobretici.html\">dobretici<\/a>","en":"Dobretici","bs":"Dobreti\u0107i","sr":"\u0414\u043e\u0431\u0440\u0435\u0442\u0438\u045b\u0438","hr":"Dobreti\u0107i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--domaljevac_samac.html\">domaljevac_samac<\/a>","en":"Domaljevac-Samac","bs":"Domaljevac-\u0160amac","sr":"\u0414\u043e\u043c\u0430\u0459\u0435\u0432\u0430\u0446-\u0428\u0430\u043c\u0430\u0446","hr":"Domaljevac-\u0160amac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--donji_vakuf.html\">donji_vakuf<\/a>","en":"Donji Vakuf","bs":"Donji Vakuf","sr":"\u0414\u043e\u045a\u0438 \u0412\u0430\u043a\u0443\u0444","hr":"Donji Vakuf","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--donji_zabar.html\">donji_zabar<\/a>","en":"Donji Zabar","bs":"Donji \u017dabar","sr":"\u0414\u043e\u045a\u0438 \u0416\u0430\u0431\u0430\u0440","hr":"Donji \u017dabar","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--drvar.html\">drvar<\/a>","en":"Drvar","bs":"Drvar","sr":"\u0414\u0440\u0432\u0430\u0440","hr":"Drvar","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--foca_fbih.html\">foca_fbih<\/a>","en":"Foca-FBiH","bs":"Fo\u010da-FBiH","sr":"\u0424\u043e\u0447\u0430-\u0424\u0411\u0438\u0425","hr":"Fo\u010da-FBiH","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--foca_rs.html\">foca_rs<\/a>","en":"Foca-RS","bs":"Fo\u010da-RS","sr":"\u0424\u043e\u0447\u0430-\u0420\u0421","hr":"Fo\u010da-RS","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--fojnica.html\">fojnica<\/a>","en":"Fojnica","bs":"Fojnica","sr":"\u0424\u043e\u0458\u043d\u0438\u0446\u0430","hr":"Fojnica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gacko.html\">gacko<\/a>","en":"Gacko","bs":"Gacko","sr":"\u0413\u0430\u0446\u043a\u043e","hr":"Gacko","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--glamoc.html\">glamoc<\/a>","en":"Glamoc","bs":"Glamo\u010d","sr":"\u0413\u043b\u0430\u043c\u043e\u0447","hr":"Glamo\u010d","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gorazde.html\">gorazde<\/a>","en":"Gorazde","bs":"Gora\u017ede","sr":"\u0413\u043e\u0440\u0430\u0436\u0434\u0435","hr":"Gora\u017ede","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gornji_vakuf_uskoplje.html\">gornji_vakuf_uskoplje<\/a>","en":"Gornji Vakuf-Uskoplje","bs":"Gornji Vakuf-Uskoplje","sr":"\u0413\u043e\u0440\u045a\u0438 \u0412\u0430\u043a\u0443\u0444-\u0423\u0441\u043a\u043e\u043f\u0459\u0435","hr":"Gornji Vakuf-Uskoplje","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gracanica.html\">gracanica<\/a>","en":"Gracanica","bs":"Gra\u010danica","sr":"\u0413\u0440\u0430\u0447\u0430\u043d\u0438\u0446\u0430","hr":"Gra\u010danica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gradacac.html\">gradacac<\/a>","en":"Gradacac","bs":"Grada\u010dac","sr":"\u0413\u0440\u0430\u0434\u0430\u0447\u0430\u0446","hr":"Grada\u010dac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--gradiska.html\">gradiska<\/a>","en":"Gradiska","bs":"Gradi\u0161ka","sr":"\u0413\u0440\u0430\u0434\u0438\u0448\u043a\u0430","hr":"Gradi\u0161ka","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--grude.html\">grude<\/a>","en":"Grude","bs":"Grude","sr":"\u0413\u0440\u0443\u0434\u0435","hr":"Grude","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--han_pijesak.html\">han_pijesak<\/a>","en":"Han Pijesak","bs":"Han Pijesak","sr":"\u0425\u0430\u043d \u041f\u0438\u0458\u0435\u0441\u0430\u043a","hr":"Han Pijesak","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--istocna_ilidza.html\">istocna_ilidza<\/a>","en":"East Ilidza","bs":"Isto\u010dna Ilid\u017ea","sr":"\u0418\u0441\u0442\u043e\u0447\u043d\u0430 \u0418\u043b\u0438\u045f\u0430","hr":"Isto\u010dna Ilid\u017ea","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--istocni_drvar.html\">istocni_drvar<\/a>","en":"East Drvar","bs":"Isto\u010dni Drvar","sr":"\u0418\u0441\u0442\u043e\u0447\u043d\u0438 \u0414\u0440\u0432\u0430\u0440","hr":"Isto\u010dni Drvar","Disaggregation combinations using this value":54,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--istocni_mostar.html\">istocni_mostar<\/a>","en":"East Mostar","bs":"Isto\u010dni Mostar","sr":"\u0418\u0441\u0442\u043e\u0447\u043d\u0438 \u041c\u043e\u0441\u0442\u0430\u0440","hr":"Isto\u010dni Mostar","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--istocni_stari_grad.html\">istocni_stari_grad<\/a>","en":"East Stari Grad","bs":"Isto\u010dni Stari Grad","sr":"\u0418\u0441\u0442\u043e\u0447\u043d\u0438 \u0421\u0442\u0430\u0440\u0438 \u0413\u0440\u0430\u0434","hr":"Isto\u010dni Stari Grad","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--istocno_novo_sarajevo.html\">istocno_novo_sarajevo<\/a>","en":"East Novo Sarajevo","bs":"Isto\u010dno Novo Sarajevo","sr":"\u0418\u0441\u0442\u043e\u0447\u043d\u043e \u041d\u043e\u0432\u043e \u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e","hr":"Isto\u010dno Novo Sarajevo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--jablanica.html\">jablanica<\/a>","en":"Jablanica","bs":"Jablanica","sr":"\u0408\u0430\u0431\u043b\u0430\u043d\u0438\u0446\u0430","hr":"Jablanica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--jajce.html\">jajce<\/a>","en":"Jajce","bs":"Jajce","sr":"\u0408\u0430\u0458\u0446\u0435","hr":"Jajce","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--jezero.html\">jezero<\/a>","en":"Jezero","bs":"Jezero","sr":"\u0408\u0435\u0437\u0435\u0440\u043e","hr":"Jezero","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kakanj.html\">kakanj<\/a>","en":"Kakanj","bs":"Kakanj","sr":"\u041a\u0430\u043a\u0430\u045a","hr":"Kakanj","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kalesija.html\">kalesija<\/a>","en":"Kalesija","bs":"Kalesija","sr":"\u041a\u0430\u043b\u0435\u0441\u0438\u0458\u0430","hr":"Kalesija","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kalinovik.html\">kalinovik<\/a>","en":"Kalinovik","bs":"Kalinovik","sr":"\u041a\u0430\u043b\u0438\u043d\u043e\u0432\u0438\u043a","hr":"Kalinovik","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kiseljak.html\">kiseljak<\/a>","en":"Kiseljak","bs":"Kiseljak","sr":"\u041a\u0438\u0441\u0435\u0459\u0430\u043a","hr":"Kiseljak","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kladanj.html\">kladanj<\/a>","en":"Kladanj","bs":"Kladanj","sr":"\u041a\u043b\u0430\u0434\u0430\u045a","hr":"Kladanj","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kljuc.html\">kljuc<\/a>","en":"Klju\u010d","bs":"Klju\u010d","sr":"\u041a\u0459\u0443\u0447","hr":"Klju\u010d","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--knezevo.html\">knezevo<\/a>","en":"Knezevo","bs":"Kne\u017eevo","sr":"\u041a\u043d\u0435\u0436\u0435\u0432\u043e","hr":"Kne\u017eevo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--konjic.html\">konjic<\/a>","en":"Konjic","bs":"Konjic","sr":"\u041a\u043e\u045a\u0438\u0446","hr":"Konjic","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kostajnica.html\">kostajnica<\/a>","en":"Kostajnica","bs":"Kostajnica","sr":"\u041a\u043e\u0441\u0442\u0430\u0458\u043d\u0438\u0446\u0430","hr":"Kostajnica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kotor_varos.html\">kotor_varos<\/a>","en":"Kotor Varos","bs":"Kotor Varo\u0161","sr":"\u041a\u043e\u0442\u043e\u0440 \u0412\u0430\u0440\u043e\u0448","hr":"Kotor Varo\u0161","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kozarska_dubica.html\">kozarska_dubica<\/a>","en":"Kozarska Dubica","bs":"Kozarska Dubica","sr":"\u041a\u043e\u0437\u0430\u0440\u0441\u043a\u0430 \u0414\u0443\u0431\u0438\u0446\u0430","hr":"Kozarska Dubica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kresevo.html\">kresevo<\/a>","en":"Kresevo","bs":"Kre\u0161evo","sr":"\u041a\u0440\u0435\u0448\u0435\u0432\u043e","hr":"Kre\u0161evo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--krupa_na_uni.html\">krupa_na_uni<\/a>","en":"Krupa Na Uni","bs":"Krupa Na Uni","sr":"\u041a\u0440\u0443\u043f\u0430 \u043d\u0430 \u0423\u043d\u0438","hr":"Krupa Na Uni","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kupres_fbih.html\">kupres_fbih<\/a>","en":"Kupres-FBiH","bs":"Kupres-FBiH","sr":"\u041a\u0443\u043f\u0440\u0435\u0441-\u0424\u0411\u0438\u0425","hr":"Kupres-FBiH","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--kupres_rs.html\">kupres_rs<\/a>","en":"Kupres-RS","bs":"Kupres-RS","sr":"\u041a\u0443\u043f\u0440\u0435\u0441-\u0420\u0421","hr":"Kupres-RS","Disaggregation combinations using this value":56,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--laktasi.html\">laktasi<\/a>","en":"Laktasi","bs":"Lakta\u0161i","sr":"\u041b\u0430\u043a\u0442\u0430\u0448\u0438","hr":"Lakta\u0161i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--livno.html\">livno<\/a>","en":"Livno","bs":"Livno","sr":"\u041b\u0438\u0432\u043d\u043e","hr":"Livno","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ljubinje.html\">ljubinje<\/a>","en":"Ljubinje","bs":"Ljubinje","sr":"\u0409\u0443\u0431\u0438\u045a\u0435","hr":"Ljubinje","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ljubuski.html\">ljubuski<\/a>","en":"Ljubuski","bs":"Ljubu\u0161ki","sr":"\u0409\u0443\u0431\u0443\u0448\u043a\u0438","hr":"Ljubu\u0161ki","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lopare.html\">lopare<\/a>","en":"Lopare","bs":"Lopare","sr":"\u041b\u043e\u043f\u0430\u0440\u0435","hr":"Lopare","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--lukavac.html\">lukavac<\/a>","en":"Lukavac","bs":"Lukavac","sr":"\u041b\u0443\u043a\u0430\u0432\u0430\u0446","hr":"Lukavac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--maglaj.html\">maglaj<\/a>","en":"Maglaj","bs":"Maglaj","sr":"\u041c\u0430\u0433\u043b\u0430\u0458","hr":"Maglaj","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--milici.html\">milici<\/a>","en":"Milici","bs":"Mili\u0107i","sr":"\u041c\u0438\u043b\u0438\u045b\u0438","hr":"Mili\u0107i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--modrica.html\">modrica<\/a>","en":"Modrica","bs":"Modri\u010da","sr":"\u041c\u043e\u0434\u0440\u0438\u0447\u0430","hr":"Modri\u010da","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mostar.html\">mostar<\/a>","en":"Mostar","bs":"Mostar","sr":"\u041c\u043e\u0441\u0442\u0430\u0440","hr":"Mostar","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--mrkonjic_grad.html\">mrkonjic_grad<\/a>","en":"Mrkonjic Grad","bs":"Mrkonji\u0107 Grad","sr":"\u041c\u0440\u043a\u043e\u045a\u0438\u045b \u0413\u0440\u0430\u0434","hr":"Mrkonji\u0107 Grad","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--neum.html\">neum<\/a>","en":"Neum","bs":"Neum","sr":"\u041d\u0435\u0443\u043c","hr":"Neum","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--nevesinje.html\">nevesinje<\/a>","en":"Nevesinje","bs":"Nevesinje","sr":"\u041d\u0435\u0432\u0435\u0441\u0438\u045a\u0435","hr":"Nevesinje","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--novi_grad.html\">novi_grad<\/a>","en":"Novi Grad","bs":"Novi Grad","sr":"\u041d\u043e\u0432\u0438 \u0413\u0440\u0430\u0434","hr":"Novi Grad","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--novi_travnik.html\">novi_travnik<\/a>","en":"Novi Travnik","bs":"Novi Travnik","sr":"\u041d\u043e\u0432\u0438 \u0422\u0440\u0430\u0432\u043d\u0438\u043a","hr":"Novi Travnik","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--novo_gorazde.html\">novo_gorazde<\/a>","en":"Novo Gorazde","bs":"Novo Gora\u017ede","sr":"\u041d\u043e\u0432\u043e \u0413\u043e\u0440\u0430\u0436\u0434\u0435","hr":"Novo Gora\u017ede","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--odzak.html\">odzak<\/a>","en":"Odzak","bs":"Od\u017eak","sr":"\u041e\u045f\u0430\u043a","hr":"Od\u017eak","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--olovo.html\">olovo<\/a>","en":"Olovo","bs":"Olovo","sr":"\u041e\u043b\u043e\u0432\u043e","hr":"Olovo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--orasje.html\">orasje<\/a>","en":"Orasje","bs":"Ora\u0161je","sr":"\u041e\u0440\u0430\u0448\u0458\u0435","hr":"Ora\u0161je","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--osmaci.html\">osmaci<\/a>","en":"Osmaci","bs":"Osmaci","sr":"\u041e\u0441\u043c\u0430\u0446\u0438","hr":"Osmaci","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ostra_luka.html\">ostra_luka<\/a>","en":"Ostra Luka","bs":"O\u0161tra Luka","sr":"\u041e\u0448\u0442\u0440\u0430 \u041b\u0443\u043a\u0430","hr":"O\u0161tra Luka","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pale_fbih.html\">pale_fbih<\/a>","en":"Pale-FBiH","bs":"Pale-FBiH","sr":"\u041f\u0430\u043b\u0435-\u0424\u0411\u0438\u0425","hr":"Pale-FBiH","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pale_rs.html\">pale_rs<\/a>","en":"Pale-RS","bs":"Pale-RS","sr":"\u041f\u0430\u043b\u0435-\u0420\u0421","hr":"Pale-RS","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--pelagicevo.html\">pelagicevo<\/a>","en":"Pelagicevo","bs":"Pelagi\u0107evo","sr":"\u041f\u0435\u043b\u0430\u0433\u0438\u045b\u0435\u0432\u043e","hr":"Pelagi\u0107evo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--petrovac.html\">petrovac<\/a>","en":"Petrovac","bs":"Petrovac","sr":"\u041f\u0435\u0442\u0440\u043e\u0432\u0430\u0446","hr":"Petrovac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--petrovo.html\">petrovo<\/a>","en":"Petrovo","bs":"Petrovo","sr":"\u041f\u0435\u0442\u0440\u043e\u0432\u043e","hr":"Petrovo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--posusje.html\">posusje<\/a>","en":"Posusje","bs":"Posu\u0161je","sr":"\u041f\u043e\u0441\u0443\u0448\u0458\u0435","hr":"Posu\u0161je","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--prijedor.html\">prijedor<\/a>","en":"Prijedor","bs":"Prijedor","sr":"\u041f\u0440\u0438\u0458\u0435\u0434\u043e\u0440","hr":"Prijedor","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--prnjavor.html\">prnjavor<\/a>","en":"Prnjavor","bs":"Prnjavor","sr":"\u041f\u0440\u045a\u0430\u0432\u043e\u0440","hr":"Prnjavor","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--prozor.html\">prozor<\/a>","en":"Prozor","bs":"Prozor","sr":"\u041f\u0440\u043e\u0437\u043e\u0440","hr":"Prozor","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ravno.html\">ravno<\/a>","en":"Ravno","bs":"Ravno","sr":"\u0420\u0430\u0432\u043d\u043e","hr":"Ravno","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ribnik.html\">ribnik<\/a>","en":"Ribnik","bs":"Ribnik","sr":"\u0420\u0438\u0431\u043d\u0438\u043a","hr":"Ribnik","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rogatica.html\">rogatica<\/a>","en":"Rogatica","bs":"Rogatica","sr":"\u0420\u043e\u0433\u0430\u0442\u0438\u0446\u0430","hr":"Rogatica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--rudo.html\">rudo<\/a>","en":"Rudo","bs":"Rudo","sr":"\u0420\u0443\u0434\u043e","hr":"Rudo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--samac.html\">samac<\/a>","en":"Samac","bs":"\u0160amac","sr":"\u0428\u0430\u043c\u0430\u0446","hr":"\u0160amac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sanski_most.html\">sanski_most<\/a>","en":"Sanski Most","bs":"Sanski Most","sr":"\u0421\u0430\u043d\u0441\u043a\u0438 \u041c\u043e\u0441\u0442","hr":"Sanski Most","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sapna.html\">sapna<\/a>","en":"Sapna","bs":"Sapna","sr":"\u0421\u0430\u043f\u043d\u0430","hr":"Sapna","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_centar.html\">sarajevo_centar<\/a>","en":"Sarajevo-Centar","bs":"Sarajevo-Centar","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u0426\u0435\u043d\u0442\u0430\u0440","hr":"Sarajevo-Centar","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_hadzici.html\">sarajevo_hadzici<\/a>","en":"Sarajevo-Hadzici","bs":"Sarajevo-Had\u017ei\u0107i","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u0425\u0430\u045f\u0438\u045b\u0438","hr":"Sarajevo-Had\u017ei\u0107i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_ilidza.html\">sarajevo_ilidza<\/a>","en":"Sarajevo-Ilidza","bs":"Sarajevo-Ilid\u017ea","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u0418\u043b\u0438\u045f\u0430","hr":"Sarajevo-Ilid\u017ea","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_ilijas.html\">sarajevo_ilijas<\/a>","en":"Sarajevo-Ilijas","bs":"Sarajevo-Ilija\u0161","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u0418\u043b\u0438\u0458\u0430\u0448","hr":"Sarajevo-Ilija\u0161","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_novi_grad.html\">sarajevo_novi_grad<\/a>","en":"Sarajevo-Novi Grad","bs":"Sarajevo-Novi Grad","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u041d\u043e\u0432\u0438 \u0413\u0440\u0430\u0434","hr":"Sarajevo-Novi Grad","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_novo_sarajevo.html\">sarajevo_novo_sarajevo<\/a>","en":"Sarajevo-Novo Sarajevo","bs":"Sarajevo-Novo Sarajevo","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u041d\u043e\u0432\u043e \u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e","hr":"Sarajevo-Novo Sarajevo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_stari_grad.html\">sarajevo_stari_grad<\/a>","en":"Sarajevo-Stari Grad","bs":"Sarajevo-Stari Grad","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u0421\u0442\u0430\u0440\u0438 \u0413\u0440\u0430\u0434","hr":"Sarajevo-Stari Grad","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sarajevo_vogosca.html\">sarajevo_vogosca<\/a>","en":"Sarajevo-Vogosca","bs":"Sarajevo-Vogo\u0161\u0107a","sr":"\u0421\u0430\u0440\u0430\u0458\u0435\u0432\u043e-\u0412\u043e\u0433\u043e\u0448\u045b\u0430","hr":"Sarajevo-Vogo\u0161\u0107a","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sekovici.html\">sekovici<\/a>","en":"Sekovici","bs":"\u0160ekovi\u0107i","sr":"\u0428\u0435\u043a\u043e\u0432\u0438\u045b\u0438","hr":"\u0160ekovi\u0107i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sipovo.html\">sipovo<\/a>","en":"Sipovo","bs":"\u0160ipovo","sr":"\u0428\u0438\u043f\u043e\u0432\u043e","hr":"\u0160ipovo","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--siroki_brijeg.html\">siroki_brijeg<\/a>","en":"Siroki Brijeg","bs":"\u0160iroki Brijeg","sr":"\u0428\u0438\u0440\u043e\u043a\u0438 \u0411\u0440\u0438\u0458\u0435\u0433","hr":"\u0160iroki Brijeg","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--sokolac.html\">sokolac<\/a>","en":"Sokolac","bs":"Sokolac","sr":"\u0421\u043e\u043a\u043e\u043b\u0430\u0446","hr":"Sokolac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--srbac.html\">srbac<\/a>","en":"Srbac","bs":"Srbac","sr":"\u0421\u0440\u0431\u0430\u0446","hr":"Srbac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--srebrenica.html\">srebrenica<\/a>","en":"Srebrenica","bs":"Srebrenica","sr":"\u0421\u0440\u0435\u0431\u0440\u0435\u043d\u0438\u0446\u0430","hr":"Srebrenica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--srebrenik.html\">srebrenik<\/a>","en":"Srebrenik","bs":"Srebrenik","sr":"\u0421\u0440\u0435\u0431\u0440\u0435\u043d\u0438\u043a","hr":"Srebrenik","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--stolac.html\">stolac<\/a>","en":"Stolac","bs":"Stolac","sr":"\u0421\u0442\u043e\u043b\u0430\u0446","hr":"Stolac","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--teocak.html\">teocak<\/a>","en":"Teocak","bs":"Teo\u010dak","sr":"\u0422\u0435\u043e\u0447\u0430\u043a","hr":"Teo\u010dak","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tesanj.html\">tesanj<\/a>","en":"Tesanj","bs":"Te\u0161anj","sr":"\u0422\u0435\u0448\u0430\u045a","hr":"Te\u0161anj","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--teslic.html\">teslic<\/a>","en":"Teslic","bs":"Tesli\u0107","sr":"\u0422\u0435\u0441\u043b\u0438\u045b","hr":"Tesli\u0107","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tomislavgrad.html\">tomislavgrad<\/a>","en":"Tomislavgrad","bs":"Tomislavgrad","sr":"\u0422\u043e\u043c\u0438\u0441\u043b\u0430\u0432\u0433\u0440\u0430\u0434","hr":"Tomislavgrad","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--travnik.html\">travnik<\/a>","en":"Travnik","bs":"Travnik","sr":"\u0422\u0440\u0430\u0432\u043d\u0438\u043a","hr":"Travnik","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--trebinje.html\">trebinje<\/a>","en":"Trebinje","bs":"Trebinje","sr":"\u0422\u0440\u0435\u0431\u0438\u045a\u0435","hr":"Trebinje","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--trnovo_fbih.html\">trnovo_fbih<\/a>","en":"Trnovo-FBiH","bs":"Trnovo-FBiH","sr":"\u0422\u0440\u043d\u043e\u0432\u043e-\u0424\u0411\u0438\u0425","hr":"Trnovo-FBiH","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--trnovo_rs.html\">trnovo_rs<\/a>","en":"Trnovo-RS","bs":"Trnovo-RS","sr":"\u0422\u0440\u043d\u043e\u0432\u043e-\u0420\u0421","hr":"Trnovo-RS","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--tuzla.html\">tuzla<\/a>","en":"Tuzla","bs":"Tuzla","sr":"\u0422\u0443\u0437\u043b\u0430","hr":"Tuzla","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--ugljevik.html\">ugljevik<\/a>","en":"Ugljevik","bs":"Ugljevik","sr":"\u0423\u0433\u0459\u0435\u0432\u0438\u043a","hr":"Ugljevik","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--usora.html\">usora<\/a>","en":"Usora","bs":"Usora","sr":"\u0423\u0441\u043e\u0440\u0430","hr":"Usora","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vares.html\">vares<\/a>","en":"Vares","bs":"Vare\u0161","sr":"\u0412\u0430\u0440\u0435\u0448","hr":"Vare\u0161","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--velika_kladusa.html\">velika_kladusa<\/a>","en":"Velika Kladusa","bs":"Velika Kladu\u0161a","sr":"\u0412\u0435\u043b\u0438\u043a\u0430 \u041a\u043b\u0430\u0434\u0443\u0448\u0430","hr":"Velika Kladu\u0161a","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--visegrad.html\">visegrad<\/a>","en":"Visegrad","bs":"Vi\u0161egrad","sr":"\u0412\u0438\u0448\u0435\u0433\u0440\u0430\u0434","hr":"Vi\u0161egrad","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--visoko.html\">visoko<\/a>","en":"Visoko","bs":"Visoko","sr":"\u0412\u0438\u0441\u043e\u043a\u043e","hr":"Visoko","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vitez.html\">vitez<\/a>","en":"Vitez","bs":"Vitez","sr":"\u0412\u0438\u0442\u0435\u0437","hr":"Vitez","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vlasenica.html\">vlasenica<\/a>","en":"Vlasenica","bs":"Vlasenica","sr":"\u0412\u043b\u0430\u0441\u0435\u043d\u0438\u0446\u0430","hr":"Vlasenica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--vukosavlje.html\">vukosavlje<\/a>","en":"Vukosavlje","bs":"Vukosavlje","sr":"\u0412\u0443\u043a\u043e\u0441\u0430\u0432\u0459\u0435","hr":"Vukosavlje","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--zavidovici.html\">zavidovici<\/a>","en":"Zavidovici","bs":"Zavidovi\u0107i","sr":"\u0417\u0430\u0432\u0438\u0434\u043e\u0432\u0438\u045b\u0438","hr":"Zavidovi\u0107i","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--zenica.html\">zenica<\/a>","en":"Zenica","bs":"Zenica","sr":"\u0417\u0435\u043d\u0438\u0446\u0430","hr":"Zenica","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--zepce.html\">zepce<\/a>","en":"Zepce","bs":"\u017dep\u010de","sr":"\u0416\u0435\u043f\u0447\u0435","hr":"\u017dep\u010de","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--zivinice.html\">zivinice<\/a>","en":"Zivinice","bs":"\u017divinice","sr":"\u0416\u0438\u0432\u0438\u043d\u0438\u0446\u0435","hr":"\u017divinice","Disaggregation combinations using this value":57,"Number of indicators":1},{"Value":"<a href=\"disaggregation-value--zvornik.html\">zvornik<\/a>","en":"Zvornik","bs":"Zvornik","sr":"\u0417\u0432\u043e\u0440\u043d\u0438\u043a","hr":"Zvornik","Disaggregation combinations using this value":57,"Number of indicators":1}];
+            </script>
+            
+        </div>
+        <div>
+            <h2 id="indicators-using" tabindex="-1">Indicators using disaggregation</h2>
+            
+        <div class="my-3">
+            <a href="indicators--disaggregation--municipality.csv" role="button" class="btn btn-primary" aria-describedby="indicators--disaggregation--municipality">Download CSV of indicators using this disaggregation</a>
+            <div id="indicators--disaggregation--municipality" class="download-info">Size: 17 Bytes</div>
+        </div>
+        
+            
+                <div class="total-rows">
+                    Total rows: <span class="total">1</span>
+                </div>
+                <table border="1" class="dataframe table table-striped table-bordered" id="indicators-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Indicator</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://popdata/work/2-1-3">#2-1-3</a></td>
+    </tr>
+  </tbody>
+</table>
+            <script type="text/javascript">
+            var sdgBuild = sdgBuild || {};
+            sdgBuild.tables = sdgBuild.tables || {};
+            sdgBuild.tables['indicators-table'] = [{"Indicator":"<a href=\"https:\/\/popdata\/work\/2-1-3\">#2-1-3<\/a>"}];
+            </script>
+            
+        </div>
+        
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/gh/open-sdg/open-sdg-table@0.4.0/open-sdg-table.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <script>
+            if (typeof sdgBuild !== 'undefined' && sdgBuild.tables) {
+                var tableIds = Object.keys(sdgBuild.tables);
+                for (var i = 0; i < tableIds.length; i++) {
+                    var tableId = tableIds[i];
+                    $('#' + tableId).openSdgTable(sdgBuild.tables[tableId]).find('td').each(function() {
+                        if (!isNaN($(this).text())) {
+                            $(this).css('text-align', 'right');
+                        }
+                    })
+                }
+            }
+            </script>
+        </html>
+        
