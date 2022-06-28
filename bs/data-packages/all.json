@@ -3188,41 +3188,6 @@
       "title": "Diplomirani studenti prema oblasti obrazovanja"
     },
     {
-      "path": "1-a-8/data.csv",
-      "name": "1-a-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Dan"
-          },
-          {
-            "name": "UNIT_Measure",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Broj",
-                ""
-              ]
-            },
-            "title": "UNIT_Measure"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Vrijednost"
-          }
-        ]
-      },
-      "title": "global_indicators.1-a-8-title"
-    },
-    {
       "path": "3-4-1/data.csv",
       "name": "3-4-1",
       "profile": "tabular-data-resource",
@@ -5386,6 +5351,30 @@
         ]
       },
       "title": "Magistri nauka, masteri i specijalisti prema oblasti obrazovanja"
+    },
+    {
+      "path": "1-a-8/data.csv",
+      "name": "1-a-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Dan"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Vrijednost"
+          }
+        ]
+      },
+      "title": "global_indicators.1-a-8-title"
     }
   ]
 }
