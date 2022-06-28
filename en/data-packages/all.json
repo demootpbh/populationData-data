@@ -5351,30 +5351,6 @@
         ]
       },
       "title": "Students graduated in master and special studies by type of education"
-    },
-    {
-      "path": "1-a-8/data.csv",
-      "name": "1-a-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "New indicator"
     }
   ]
 }
