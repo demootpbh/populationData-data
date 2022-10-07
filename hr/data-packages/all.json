@@ -4939,7 +4939,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Godina"
           },
           {
@@ -4952,6 +4952,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Zaposlenici",
+                "Samozaposlenici",
+                "Neplaćeni pomažući članovi",
                 ""
               ]
             },
@@ -4962,6 +4965,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Oba spola",
+                "M",
+                "Ž",
                 ""
               ]
             },
@@ -4969,7 +4975,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Vrijednost"
           }
         ]

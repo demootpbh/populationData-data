@@ -4942,7 +4942,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "F",
+                "M",
+                "Both sexes"
               ]
             },
             "title": "Age"
@@ -4952,7 +4955,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "Employees",
+                "Self-employed",
+                "Unpaid family workers"
               ]
             },
             "title": "Sex"
@@ -4964,12 +4970,12 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           }
         ]
