@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Година"
           },
           {
@@ -21,28 +21,21 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "SEX",
+            "name": "type_of_institution",
             "type": "string",
             "constraints": {
               "enum": [
+                "Оба пола",
+                "Јавна",
+                "Приватна",
                 ""
               ]
             },
-            "title": "Пол"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Старосна доб"
+            "title": "Врста установе"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Вриједност"
           }
         ]

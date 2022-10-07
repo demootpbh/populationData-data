@@ -4454,7 +4454,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Godina"
           },
           {
@@ -4463,28 +4463,21 @@
             "title": "Mjerna jedinica"
           },
           {
-            "name": "SEX",
+            "name": "type_of_institution",
             "type": "string",
             "constraints": {
               "enum": [
+                "Oba spola",
+                "Javna",
+                "Privatna",
                 ""
               ]
             },
-            "title": "Spol"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Starosna dob"
+            "title": "Vrsta ustanove"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Vrijednost"
           }
         ]
