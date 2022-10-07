@@ -4459,7 +4459,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
@@ -4475,7 +4475,8 @@
                 "",
                 "Both sexes",
                 "Private",
-                "Public"
+                "Public",
+                "publicv"
               ]
             },
             "title": "Type of institution"

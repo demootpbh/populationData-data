@@ -1,31 +1,31 @@
 Year,UNIT_MEASURE,Type of institution,Value
-2011,Number,Both sexes,
-2012,Number,Both sexes,
-2013,Number,Both sexes,
-2014,Number,Both sexes,
-2015,Number,Both sexes,
-2016,Number,Both sexes,
-2017,Number,Both sexes,
-2018,Number,Both sexes,
-2019,Number,Both sexes,
-2020,Number,Both sexes,
-2011,Number,Public,
-2012,Number,Public,
-2013,Number,Public,
-2014,Number,Public,
-2015,Number,Public,
-2016,Number,Public,
-2017,Number,Public,
-2018,Number,Public,
-2019,Number,Public,
-2020,Number,Public,
-2011,Number,Private,
-2012,Number,Private,
-2013,Number,Private,
-2014,Number,Private,
-2015,Number,Private,
-2016,Number,Private,
-2017,Number,Private,
-2018,Number,Private,
-2019,Number,Private,
-2020,Number,Private,
+2011,Number,Both sexes,1
+2012,Number,Both sexes,1
+2013,Number,Both sexes,1
+2014,Number,Both sexes,1
+2015,Number,Both sexes,1
+2016,Number,Both sexes,1
+2017,Number,Both sexes,1
+2018,Number,Both sexes,1
+2019,Number,Both sexes,1
+2020,Number,Both sexes,1
+2011,Number,Public,1
+2012,Number,Public,1
+2013,Number,Public,1
+2014,Number,Public,1
+2015,Number,Public,1
+2016,Number,Public,1
+2017,Number,Public,1
+2018,Number,publicv,1
+2019,Number,Public,1
+2020,Number,Public,1
+2011,Number,Private,1
+2012,Number,Private,1
+2013,Number,Private,1
+2014,Number,Private,1
+2015,Number,Private,1
+2016,Number,Private,1
+2017,Number,Private,1
+2018,Number,Private,1
+2019,Number,Private,1
+2020,Number,Private,1

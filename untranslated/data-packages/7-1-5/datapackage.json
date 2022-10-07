@@ -25,6 +25,7 @@
               "enum": [
                 "_T",
                 "public",
+                "publicv",
                 "private",
                 ""
               ]
@@ -32,7 +33,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       }
