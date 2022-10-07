@@ -77,9 +77,9 @@ Indicator,Disaggregations,Number of disaggregations
 #5-2-2,"UNIT_MEASURE, SEX",2
 #5-2-3,"UNIT_MEASURE, SEX",2
 #5-3-1,"UNIT_MEASURE, SEX",2
-#5-3-2,"UNIT_MEASURE, Type_of_school, SEX",3
+#5-3-2,"UNIT_MEASURE, SEX, Type_of_school",3
 #5-3-3,"UNIT_MEASURE, SEX",2
-#5-3-4,"UNIT_MEASURE, Type_of_school, SEX",3
+#5-3-4,"UNIT_MEASURE, SEX, Type_of_school",3
 #5-3-5,"UNIT_MEASURE, SEX",2
 #5-4-1,"UNIT_MEASURE, SEX",2
 #5-4-2,"UNIT_MEASURE, SEX",2
