@@ -4928,61 +4928,6 @@
       "title": "Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu"
     },
     {
-      "path": "7-1-4/data.csv",
-      "name": "7-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Godina"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Mjerna jedinica"
-          },
-          {
-            "name": "status_in_employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Zaposlenici",
-                "Samozaposlenici",
-                "Neplaćeni pomažući članovi",
-                ""
-              ]
-            },
-            "title": "Radni status"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Oba spola",
-                "M",
-                "Ž",
-                ""
-              ]
-            },
-            "title": "Spol"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Vrijednost"
-          }
-        ]
-      },
-      "title": "Struktura zaposlenih prema radnom statusu i spolu"
-    },
-    {
       "path": "5-5-6/data.csv",
       "name": "5-5-6",
       "profile": "tabular-data-resource",
@@ -5300,6 +5245,30 @@
         ]
       },
       "title": "Razvedeni brakovi"
+    },
+    {
+      "path": "7-1-4/data.csv",
+      "name": "7-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Godina"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Vrijednost"
+          }
+        ]
+      },
+      "title": "Struktura zaposlenih prema radnom statusu i spolu"
     }
   ]
 }

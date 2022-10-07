@@ -11,45 +11,14 @@
       "schema": {
         "fields": [
           {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "F",
-                "M",
-                "Both sexes"
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "status_in_employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Employees",
-                "Self-employed",
-                "Unpaid family workers"
-              ]
-            },
-            "title": "Status in employment"
           }
         ]
       }
