@@ -4928,6 +4928,55 @@
       "title": "Stanovništvo staro 15 i više godina prema najvišoj završenoj školi i spolu"
     },
     {
+      "path": "7-1-4/data.csv",
+      "name": "7-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Dan"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Mjerna jedinica"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Spol"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Starosna dob"
+          },
+          {
+            "name": "Value",
+            "type": "string",
+            "title": "Vrijednost"
+          }
+        ]
+      },
+      "title": "7-1-4"
+    },
+    {
       "path": "5-5-6/data.csv",
       "name": "5-5-6",
       "profile": "tabular-data-resource",
