@@ -12,31 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "status_in_employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "employees",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

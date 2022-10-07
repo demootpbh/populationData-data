@@ -4443,57 +4443,6 @@
       "title": "Zaključeni brakovi"
     },
     {
-      "path": "7-1-5/data.csv",
-      "name": "7-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Dan"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Mjerna jedinica"
-          },
-          {
-            "name": "status_in_employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Zaposlenici",
-                ""
-              ]
-            },
-            "title": "Radni status"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Oba spola",
-                ""
-              ]
-            },
-            "title": "Spol"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Vrijednost"
-          }
-        ]
-      },
-      "title": "Stanovništvo u dobi od 15-24 godine koje nije zaposleno, ne obrazuje se niti se usavršava (NEET), prema spolu"
-    },
-    {
       "path": "3-3-2/data.csv",
       "name": "3-3-2",
       "profile": "tabular-data-resource",
@@ -5351,6 +5300,30 @@
         ]
       },
       "title": "Razvedeni brakovi"
+    },
+    {
+      "path": "7-1-5/data.csv",
+      "name": "7-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Dan"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Vrijednost"
+          }
+        ]
+      },
+      "title": "Stanovništvo u dobi od 15-24 godine koje nije zaposleno, ne obrazuje se niti se usavršava (NEET), prema spolu"
     }
   ]
 }

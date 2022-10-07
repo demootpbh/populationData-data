@@ -12,35 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Godina"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Mjerna jedinica"
-          },
-          {
-            "name": "status_in_employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Zaposlenici",
-                ""
-              ]
-            },
-            "title": "Radni status"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Oba spola",
-                ""
-              ]
-            },
-            "title": "Spol"
           },
           {
             "name": "Value",
