@@ -19,7 +19,7 @@
             "type": "string"
           },
           {
-            "name": "SEX",
+            "name": "status_in_employment",
             "type": "string",
             "constraints": {
               "enum": [
@@ -31,7 +31,7 @@
             }
           },
           {
-            "name": "AGE",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [

@@ -21,7 +21,7 @@
             "title": "Mjerna jedinica"
           },
           {
-            "name": "SEX",
+            "name": "status_in_employment",
             "type": "string",
             "constraints": {
               "enum": [
@@ -31,10 +31,10 @@
                 ""
               ]
             },
-            "title": "Spol"
+            "title": "Radni status"
           },
           {
-            "name": "AGE",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
@@ -44,7 +44,7 @@
                 ""
               ]
             },
-            "title": "Starosna dob"
+            "title": "Spol"
           },
           {
             "name": "Value",

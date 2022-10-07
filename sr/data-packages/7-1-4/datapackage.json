@@ -21,7 +21,7 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "SEX",
+            "name": "status_in_employment",
             "type": "string",
             "constraints": {
               "enum": [
@@ -31,10 +31,10 @@
                 ""
               ]
             },
-            "title": "Пол"
+            "title": "Радни статус"
           },
           {
-            "name": "AGE",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
@@ -44,7 +44,7 @@
                 ""
               ]
             },
-            "title": "Старосна доб"
+            "title": "Пол"
           },
           {
             "name": "Value",

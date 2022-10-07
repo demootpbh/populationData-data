@@ -11,7 +11,7 @@
       "schema": {
         "fields": [
           {
-            "name": "AGE",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
@@ -19,19 +19,6 @@
                 "F",
                 "M",
                 "Both sexes"
-              ]
-            },
-            "title": "Age"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Employees",
-                "Self-employed",
-                "Unpaid family workers"
               ]
             },
             "title": "Sex"
@@ -50,6 +37,19 @@
             "name": "Year",
             "type": "integer",
             "title": "Year"
+          },
+          {
+            "name": "status_in_employment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Employees",
+                "Self-employed",
+                "Unpaid family workers"
+              ]
+            },
+            "title": "Status in employment"
           }
         ]
       }
