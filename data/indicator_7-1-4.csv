@@ -1,4 +1,4 @@
-Year,UNIT_MEASURE,SEX,AGE,Value
+Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2015,%,employees,_T,75.8
 2016,%,employees,_T,75.6
 2017,%,employees,_T,75.4
