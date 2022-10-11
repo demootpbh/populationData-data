@@ -53,3 +53,12 @@ Year,UNIT_MEASURE,Type_of_user,SEX,Value
 2020,NUMBER,adult_beneficiaries,_T,426730
 2020,NUMBER,adult_beneficiaries,M,215616
 2020,NUMBER,adult_beneficiaries,F,211114
+2021,NUMBER,_T,_T,521218
+2021,NUMBER,_T,M,265266
+2021,NUMBER,_T,F,255952
+2021,NUMBER,minor_beneficiaries,_T,110813
+2021,NUMBER,minor_beneficiaries,M,58644
+2021,NUMBER,minor_beneficiaries,F,52169
+2021,NUMBER,adult_beneficiaries,_T,410405
+2021,NUMBER,adult_beneficiaries,M,206622
+2021,NUMBER,adult_beneficiaries,F,203783
