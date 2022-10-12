@@ -332,9 +332,9 @@ German: Њемачки
 AGRICULTURAL_ACTIVITY: Пољопривредна активност
 Performing_agricultural_activity: Обављање пољопривредне дјелатности
 Performing_agricultural_activity_and_selling_agricultural_products_in_the_market: Обављање пољопривредне дјелатности и продаја пољопривредних производа на пијаци
-Literacy: Писменост
-Literate: Писмен
-Illiterate: Неписмен
+total_literacy: Укупно писменост
+total_literate: Укупно писмен
+total_illiterate: Укупно неписмен
 Highest_education_atainment: Највиши достигнути степен образовања 
 No_education: Необразован
 Incomplete_primary_education: Незавршено основно образовање
