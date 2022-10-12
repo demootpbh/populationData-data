@@ -39,11 +39,11 @@
             "constraints": {
               "enum": [
                 "Literate ",
-                "Неписмен",
+                "Illiterate",
                 ""
               ]
             },
-            "title": "Писменост"
+            "title": "Literacy"
           },
           {
             "name": "Value",
