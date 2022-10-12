@@ -290,9 +290,9 @@ German: German
 AGRICULTURAL_ACTIVITY: Agricultural activity
 Performing_agricultural_activity: Performing agricultural activity
 Performing_agricultural_activity_and_selling_agricultural_products_in_the_market: Performing agricultural activity and selling agricultural products in the market
-Literacy: Literacy
-Literate: Literate
-Illiterate: Illiterate
+total_literacy: Total literacy
+total_literate: Total literate
+total_illiterate: Total illiterate
 Highest_education_atainment: Highest education atainment 
 No_education: No education
 Incomplete_primary_education: Incomplete primary education
