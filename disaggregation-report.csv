@@ -4,7 +4,7 @@ AGRICULTURAL_ACTIVITY,Agricultural activity,Poljoprivredna aktivnost,Пољоп�
 BIRTHS,Vital statistics,Vitalna statistika,Витална статистика,Vitalna statistika,2,3
 CAUSE_OF_DEATH,Cause of death (as per ICD-10 codes),Uzrok smrti (prema šiframa bolesti po MKB-10),Узрок смрти (према шифрама болести по МКБ-10),Uzrok smrti (prema šiframa bolesti po MKB-10),3,23
 Highest_education_atainment,Highest education atainment,Najviši dostignuti stepen obrazovanja,Највиши достигнути степен образовања,Najviši dostignuti stupanj obrazovanja,1,7
-Literacy,Literacy,Literacy,Писменост,Pismenost,1,2
+Literacy,Literacy,Literacy,Писменост,Literacy,1,2
 LIVE_BORN_CHILDREN,Live-born children,Živorođena djeca,Живорођена дјеца,Živorođena djeca,1,11
 MICS_NUMBER,Method,Metoda,Метода,Metoda,1,3
 Municipality,Municipality,Općina,Oпштина,Općina,1,142
