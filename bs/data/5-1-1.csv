@@ -9,6 +9,7 @@ Year,UNIT_MEASURE,Vrsta ustanove,Value
 2018,Broj,Oba spola,362
 2019,Broj,Oba spola,390
 2020,Broj,Oba spola,399
+20221,Broj,Oba spola,427
 2011,Broj,Javna,176
 2012,Broj,Javna,180
 2013,Broj,Javna,180
@@ -19,6 +20,7 @@ Year,UNIT_MEASURE,Vrsta ustanove,Value
 2018,Broj,Javna,205
 2019,Broj,Javna,209
 2020,Broj,Javna,215
+2021,Broj,Javna,227
 2011,Broj,Privatna,51
 2012,Broj,Privatna,66
 2013,Broj,Privatna,81
@@ -29,3 +31,4 @@ Year,UNIT_MEASURE,Vrsta ustanove,Value
 2018,Broj,Privatna,157
 2019,Broj,Privatna,181
 2020,Broj,Privatna,184
+2021,Broj,Privatna,200
