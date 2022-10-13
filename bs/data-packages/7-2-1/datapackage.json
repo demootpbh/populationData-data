@@ -21,9 +21,9 @@
             "constraints": {
               "enum": [
                 "I kvartal",
-                "Q2",
-                "Q3",
-                "Q4",
+                "II kvartal",
+                "III kvartal",
+                "IV kvartal",
                 ""
               ]
             },
