@@ -4252,6 +4252,86 @@
       "title": "Teachers in primary schools by sex"
     },
     {
+      "path": "7-2-2/data.csv",
+      "name": "7-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 - 24",
+                "15 - 64",
+                "15 - 74",
+                "15 - 89",
+                "20 - 64",
+                "20.0",
+                "25 - 34",
+                "25 - 49",
+                "50 - 64",
+                "65 - 74",
+                "65+"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "Quarter",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "Q",
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4",
+                "Q4%"
+              ]
+            },
+            "title": "Quarter"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 - 24",
+                "F",
+                "M",
+                "Both sexes"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "7-2-2"
+    },
+    {
       "path": "5-4-1/data.csv",
       "name": "5-4-1",
       "profile": "tabular-data-resource",
