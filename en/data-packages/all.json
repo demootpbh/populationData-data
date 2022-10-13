@@ -973,6 +973,7 @@
             "constraints": {
               "enum": [
                 "",
+                "F",
                 "M",
                 "_F",
                 "Both sexes"
