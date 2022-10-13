@@ -949,7 +949,7 @@
           }
         ]
       },
-      "title": "Labour force participation rate - percentage of active population (labour force) in working age population by age group and sex (quarterly)"
+      "title": "7-2-1"
     },
     {
       "path": "5-5-3/data.csv",
@@ -4244,7 +4244,7 @@
           }
         ]
       },
-      "title": "global_indicators.7-2-2-title"
+      "title": "7-2-2"
     },
     {
       "path": "5-4-1/data.csv",
@@ -4560,7 +4560,7 @@
           }
         ]
       },
-      "title": "7-3-1"
+      "title": "Households living in relative poverty"
     },
     {
       "path": "1-7-3/data.csv",
@@ -5392,6 +5392,30 @@
         ]
       },
       "title": "Divorces"
+    },
+    {
+      "path": "7-3-2/data.csv",
+      "name": "7-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Population living in relative poverty by sex"
     }
   ]
 }
