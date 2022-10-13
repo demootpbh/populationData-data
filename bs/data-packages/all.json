@@ -942,7 +942,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Q1",
+                "I kvartal",
                 "Q2",
                 "Q3",
                 "Q",
