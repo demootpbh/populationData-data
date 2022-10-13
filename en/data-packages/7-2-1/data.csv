@@ -1,4 +1,4 @@
-Year,Kvartal,UNIT_MEASURE,Sex,Age,Value
+Year,Quarter,UNIT_MEASURE,Sex,Age,Value
 2021,Q1,%,Both sexes,15 - 89,47.0
 2021,Q1,%,Both sexes,15 - 24,33.0
 2021,Q1,%,Both sexes,25 - 49,75.0
