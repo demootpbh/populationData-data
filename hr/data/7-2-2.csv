@@ -60,7 +60,7 @@ Year,Kvartal,UNIT_MEASURE,Spol,Starosna dob,Value
 2021,II kvartal,%,Ž,15 - 74,31.0
 2021,II kvartal,%,Ž,65 - 74,4.0
 2021,III kvartal,%,Oba spola,15 - 89,40.0
-2021,Q,3%,Oba spola,15 - 24,20.0
+2021,III kvartal,%,Oba spola,15 - 24,20.0
 2021,III kvartal,%,Oba spola,25 - 49,64.0
 2021,III kvartal,%,Oba spola,50 - 64,43.0
 2021,III kvartal,%,Oba spola,65+,3.0
@@ -90,7 +90,7 @@ Year,Kvartal,UNIT_MEASURE,Spol,Starosna dob,Value
 2021,III kvartal,%,Ž,15 - 74,32.0
 2021,III kvartal,%,Ž,65 - 74,3.0
 2021,IV kvartal,%,Oba spola,15 - 89,41.0
-2021,Q4%,Oba spola,15 - 24,20.0,
+2021,IV kvartal,%,Oba spola,15-24,20.0
 2021,IV kvartal,%,Oba spola,25 - 49,65.0
 2021,IV kvartal,%,Oba spola,50 - 64,43.0
 2021,IV kvartal,%,Oba spola,65+,3.0
@@ -129,7 +129,7 @@ Year,Kvartal,UNIT_MEASURE,Spol,Starosna dob,Value
 2022,I kvartal,%,Oba spola,25 - 34,60.0
 2022,I kvartal,%,Oba spola,15 - 74,43.0
 2022,I kvartal,%,Oba spola,65 - 74,4.0
-2022,II kvartal,%,M,15 - 89,51.0
+2022,I kvartal,%,M,15 - 89,51.0
 2022,I kvartal,%,M,15 - 24,24.0
 2022,I kvartal,%,M,25 - 49,77.0
 2022,I kvartal,%,M,50 - 64,56.0
