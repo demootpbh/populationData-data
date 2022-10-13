@@ -949,7 +949,7 @@
           }
         ]
       },
-      "title": "Domaćinstva koja žive u relativnom siromaštvu"
+      "title": "Stopa učešća radne snage - postotak aktivnog stanovništva (radne snage) u radno sposobnom stanovništvu prema dobnoj skupini i spolu (kvartalno)"
     },
     {
       "path": "5-5-3/data.csv",
@@ -4244,7 +4244,7 @@
           }
         ]
       },
-      "title": "Stanovništvo koje živi u relativnom siromaštvu prema spolu"
+      "title": "global_indicators.7-2-2-title"
     },
     {
       "path": "5-4-1/data.csv",
@@ -4560,7 +4560,7 @@
           }
         ]
       },
-      "title": "Stopa učešća radne snage - postotak aktivnog stanovništva (radne snage) u radno sposobnom stanovništvu prema dobnoj skupini i spolu (kvartalno)"
+      "title": "Domaćinstva koja žive u relativnom siromaštvu"
     },
     {
       "path": "1-7-3/data.csv",
