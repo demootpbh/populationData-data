@@ -4529,6 +4529,16 @@
             "title": "Dan"
           },
           {
+            "name": "Quarterly",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Quarterly"
+          },
+          {
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Mjerna jedinica"

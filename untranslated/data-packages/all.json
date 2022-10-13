@@ -4155,6 +4155,15 @@
             "type": "string"
           },
           {
+            "name": "Quarterly",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            }
+          },
+          {
             "name": "UNIT_MEASURE",
             "type": "string"
           },

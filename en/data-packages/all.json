@@ -4534,6 +4534,16 @@
             "title": "Age"
           },
           {
+            "name": "Quarterly",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                ""
+              ]
+            },
+            "title": "Quarterly"
+          },
+          {
             "name": "SEX",
             "type": "string",
             "constraints": {
