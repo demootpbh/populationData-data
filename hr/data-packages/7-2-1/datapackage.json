@@ -16,7 +16,7 @@
             "title": "Godina"
           },
           {
-            "name": "Quarterly",
+            "name": "Quarter",
             "type": "string",
             "constraints": {
               "enum": [
@@ -27,7 +27,7 @@
                 ""
               ]
             },
-            "title": "Quarterly"
+            "title": "Quarter"
           },
           {
             "name": "UNIT_MEASURE",

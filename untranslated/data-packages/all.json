@@ -877,7 +877,7 @@
             "type": "integer"
           },
           {
-            "name": "Quarterly",
+            "name": "Quarter",
             "type": "string",
             "constraints": {
               "enum": [
