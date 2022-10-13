@@ -20,7 +20,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Q1",
+                "I квартал",
                 "Q2",
                 "Q3",
                 "Q",
