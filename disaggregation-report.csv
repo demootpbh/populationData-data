@@ -12,7 +12,7 @@ NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE,Household size,Veličina domaćinstva,В�
 population_sex,Sex,Spol,Пол,Spol,2,3
 PYRAMID_AGE,PYRAMID_AGE,PYRAMID_AGE,PYRAMID_AGE,PYRAMID_AGE,2,35
 PYRAMID_SEX,PYRAMID_SEX,PYRAMID_SEX,PYRAMID_SEX,PYRAMID_SEX,2,2
-Quarter,Quarter,Kvartal,Quarter,Kvartal,1,4
+Quarter,Quarter,Kvartal,Квартал,Kvartal,1,4
 SEX,Sex,Spol,Пол,Spol,60,3
 Sex,Sex,Spol,Пол,Spol,2,3
 status_in_employment,Status in employment,Radni status,Радни статус,Radni status,1,3

@@ -21,13 +21,13 @@
             "constraints": {
               "enum": [
                 "I квартал",
-                "Q2",
-                "Q3",
-                "Q4",
+                "II квартал",
+                "III квартал",
+                "IV квартал",
                 ""
               ]
             },
-            "title": "Quarter"
+            "title": "Квартал"
           },
           {
             "name": "UNIT_MEASURE",
