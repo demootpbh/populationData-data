@@ -12,7 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Година"
           },
           {
@@ -20,6 +20,12 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q",
+                "Q4",
+                "Q4%",
                 ""
               ]
             },
@@ -35,6 +41,10 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Оба пола",
+                "_M",
+                "_F",
+                "15 - 24",
                 ""
               ]
             },
@@ -45,6 +55,17 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "15 - 89",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "15 - 74",
+                "65 - 74",
+                "31.0",
                 ""
               ]
             },
@@ -52,7 +73,7 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Вриједност"
           }
         ]
