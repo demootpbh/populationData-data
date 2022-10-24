@@ -3114,7 +3114,7 @@
           }
         ]
       },
-      "title": "NEET_Population 15-24 years of age not in employment, education or training by sex"
+      "title": "NEET_Population not in employment, education or training by age groups and sex"
     },
     {
       "path": "1-1-1/data.csv",
@@ -3224,7 +3224,7 @@
           }
         ]
       },
-      "title": "NEET_Population 15-24 years of age not in employment, education or training by sex"
+      "title": "NEET_Population not in employment, education or training by age groups and sex"
     },
     {
       "path": "3-4-2/data.csv",
