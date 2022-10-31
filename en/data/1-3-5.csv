@@ -23,6 +23,8 @@ Year,UNIT_MEASURE,Sex,Value
 2017,Number,Both sexes,103.0
 2018,Number,Both sexes,88.0
 2019,Number,Both sexes,82.0
+2020,Number,Both sexes,68.0
+2021,Number,Both sexes,85.0
 2001,Number,M,98.0
 2002,Number,M,77.0
 2003,Number,M,91.0
@@ -42,6 +44,8 @@ Year,UNIT_MEASURE,Sex,Value
 2017,Number,M,51.0
 2018,Number,M,49.0
 2019,Number,M,40.0
+2020,Number,M,39.0
+2021,Number,M,38.0
 2001,Number,F,95.0
 2002,Number,F,61.0
 2003,Number,F,59.0
@@ -61,3 +65,5 @@ Year,UNIT_MEASURE,Sex,Value
 2017,Number,F,52.0
 2018,Number,F,39.0
 2019,Number,F,42.0
+2020,Number,F,29.0
+2021,Number,F,47.0
