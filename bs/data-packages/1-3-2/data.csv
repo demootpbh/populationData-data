@@ -24,6 +24,7 @@ Year,Spol,UNIT_MEASURE,Value
 2018,Oba spola,Broj,183
 2019,Oba spola,Broj,190
 2020,Oba spola,Broj,168
+2021,Oba spola,Broj,126
 1996,M,Broj,360
 1997,M,Broj,369
 1998,M,Broj,302
@@ -49,6 +50,7 @@ Year,Spol,UNIT_MEASURE,Value
 2018,M,Broj,91
 2019,M,Broj,102
 2020,M,Broj,93
+2021,M,Broj,72
 1996,Ž,Broj,293
 1997,Ž,Broj,232
 1998,Ž,Broj,192
@@ -74,3 +76,4 @@ Year,Spol,UNIT_MEASURE,Value
 2018,Ž,Broj,92
 2019,Ž,Broj,88
 2020,Ž,Broj,75
+2021,Ž,Broj,54
