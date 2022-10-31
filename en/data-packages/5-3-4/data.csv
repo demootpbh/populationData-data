@@ -9,6 +9,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Both sexes,Both sexes,32963
 2019,Number,Both sexes,Both sexes,32540
 2020,Number,Both sexes,Both sexes,31140
+2021,Number,Both sexes,Both sexes,29368
 2011,Number,Gymnasium,Both sexes,8863
 2012,Number,Gymnasium,Both sexes,8101
 2013,Number,Gymnasium,Both sexes,9732
@@ -19,6 +20,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Gymnasium,Both sexes,7799
 2019,Number,Gymnasium,Both sexes,7462
 2020,Number,Gymnasium,Both sexes,7010
+2021,Number,Gymnasium,Both sexes,6436
 2011,Number,Technical schools,Both sexes,17510
 2012,Number,Technical schools,Both sexes,16553
 2013,Number,Technical schools,Both sexes,19679
@@ -29,6 +31,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Technical schools,Both sexes,16988
 2019,Number,Technical schools,Both sexes,17092
 2020,Number,Technical schools,Both sexes,16116
+2021,Number,Technical schools,Both sexes,15323
 2011,Number,Art schools,Both sexes,276
 2012,Number,Art schools,Both sexes,293
 2013,Number,Art schools,Both sexes,316
@@ -39,6 +42,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Art schools,Both sexes,302
 2019,Number,Art schools,Both sexes,281
 2020,Number,Art schools,Both sexes,241
+2021,Number,Art schools,Both sexes,262
 2011,Number,Religion schools,Both sexes,447
 2012,Number,Religion schools,Both sexes,356
 2013,Number,Religion schools,Both sexes,460
@@ -49,6 +53,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Religion schools,Both sexes,530
 2019,Number,Religion schools,Both sexes,553
 2020,Number,Religion schools,Both sexes,518
+2021,Number,Religion schools,Both sexes,562
 2011,Number,Vocational schools,Both sexes,8154
 2012,Number,Vocational schools,Both sexes,9386
 2013,Number,Vocational schools,Both sexes,10331
@@ -59,6 +64,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Vocational schools,Both sexes,7224
 2019,Number,Vocational schools,Both sexes,7018
 2020,Number,Vocational schools,Both sexes,7149
+2021,Number,Vocational schools,Both sexes,6682
 2011,Number,High schools for children with special needs,Both sexes,99
 2012,Number,High schools for children with special needs,Both sexes,102
 2013,Number,High schools for children with special needs,Both sexes,112
@@ -69,6 +75,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,High schools for children with special needs,Both sexes,120
 2019,Number,High schools for children with special needs,Both sexes,134
 2020,Number,High schools for children with special needs,Both sexes,106
+2021,Number,High schools for children with special needs,Both sexes,103
 2011,Number,Both sexes,M,18022
 2012,Number,Both sexes,M,18153
 2013,Number,Both sexes,M,20895
@@ -79,6 +86,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Both sexes,M,16580
 2019,Number,Both sexes,M,16519
 2020,Number,Both sexes,M,15982
+2021,Number,Both sexes,M,15026
 2011,Number,Gymnasium,M,3246
 2012,Number,Gymnasium,M,3021
 2013,Number,Gymnasium,M,3642
@@ -89,6 +97,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Gymnasium,M,2869
 2019,Number,Gymnasium,M,2819
 2020,Number,Gymnasium,M,2538
+2021,Number,Gymnasium,M,2316
 2011,Number,Technical schools,M,8794
 2012,Number,Technical schools,M,8333
 2013,Number,Technical schools,M,9735
@@ -99,6 +108,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Technical schools,M,8200
 2019,Number,Technical schools,M,8309
 2020,Number,Technical schools,M,7844
+2021,Number,Technical schools,M,7391
 2011,Number,Art schools,M,113
 2012,Number,Art schools,M,120
 2013,Number,Art schools,M,137
@@ -109,6 +119,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Art schools,M,108
 2019,Number,Art schools,M,111
 2020,Number,Art schools,M,80
+2021,Number,Art schools,M,94
 2011,Number,Religion schools,M,228
 2012,Number,Religion schools,M,176
 2013,Number,Religion schools,M,209
@@ -119,6 +130,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Religion schools,M,253
 2019,Number,Religion schools,M,251
 2020,Number,Religion schools,M,259
+2021,Number,Religion schools,M,266
 2011,Number,Vocational schools,M,5576
 2012,Number,Vocational schools,M,6443
 2013,Number,Vocational schools,M,7094
@@ -129,6 +141,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Vocational schools,M,5068
 2019,Number,Vocational schools,M,4947
 2020,Number,Vocational schools,M,5195
+2021,Number,Vocational schools,M,4886
 2011,Number,High schools for children with special needs,M,65
 2012,Number,High schools for children with special needs,M,60
 2013,Number,High schools for children with special needs,M,78
@@ -139,6 +152,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,High schools for children with special needs,M,82
 2019,Number,High schools for children with special needs,M,82
 2020,Number,High schools for children with special needs,M,66
+2021,Number,High schools for children with special needs,M,73
 2011,Number,Both sexes,F,17327
 2012,Number,Both sexes,F,16638
 2013,Number,Both sexes,F,19735
@@ -149,6 +163,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Both sexes,F,16383
 2019,Number,Both sexes,F,16021
 2020,Number,Both sexes,F,15158
+2021,Number,Both sexes,F,14342
 2011,Number,Gymnasium,F,5617
 2012,Number,Gymnasium,F,5080
 2013,Number,Gymnasium,F,6090
@@ -159,6 +174,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Gymnasium,F,4930
 2019,Number,Gymnasium,F,4643
 2020,Number,Gymnasium,F,4472
+2021,Number,Gymnasium,F,4120
 2011,Number,Technical schools,F,8716
 2012,Number,Technical schools,F,8220
 2013,Number,Technical schools,F,9944
@@ -169,6 +185,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Technical schools,F,8788
 2019,Number,Technical schools,F,8783
 2020,Number,Technical schools,F,8272
+2021,Number,Technical schools,F,7932
 2011,Number,Art schools,F,163
 2012,Number,Art schools,F,173
 2013,Number,Art schools,F,179
@@ -179,6 +196,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Art schools,F,194
 2019,Number,Art schools,F,170
 2020,Number,Art schools,F,161
+2021,Number,Art schools,F,168
 2011,Number,Religion schools,F,219
 2012,Number,Religion schools,F,180
 2013,Number,Religion schools,F,251
@@ -189,6 +207,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Religion schools,F,277
 2019,Number,Religion schools,F,302
 2020,Number,Religion schools,F,259
+2021,Number,Religion schools,F,296
 2011,Number,Vocational schools,F,2578
 2012,Number,Vocational schools,F,2943
 2013,Number,Vocational schools,F,3237
@@ -199,6 +218,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,Vocational schools,F,2156
 2019,Number,Vocational schools,F,2071
 2020,Number,Vocational schools,F,1954
+2021,Number,Vocational schools,F,1796
 2011,Number,High schools for children with special needs,F,34
 2012,Number,High schools for children with special needs,F,42
 2013,Number,High schools for children with special needs,F,34
@@ -209,3 +229,4 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2018,Number,High schools for children with special needs,F,38
 2019,Number,High schools for children with special needs,F,52
 2020,Number,High schools for children with special needs,F,40
+2021,Number,High schools for children with special needs,F,30
