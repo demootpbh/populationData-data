@@ -108,7 +108,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2018,NUMBER,technical_schools,M,31248
 2019,NUMBER,technical_schools,M,30030
 2020,NUMBER,technical_schools,M,29382
-2021,NUMBER,technical_schools,M,32211
+2021,NUMBER,technical_schools,M,29278
 2011,NUMBER,art_schools,M,657
 2012,NUMBER,art_schools,M,645
 2013,NUMBER,art_schools,M,581
@@ -185,7 +185,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2018,NUMBER,technical_schools,F,33458
 2019,NUMBER,technical_schools,F,32816
 2020,NUMBER,technical_schools,F,32429
-2021,NUMBER,technical_schools,F,29278
+2021,NUMBER,technical_schools,F,32211
 2011,NUMBER,art_schools,F,857
 2012,NUMBER,art_schools,F,875
 2013,NUMBER,art_schools,F,864
