@@ -27,6 +27,7 @@ Year,Sex,UNIT_MEASURE,Value
 2018,Both sexes,Number per 1000 live births,6.2
 2019,Both sexes,Number per 1000 live births,6.7
 2020,Both sexes,Number per 1000 live births,6.2
+2021,Both sexes,Number per 1000 live births,4.6
 1996,M,Number per 1000 live births,14.8
 1997,M,Number per 1000 live births,14.6
 1998,M,Number per 1000 live births,12.9
@@ -52,6 +53,7 @@ Year,Sex,UNIT_MEASURE,Value
 2018,M,Number per 1000 live births,6.0
 2019,M,Number per 1000 live births,6.9
 2020,M,Number per 1000 live births,6.6
+2021,M,Number per 1000 live births,5.2
 1996,F,Number per 1000 live births,13.2
 1997,F,Number per 1000 live births,10.0
 1998,F,Number per 1000 live births,8.9
@@ -77,3 +79,4 @@ Year,Sex,UNIT_MEASURE,Value
 2018,F,Number per 1000 live births,6.5
 2019,F,Number per 1000 live births,6.5
 2020,F,Number per 1000 live births,5.7
+2021,F,Number per 1000 live births,4.1
