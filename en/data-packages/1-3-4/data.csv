@@ -1193,3 +1193,71 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2020,F,Covid-19,Number,1609
 2020,F,Unknown,Number,270
 2020,F,Total,Number,21387
+2021,Both sexes,(A00-B99) Infectious and parasitic diseases,Number,399
+2021,Both sexes,"(C00-C97,D00-D48) Neoplasms",Number,7576
+2021,Both sexes,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,67
+2021,Both sexes,(E00-E90) Endocrine metabolic and nutritional diseases,Number,2302
+2021,Both sexes,(F00-F99) Mental and behavioural disorders,Number,359
+2021,Both sexes,(G00-G99) Diseases of the nervous system,Number,392
+2021,Both sexes,"(H00-H93) Diseases of the eye, ear and adnexa",Number,9
+2021,Both sexes,(I00-I99) Diseases of the circulatory system,Number,19457
+2021,Both sexes,(J00-J99) Diseases of the respiratory system,Number,2270
+2021,Both sexes,(K00-K93) Diseases of the digestive system,Number,990
+2021,Both sexes,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,64
+2021,Both sexes,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,30
+2021,Both sexes,(N00-N99) Diseases of the genitourinary system,Number,575
+2021,Both sexes,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,1
+2021,Both sexes,(P00-P96) Certain conditions originating in the perinatal period,Number,87
+2021,Both sexes,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,31
+2021,Both sexes,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,3715
+2021,Both sexes,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,941
+2021,Both sexes,(V01-Y98) External causes of mortality,Number,15
+2021,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,9
+2020,Both sexes,Covid-19,Number,10242
+2021,Both sexes,Unknown,Number,802
+2021,Both sexes,Total,Number,50333
+2021,M,(A00-B99) Infectious and parasitic diseases,Number,220
+2021,M,"(C00-C97,D00-D48) Neoplasms",Number,4353
+2021,M,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,26
+2021,M,(E00-E90) Endocrine metabolic and nutritional diseases,Number,917
+2021,M,(F00-F99) Mental and behavioural disorders,Number,185
+2021,M,(G00-G99) Diseases of the nervous system,Number,216
+2021,M,"(H00-H93) Diseases of the eye, ear and adnexa",Number,5
+2021,M,(I00-I99) Diseases of the circulatory system,Number,8924
+2021,M,(J00-J99) Diseases of the respiratory system,Number,1231
+2021,M,(K00-K93) Diseases of the digestive system,Number,616
+2021,M,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,24
+2021,M,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,17
+2021,M,(N00-N99) Diseases of the genitourinary system,Number,304
+2021,M,(P00-P96) Certain conditions originating in the perinatal period,Number,53
+2021,M,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,19
+2021,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1926
+2021,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,715
+2021,M,(V01-Y98) External causes of mortality,Number,10
+2021,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,7
+2021,M,Covid-19,Number,5739
+2021,M,Unknown,Number,416
+2021,M,Total,Number,25923
+2021,F,(A00-B99) Infectious and parasitic diseases,Number,179
+2021,F,"(C00-C97,D00-D48) Neoplasms",Number,3223
+2021,F,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,41
+2021,F,(E00-E90) Endocrine metabolic and nutritional diseases,Number,1385
+2021,F,(F00-F99) Mental and behavioural disorders,Number,174
+2021,F,(G00-G99) Diseases of the nervous system,Number,176
+2021,F,"(H00-H93) Diseases of the eye, ear and adnexa",Number,4
+2021,F,(I00-I99) Diseases of the circulatory system,Number,10533
+2021,F,(J00-J99) Diseases of the respiratory system,Number,1039
+2021,F,(K00-K93) Diseases of the digestive system,Number,374
+2021,F,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,40
+2021,F,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,13
+2021,F,(N00-N99) Diseases of the genitourinary system,Number,271
+2021,F,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,1
+2021,F,(P00-P96) Certain conditions originating in the perinatal period,Number,34
+2021,F,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,12
+2021,F,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1789
+2021,F,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,226
+2021,F,(V01-Y98) External causes of mortality,Number,5
+2021,F,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
+2021,F,Covid-19,Number,4503
+2021,F,Unknown,Number,386
+2021,F,Total,Number,24410

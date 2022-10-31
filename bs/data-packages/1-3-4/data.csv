@@ -1193,3 +1193,71 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2020,Ž,Covid-19,Broj,1609
 2020,Ž,Nepoznato,Broj,270
 2020,Ž,Ukupno,Broj,21387
+2021,Oba spola,(A00-B99) Zarazne i parazitarne bolesti,Broj,399
+2021,Oba spola,"(C00-C97,D00-D48) Neoplazme",Broj,7576
+2021,Oba spola,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sistema",Broj,67
+2021,Oba spola,"(E00-E90) Endokrine bolesti, bolesti ishrane i bolesti metabolizma",Broj,2302
+2021,Oba spola,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,359
+2021,Oba spola,(G00-G99) Bolesti nervnog sistema,Broj,392
+2021,Oba spola,"(H00-H93) Bolesti oka, uha i adneksa",Broj,9
+2021,Oba spola,(I00-I99) Bolesti cirkulacijskog sistema,Broj,19457
+2021,Oba spola,(J00-J99) Bolesti respiratornog sistema,Broj,2270
+2021,Oba spola,(K00-K93) Bolesti digestivnog sistema,Broj,990
+2021,Oba spola,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,64
+2021,Oba spola,(M00-M99) Bolesti muskuloskeletnog sistema i vezivnog tkiva,Broj,30
+2021,Oba spola,(N00-N99) Bolesti genitalno-urinarnog sistema,Broj,575
+2021,Oba spola,"(O00-O99) Trudnoća, porođaj i postporođajni period",Broj,1
+2021,Oba spola,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,87
+2021,Oba spola,"(Q00-Q99) Kongenitalne malformacije, deformiteti i hromosomske abnormalnosti",Broj,31
+2021,Oba spola,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi koji nisu drugdje klasificirani",Broj,3715
+2021,Oba spola,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,941
+2021,Oba spola,(V01-Y98) Vanjski uzroci smrtnosti,Broj,15
+2021,Oba spola,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,9
+2020,Oba spola,Covid-19,Broj,10242
+2021,Oba spola,Nepoznato,Broj,802
+2021,Oba spola,Ukupno,Broj,50333
+2021,M,(A00-B99) Zarazne i parazitarne bolesti,Broj,220
+2021,M,"(C00-C97,D00-D48) Neoplazme",Broj,4353
+2021,M,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sistema",Broj,26
+2021,M,"(E00-E90) Endokrine bolesti, bolesti ishrane i bolesti metabolizma",Broj,917
+2021,M,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,185
+2021,M,(G00-G99) Bolesti nervnog sistema,Broj,216
+2021,M,"(H00-H93) Bolesti oka, uha i adneksa",Broj,5
+2021,M,(I00-I99) Bolesti cirkulacijskog sistema,Broj,8924
+2021,M,(J00-J99) Bolesti respiratornog sistema,Broj,1231
+2021,M,(K00-K93) Bolesti digestivnog sistema,Broj,616
+2021,M,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,24
+2021,M,(M00-M99) Bolesti muskuloskeletnog sistema i vezivnog tkiva,Broj,17
+2021,M,(N00-N99) Bolesti genitalno-urinarnog sistema,Broj,304
+2021,M,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,53
+2021,M,"(Q00-Q99) Kongenitalne malformacije, deformiteti i hromosomske abnormalnosti",Broj,19
+2021,M,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi koji nisu drugdje klasificirani",Broj,1926
+2021,M,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,715
+2021,M,(V01-Y98) Vanjski uzroci smrtnosti,Broj,10
+2021,M,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,7
+2021,M,Covid-19,Broj,5739
+2021,M,Nepoznato,Broj,416
+2021,M,Ukupno,Broj,25923
+2021,Ž,(A00-B99) Zarazne i parazitarne bolesti,Broj,179
+2021,Ž,"(C00-C97,D00-D48) Neoplazme",Broj,3223
+2021,Ž,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sistema",Broj,41
+2021,Ž,"(E00-E90) Endokrine bolesti, bolesti ishrane i bolesti metabolizma",Broj,1385
+2021,Ž,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,174
+2021,Ž,(G00-G99) Bolesti nervnog sistema,Broj,176
+2021,Ž,"(H00-H93) Bolesti oka, uha i adneksa",Broj,4
+2021,Ž,(I00-I99) Bolesti cirkulacijskog sistema,Broj,10533
+2021,Ž,(J00-J99) Bolesti respiratornog sistema,Broj,1039
+2021,Ž,(K00-K93) Bolesti digestivnog sistema,Broj,374
+2021,Ž,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,40
+2021,Ž,(M00-M99) Bolesti muskuloskeletnog sistema i vezivnog tkiva,Broj,13
+2021,Ž,(N00-N99) Bolesti genitalno-urinarnog sistema,Broj,271
+2021,Ž,"(O00-O99) Trudnoća, porođaj i postporođajni period",Broj,1
+2021,Ž,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,34
+2021,Ž,"(Q00-Q99) Kongenitalne malformacije, deformiteti i hromosomske abnormalnosti",Broj,12
+2021,Ž,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi koji nisu drugdje klasificirani",Broj,1789
+2021,Ž,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,226
+2021,Ž,(V01-Y98) Vanjski uzroci smrtnosti,Broj,5
+2021,Ž,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,2
+2021,Ž,Covid-19,Broj,4503
+2021,Ž,Nepoznato,Broj,386
+2021,Ž,Ukupno,Broj,24410
