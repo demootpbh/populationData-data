@@ -251,3 +251,39 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2020,Number,Health and social protection,F,183
 2020,Number,Services,F,57
 2020,Number,Unknown,F,31
+2021,Number,Total,Both sexes,3619
+2021,Number,Education,Both sexes,522
+2021,Number,Arts and humanities,Both sexes,296
+2021,Number,"Social sciences, journalism and information",Both sexes,433
+2021,Number,Business administration and the law,Both sexes,621
+2021,Number,"Natural sciences, mathematics and statistics",Both sexes,218
+2021,Number,Information and communication technologies,Both sexes,169
+2021,Number,"Engineering, manufacturing and construction",Both sexes,524
+2021,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,174
+2021,Number,Health and social protection,Both sexes,351
+2021,Number,Services,Both sexes,292
+2021,Number,Unknown,Both sexes,19
+2021,Number,Total,M,1283
+2021,Number,Education,M,115
+2021,Number,Arts and humanities,M,84
+2021,Number,"Social sciences, journalism and information",M,147
+2021,Number,Business administration and the law,M,209
+2021,Number,"Natural sciences, mathematics and statistics",M,39
+2021,Number,Information and communication technologies,M,98
+2021,Number,"Engineering, manufacturing and construction",M,285
+2021,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,67
+2021,Number,Health and social protection,M,64
+2021,Number,Services,M,170
+2021,Number,Unknown,M,5
+2021,Number,Total,F,2336
+2021,Number,Education,F,407
+2021,Number,Arts and humanities,F,212
+2021,Number,"Social sciences, journalism and information",F,286
+2021,Number,Business administration and the law,F,412
+2021,Number,"Natural sciences, mathematics and statistics",F,179
+2021,Number,Information and communication technologies,F,71
+2021,Number,"Engineering, manufacturing and construction",F,239
+2021,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,107
+2021,Number,Health and social protection,F,287
+2021,Number,Services,F,122
+2021,Number,Unknown,F,14
