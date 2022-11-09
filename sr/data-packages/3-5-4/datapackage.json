@@ -21,17 +21,6 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Вриједност"

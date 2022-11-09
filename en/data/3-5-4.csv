@@ -1,18 +1,18 @@
-Year,UNIT_MEASURE,Sex,Value
-2003,Number,Both sexes,346
-2004,Number,Both sexes,353
-2005,Number,Both sexes,355
-2006,Number,Both sexes,345
-2007,Number,Both sexes,355
-2008,Number,Both sexes,346
-2009,Number,Both sexes,338
-2010,Number,Both sexes,345
-2011,Number,Both sexes,343
-2012,Number,Both sexes,343
-2013,Number,Both sexes,343
-2014,Number,Both sexes,340
-2015,Number,Both sexes,331
-2016,Number,Both sexes,334
-2017,Number,Both sexes,332
-2018,Number,Both sexes,345
-2019,Number,Both sexes,307
+Year,UNIT_MEASURE,Value
+2003,Number,346
+2004,Number,353
+2005,Number,355
+2006,Number,345
+2007,Number,355
+2008,Number,346
+2009,Number,338
+2010,Number,345
+2011,Number,343
+2012,Number,343
+2013,Number,343
+2014,Number,340
+2015,Number,331
+2016,Number,334
+2017,Number,332
+2018,Number,345
+2019,Number,307
