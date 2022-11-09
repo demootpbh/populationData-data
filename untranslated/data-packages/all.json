@@ -474,7 +474,6 @@
             "constraints": {
               "enum": [
                 "_T",
-                "M",
                 ""
               ]
             }
