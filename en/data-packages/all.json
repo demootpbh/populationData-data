@@ -664,7 +664,7 @@
           }
         ]
       },
-      "title": "Labour force participation rate - percentage of active population (labour force) in working age population by age group and sex (quarterly)"
+      "title": "Activity rate by age group and sex (quarterly)"
     },
     {
       "path": "3-4-2/data.csv",
@@ -3880,7 +3880,7 @@
           }
         ]
       },
-      "title": "Labour force participation rate - percentage of active population (labour force) in working age population by age group and sex"
+      "title": "Activity rate by age group and sex"
     },
     {
       "path": "6-1-3/data.csv",
