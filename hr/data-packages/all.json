@@ -664,7 +664,7 @@
           }
         ]
       },
-      "title": "Stopa učešća radne snage - postotak aktivnog stanovništva (radne snage) u radno sposobnom stanovništvu prema dobnoj skupini i spolu (kvartalno)"
+      "title": "Stopa aktivnosti prema dobnoj skupini i spolu (kvartalno)"
     },
     {
       "path": "3-4-2/data.csv",
@@ -3880,7 +3880,7 @@
           }
         ]
       },
-      "title": "Stopa učešća radne snage - postotak aktivnog stanovništva (radne snage) u radno sposobnom stanovništvu prema dobnoj skupini i spolu"
+      "title": "Stopa aktivnosti prema dobnoj skupini i spolu"
     },
     {
       "path": "6-1-3/data.csv",
