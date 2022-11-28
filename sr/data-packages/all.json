@@ -1754,6 +1754,84 @@
       "title": "Бруто друштвени производ (БДП) – укупни (у милионима)"
     },
     {
+      "path": "7-2-3/data.csv",
+      "name": "7-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "Quarter",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "I квартал",
+                "II квартал",
+                "III квартал",
+                "IV квартал",
+                "Q4%",
+                ""
+              ]
+            },
+            "title": "Квартал"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                "15 - 24",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 74",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "65 - 74",
+                "35.0",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "7-2-3"
+    },
+    {
       "path": "5-3-2/data.csv",
       "name": "5-3-2",
       "profile": "tabular-data-resource",

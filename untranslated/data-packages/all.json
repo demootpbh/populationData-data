@@ -1610,6 +1610,78 @@
       "title": "global_indicators.6-1-1-title"
     },
     {
+      "path": "7-2-3/data.csv",
+      "name": "7-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Quarter",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4",
+                "Q4%",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                "15 - 24",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 74",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "65 - 74",
+                "35.0",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "7-2-3"
+    },
+    {
       "path": "5-3-2/data.csv",
       "name": "5-3-2",
       "profile": "tabular-data-resource",
