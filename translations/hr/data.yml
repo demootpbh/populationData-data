@@ -548,7 +548,7 @@ Q2: II kvartal
 Q3: III kvartal
 Q4: IV kvartal
 Quarter: Kvartal
-Activity rate: Stopa aktivnosti
-by age group and sex: prema dobnim grupama i spolu
-Employment rate: Stopa zaposlenosti
-Unemployment rate: Stopa nezaposlenosti
+Activity_rate: Stopa aktivnosti
+by_age_group_and_sex: prema dobnim grupama i spolu
+Employment_rate: Stopa zaposlenosti
+Unemployment_rate: Stopa nezaposlenosti
