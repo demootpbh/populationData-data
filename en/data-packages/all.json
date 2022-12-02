@@ -5485,30 +5485,6 @@
         ]
       },
       "title": "Enrolled in master and specialist studies by sex"
-    },
-    {
-      "path": "7-2-5/data.csv",
-      "name": "7-2-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "number",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "NEET_Population not in employment, education or training by age groups and sex (quarterly)"
     }
   ]
 }
