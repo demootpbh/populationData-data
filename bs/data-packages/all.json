@@ -77,7 +77,7 @@
           }
         ]
       },
-      "title": "Stopa zaposlenosti prema starosnim grupama i spolu (kvartalno)"
+      "title": "Stopa zaposlenosti prema dobnim skupinama i spolu (kvartalno)"
     },
     {
       "path": "1-2-2/data.csv",
@@ -525,7 +525,7 @@
           }
         ]
       },
-      "title": "Stopa zaposlenosti prema starosnim grupama i spolu"
+      "title": "Stopa zaposlenosti prema dobnim skupinama i spolu"
     },
     {
       "path": "1-2-1/data.csv",
@@ -2560,7 +2560,7 @@
           }
         ]
       },
-      "title": "Stopa aktivnosti prema starosnim grupama i spolu (kvartalno)"
+      "title": "Stopa aktivnosti prema dobnim skupinama i spolu (kvartalno)"
     },
     {
       "path": "5-6-1/data.csv",
@@ -3415,7 +3415,7 @@
           }
         ]
       },
-      "title": "Stopa nezaposlenosti prema starosnim grupama i spolu"
+      "title": "Stopa nezaposlenosti prema dobnim skupinama i spolu"
     },
     {
       "path": "1-7-5/data.csv",
@@ -3592,7 +3592,7 @@
           }
         ]
       },
-      "title": "Stopa aktivnosti prema starosnim grupama i spolu"
+      "title": "Stopa aktivnosti prema dobnim skupinama i spolu"
     },
     {
       "path": "5-3-1/data.csv",
