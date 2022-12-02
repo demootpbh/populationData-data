@@ -1612,65 +1612,6 @@
       "title": "Contraceptive prevalence rate"
     },
     {
-      "path": "7-2-5/data.csv",
-      "name": "7-2-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Age"
-          },
-          {
-            "name": "Quarter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Quarter"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "NEET_Population not in employment, education or training by age groups and sex (quarterly)"
-    },
-    {
       "path": "5-7-4/data.csv",
       "name": "5-7-4",
       "profile": "tabular-data-resource",
@@ -5546,8 +5487,8 @@
       "title": "Enrolled in master and specialist studies by sex"
     },
     {
-      "path": "7-2-3/data.csv",
-      "name": "7-2-3",
+      "path": "7-2-5/data.csv",
+      "name": "7-2-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5567,7 +5508,7 @@
           }
         ]
       },
-      "title": "Unemployment rate by age group and sex (quarterly)"
+      "title": "NEET_Population not in employment, education or training by age groups and sex (quarterly)"
     },
     {
       "path": "7-2-4/data.csv",
