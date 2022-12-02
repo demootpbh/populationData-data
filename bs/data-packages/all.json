@@ -5485,6 +5485,30 @@
         ]
       },
       "title": "Upisani na magistarske, master i specijalističke studije prema spolu"
+    },
+    {
+      "path": "7-2-5/data.csv",
+      "name": "7-2-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Dan"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Vrijednost"
+          }
+        ]
+      },
+      "title": "NEET_Stanovništvo koje nije zaposleno, ne obrazuje se niti se usavršava, prema starosnim grupama  i spolu (kvartalno)"
     }
   ]
 }
