@@ -12,67 +12,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Quarter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Q1",
-                "Q2",
-                "Q3",
-                "Q4",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "status in employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "employees_T",
-                "self_employed_T",
-                "unpaid_family_workers_T",
-                "employees",
-                "self_employed",
-                "unpaid_family_workers",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "85.4",
-                "12.2",
-                "2.5",
-                "84.7",
-                "13.6",
-                "1.6",
-                "84.5",
-                "13.7",
-                "1.7",
-                "85.9",
-                "12.7",
-                "1.5",
-                "87.4",
-                "11.3",
-                "1.3",
-                "11.4",
-                "1.2",
-                "M",
-                "F",
-                ""
-              ]
-            }
+            "type": "number"
           },
           {
             "name": "Value",

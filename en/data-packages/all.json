@@ -427,94 +427,6 @@
       "title": "Stillbirths by sex"
     },
     {
-      "path": "7-2-4/data.csv",
-      "name": "7-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Quarter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Q1",
-                "Q2",
-                "Q3",
-                "Q4"
-              ]
-            },
-            "title": "Quarter"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "1.2",
-                "1.3",
-                "1.5",
-                "1.6",
-                "1.7",
-                "11.3",
-                "11.4",
-                "12.2",
-                "12.7",
-                "13.6",
-                "13.7",
-                "2.5",
-                "84.5",
-                "84.7",
-                "85.4",
-                "85.9",
-                "87.4",
-                "F",
-                "M"
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Year"
-          },
-          {
-            "name": "status in employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "",
-                "Employees",
-                "employees_T",
-                "Self-employed",
-                "self_employed_T",
-                "Unpaid family workers",
-                "unpaid_family_workers_T"
-              ]
-            },
-            "title": "status in employment"
-          }
-        ]
-      },
-      "title": "Status in employment by gender (quarterly)"
-    },
-    {
       "path": "7-1-5/data.csv",
       "name": "7-1-5",
       "profile": "tabular-data-resource",
@@ -1698,65 +1610,6 @@
         ]
       },
       "title": "Contraceptive prevalence rate"
-    },
-    {
-      "path": "7-2-5/data.csv",
-      "name": "7-2-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Age"
-          },
-          {
-            "name": "Quarter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Quarter"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Unit of measure"
-          },
-          {
-            "name": "Value",
-            "type": "string",
-            "title": "Value"
-          },
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Year"
-          }
-        ]
-      },
-      "title": "NEET_Population not in employment, education or training by age groups and sex (quarterly)"
     },
     {
       "path": "5-7-4/data.csv",
@@ -5634,6 +5487,30 @@
       "title": "Enrolled in master and specialist studies by sex"
     },
     {
+      "path": "7-2-5/data.csv",
+      "name": "7-2-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "NEET_Population not in employment, education or training by age groups and sex (quarterly)"
+    },
+    {
       "path": "7-2-3/data.csv",
       "name": "7-2-3",
       "profile": "tabular-data-resource",
@@ -5656,6 +5533,30 @@
         ]
       },
       "title": "Unemployment rate by age group and sex (quarterly)"
+    },
+    {
+      "path": "7-2-4/data.csv",
+      "name": "7-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "number",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "Status in employment by gender (quarterly)"
     }
   ]
 }
