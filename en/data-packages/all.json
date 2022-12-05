@@ -1754,6 +1754,67 @@
       "title": "Gross Domestic Product (GDP) - Total (millions)"
     },
     {
+      "path": "7-2-3/data.csv",
+      "name": "7-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "15 - 24",
+                "15 - 64",
+                "15 - 74",
+                "20 - 64",
+                "25 - 34",
+                "25 - 49",
+                "50 - 64",
+                "65 - 74",
+                "65+"
+              ]
+            },
+            "title": "Age"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "",
+                "F",
+                "M",
+                "Both sexes"
+              ]
+            },
+            "title": "Sex"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Unit of measure"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Value"
+          },
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Year"
+          }
+        ]
+      },
+      "title": "7-2-3"
+    },
+    {
       "path": "5-3-2/data.csv",
       "name": "5-3-2",
       "profile": "tabular-data-resource",
