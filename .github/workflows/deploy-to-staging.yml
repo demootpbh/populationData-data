@@ -47,7 +47,7 @@ jobs:
           clean: true
       - name: Waiting 2 minutes for staging data deployment
         run: |
-          sleep 60
+          sleep 120
       - name: Rebuild site
         run: |
           curl -X POST https://api.github.com/repos/demootpbh/populationData-site/dispatches \
