@@ -1386,7 +1386,7 @@
         "fields": [
           {
             "name": "AGE",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
                 ""
@@ -1396,7 +1396,7 @@
           },
           {
             "name": "Quarter",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
                 ""
@@ -1406,7 +1406,7 @@
           },
           {
             "name": "SEX",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
                 ""
@@ -1416,12 +1416,12 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "string",
+            "type": "number",
             "title": "Unit of measure"
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "number",
             "title": "Value"
           },
           {
