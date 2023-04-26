@@ -16,7 +16,7 @@
           },
           {
             "name": "Quarter",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
                 ""
@@ -25,11 +25,11 @@
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "SEX",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
                 ""
@@ -38,7 +38,7 @@
           },
           {
             "name": "AGE",
-            "type": "number",
+            "type": "string",
             "constraints": {
               "enum": [
                 ""
@@ -47,7 +47,7 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "string"
           }
         ]
       }

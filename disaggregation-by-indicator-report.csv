@@ -109,5 +109,6 @@ Indicator,Disaggregations,Number of disaggregations
 #7-1-5,"UNIT_MEASURE, type_of_institution",2
 #7-2-1,"UNIT_MEASURE, SEX, AGE, Quarter",4
 #7-2-2,"UNIT_MEASURE, SEX, AGE, Quarter",4
+#7-3-1,UNIT_MEASURE,1
 #7-3-2,"UNIT_MEASURE, SEX",2
 #8-1-1,"UNIT_MEASURE, AGE",2

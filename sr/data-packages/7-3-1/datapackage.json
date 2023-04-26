@@ -12,12 +12,12 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Година"
           },
           {
             "name": "UNIT_MEASURE",
-            "type": "number",
+            "type": "string",
             "title": "Мјерна јединица"
           },
           {

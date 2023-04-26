@@ -1,1 +1,1 @@
-{"data":{"Year":["2004\t_%\t18.1","2007\t_%\t18.4","2011\t_%\t17.2","2015\t_%\t16.5"],"UNIT_MEASURE":[null,null,null,null],"Value":[null,null,null,null]},"edges":[]}
+{"data":{"Year":[2004,2007,2011,2015],"UNIT_MEASURE":["% of total","% of total","% of total","% of total"],"Value":[18.1,18.4,17.2,16.5]},"edges":[]}
