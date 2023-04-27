@@ -12,13 +12,17 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "Quarter",
             "type": "string",
             "constraints": {
               "enum": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4",
                 ""
               ]
             }
@@ -32,6 +36,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "_T",
+                "M",
+                "F",
                 ""
               ]
             }
@@ -41,13 +48,22 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "15 - 74",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "65 - 74",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "integer"
           }
         ]
       }

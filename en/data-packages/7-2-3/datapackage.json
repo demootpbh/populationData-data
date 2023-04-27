@@ -15,7 +15,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "15 - 24",
+                "15 - 64",
+                "15 - 74",
+                "20 - 64",
+                "25 - 34",
+                "25 - 49",
+                "50 - 64",
+                "65 - 74",
+                "65+"
               ]
             },
             "title": "Age"
@@ -25,7 +34,11 @@
             "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4"
               ]
             },
             "title": "Quarter"
@@ -35,7 +48,10 @@
             "type": "string",
             "constraints": {
               "enum": [
-                ""
+                "",
+                "F",
+                "M",
+                "Both sexes"
               ]
             },
             "title": "Sex"
@@ -47,12 +63,12 @@
           },
           {
             "name": "Value",
-            "type": "string",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           }
         ]
