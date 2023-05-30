@@ -24,6 +24,7 @@ Year,UNIT_MEASURE,Spol,Vitalna statistika,Value
 2018,Broj,Oba spola,Živorođeni,29467
 2019,Broj,Oba spola,Živorođeni,28360
 2020,Broj,Oba spola,Živorođeni,27255
+2021,Broj,Oba spola,Živorođeni,27143
 1996,Broj,M,Živorođeni,24398
 1997,Broj,M,Živorođeni,25297
 1998,Broj,M,Živorođeni,23425
@@ -49,6 +50,7 @@ Year,UNIT_MEASURE,Spol,Vitalna statistika,Value
 2018,Broj,M,Živorođeni,15268
 2019,Broj,M,Živorođeni,14806
 2020,Broj,M,Živorođeni,14166
+2021,Broj,M,Živorođeni,13896
 1996,Broj,Ž,Živorođeni,22196
 1997,Broj,Ž,Živorođeni,23100
 1998,Broj,Ž,Živorođeni,21582
@@ -74,6 +76,7 @@ Year,UNIT_MEASURE,Spol,Vitalna statistika,Value
 2018,Broj,Ž,Živorođeni,14199
 2019,Broj,Ž,Živorođeni,13554
 2020,Broj,Ž,Živorođeni,13089
+2021,Broj,Ž,Živorođeni,13247
 1996,Broj,Oba spola,Umrli,25152
 1997,Broj,Oba spola,Umrli,27875
 1998,Broj,Oba spola,Umrli,28679
@@ -99,6 +102,7 @@ Year,UNIT_MEASURE,Spol,Vitalna statistika,Value
 2018,Broj,Oba spola,Umrli,37744
 2019,Broj,Oba spola,Umrli,38829
 2020,Broj,Oba spola,Umrli,44427
+2021,Broj,Oba spola,Umrli,50333
 1996,Broj,M,Umrli,13952
 1997,Broj,M,Umrli,15184
 1998,Broj,M,Umrli,15303
@@ -124,6 +128,7 @@ Year,UNIT_MEASURE,Spol,Vitalna statistika,Value
 2018,Broj,M,Umrli,19007
 2019,Broj,M,Umrli,19787
 2020,Broj,M,Umrli,23040
+2021,Broj,M,Umrli,25923
 1996,Broj,Ž,Umrli,11200
 1997,Broj,Ž,Umrli,12691
 1998,Broj,Ž,Umrli,13376
@@ -149,6 +154,7 @@ Year,UNIT_MEASURE,Spol,Vitalna statistika,Value
 2018,Broj,Ž,Umrli,18737
 2019,Broj,Ž,Umrli,19042
 2020,Broj,Ž,Umrli,21387
+2021,Broj,Ž,Umrli,24410
 1996,Broj,Oba spola,Prirodni priraštaj,21442
 1997,Broj,Oba spola,Prirodni priraštaj,20522
 1998,Broj,Oba spola,Prirodni priraštaj,16328
@@ -174,3 +180,4 @@ Year,UNIT_MEASURE,Spol,Vitalna statistika,Value
 2018,Broj,Oba spola,Prirodni priraštaj,-8277
 2019,Broj,Oba spola,Prirodni priraštaj,-10469
 2020,Broj,Oba spola,Prirodni priraštaj,-17172
+2020,Broj,Oba spola,Prirodni priraštaj,-23190
