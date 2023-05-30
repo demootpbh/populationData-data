@@ -10,6 +10,7 @@ Year,UNIT_MEASURE,type_of_institution,Value
 2019,NUMBER,_T,390
 2020,NUMBER,_T,399
 2021,NUMBER,_T,427
+2022,NUMBER,_T,465
 2011,NUMBER,public,176
 2012,NUMBER,public,180
 2013,NUMBER,public,180
@@ -21,6 +22,7 @@ Year,UNIT_MEASURE,type_of_institution,Value
 2019,NUMBER,public,209
 2020,NUMBER,public,215
 2021,NUMBER,public,227
+2022,NUMBER,public,229
 2011,NUMBER,private,51
 2012,NUMBER,private,66
 2013,NUMBER,private,81
@@ -32,3 +34,4 @@ Year,UNIT_MEASURE,type_of_institution,Value
 2019,NUMBER,private,181
 2020,NUMBER,private,184
 2021,NUMBER,private,200
+2022,NUMBER,private,236
