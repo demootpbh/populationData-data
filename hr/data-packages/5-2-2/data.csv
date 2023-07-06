@@ -10,6 +10,7 @@ Year,UNIT_MEASURE,Spol,Value
 2018,Broj,Oba spola,31728
 2019,Broj,Oba spola,30463
 2020,Broj,Oba spola,29633
+2021,Broj,Oba spola,29092
 2010,Broj,M,25977
 2011,Broj,M,21761
 2012,Broj,M,17181
@@ -21,6 +22,7 @@ Year,UNIT_MEASURE,Spol,Value
 2018,Broj,M,16244
 2019,Broj,M,15564
 2020,Broj,M,15135
+2021,Broj,M,14940
 2010,Broj,Ž,24590
 2011,Broj,Ž,20073
 2012,Broj,Ž,16491
@@ -32,3 +34,4 @@ Year,UNIT_MEASURE,Spol,Value
 2018,Broj,Ž,15484
 2019,Broj,Ž,14899
 2020,Broj,Ž,14498
+2021,Broj,Ž,14152
