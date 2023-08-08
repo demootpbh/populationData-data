@@ -10,6 +10,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Oba spola,Oba spola,32540
 2020,Broj,Oba spola,Oba spola,31140
 2021,Broj,Oba spola,Oba spola,29368
+2022,Broj,Oba spola,Oba spola,26768
 2011,Broj,Gimnazija,Oba spola,8863
 2012,Broj,Gimnazija,Oba spola,8101
 2013,Broj,Gimnazija,Oba spola,9732
@@ -21,6 +22,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Gimnazija,Oba spola,7462
 2020,Broj,Gimnazija,Oba spola,7010
 2021,Broj,Gimnazija,Oba spola,6436
+2022,Broj,Gimnazija,Oba spola,5337
 2011,Broj,Tehničke škole,Oba spola,17510
 2012,Broj,Tehničke škole,Oba spola,16553
 2013,Broj,Tehničke škole,Oba spola,19679
@@ -32,6 +34,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Tehničke škole,Oba spola,17092
 2020,Broj,Tehničke škole,Oba spola,16116
 2021,Broj,Tehničke škole,Oba spola,15323
+2022,Broj,Tehničke škole,Oba spola,13791
 2011,Broj,Umjetničke škole,Oba spola,276
 2012,Broj,Umjetničke škole,Oba spola,293
 2013,Broj,Umjetničke škole,Oba spola,316
@@ -43,6 +46,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Umjetničke škole,Oba spola,281
 2020,Broj,Umjetničke škole,Oba spola,241
 2021,Broj,Umjetničke škole,Oba spola,262
+2022,Broj,Umjetničke škole,Oba spola,262
 2011,Broj,Vjerske škole,Oba spola,447
 2012,Broj,Vjerske škole,Oba spola,356
 2013,Broj,Vjerske škole,Oba spola,460
@@ -54,6 +58,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Vjerske škole,Oba spola,553
 2020,Broj,Vjerske škole,Oba spola,518
 2021,Broj,Vjerske škole,Oba spola,562
+2022,Broj,Vjerske škole,Oba spola,494
 2011,Broj,Stručne škole,Oba spola,8154
 2012,Broj,Stručne škole,Oba spola,9386
 2013,Broj,Stručne škole,Oba spola,10331
@@ -65,6 +70,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Stručne škole,Oba spola,7018
 2020,Broj,Stručne škole,Oba spola,7149
 2021,Broj,Stručne škole,Oba spola,6682
+2022,Broj,Stručne škole,Oba spola,6803
 2011,Broj,Srednje škole za djecu s posebnim potrebama,Oba spola,99
 2012,Broj,Srednje škole za djecu s posebnim potrebama,Oba spola,102
 2013,Broj,Srednje škole za djecu s posebnim potrebama,Oba spola,112
@@ -76,6 +82,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Srednje škole za djecu s posebnim potrebama,Oba spola,134
 2020,Broj,Srednje škole za djecu s posebnim potrebama,Oba spola,106
 2021,Broj,Srednje škole za djecu s posebnim potrebama,Oba spola,103
+2022,Broj,Srednje škole za djecu s posebnim potrebama,Oba spola,81
 2011,Broj,Oba spola,M,18022
 2012,Broj,Oba spola,M,18153
 2013,Broj,Oba spola,M,20895
@@ -87,6 +94,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Oba spola,M,16519
 2020,Broj,Oba spola,M,15982
 2021,Broj,Oba spola,M,15026
+2022,Broj,Oba spola,M,13849
 2011,Broj,Gimnazija,M,3246
 2012,Broj,Gimnazija,M,3021
 2013,Broj,Gimnazija,M,3642
@@ -98,6 +106,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Gimnazija,M,2819
 2020,Broj,Gimnazija,M,2538
 2021,Broj,Gimnazija,M,2316
+2022,Broj,Gimnazija,M,1891
 2011,Broj,Tehničke škole,M,8794
 2012,Broj,Tehničke škole,M,8333
 2013,Broj,Tehničke škole,M,9735
@@ -109,6 +118,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Tehničke škole,M,8309
 2020,Broj,Tehničke škole,M,7844
 2021,Broj,Tehničke škole,M,7391
+2022,Broj,Tehničke škole,M,6511
 2011,Broj,Umjetničke škole,M,113
 2012,Broj,Umjetničke škole,M,120
 2013,Broj,Umjetničke škole,M,137
@@ -120,6 +130,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Umjetničke škole,M,111
 2020,Broj,Umjetničke škole,M,80
 2021,Broj,Umjetničke škole,M,94
+2022,Broj,Umjetničke škole,M,99
 2011,Broj,Vjerske škole,M,228
 2012,Broj,Vjerske škole,M,176
 2013,Broj,Vjerske škole,M,209
@@ -131,6 +142,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Vjerske škole,M,251
 2020,Broj,Vjerske škole,M,259
 2021,Broj,Vjerske škole,M,266
+2022,Broj,Vjerske škole,M,232
 2011,Broj,Stručne škole,M,5576
 2012,Broj,Stručne škole,M,6443
 2013,Broj,Stručne škole,M,7094
@@ -142,6 +154,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Stručne škole,M,4947
 2020,Broj,Stručne škole,M,5195
 2021,Broj,Stručne škole,M,4886
+2022,Broj,Stručne škole,M,5067
 2011,Broj,Srednje škole za djecu s posebnim potrebama,M,65
 2012,Broj,Srednje škole za djecu s posebnim potrebama,M,60
 2013,Broj,Srednje škole za djecu s posebnim potrebama,M,78
@@ -153,6 +166,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Srednje škole za djecu s posebnim potrebama,M,82
 2020,Broj,Srednje škole za djecu s posebnim potrebama,M,66
 2021,Broj,Srednje škole za djecu s posebnim potrebama,M,73
+2022,Broj,Srednje škole za djecu s posebnim potrebama,M,49
 2011,Broj,Oba spola,Ž,17327
 2012,Broj,Oba spola,Ž,16638
 2013,Broj,Oba spola,Ž,19735
@@ -164,6 +178,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Oba spola,Ž,16021
 2020,Broj,Oba spola,Ž,15158
 2021,Broj,Oba spola,Ž,14342
+2022,Broj,Oba spola,Ž,12919
 2011,Broj,Gimnazija,Ž,5617
 2012,Broj,Gimnazija,Ž,5080
 2013,Broj,Gimnazija,Ž,6090
@@ -175,6 +190,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Gimnazija,Ž,4643
 2020,Broj,Gimnazija,Ž,4472
 2021,Broj,Gimnazija,Ž,4120
+2022,Broj,Gimnazija,Ž,346
 2011,Broj,Tehničke škole,Ž,8716
 2012,Broj,Tehničke škole,Ž,8220
 2013,Broj,Tehničke škole,Ž,9944
@@ -186,6 +202,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Tehničke škole,Ž,8783
 2020,Broj,Tehničke škole,Ž,8272
 2021,Broj,Tehničke škole,Ž,7932
+2022,Broj,Tehničke škole,Ž,7280
 2011,Broj,Umjetničke škole,Ž,163
 2012,Broj,Umjetničke škole,Ž,173
 2013,Broj,Umjetničke škole,Ž,179
@@ -197,6 +214,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Umjetničke škole,Ž,170
 2020,Broj,Umjetničke škole,Ž,161
 2021,Broj,Umjetničke škole,Ž,168
+2022,Broj,Umjetničke škole,Ž,163
 2011,Broj,Vjerske škole,Ž,219
 2012,Broj,Vjerske škole,Ž,180
 2013,Broj,Vjerske škole,Ž,251
@@ -208,6 +226,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Vjerske škole,Ž,302
 2020,Broj,Vjerske škole,Ž,259
 2021,Broj,Vjerske škole,Ž,296
+2022,Broj,Vjerske škole,Ž,262
 2011,Broj,Stručne škole,Ž,2578
 2012,Broj,Stručne škole,Ž,2943
 2013,Broj,Stručne škole,Ž,3237
@@ -219,6 +238,7 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Stručne škole,Ž,2071
 2020,Broj,Stručne škole,Ž,1954
 2021,Broj,Stručne škole,Ž,1796
+2022,Broj,Stručne škole,Ž,1736
 2011,Broj,Srednje škole za djecu s posebnim potrebama,Ž,34
 2012,Broj,Srednje škole za djecu s posebnim potrebama,Ž,42
 2013,Broj,Srednje škole za djecu s posebnim potrebama,Ž,34
@@ -230,3 +250,4 @@ Year,UNIT_MEASURE,Vrsta škole,Spol,Value
 2019,Broj,Srednje škole za djecu s posebnim potrebama,Ž,52
 2020,Broj,Srednje škole za djecu s posebnim potrebama,Ž,40
 2021,Broj,Srednje škole za djecu s posebnim potrebama,Ž,30
+2022,Broj,Srednje škole za djecu s posebnim potrebama,Ž,32
