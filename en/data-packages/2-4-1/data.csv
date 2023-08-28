@@ -55,6 +55,13 @@ Year,Type of disability,Sex,Age,UNIT_MEASURE,Value
 2013,Self-care,Both sexes,65+,Number,587
 2013,Communication,Both sexes,65+,Number,586
 2013,Multiple disabilities,Both sexes,65+,Number,66443
+2013,Seeing,Both sexes,Total,Number,52301
+2013,Hearing,Both sexes,Total,Number,21575
+2013,Walking or climbing up the stairs,Both sexes,Total,Number,96978
+2013,Remembering or concentration,Both sexes,Total,Number,8787
+2013,Self-care,Both sexes,Total,Number,1533
+2013,Communication,Both sexes,Total,Number,2654
+2013,Multiple disabilities,Both sexes,Total,Number,110230
 2013,Seeing,M,0-14,Number,571
 2013,Hearing,M,0-14,Number,146
 2013,Walking or climbing up the stairs,M,0-14,Number,370
