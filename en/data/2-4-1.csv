@@ -55,13 +55,13 @@ Year,Type of disability,Sex,Age,UNIT_MEASURE,Value
 2013,Self-care,Both sexes,65+,Number,587
 2013,Communication,Both sexes,65+,Number,586
 2013,Multiple disabilities,Both sexes,65+,Number,66443
-2013,Seeing,Both sexes,Total,Number,52301
-2013,Hearing,Both sexes,Total,Number,21575
-2013,Walking or climbing up the stairs,Both sexes,Total,Number,96978
-2013,Remembering or concentration,Both sexes,Total,Number,8787
-2013,Self-care,Both sexes,Total,Number,1533
-2013,Communication,Both sexes,Total,Number,2654
-2013,Multiple disabilities,Both sexes,Total,Number,110230
+2013,Seeing,Both sexes,Ukupno,Number,52301
+2013,Hearing,Both sexes,Ukupno,Number,21575
+2013,Walking or climbing up the stairs,Both sexes,Ukupno,Number,96978
+2013,Remembering or concentration,Both sexes,Ukupno,Number,8787
+2013,Self-care,Both sexes,Ukupno,Number,1533
+2013,Communication,Both sexes,Ukupno,Number,2654
+2013,Multiple disabilities,Both sexes,Ukupno,Number,110230
 2013,Seeing,M,0-14,Number,571
 2013,Hearing,M,0-14,Number,146
 2013,Walking or climbing up the stairs,M,0-14,Number,370
@@ -111,6 +111,13 @@ Year,Type of disability,Sex,Age,UNIT_MEASURE,Value
 2013,Self-care,M,65+,Number,266
 2013,Communication,M,65+,Number,360
 2013,Multiple disabilities,M,65+,Number,22432
+2013,Seeing,_M,Ukupno,Number,23569
+2013,Hearing,_M,Ukupno,Number,12526
+2013,Walking or climbing up the stairs,_M,Ukupno,Number,43191
+2013,Remembering or concentration,_M,Ukupno,Number,4664
+2013,Self-care,_M,Ukupno,Number,885
+2013,Communication,_M,Ukupno,Number,1761
+2013,Multiple disabilities,_M,Ukupno,Number,46379
 2013,Seeing,F,0-14,Number,513
 2013,Hearing,F,0-14,Number,116
 2013,Walking or climbing up the stairs,F,0-14,Number,301
@@ -160,3 +167,10 @@ Year,Type of disability,Sex,Age,UNIT_MEASURE,Value
 2013,Self-care,F,65+,Number,321
 2013,Communication,F,65+,Number,226
 2013,Multiple disabilities,F,65+,Number,44011
+2013,Seeing,_F,Ukupno,Number,28732
+2013,Hearing,_F,Ukupno,Number,9049
+2013,Walking or climbing up the stairs,_F,Ukupno,Number,53787
+2013,Remembering or concentration,_F,Ukupno,Number,4123
+2013,Self-care,_F,Ukupno,Number,648
+2013,Communication,_F,Ukupno,Number,893
+2013,Multiple disabilities,_F,Ukupno,Number,63851
