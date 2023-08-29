@@ -111,13 +111,13 @@ Year,Vrsta invaliditeta,Spol,Starosna dob,UNIT_MEASURE,Value
 2013,Poteškoće sa odjevanjem i održavanjem lične higijene,M,65+,Broj,266
 2013,Poteškoće sa komunikacijom,M,65+,Broj,360
 2013,Višestruke poteškoće,M,65+,Broj,22432
-2013,Poteškoće sa vidom,_M,Total,Broj,23569
-2013,Poteškoće sa sluhom,_M,Total,Broj,12526
-2013,Poteškoće sa hodom ili penjanjem uz stepenice,_M,Total,Broj,43191
-2013,Poteškoće sa pamćenjem,_M,Total,Broj,4664
-2013,Poteškoće sa odjevanjem i održavanjem lične higijene,_M,Total,Broj,885
-2013,Poteškoće sa komunikacijom,_M,Total,Broj,1761
-2013,Višestruke poteškoće,_M,Total,Broj,46379
+2013,Poteškoće sa vidom,M,Total,Broj,23569
+2013,Poteškoće sa sluhom,M,Total,Broj,12526
+2013,Poteškoće sa hodom ili penjanjem uz stepenice,M,Total,Broj,43191
+2013,Poteškoće sa pamćenjem,M,Total,Broj,4664
+2013,Poteškoće sa odjevanjem i održavanjem lične higijene,M,Total,Broj,885
+2013,Poteškoće sa komunikacijom,M,Total,Broj,1761
+2013,Višestruke poteškoće,M,Total,Broj,46379
 2013,Poteškoće sa vidom,Ž,0-14,Broj,513
 2013,Poteškoće sa sluhom,Ž,0-14,Broj,116
 2013,Poteškoće sa hodom ili penjanjem uz stepenice,Ž,0-14,Broj,301
@@ -167,10 +167,10 @@ Year,Vrsta invaliditeta,Spol,Starosna dob,UNIT_MEASURE,Value
 2013,Poteškoće sa odjevanjem i održavanjem lične higijene,Ž,65+,Broj,321
 2013,Poteškoće sa komunikacijom,Ž,65+,Broj,226
 2013,Višestruke poteškoće,Ž,65+,Broj,44011
-2013,Poteškoće sa vidom,_F,Total,Broj,28732
-2013,Poteškoće sa sluhom,_F,Total,Broj,9049
-2013,Poteškoće sa hodom ili penjanjem uz stepenice,_F,Total,Broj,53787
-2013,Poteškoće sa pamćenjem,_F,Total,Broj,4123
-2013,Poteškoće sa odjevanjem i održavanjem lične higijene,_F,Total,Broj,648
-2013,Poteškoće sa komunikacijom,_F,Total,Broj,893
-2013,Višestruke poteškoće,_F,Total,Broj,63851
+2013,Poteškoće sa vidom,Ž,Total,Broj,28732
+2013,Poteškoće sa sluhom,Ž,Total,Broj,9049
+2013,Poteškoće sa hodom ili penjanjem uz stepenice,Ž,Total,Broj,53787
+2013,Poteškoće sa pamćenjem,Ž,Total,Broj,4123
+2013,Poteškoće sa odjevanjem i održavanjem lične higijene,Ž,Total,Broj,648
+2013,Poteškoće sa komunikacijom,Ž,Total,Broj,893
+2013,Višestruke poteškoće,Ž,Total,Broj,63851

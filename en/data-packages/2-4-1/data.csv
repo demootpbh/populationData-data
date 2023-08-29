@@ -111,13 +111,13 @@ Year,Type of disability,Sex,Age,UNIT_MEASURE,Value
 2013,Self-care,M,65+,Number,266
 2013,Communication,M,65+,Number,360
 2013,Multiple disabilities,M,65+,Number,22432
-2013,Seeing,_M,Total,Number,23569
-2013,Hearing,_M,Total,Number,12526
-2013,Walking or climbing up the stairs,_M,Total,Number,43191
-2013,Remembering or concentration,_M,Total,Number,4664
-2013,Self-care,_M,Total,Number,885
-2013,Communication,_M,Total,Number,1761
-2013,Multiple disabilities,_M,Total,Number,46379
+2013,Seeing,M,Total,Number,23569
+2013,Hearing,M,Total,Number,12526
+2013,Walking or climbing up the stairs,M,Total,Number,43191
+2013,Remembering or concentration,M,Total,Number,4664
+2013,Self-care,M,Total,Number,885
+2013,Communication,M,Total,Number,1761
+2013,Multiple disabilities,M,Total,Number,46379
 2013,Seeing,F,0-14,Number,513
 2013,Hearing,F,0-14,Number,116
 2013,Walking or climbing up the stairs,F,0-14,Number,301
@@ -167,10 +167,10 @@ Year,Type of disability,Sex,Age,UNIT_MEASURE,Value
 2013,Self-care,F,65+,Number,321
 2013,Communication,F,65+,Number,226
 2013,Multiple disabilities,F,65+,Number,44011
-2013,Seeing,_F,Total,Number,28732
-2013,Hearing,_F,Total,Number,9049
-2013,Walking or climbing up the stairs,_F,Total,Number,53787
-2013,Remembering or concentration,_F,Total,Number,4123
-2013,Self-care,_F,Total,Number,648
-2013,Communication,_F,Total,Number,893
-2013,Multiple disabilities,_F,Total,Number,63851
+2013,Seeing,F,Total,Number,28732
+2013,Hearing,F,Total,Number,9049
+2013,Walking or climbing up the stairs,F,Total,Number,53787
+2013,Remembering or concentration,F,Total,Number,4123
+2013,Self-care,F,Total,Number,648
+2013,Communication,F,Total,Number,893
+2013,Multiple disabilities,F,Total,Number,63851
