@@ -9,6 +9,7 @@ Year,UNIT_MEASURE,Sex,Value
 2018,Number,Both sexes,13394
 2019,Number,Both sexes,13053
 2020,Number,Both sexes,12288
+2021,Number,Both sexes,11340
 2011,Number,M,6984
 2012,Number,M,7168
 2013,Number,M,7248
@@ -19,6 +20,7 @@ Year,UNIT_MEASURE,Sex,Value
 2018,Number,M,5571
 2019,Number,M,5302
 2020,Number,M,4977
+2021,Number,M,4547
 2011,Number,F,10740
 2012,Number,F,10872
 2013,Number,F,10759
@@ -29,3 +31,4 @@ Year,UNIT_MEASURE,Sex,Value
 2018,Number,F,7823
 2019,Number,F,7751
 2020,Number,F,7311
+2021,Number,F,6793
