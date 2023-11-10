@@ -29,9 +29,9 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
                 "Adult beneficiaries",
-                "Minor beneficiaries"
+                "Minor beneficiaries",
+                "Total"
               ]
             },
             "title": "Type of beneficiary"

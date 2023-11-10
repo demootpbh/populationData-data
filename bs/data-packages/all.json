@@ -822,7 +822,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Oba spola",
+                "Ukupno",
                 "Maloljetni korisnici",
                 "Odrasli korisnici",
                 ""
