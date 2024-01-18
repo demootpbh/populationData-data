@@ -1213,7 +1213,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2021,Both sexes,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,941
 2021,Both sexes,(V01-Y98) External causes of mortality,Number,15
 2021,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,9
-2020,Both sexes,Covid-19,Number,10242
+2021,Both sexes,Covid-19,Number,10242
 2021,Both sexes,Unknown,Number,802
 2021,Both sexes,Total,Number,50333
 2021,M,(A00-B99) Infectious and parasitic diseases,Number,220
@@ -1261,3 +1261,71 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2021,F,Covid-19,Number,4503
 2021,F,Unknown,Number,386
 2021,F,Total,Number,24410
+2022,Both sexes,(A00-B99) Infectious and parasitic diseases,Number,509
+2022,Both sexes,"(C00-C97,D00-D48) Neoplasms",Number,7438
+2022,Both sexes,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,75
+2022,Both sexes,(E00-E90) Endocrine metabolic and nutritional diseases,Number,2139
+2022,Both sexes,(F00-F99) Mental and behavioural disorders,Number,402
+2022,Both sexes,(G00-G99) Diseases of the nervous system,Number,428
+2022,Both sexes,"(H00-H93) Diseases of the eye, ear and adnexa",Number,3
+2022,Both sexes,(I00-I99) Diseases of the circulatory system,Number,18126
+2022,Both sexes,(J00-J99) Diseases of the respiratory system,Number,1951
+2022,Both sexes,(K00-K93) Diseases of the digestive system,Number,1043
+2022,Both sexes,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,50
+2022,Both sexes,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,49
+2022,Both sexes,(N00-N99) Diseases of the genitourinary system,Number,668
+2022,Both sexes,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,5
+2022,Both sexes,(P00-P96) Certain conditions originating in the perinatal period,Number,93
+2022,Both sexes,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,36
+2022,Both sexes,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,3452
+2022,Both sexes,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,869
+2022,Both sexes,(V01-Y98) External causes of mortality,Number,5
+2022,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,5
+2022,Both sexes,Covid-19,Number,3379
+2022,Both sexes,Unknown,Number,571
+2022,Both sexes,Total,Number,41296
+2022,M,(A00-B99) Infectious and parasitic diseases,Number,269
+2022,M,"(C00-C97,D00-D48) Neoplasms",Number,4201
+2022,M,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,26
+2022,M,(E00-E90) Endocrine metabolic and nutritional diseases,Number,883
+2022,M,(F00-F99) Mental and behavioural disorders,Number,211
+2022,M,(G00-G99) Diseases of the nervous system,Number,222
+2022,M,"(H00-H93) Diseases of the eye, ear and adnexa",Number,2
+2022,M,(I00-I99) Diseases of the circulatory system,Number,8508
+2022,M,(J00-J99) Diseases of the respiratory system,Number,1082
+2022,M,(K00-K93) Diseases of the digestive system,Number,640
+2022,M,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,24
+2022,M,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,17
+2022,M,(N00-N99) Diseases of the genitourinary system,Number,326
+2022,M,(P00-P96) Certain conditions originating in the perinatal period,Number,52
+2022,M,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,18
+2022,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1824
+2022,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,649
+2022,M,(V01-Y98) External causes of mortality,Number,4
+2022,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,3
+2022,M,Covid-19,Number,1863
+2022,M,Unknown,Number,324
+2022,M,Total,Number,21148
+2022,F,(A00-B99) Infectious and parasitic diseases,Number,240
+2022,F,"(C00-C97,D00-D48) Neoplasms",Number,3237
+2022,F,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,49
+2022,F,(E00-E90) Endocrine metabolic and nutritional diseases,Number,1256
+2022,F,(F00-F99) Mental and behavioural disorders,Number,191
+2022,F,(G00-G99) Diseases of the nervous system,Number,206
+2022,F,"(H00-H93) Diseases of the eye, ear and adnexa",Number,1
+2022,F,(I00-I99) Diseases of the circulatory system,Number,9618
+2022,F,(J00-J99) Diseases of the respiratory system,Number,869
+2022,F,(K00-K93) Diseases of the digestive system,Number,403
+2022,F,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,26
+2022,F,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,32
+2022,F,(N00-N99) Diseases of the genitourinary system,Number,342
+2022,F,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,5
+2022,F,(P00-P96) Certain conditions originating in the perinatal period,Number,41
+2022,F,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,18
+2022,F,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1628
+2022,F,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,220
+2022,F,(V01-Y98) External causes of mortality,Number,1
+2022,F,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
+2022,F,Covid-19,Number,1516
+2022,F,Unknown,Number,247
+2022,F,Total,Number,20148
