@@ -287,3 +287,39 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2021,Number,Health and social protection,F,1059
 2021,Number,Services,F,429
 2021,Number,Unknown,F,0
+2022,Number,Total,Both sexes,11635
+2022,Number,Education,Both sexes,1135
+2022,Number,Arts and humanities,Both sexes,1189
+2022,Number,"Social sciences, journalism and information",Both sexes,1464
+2022,Number,Business administration and the law,Both sexes,2356
+2022,Number,"Natural sciences, mathematics and statistics",Both sexes,606
+2022,Number,Information and communication technologies,Both sexes,545
+2022,Number,"Engineering, manufacturing and construction",Both sexes,1946
+2022,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,496
+2022,Number,Health and social protection,Both sexes,1251
+2022,Number,Services,Both sexes,596
+2022,Number,Unknown,Both sexes,51
+2022,Number,Total,M,4186
+2022,Number,Education,M,274
+2022,Number,Arts and humanities,M,369
+2022,Number,"Social sciences, journalism and information",M,535
+2022,Number,Business administration and the law,M,729
+2022,Number,"Natural sciences, mathematics and statistics",M,179
+2022,Number,Information and communication technologies,M,344
+2022,Number,"Engineering, manufacturing and construction",M,1054
+2022,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,205
+2022,Number,Health and social protection,M,223
+2022,Number,Services,M,263
+2022,Number,Unknown,M,11
+2022,Number,Total,F,7449
+2022,Number,Education,F,861
+2022,Number,Arts and humanities,F,820
+2022,Number,"Social sciences, journalism and information",F,929
+2022,Number,Business administration and the law,F,1627
+2022,Number,"Natural sciences, mathematics and statistics",F,427
+2022,Number,Information and communication technologies,F,201
+2022,Number,"Engineering, manufacturing and construction",F,892
+2022,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,291
+2022,Number,Health and social protection,F,1028
+2022,Number,Services,F,33
+2022,Number,Unknown,F,40
