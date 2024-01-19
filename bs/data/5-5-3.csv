@@ -95,6 +95,18 @@ Year,UNIT_MEASURE,Vrsta obrazovanja,Spol,Value
 2021,Broj,Zdravstvo i socijalna zaštita,Oba spola,900
 2021,Broj,Usluge,Oba spola,0
 2021,Broj,Nepoznato,Oba spola,0
+2022,Broj,Ukupno,Oba spola,1089
+2022,Broj,Obrazovanje,Oba spola,0
+2022,Broj,Umjetnost i humanističke nauke,Oba spola,22
+2022,Broj,"Društvene nauke, novinarstvo i informiranje",Oba spola,0
+2022,Broj,"Poslovanje, administracija i pravo",Oba spola,0
+2022,Broj,"Prirodne nauke, matematika i statistika",Oba spola,1
+2022,Broj,Informacijske i komunikacijske tehnologije,Oba spola,0
+2022,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",Oba spola,0
+2022,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",Oba spola,51
+2022,Broj,Zdravstvo i socijalna zaštita,Oba spola,1015
+2022,Broj,Usluge,Oba spola,0
+2022,Broj,Nepoznato,Oba spola,0
 2014,Broj,Ukupno,M,247
 2014,Broj,Obrazovanje,M,0
 2014,Broj,Umjetnost i humanističke nauke,M,11
@@ -191,6 +203,18 @@ Year,UNIT_MEASURE,Vrsta obrazovanja,Spol,Value
 2021,Broj,Zdravstvo i socijalna zaštita,M,253
 2021,Broj,Usluge,M,0
 2021,Broj,Nepoznato,M,0
+2022,Broj,Ukupno,M,300
+2022,Broj,Obrazovanje,M,0
+2022,Broj,Umjetnost i humanističke nauke,M,9
+2022,Broj,"Društvene nauke, novinarstvo i informiranje",M,0
+2022,Broj,"Poslovanje, administracija i pravo",M,0
+2022,Broj,"Prirodne nauke, matematika i statistika",M,0
+2022,Broj,Informacijske i komunikacijske tehnologije,M,0
+2022,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",M,0
+2021,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",M,15
+2022,Broj,Zdravstvo i socijalna zaštita,M,276
+2022,Broj,Usluge,M,0
+2022,Broj,Nepoznato,M,0
 2014,Broj,Ukupno,Ž,544
 2014,Broj,Obrazovanje,Ž,0
 2014,Broj,Umjetnost i humanističke nauke,Ž,10
@@ -287,3 +311,15 @@ Year,UNIT_MEASURE,Vrsta obrazovanja,Spol,Value
 2021,Broj,Zdravstvo i socijalna zaštita,Ž,647
 2021,Broj,Usluge,Ž,0
 2021,Broj,Nepoznato,Ž,0
+2022,Broj,Ukupno,Ž,789
+2022,Broj,Obrazovanje,Ž,0
+2022,Broj,Umjetnost i humanističke nauke,Ž,13
+2022,Broj,"Društvene nauke, novinarstvo i informiranje",Ž,0
+2022,Broj,"Poslovanje, administracija i pravo",Ž,0
+2022,Broj,"Prirodne nauke, matematika i statistika",Ž,1
+2022,Broj,Informacijske i komunikacijske tehnologije,Ž,0
+2022,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",Ž,0
+2022,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",Ž,36
+2022,Broj,Zdravstvo i socijalna zaštita,Ž,739
+2022,Broj,Usluge,Ž,0
+2022,Broj,Nepoznato,Ž,0

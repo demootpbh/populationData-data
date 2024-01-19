@@ -95,6 +95,18 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2021,Number,Health and social protection,Both sexes,900
 2021,Number,Services,Both sexes,0
 2021,Number,Unknown,Both sexes,0
+2022,Number,Total,Both sexes,1089
+2022,Number,Education,Both sexes,0
+2022,Number,Arts and humanities,Both sexes,22
+2022,Number,"Social sciences, journalism and information",Both sexes,0
+2022,Number,Business administration and the law,Both sexes,0
+2022,Number,"Natural sciences, mathematics and statistics",Both sexes,1
+2022,Number,Information and communication technologies,Both sexes,0
+2022,Number,"Engineering, manufacturing and construction",Both sexes,0
+2022,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,51
+2022,Number,Health and social protection,Both sexes,1015
+2022,Number,Services,Both sexes,0
+2022,Number,Unknown,Both sexes,0
 2014,Number,Total,M,247
 2014,Number,Education,M,0
 2014,Number,Arts and humanities,M,11
@@ -191,6 +203,18 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2021,Number,Health and social protection,M,253
 2021,Number,Services,M,0
 2021,Number,Unknown,M,0
+2022,Number,Total,M,300
+2022,Number,Education,M,0
+2022,Number,Arts and humanities,M,9
+2022,Number,"Social sciences, journalism and information",M,0
+2022,Number,Business administration and the law,M,0
+2022,Number,"Natural sciences, mathematics and statistics",M,0
+2022,Number,Information and communication technologies,M,0
+2022,Number,"Engineering, manufacturing and construction",M,0
+2021,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,15
+2022,Number,Health and social protection,M,276
+2022,Number,Services,M,0
+2022,Number,Unknown,M,0
 2014,Number,Total,F,544
 2014,Number,Education,F,0
 2014,Number,Arts and humanities,F,10
@@ -287,3 +311,15 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2021,Number,Health and social protection,F,647
 2021,Number,Services,F,0
 2021,Number,Unknown,F,0
+2022,Number,Total,F,789
+2022,Number,Education,F,0
+2022,Number,Arts and humanities,F,13
+2022,Number,"Social sciences, journalism and information",F,0
+2022,Number,Business administration and the law,F,0
+2022,Number,"Natural sciences, mathematics and statistics",F,1
+2022,Number,Information and communication technologies,F,0
+2022,Number,"Engineering, manufacturing and construction",F,0
+2022,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,36
+2022,Number,Health and social protection,F,739
+2022,Number,Services,F,0
+2022,Number,Unknown,F,0
