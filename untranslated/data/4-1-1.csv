@@ -62,3 +62,12 @@ Year,UNIT_MEASURE,Type_of_user,SEX,Value
 2021,NUMBER,adult_beneficiaries,_T,410405
 2021,NUMBER,adult_beneficiaries,M,206622
 2021,NUMBER,adult_beneficiaries,F,203783
+2022,NUMBER,total,_T,510036
+2022,NUMBER,total,M,255391
+2022,NUMBER,total,F,254645
+2022,NUMBER,minor_beneficiaries,_T,107580
+2022,NUMBER,minor_beneficiaries,M,56436
+2022,NUMBER,minor_beneficiaries,F,51414
+2022,NUMBER,adult_beneficiaries,_T,402186
+2022,NUMBER,adult_beneficiaries,M,198955
+2022,NUMBER,adult_beneficiaries,F,203231

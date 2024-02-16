@@ -62,3 +62,12 @@ Year,UNIT_MEASURE,Type of beneficiary,Sex,Value
 2021,Number,Adult beneficiaries,Both sexes,410405
 2021,Number,Adult beneficiaries,M,206622
 2021,Number,Adult beneficiaries,F,203783
+2022,Number,Total,Both sexes,510036
+2022,Number,Total,M,255391
+2022,Number,Total,F,254645
+2022,Number,Minor beneficiaries,Both sexes,107580
+2022,Number,Minor beneficiaries,M,56436
+2022,Number,Minor beneficiaries,F,51414
+2022,Number,Adult beneficiaries,Both sexes,402186
+2022,Number,Adult beneficiaries,M,198955
+2022,Number,Adult beneficiaries,F,203231
