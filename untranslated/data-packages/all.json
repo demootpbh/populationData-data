@@ -3,8 +3,8 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "3-1-3/data.csv",
-      "name": "3-1-3",
+      "path": "5-7-3/data.csv",
+      "name": "5-7-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -21,13 +21,13 @@
             "type": "string"
           },
           {
-            "name": "SEX",
+            "name": "type_of_institution",
             "type": "string",
             "constraints": {
               "enum": [
-                "M",
-                "F",
                 "_T",
+                "public",
+                "private",
                 ""
               ]
             }
@@ -38,11 +38,11 @@
           }
         ]
       },
-      "title": "global_indicators.3-1-3-title"
+      "title": "global_indicators.5-7-3-title"
     },
     {
-      "path": "1-7-8/data.csv",
-      "name": "1-7-8",
+      "path": "1-6-2/data.csv",
+      "name": "1-6-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -59,70 +59,16 @@
             "type": "string"
           },
           {
-            "name": "PYRAMID_SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "PYRAMID_AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-14",
-                "0-18",
-                "15-29",
-                "15-49",
-                "15-64",
-                "65+",
-                "75+",
-                "85+",
-                "100+",
-                "0-4",
-                "5-9",
-                "10-14",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "50-54",
-                "55-59",
-                "60-64",
-                "65-69",
-                "70-74",
-                "75-79",
-                "80-84",
-                "85-89",
-                "90-94",
-                "95-99",
-                "100-104",
-                "105-109",
-                "110-114",
-                "115-119",
-                "120+",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
-      "title": "global_indicators.1-7-8-title"
+      "title": "global_indicators.1-6-2-title"
     },
     {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
+      "path": "1-3-1/data.csv",
+      "name": "1-3-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -135,7 +81,86 @@
             "type": "integer"
           },
           {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-3-1-title"
+    },
+    {
+      "path": "7-1-3/data.csv",
+      "name": "7-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
             "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 74",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-1-3-title"
+    },
+    {
+      "path": "1-3-4/data.csv",
+      "name": "1-3-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "population_sex",
             "type": "string",
             "constraints": {
               "enum": [
@@ -173,6 +198,7 @@
                 "external_causes_of_mortality",
                 "factors_influencing_health_status",
                 "unknown",
+                "Covid-19",
                 ""
               ]
             }
@@ -187,11 +213,11 @@
           }
         ]
       },
-      "title": "global_indicators.3-1-1-title"
+      "title": "global_indicators.1-3-4-title"
     },
     {
-      "path": "3-2-2/data.csv",
-      "name": "3-2-2",
+      "path": "1-7-6/data.csv",
+      "name": "1-7-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -209,141 +235,11 @@
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
-      "title": "global_indicators.3-2-2-title"
-    },
-    {
-      "path": "5-2-1/data.csv",
-      "name": "5-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-1-title"
-    },
-    {
-      "path": "5-1-4/data.csv",
-      "name": "5-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-4-title"
-    },
-    {
-      "path": "5-3-2/data.csv",
-      "name": "5-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Type_of_school",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "gymnasium",
-                "technical_schools",
-                "art_schools",
-                "religion_schools",
-                "vocational_schools",
-                "high_schools_for_children_with_special_needs",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-2-title"
+      "title": "global_indicators.1-7-6-title"
     },
     {
       "path": "1-4-3/data.csv",
@@ -382,42 +278,6 @@
         ]
       },
       "title": "global_indicators.1-4-3-title"
-    },
-    {
-      "path": "3-1-5/data.csv",
-      "name": "3-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-1-5-title"
     },
     {
       "path": "2-3-1/data.csv",
@@ -469,286 +329,6 @@
       "title": "global_indicators.2-3-1-title"
     },
     {
-      "path": "5-6-3/data.csv",
-      "name": "5-6-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-6-3-title"
-    },
-    {
-      "path": "2-1-5/data.csv",
-      "name": "2-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "LIVE_BORN_CHILDREN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "did_not_give_birth",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9",
-                "10_and_more",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.2-1-5-title"
-    },
-    {
-      "path": "7-1-2/data.csv",
-      "name": "7-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15+",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "15 - 89",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-1-2-title"
-    },
-    {
-      "path": "3-5-4/data.csv",
-      "name": "3-5-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-5-4-title"
-    },
-    {
-      "path": "6-1-1/data.csv",
-      "name": "6-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.6-1-1-title"
-    },
-    {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-2-1-title"
-    },
-    {
-      "path": "3-6-3/data.csv",
-      "name": "3-6-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-6-3-title"
-    },
-    {
-      "path": "3-5-3/data.csv",
-      "name": "3-5-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-5-3-title"
-    },
-    {
       "path": "3-3-5/data.csv",
       "name": "3-3-5",
       "profile": "tabular-data-resource",
@@ -775,190 +355,8 @@
       "title": "global_indicators.3-3-5-title"
     },
     {
-      "path": "1-5-1/data.csv",
-      "name": "1-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-5-1-title"
-    },
-    {
-      "path": "5-2-3/data.csv",
-      "name": "5-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-3-title"
-    },
-    {
-      "path": "7-2-3/data.csv",
-      "name": "7-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Quarter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Q1",
-                "Q2",
-                "Q3",
-                "Q4",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 - 74",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "20 - 64",
-                "25 - 34",
-                "65 - 74",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-2-3-title"
-    },
-    {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-2-title"
-    },
-    {
-      "path": "5-5-5/data.csv",
-      "name": "5-5-5",
+      "path": "5-5-7/data.csv",
+      "name": "5-5-7",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1013,11 +411,75 @@
           }
         ]
       },
-      "title": "global_indicators.5-5-5-title"
+      "title": "global_indicators.5-5-7-title"
     },
     {
-      "path": "2-1-1/data.csv",
-      "name": "2-1-1",
+      "path": "5-1-1/data.csv",
+      "name": "5-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "public",
+                "private",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-1-1-title"
+    },
+    {
+      "path": "3-3-1/data.csv",
+      "name": "3-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-3-1-title"
+    },
+    {
+      "path": "1-7-1/data.csv",
+      "name": "1-7-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1050,6 +512,7 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "Total",
                 "0",
                 "1",
                 "2",
@@ -1170,24 +633,22 @@
                 "117",
                 "118",
                 "119",
-                "120",
-                "Unknown",
-                "Total",
+                "120+",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "string"
+            "type": "number"
           }
         ]
       },
-      "title": "global_indicators.2-1-1-title"
+      "title": "global_indicators.1-7-1-title"
     },
     {
-      "path": "1-3-2/data.csv",
-      "name": "1-3-2",
+      "path": "1-5-1/data.csv",
+      "name": "1-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1198,6 +659,68 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-5-1-title"
+    },
+    {
+      "path": "5-5-3/data.csv",
+      "name": "5-5-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "total",
+                "education",
+                "arts_and_humanities",
+                "social_sciences_journalism_and_information",
+                "business_administration_and_the_law_of_everything",
+                "natural_sciences_mathematics_and_statistics_of_all",
+                "information_and_communication_technologies",
+                "engineering_manufacturing_and_construction",
+                "agriculture_forestry_fisheries_and_veterinary_medicine",
+                "health_and_social_protection",
+                "services",
+                "unknown",
+                ""
+              ]
+            }
           },
           {
             "name": "SEX",
@@ -1212,20 +735,16 @@
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
             "name": "Value",
             "type": "integer"
           }
         ]
       },
-      "title": "global_indicators.1-3-2-title"
+      "title": "global_indicators.5-5-3-title"
     },
     {
-      "path": "5-7-2/data.csv",
-      "name": "5-7-2",
+      "path": "5-6-3/data.csv",
+      "name": "5-6-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1236,6 +755,124 @@
           {
             "name": "Year",
             "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-6-3-title"
+    },
+    {
+      "path": "1-4-1/data.csv",
+      "name": "1-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-4-1-title"
+    },
+    {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "population_sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "BIRTHS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "LIVE_BIRTH",
+                "DEATHS",
+                "NATURAL_CHANGE",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.1-1-1-title"
+    },
+    {
+      "path": "7-1-1/data.csv",
+      "name": "7-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "SEX",
@@ -1254,81 +891,13 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15-24",
-                "25-29",
-                "15-29",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-7-2-title"
-    },
-    {
-      "path": "3-2-4/data.csv",
-      "name": "3-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-2-4-title"
-    },
-    {
-      "path": "8-1-1/data.csv",
-      "name": "8-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15+",
-                "18-24",
-                "25-34",
-                "35-44",
-                "45-54",
-                "55-64",
+                "15 - 89",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
                 "65+",
+                "15 - 64",
+                "15 - 74",
                 ""
               ]
             }
@@ -1339,11 +908,92 @@
           }
         ]
       },
-      "title": "global_indicators.8-1-1-title"
+      "title": "global_indicators.7-1-1-title"
     },
     {
-      "path": "3-5-6/data.csv",
-      "name": "3-5-6",
+      "path": "1-7-2/data.csv",
+      "name": "1-7-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-14",
+                "0-18",
+                "15-29",
+                "15-49",
+                "15-64",
+                "65+",
+                "75+",
+                "85+",
+                "100+",
+                "0-4",
+                "5-9",
+                "10-14",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50-54",
+                "55-59",
+                "60-64",
+                "65-69",
+                "70-74",
+                "75-79",
+                "80-84",
+                "85-89",
+                "90-94",
+                "95-99",
+                "100-104",
+                "105-109",
+                "110-114",
+                "115-119",
+                "120+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-7-2-title"
+    },
+    {
+      "path": "5-4-2/data.csv",
+      "name": "5-4-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1360,16 +1010,28 @@
             "type": "string"
           },
           {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
             "name": "Value",
             "type": "integer"
           }
         ]
       },
-      "title": "global_indicators.3-5-6-title"
+      "title": "global_indicators.5-4-2-title"
     },
     {
-      "path": "3-3-4/data.csv",
-      "name": "3-3-4",
+      "path": "1-2-4/data.csv",
+      "name": "1-2-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1391,7 +1053,157 @@
           }
         ]
       },
-      "title": "global_indicators.3-3-4-title"
+      "title": "global_indicators.1-2-4-title"
+    },
+    {
+      "path": "7-2-1/data.csv",
+      "name": "7-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Quarter",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 89",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "15 - 74",
+                "65 - 74",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-2-1-title"
+    },
+    {
+      "path": "1-7-8/data.csv",
+      "name": "1-7-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "PYRAMID_SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "PYRAMID_AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-14",
+                "0-18",
+                "15-29",
+                "15-49",
+                "15-64",
+                "65+",
+                "75+",
+                "85+",
+                "100+",
+                "0-4",
+                "5-9",
+                "10-14",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50-54",
+                "55-59",
+                "60-64",
+                "65-69",
+                "70-74",
+                "75-79",
+                "80-84",
+                "85-89",
+                "90-94",
+                "95-99",
+                "100-104",
+                "105-109",
+                "110-114",
+                "115-119",
+                "120+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.1-7-8-title"
     },
     {
       "path": "2-1-4/data.csv",
@@ -1464,8 +1276,8 @@
       "title": "global_indicators.2-1-4-title"
     },
     {
-      "path": "4-1-2/data.csv",
-      "name": "4-1-2",
+      "path": "5-7-2/data.csv",
+      "name": "5-7-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1476,24 +1288,6 @@
           {
             "name": "Year",
             "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "homes_for_children_and_youth_without_parental_care",
-                "adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults_with_mental_and_physical_disabilities",
-                "social_welfare_institutions_for_adults_with_disabilities",
-                "social_welfare_institutions_for_adults",
-                ""
-              ]
-            }
           },
           {
             "name": "SEX",
@@ -1508,85 +1302,16 @@
             }
           },
           {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.4-1-2-title"
-    },
-    {
-      "path": "5-6-2/data.csv",
-      "name": "5-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_education",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "total",
-                "education",
-                "arts_and_humanities",
-                "social_sciences_journalism_and_information",
-                "business_administration_and_the_law_of_everything",
-                "natural_sciences_mathematics_and_statistics_of_all",
-                "information_and_communication_technologies",
-                "engineering_manufacturing_and_construction",
-                "agriculture_forestry_fisheries_and_veterinary_medicine",
-                "health_and_social_protection",
-                "services",
-                "unknown",
+                "15-24",
+                "25-29",
+                "15-29",
                 ""
               ]
             }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-6-2-title"
-    },
-    {
-      "path": "1-2-4/data.csv",
-      "name": "1-2-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
           },
           {
             "name": "UNIT_MEASURE",
@@ -1598,11 +1323,48 @@
           }
         ]
       },
-      "title": "global_indicators.1-2-4-title"
+      "title": "global_indicators.5-7-2-title"
     },
     {
-      "path": "3-3-2/data.csv",
-      "name": "3-3-2",
+      "path": "1-2-5/data.csv",
+      "name": "1-2-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "13 - 14",
+                "15 - 19",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.1-2-5-title"
+    },
+    {
+      "path": "1-6-1/data.csv",
+      "name": "1-6-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1620,11 +1382,11 @@
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "global_indicators.3-3-2-title"
+      "title": "global_indicators.1-6-1-title"
     },
     {
       "path": "2-3-2/data.csv",
@@ -1707,8 +1469,566 @@
       "title": "global_indicators.3-3-3-title"
     },
     {
-      "path": "7-2-1/data.csv",
-      "name": "7-2-1",
+      "path": "3-7-1/data.csv",
+      "name": "3-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-14",
+                "15-19",
+                "20-29",
+                "30-49",
+                "50-59",
+                "60-64",
+                "65+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-7-1-title"
+    },
+    {
+      "path": "5-7-1/data.csv",
+      "name": "5-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "25 - 64",
+                "25 - 34",
+                "35 - 44",
+                "35 - 54",
+                "45 - 54",
+                "55 - 64",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-7-1-title"
+    },
+    {
+      "path": "2-1-5/data.csv",
+      "name": "2-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "LIVE_BORN_CHILDREN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "did_not_give_birth",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10_and_more",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.2-1-5-title"
+    },
+    {
+      "path": "5-7-4/data.csv",
+      "name": "5-7-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "public",
+                "private",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.5-7-4-title"
+    },
+    {
+      "path": "5-3-3/data.csv",
+      "name": "5-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-3-title"
+    },
+    {
+      "path": "5-5-2/data.csv",
+      "name": "5-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-5-2-title"
+    },
+    {
+      "path": "3-1-3/data.csv",
+      "name": "3-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "F",
+                "_T",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-3-title"
+    },
+    {
+      "path": "8-1-1/data.csv",
+      "name": "8-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15+",
+                "18-24",
+                "25-34",
+                "35-44",
+                "45-54",
+                "55-64",
+                "65+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.8-1-1-title"
+    },
+    {
+      "path": "5-3-1/data.csv",
+      "name": "5-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-1-title"
+    },
+    {
+      "path": "1-1-2/data.csv",
+      "name": "1-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-1-2-title"
+    },
+    {
+      "path": "2-4-1/data.csv",
+      "name": "2-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Type_of_disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Seeing",
+                "Hearing",
+                "walking_or_climbing_up_the_stairs",
+                "remembering_or_concentration",
+                "self_care",
+                "Communication",
+                "multiple_disabilities",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-14",
+                "15-19",
+                "20-29",
+                "30-49",
+                "50-59",
+                "60-64",
+                "65+",
+                "Total",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.2-4-1-title"
+    },
+    {
+      "path": "1-3-5/data.csv",
+      "name": "1-3-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-3-5-title"
+    },
+    {
+      "path": "7-1-5/data.csv",
+      "name": "7-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "public",
+                "private",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.7-1-5-title"
+    },
+    {
+      "path": "7-2-3/data.csv",
+      "name": "7-2-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1754,7 +2074,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15 - 89",
+                "15 - 74",
                 "15 - 24",
                 "25 - 49",
                 "50 - 64",
@@ -1762,7 +2082,6 @@
                 "15 - 64",
                 "20 - 64",
                 "25 - 34",
-                "15 - 74",
                 "65 - 74",
                 ""
               ]
@@ -1774,7 +2093,598 @@
           }
         ]
       },
-      "title": "global_indicators.7-2-1-title"
+      "title": "global_indicators.7-2-3-title"
+    },
+    {
+      "path": "5-6-1/data.csv",
+      "name": "5-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-6-1-title"
+    },
+    {
+      "path": "5-5-5/data.csv",
+      "name": "5-5-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "total",
+                "education",
+                "arts_and_humanities",
+                "social_sciences_journalism_and_information",
+                "business_administration_and_the_law_of_everything",
+                "natural_sciences_mathematics_and_statistics_of_all",
+                "information_and_communication_technologies",
+                "engineering_manufacturing_and_construction",
+                "agriculture_forestry_fisheries_and_veterinary_medicine",
+                "health_and_social_protection",
+                "services",
+                "unknown",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-5-5-title"
+    },
+    {
+      "path": "4-1-2/data.csv",
+      "name": "4-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "homes_for_children_and_youth_without_parental_care",
+                "adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults_with_mental_and_physical_disabilities",
+                "social_welfare_institutions_for_adults_with_disabilities",
+                "social_welfare_institutions_for_adults",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.4-1-2-title"
+    },
+    {
+      "path": "3-1-5/data.csv",
+      "name": "3-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-5-title"
+    },
+    {
+      "path": "3-2-3/data.csv",
+      "name": "3-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-2-3-title"
+    },
+    {
+      "path": "1-6-3/data.csv",
+      "name": "1-6-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.1-6-3-title"
+    },
+    {
+      "path": "3-5-5/data.csv",
+      "name": "3-5-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-5-5-title"
+    },
+    {
+      "path": "1-2-3/data.csv",
+      "name": "1-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-15",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-2-3-title"
+    },
+    {
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "single_household",
+                "2_members",
+                "3_members",
+                "4_members",
+                "5_members",
+                "6_members",
+                "7_members",
+                "8+_members",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.2-2-1-title"
+    },
+    {
+      "path": "5-3-2/data.csv",
+      "name": "5-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Type_of_school",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "gymnasium",
+                "technical_schools",
+                "art_schools",
+                "religion_schools",
+                "vocational_schools",
+                "high_schools_for_children_with_special_needs",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-2-title"
+    },
+    {
+      "path": "3-2-4/data.csv",
+      "name": "3-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-2-4-title"
+    },
+    {
+      "path": "5-2-2/data.csv",
+      "name": "5-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-2-title"
+    },
+    {
+      "path": "3-6-1/data.csv",
+      "name": "3-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "MICS_NUMBER",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "all_methods",
+                "traditional_methods",
+                "modern_methods",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-6-1-title"
+    },
+    {
+      "path": "5-6-4/data.csv",
+      "name": "5-6-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "total",
+                "education",
+                "arts_and_humanities",
+                "social_sciences_journalism_and_information",
+                "business_administration_and_the_law_of_everything",
+                "natural_sciences_mathematics_and_statistics_of_all",
+                "information_and_communication_technologies",
+                "engineering_manufacturing_and_construction",
+                "agriculture_forestry_fisheries_and_veterinary_medicine",
+                "health_and_social_protection",
+                "services",
+                "unknown",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-6-4-title"
+    },
+    {
+      "path": "1-2-2/data.csv",
+      "name": "1-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-2-2-title"
     },
     {
       "path": "2-1-3/data.csv",
@@ -1994,143 +2904,8 @@
       "title": "global_indicators.2-1-3-title"
     },
     {
-      "path": "5-3-1/data.csv",
-      "name": "5-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-1-title"
-    },
-    {
-      "path": "5-6-1/data.csv",
-      "name": "5-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-6-1-title"
-    },
-    {
-      "path": "5-5-3/data.csv",
-      "name": "5-5-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_education",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "total",
-                "education",
-                "arts_and_humanities",
-                "social_sciences_journalism_and_information",
-                "business_administration_and_the_law_of_everything",
-                "natural_sciences_mathematics_and_statistics_of_all",
-                "information_and_communication_technologies",
-                "engineering_manufacturing_and_construction",
-                "agriculture_forestry_fisheries_and_veterinary_medicine",
-                "health_and_social_protection",
-                "services",
-                "unknown",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-5-3-title"
-    },
-    {
-      "path": "3-4-2/data.csv",
-      "name": "3-4-2",
+      "path": "3-3-2/data.csv",
+      "name": "3-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2152,1309 +2927,7 @@
           }
         ]
       },
-      "title": "global_indicators.3-4-2-title"
-    },
-    {
-      "path": "1-2-3/data.csv",
-      "name": "1-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-15",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "50+",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-2-3-title"
-    },
-    {
-      "path": "5-3-4/data.csv",
-      "name": "5-3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Type_of_school",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "gymnasium",
-                "technical_schools",
-                "art_schools",
-                "religion_schools",
-                "vocational_schools",
-                "high_schools_for_children_with_special_needs",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-3-4-title"
-    },
-    {
-      "path": "3-4-1/data.csv",
-      "name": "3-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-4-1-title"
-    },
-    {
-      "path": "3-1-2/data.csv",
-      "name": "3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "CAUSE_OF_DEATH",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "neoplasms",
-                "diseases_of_the_circulatory",
-                "diseases_of_the_respiratory",
-                "diseases_of_the_digestive",
-                "symptoms_signs_and_abnormal",
-                "injuries_poisoning_and_consequences",
-                "infectious_and_parasitic",
-                "diseases_of_the_blood",
-                "endocrine_metabolic_and_nutritional",
-                "mental_and_behavioural_disorders",
-                "diseases_of_the_nervous",
-                "diseases_of_the_eye",
-                "diseases_of_the_skin",
-                "diseases_of_the_genitourinary",
-                "certain_conditions_originating",
-                "congenital_malformations_deformations",
-                "external_causes_of_mortality",
-                "factors_influencing_health_status",
-                "unknown",
-                "diseases_of_the_musculoskeletal",
-                "pregnancy_childbirth_and_the",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-1-2-title"
-    },
-    {
-      "path": "3-6-4/data.csv",
-      "name": "3-6-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-6-4-title"
-    },
-    {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Type_of_user",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "total",
-                "minor_beneficiaries",
-                "adult_beneficiaries",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.4-1-1-title"
-    },
-    {
-      "path": "3-5-2/data.csv",
-      "name": "3-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-5-2-title"
-    },
-    {
-      "path": "1-7-6/data.csv",
-      "name": "1-7-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-7-6-title"
-    },
-    {
-      "path": "6-1-2/data.csv",
-      "name": "6-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.6-1-2-title"
-    },
-    {
-      "path": "5-7-4/data.csv",
-      "name": "5-7-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "public",
-                "private",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-7-4-title"
-    },
-    {
-      "path": "7-1-5/data.csv",
-      "name": "7-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "public",
-                "private",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.7-1-5-title"
-    },
-    {
-      "path": "1-7-3/data.csv",
-      "name": "1-7-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "TYPE_OF_DEPENDENCY_RATIO",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "total_support_ratio",
-                "young_age_support_ratio",
-                "old_age_support_ratio",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-7-3-title"
-    },
-    {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "single_household",
-                "2_members",
-                "3_members",
-                "4_members",
-                "5_members",
-                "6_members",
-                "7_members",
-                "8+_members",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.2-2-1-title"
-    },
-    {
-      "path": "1-3-6/data.csv",
-      "name": "1-3-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-3-6-title"
-    },
-    {
-      "path": "6-1-3/data.csv",
-      "name": "6-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.6-1-3-title"
-    },
-    {
-      "path": "3-6-2/data.csv",
-      "name": "3-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-6-2-title"
-    },
-    {
-      "path": "1-2-5/data.csv",
-      "name": "1-2-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "13 - 14",
-                "15 - 19",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.1-2-5-title"
-    },
-    {
-      "path": "7-2-2/data.csv",
-      "name": "7-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "Quarter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Q1",
-                "Q2",
-                "Q3",
-                "Q4",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 - 89",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "20 - 64",
-                "25 - 34",
-                "15 - 74",
-                "65 - 74",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-2-2-title"
-    },
-    {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-4-1-title"
-    },
-    {
-      "path": "1-4-2/data.csv",
-      "name": "1-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-4-2-title"
-    },
-    {
-      "path": "3-1-4/data.csv",
-      "name": "3-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-1-4-title"
-    },
-    {
-      "path": "5-1-3/data.csv",
-      "name": "5-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-3-title"
-    },
-    {
-      "path": "7-1-1/data.csv",
-      "name": "7-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 - 89",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "15 - 74",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-1-1-title"
-    },
-    {
-      "path": "1-7-4/data.csv",
-      "name": "1-7-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "BIRTHS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "LIVE_BIRTH",
-                "DEATHS",
-                "NATURAL_CHANGE",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.1-7-4-title"
-    },
-    {
-      "path": "3-2-3/data.csv",
-      "name": "3-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-2-3-title"
-    },
-    {
-      "path": "1-3-5/data.csv",
-      "name": "1-3-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-3-5-title"
-    },
-    {
-      "path": "5-1-1/data.csv",
-      "name": "5-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "public",
-                "private",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-1-1-title"
-    },
-    {
-      "path": "1-2-2/data.csv",
-      "name": "1-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-2-2-title"
-    },
-    {
-      "path": "1-1-2/data.csv",
-      "name": "1-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-1-2-title"
-    },
-    {
-      "path": "2-2-2/data.csv",
-      "name": "2-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "AGRICULTURAL_ACTIVITY",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Performing_agricultural_activity",
-                "Performing_agricultural_activity_and_selling_agricultural_products_in_the_market",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.2-2-2-title"
-    },
-    {
-      "path": "5-5-7/data.csv",
-      "name": "5-5-7",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_education",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "total",
-                "education",
-                "arts_and_humanities",
-                "social_sciences_journalism_and_information",
-                "business_administration_and_the_law_of_everything",
-                "natural_sciences_mathematics_and_statistics_of_all",
-                "information_and_communication_technologies",
-                "engineering_manufacturing_and_construction",
-                "agriculture_forestry_fisheries_and_veterinary_medicine",
-                "health_and_social_protection",
-                "services",
-                "unknown",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-5-7-title"
-    },
-    {
-      "path": "5-5-2/data.csv",
-      "name": "5-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-5-2-title"
-    },
-    {
-      "path": "1-4-4/data.csv",
-      "name": "1-4-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-4-4-title"
-    },
-    {
-      "path": "1-4-1/data.csv",
-      "name": "1-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-4-1-title"
+      "title": "global_indicators.3-3-2-title"
     },
     {
       "path": "7-1-4/data.csv",
@@ -3507,8 +2980,8 @@
       "title": "global_indicators.7-1-4-title"
     },
     {
-      "path": "2-4-1/data.csv",
-      "name": "2-4-1",
+      "path": "3-4-1/data.csv",
+      "name": "3-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3521,51 +2994,6 @@
             "type": "integer"
           },
           {
-            "name": "Type_of_disability",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Seeing",
-                "Hearing",
-                "walking_or_climbing_up_the_stairs",
-                "remembering_or_concentration",
-                "self_care",
-                "Communication",
-                "multiple_disabilities",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-14",
-                "15-19",
-                "20-29",
-                "30-49",
-                "50-59",
-                "60-64",
-                "65+",
-                "Total",
-                ""
-              ]
-            }
-          },
-          {
             "name": "UNIT_MEASURE",
             "type": "string"
           },
@@ -3575,11 +3003,11 @@
           }
         ]
       },
-      "title": "global_indicators.2-4-1-title"
+      "title": "global_indicators.3-4-1-title"
     },
     {
-      "path": "1-3-1/data.csv",
-      "name": "1-3-1",
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3601,49 +3029,11 @@
           }
         ]
       },
-      "title": "global_indicators.1-3-1-title"
+      "title": "global_indicators.1-2-1-title"
     },
     {
-      "path": "5-2-2/data.csv",
-      "name": "5-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-2-2-title"
-    },
-    {
-      "path": "5-4-3/data.csv",
-      "name": "5-4-3",
+      "path": "5-6-2/data.csv",
+      "name": "5-6-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3698,11 +3088,11 @@
           }
         ]
       },
-      "title": "global_indicators.5-4-3-title"
+      "title": "global_indicators.5-6-2-title"
     },
     {
-      "path": "5-3-5/data.csv",
-      "name": "5-3-5",
+      "path": "5-2-3/data.csv",
+      "name": "5-2-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3736,11 +3126,11 @@
           }
         ]
       },
-      "title": "global_indicators.5-3-5-title"
+      "title": "global_indicators.5-2-3-title"
     },
     {
-      "path": "1-7-2/data.csv",
-      "name": "1-7-2",
+      "path": "1-3-2/data.csv",
+      "name": "1-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3769,44 +3159,77 @@
             "type": "string"
           },
           {
-            "name": "AGE",
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.1-3-2-title"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-2-1-title"
+    },
+    {
+      "path": "1-7-3/data.csv",
+      "name": "1-7-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "TYPE_OF_DEPENDENCY_RATIO",
             "type": "string",
             "constraints": {
               "enum": [
-                "0-14",
-                "0-18",
-                "15-29",
-                "15-49",
-                "15-64",
-                "65+",
-                "75+",
-                "85+",
-                "100+",
-                "0-4",
-                "5-9",
-                "10-14",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "50-54",
-                "55-59",
-                "60-64",
-                "65-69",
-                "70-74",
-                "75-79",
-                "80-84",
-                "85-89",
-                "90-94",
-                "95-99",
-                "100-104",
-                "105-109",
-                "110-114",
-                "115-119",
-                "120+",
+                "total_support_ratio",
+                "young_age_support_ratio",
+                "old_age_support_ratio",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
                 ""
               ]
             }
@@ -3817,11 +3240,11 @@
           }
         ]
       },
-      "title": "global_indicators.1-7-2-title"
+      "title": "global_indicators.1-7-3-title"
     },
     {
-      "path": "1-3-4/data.csv",
-      "name": "1-3-4",
+      "path": "1-4-2/data.csv",
+      "name": "1-4-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3834,11 +3257,14 @@
             "type": "integer"
           },
           {
-            "name": "population_sex",
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "_T",
                 "M",
                 "F",
                 ""
@@ -3846,40 +3272,54 @@
             }
           },
           {
-            "name": "CAUSE_OF_DEATH",
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-4-2-title"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Type_of_user",
             "type": "string",
             "constraints": {
               "enum": [
-                "neoplasms",
-                "diseases_of_the_circulatory",
-                "diseases_of_the_respiratory",
-                "diseases_of_the_digestive",
-                "symptoms_signs_and_abnormal",
-                "injuries_poisoning_and_consequences",
                 "total",
-                "infectious_and_parasitic",
-                "diseases_of_the_blood",
-                "endocrine_metabolic_and_nutritional",
-                "mental_and_behavioural_disorders",
-                "diseases_of_the_nervous",
-                "diseases_of_the_eye",
-                "diseases_of_the_skin",
-                "diseases_of_the_musculoskeletal",
-                "diseases_of_the_genitourinary",
-                "pregnancy_childbirth_and_the",
-                "certain_conditions_originating",
-                "congenital_malformations_deformations",
-                "external_causes_of_mortality",
-                "factors_influencing_health_status",
-                "unknown",
-                "Covid-19",
+                "minor_beneficiaries",
+                "adult_beneficiaries",
                 ""
               ]
             }
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string"
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
           },
           {
             "name": "Value",
@@ -3887,11 +3327,11 @@
           }
         ]
       },
-      "title": "global_indicators.1-3-4-title"
+      "title": "global_indicators.4-1-1-title"
     },
     {
-      "path": "2-1-2/data.csv",
-      "name": "2-1-2",
+      "path": "5-1-4/data.csv",
+      "name": "5-1-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3920,47 +3360,106 @@
             }
           },
           {
-            "name": "AGE",
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-1-4-title"
+    },
+    {
+      "path": "5-1-2/data.csv",
+      "name": "5-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "0-4",
-                "5-9",
-                "10-14",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "50-54",
-                "55-59",
-                "60-64",
-                "65-69",
-                "70-74",
-                "75-79",
-                "80-84",
-                "85-89",
-                "90-94",
-                "95-99",
-                "100-104",
-                "105-109",
-                "110-114",
-                "115-120",
-                "Unknown",
-                "Total",
-                "0-14",
-                "15-29",
-                "15-49",
-                "15-64",
-                "65+",
-                "75+",
-                "85+",
-                "100+",
+                "_T",
+                "M",
+                "F",
                 ""
               ]
             }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-1-2-title"
+    },
+    {
+      "path": "3-2-2/data.csv",
+      "name": "3-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-2-2-title"
+    },
+    {
+      "path": "1-7-7/data.csv",
+      "name": "1-7-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -3968,7 +3467,7 @@
           }
         ]
       },
-      "title": "global_indicators.2-1-2-title"
+      "title": "global_indicators.1-7-7-title"
     },
     {
       "path": "2-1-6/data.csv",
@@ -4022,131 +3521,8 @@
       "title": "global_indicators.2-1-6-title"
     },
     {
-      "path": "5-6-4/data.csv",
-      "name": "5-6-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_education",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "total",
-                "education",
-                "arts_and_humanities",
-                "social_sciences_journalism_and_information",
-                "business_administration_and_the_law_of_everything",
-                "natural_sciences_mathematics_and_statistics_of_all",
-                "information_and_communication_technologies",
-                "engineering_manufacturing_and_construction",
-                "agriculture_forestry_fisheries_and_veterinary_medicine",
-                "health_and_social_protection",
-                "services",
-                "unknown",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-6-4-title"
-    },
-    {
-      "path": "1-6-3/data.csv",
-      "name": "1-6-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.1-6-3-title"
-    },
-    {
-      "path": "5-5-6/data.csv",
-      "name": "5-5-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-5-6-title"
-    },
-    {
-      "path": "7-1-3/data.csv",
-      "name": "7-1-3",
+      "path": "2-1-1/data.csv",
+      "name": "2-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4179,294 +3555,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15 - 74",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-1-3-title"
-    },
-    {
-      "path": "7-3-1/data.csv",
-      "name": "7-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.7-3-1-title"
-    },
-    {
-      "path": "3-7-1/data.csv",
-      "name": "3-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-14",
-                "15-19",
-                "20-29",
-                "30-49",
-                "50-59",
-                "60-64",
-                "65+",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-7-1-title"
-    },
-    {
-      "path": "3-3-1/data.csv",
-      "name": "3-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-3-1-title"
-    },
-    {
-      "path": "5-5-4/data.csv",
-      "name": "5-5-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.5-5-4-title"
-    },
-    {
-      "path": "5-7-3/data.csv",
-      "name": "5-7-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "public",
-                "private",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-7-3-title"
-    },
-    {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-2-1-title"
-    },
-    {
-      "path": "3-5-1/data.csv",
-      "name": "3-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-5-1-title"
-    },
-    {
-      "path": "1-7-1/data.csv",
-      "name": "1-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Total",
                 "0",
                 "1",
                 "2",
@@ -4587,10 +3675,38 @@
                 "117",
                 "118",
                 "119",
-                "120+",
+                "120",
+                "Unknown",
+                "Total",
                 ""
               ]
             }
+          },
+          {
+            "name": "Value",
+            "type": "string"
+          }
+        ]
+      },
+      "title": "global_indicators.2-1-1-title"
+    },
+    {
+      "path": "3-6-4/data.csv",
+      "name": "3-6-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
           },
           {
             "name": "Value",
@@ -4598,7 +3714,61 @@
           }
         ]
       },
-      "title": "global_indicators.1-7-1-title"
+      "title": "global_indicators.3-6-4-title"
+    },
+    {
+      "path": "5-3-4/data.csv",
+      "name": "5-3-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Type_of_school",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "gymnasium",
+                "technical_schools",
+                "art_schools",
+                "religion_schools",
+                "vocational_schools",
+                "high_schools_for_children_with_special_needs",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-3-4-title"
     },
     {
       "path": "7-3-2/data.csv",
@@ -4639,137 +3809,8 @@
       "title": "global_indicators.7-3-2-title"
     },
     {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "population_sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "BIRTHS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "LIVE_BIRTH",
-                "DEATHS",
-                "NATURAL_CHANGE",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.1-1-1-title"
-    },
-    {
-      "path": "5-7-1/data.csv",
-      "name": "5-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "25 - 64",
-                "25 - 34",
-                "35 - 44",
-                "35 - 54",
-                "45 - 54",
-                "55 - 64",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "_T",
-                "M",
-                "F",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.5-7-1-title"
-    },
-    {
-      "path": "3-5-5/data.csv",
-      "name": "3-5-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "integer"
-          }
-        ]
-      },
-      "title": "global_indicators.3-5-5-title"
-    },
-    {
-      "path": "5-3-3/data.csv",
-      "name": "5-3-3",
+      "path": "5-5-1/data.csv",
+      "name": "5-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4803,7 +3844,7 @@
           }
         ]
       },
-      "title": "global_indicators.5-3-3-title"
+      "title": "global_indicators.5-5-1-title"
     },
     {
       "path": "1-6-4/data.csv",
@@ -4832,8 +3873,125 @@
       "title": "global_indicators.1-6-4-title"
     },
     {
-      "path": "1-7-5/data.csv",
-      "name": "1-7-5",
+      "path": "1-4-4/data.csv",
+      "name": "1-4-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-4-4-title"
+    },
+    {
+      "path": "7-1-2/data.csv",
+      "name": "7-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15+",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "15 - 89",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-1-2-title"
+    },
+    {
+      "path": "3-5-1/data.csv",
+      "name": "3-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-5-1-title"
+    },
+    {
+      "path": "3-6-3/data.csv",
+      "name": "3-6-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4855,11 +4013,145 @@
           }
         ]
       },
-      "title": "global_indicators.1-7-5-title"
+      "title": "global_indicators.3-6-3-title"
     },
     {
-      "path": "5-4-2/data.csv",
-      "name": "5-4-2",
+      "path": "3-4-2/data.csv",
+      "name": "3-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-4-2-title"
+    },
+    {
+      "path": "3-3-4/data.csv",
+      "name": "3-3-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-3-4-title"
+    },
+    {
+      "path": "3-1-2/data.csv",
+      "name": "3-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "CAUSE_OF_DEATH",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "neoplasms",
+                "diseases_of_the_circulatory",
+                "diseases_of_the_respiratory",
+                "diseases_of_the_digestive",
+                "symptoms_signs_and_abnormal",
+                "injuries_poisoning_and_consequences",
+                "infectious_and_parasitic",
+                "diseases_of_the_blood",
+                "endocrine_metabolic_and_nutritional",
+                "mental_and_behavioural_disorders",
+                "diseases_of_the_nervous",
+                "diseases_of_the_eye",
+                "diseases_of_the_skin",
+                "diseases_of_the_genitourinary",
+                "certain_conditions_originating",
+                "congenital_malformations_deformations",
+                "external_causes_of_mortality",
+                "factors_influencing_health_status",
+                "unknown",
+                "diseases_of_the_musculoskeletal",
+                "pregnancy_childbirth_and_the",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-2-title"
+    },
+    {
+      "path": "3-6-2/data.csv",
+      "name": "3-6-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-6-2-title"
+    },
+    {
+      "path": "5-5-4/data.csv",
+      "name": "5-5-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4893,37 +4185,11 @@
           }
         ]
       },
-      "title": "global_indicators.5-4-2-title"
+      "title": "global_indicators.5-5-4-title"
     },
     {
-      "path": "1-6-2/data.csv",
-      "name": "1-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.1-6-2-title"
-    },
-    {
-      "path": "1-6-1/data.csv",
-      "name": "1-6-1",
+      "path": "3-5-6/data.csv",
+      "name": "3-5-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4945,11 +4211,75 @@
           }
         ]
       },
-      "title": "global_indicators.1-6-1-title"
+      "title": "global_indicators.3-5-6-title"
     },
     {
-      "path": "1-7-7/data.csv",
-      "name": "1-7-7",
+      "path": "3-5-2/data.csv",
+      "name": "3-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-5-2-title"
+    },
+    {
+      "path": "3-5-3/data.csv",
+      "name": "3-5-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-5-3-title"
+    },
+    {
+      "path": "1-7-4/data.csv",
+      "name": "1-7-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4974,16 +4304,92 @@
             }
           },
           {
+            "name": "BIRTHS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "LIVE_BIRTH",
+                "DEATHS",
+                "NATURAL_CHANGE",
+                ""
+              ]
+            }
+          },
+          {
             "name": "UNIT_MEASURE",
             "type": "string"
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },
-      "title": "global_indicators.1-7-7-title"
+      "title": "global_indicators.1-7-4-title"
+    },
+    {
+      "path": "5-2-1/data.csv",
+      "name": "5-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-2-1-title"
+    },
+    {
+      "path": "3-5-4/data.csv",
+      "name": "3-5-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-5-4-title"
     },
     {
       "path": "1-3-3/data.csv",
@@ -5024,46 +4430,8 @@
       "title": "global_indicators.1-3-3-title"
     },
     {
-      "path": "3-6-1/data.csv",
-      "name": "3-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string"
-          },
-          {
-            "name": "MICS_NUMBER",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "all_methods",
-                "traditional_methods",
-                "modern_methods",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "Value",
-            "type": "number"
-          }
-        ]
-      },
-      "title": "global_indicators.3-6-1-title"
-    },
-    {
-      "path": "5-5-1/data.csv",
-      "name": "5-5-1",
+      "path": "5-3-5/data.csv",
+      "name": "5-3-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5097,7 +4465,639 @@
           }
         ]
       },
-      "title": "global_indicators.5-5-1-title"
+      "title": "global_indicators.5-3-5-title"
+    },
+    {
+      "path": "1-7-5/data.csv",
+      "name": "1-7-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-7-5-title"
+    },
+    {
+      "path": "6-1-3/data.csv",
+      "name": "6-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.6-1-3-title"
+    },
+    {
+      "path": "2-1-2/data.csv",
+      "name": "2-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-4",
+                "5-9",
+                "10-14",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50-54",
+                "55-59",
+                "60-64",
+                "65-69",
+                "70-74",
+                "75-79",
+                "80-84",
+                "85-89",
+                "90-94",
+                "95-99",
+                "100-104",
+                "105-109",
+                "110-114",
+                "115-120",
+                "Unknown",
+                "Total",
+                "0-14",
+                "15-29",
+                "15-49",
+                "15-64",
+                "65+",
+                "75+",
+                "85+",
+                "100+",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.2-1-2-title"
+    },
+    {
+      "path": "5-5-6/data.csv",
+      "name": "5-5-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-5-6-title"
+    },
+    {
+      "path": "7-2-2/data.csv",
+      "name": "7-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Quarter",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Q1",
+                "Q2",
+                "Q3",
+                "Q4",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 89",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "15 - 74",
+                "65 - 74",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-2-2-title"
+    },
+    {
+      "path": "5-1-3/data.csv",
+      "name": "5-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-1-3-title"
+    },
+    {
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-1-title"
+    },
+    {
+      "path": "1-3-6/data.csv",
+      "name": "1-3-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.1-3-6-title"
+    },
+    {
+      "path": "6-1-2/data.csv",
+      "name": "6-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.6-1-2-title"
+    },
+    {
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "CAUSE_OF_DEATH",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "neoplasms",
+                "diseases_of_the_circulatory",
+                "diseases_of_the_respiratory",
+                "diseases_of_the_digestive",
+                "symptoms_signs_and_abnormal",
+                "injuries_poisoning_and_consequences",
+                "total",
+                "infectious_and_parasitic",
+                "diseases_of_the_blood",
+                "endocrine_metabolic_and_nutritional",
+                "mental_and_behavioural_disorders",
+                "diseases_of_the_nervous",
+                "diseases_of_the_eye",
+                "diseases_of_the_skin",
+                "diseases_of_the_musculoskeletal",
+                "diseases_of_the_genitourinary",
+                "pregnancy_childbirth_and_the",
+                "certain_conditions_originating",
+                "congenital_malformations_deformations",
+                "external_causes_of_mortality",
+                "factors_influencing_health_status",
+                "unknown",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-1-title"
+    },
+    {
+      "path": "3-1-4/data.csv",
+      "name": "3-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.3-1-4-title"
+    },
+    {
+      "path": "5-4-3/data.csv",
+      "name": "5-4-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "type_of_education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "total",
+                "education",
+                "arts_and_humanities",
+                "social_sciences_journalism_and_information",
+                "business_administration_and_the_law_of_everything",
+                "natural_sciences_mathematics_and_statistics_of_all",
+                "information_and_communication_technologies",
+                "engineering_manufacturing_and_construction",
+                "agriculture_forestry_fisheries_and_veterinary_medicine",
+                "health_and_social_protection",
+                "services",
+                "unknown",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "_T",
+                "M",
+                "F",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.5-4-3-title"
+    },
+    {
+      "path": "6-1-1/data.csv",
+      "name": "6-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.6-1-1-title"
+    },
+    {
+      "path": "2-2-2/data.csv",
+      "name": "2-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "AGRICULTURAL_ACTIVITY",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Performing_agricultural_activity",
+                "Performing_agricultural_activity_and_selling_agricultural_products_in_the_market",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Value",
+            "type": "integer"
+          }
+        ]
+      },
+      "title": "global_indicators.2-2-2-title"
+    },
+    {
+      "path": "7-3-1/data.csv",
+      "name": "7-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "number"
+          }
+        ]
+      },
+      "title": "global_indicators.7-3-1-title"
     }
   ]
 }
