@@ -131,6 +131,6 @@ Year,UNIT_MEASURE,type_of_institution,SEX,Value
 2023,NUMBER,social_welfare_institutions_for_adults_with_disabilities,_T,285
 2023,NUMBER,social_welfare_institutions_for_adults_with_disabilities,M,172
 2023,NUMBER,social_welfare_institutions_for_adults_with_disabilities,F,113
-2022,NUMBER,social_welfare_institutions_for_adults,_T,8147
-2022,NUMBER,social_welfare_institutions_for_adults,M,3795
-2022,NUMBER,social_welfare_institutions_for_adults,F,4352
+2023,NUMBER,social_welfare_institutions_for_adults,_T,8147
+2023,NUMBER,social_welfare_institutions_for_adults,M,3795
+2023,NUMBER,social_welfare_institutions_for_adults,F,4352
