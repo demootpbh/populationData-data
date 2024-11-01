@@ -26,6 +26,7 @@ Year,UNIT_MEASURE,Sex,Vital statistics,Value
 2020,Number,Both sexes,Live births,27255
 2021,Number,Both sexes,Live births,27143
 2022,Number,Both sexes,Live births,26687
+2023,Number,Both sexes,Live births,26451
 1996,Number,M,Live births,24398
 1997,Number,M,Live births,25297
 1998,Number,M,Live births,23425
@@ -53,6 +54,7 @@ Year,UNIT_MEASURE,Sex,Vital statistics,Value
 2020,Number,M,Live births,14166
 2021,Number,M,Live births,13896
 2022,Number,M,Live births,13690
+2023,Number,M,Live births,13948
 1996,Number,F,Live births,22196
 1997,Number,F,Live births,23100
 1998,Number,F,Live births,21582
@@ -80,6 +82,7 @@ Year,UNIT_MEASURE,Sex,Vital statistics,Value
 2020,Number,F,Live births,13089
 2021,Number,F,Live births,13247
 2022,Number,F,Live births,12997
+2023,Number,F,Live births,12503
 1996,Number,Both sexes,Deaths,25152
 1997,Number,Both sexes,Deaths,27875
 1998,Number,Both sexes,Deaths,28679
@@ -107,6 +110,7 @@ Year,UNIT_MEASURE,Sex,Vital statistics,Value
 2020,Number,Both sexes,Deaths,44427
 2021,Number,Both sexes,Deaths,50333
 2022,Number,Both sexes,Deaths,41296
+2023,Number,Both sexes,Deaths,35471
 1996,Number,M,Deaths,13952
 1997,Number,M,Deaths,15184
 1998,Number,M,Deaths,15303
@@ -134,6 +138,7 @@ Year,UNIT_MEASURE,Sex,Vital statistics,Value
 2020,Number,M,Deaths,23040
 2021,Number,M,Deaths,25923
 2022,Number,M,Deaths,21148
+2023,Number,M,Deaths,17423
 1996,Number,F,Deaths,11200
 1997,Number,F,Deaths,12691
 1998,Number,F,Deaths,13376
@@ -161,6 +166,7 @@ Year,UNIT_MEASURE,Sex,Vital statistics,Value
 2020,Number,F,Deaths,21387
 2021,Number,F,Deaths,24410
 2022,Number,F,Deaths,20148
+2023,Number,F,Deaths,18048
 1996,Number,Both sexes,Natural change,21442
 1997,Number,Both sexes,Natural change,20522
 1998,Number,Both sexes,Natural change,16328
@@ -188,3 +194,4 @@ Year,UNIT_MEASURE,Sex,Vital statistics,Value
 2020,Number,Both sexes,Natural change,-17172
 2021,Number,Both sexes,Natural change,-23190
 2022,Number,Both sexes,Natural change,-14609
+2023,Number,Both sexes,Natural change,-9020
