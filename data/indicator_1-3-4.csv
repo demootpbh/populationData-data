@@ -1329,4 +1329,27 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2022,F,Covid-19,NUMBER,1516
 2022,F,unknown,NUMBER,247
 2022,F,total,NUMBER,20148
+2023,_T,infectious_and_parasitic,NUMBER,463
+2023,_T,neoplasms,NUMBER,7488
+2023,_T,diseases_of_the_blood,NUMBER,71
+2023,_T,endocrine_metabolic_and_nutritional,NUMBER,2159
+2023,_T,mental_and_behavioural_disorders,NUMBER,392
+2023,_T,diseases_of_the_nervous,NUMBER,394
+2023,_T,diseases_of_the_eye,NUMBER,0
+2022,_T,diseases_of_the_circulatory,NUMBER,18126
+2022,_T,diseases_of_the_respiratory,NUMBER,1951
+2022,_T,diseases_of_the_digestive,NUMBER,1043
+2022,_T,diseases_of_the_skin,NUMBER,50
+2022,_T,diseases_of_the_musculoskeletal,NUMBER,49
+2022,_T,diseases_of_the_genitourinary,NUMBER,668
+2022,_T,pregnancy_childbirth_and_the,NUMBER,5
+2022,_T,certain_conditions_originating,NUMBER,93
+2022,_T,congenital_malformations_deformations,NUMBER,36
+2022,_T,symptoms_signs_and_abnormal,NUMBER,3452
+2022,_T,injuries_poisoning_and_consequences,NUMBER,869
+2022,_T,external_causes_of_mortality,NUMBER,5
+2022,_T,factors_influencing_health_status,NUMBER,5
+2022,_T,Covid-19,NUMBER,3379
+2022,_T,unknown,NUMBER,571
+2022,_T,total,NUMBER,41296
 
