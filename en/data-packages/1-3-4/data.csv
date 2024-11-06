@@ -1329,3 +1329,26 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2022,F,Covid-19,Number,1516
 2022,F,Unknown,Number,247
 2022,F,Total,Number,20148
+2023,Both sexes,(A00-B99) Infectious and parasitic diseases,Number,463
+2023,Both sexes,"(C00-C97,D00-D48) Neoplasms",Number,7488
+2023,Both sexes,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,71
+2023,Both sexes,(E00-E90) Endocrine metabolic and nutritional diseases,Number,2159
+2023,Both sexes,(F00-F99) Mental and behavioural disorders,Number,392
+2023,Both sexes,(G00-G99) Diseases of the nervous system,Number,394
+2023,Both sexes,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
+2022,Both sexes,(I00-I99) Diseases of the circulatory system,Number,18126
+2022,Both sexes,(J00-J99) Diseases of the respiratory system,Number,1951
+2022,Both sexes,(K00-K93) Diseases of the digestive system,Number,1043
+2022,Both sexes,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,50
+2022,Both sexes,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,49
+2022,Both sexes,(N00-N99) Diseases of the genitourinary system,Number,668
+2022,Both sexes,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,5
+2022,Both sexes,(P00-P96) Certain conditions originating in the perinatal period,Number,93
+2022,Both sexes,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,36
+2022,Both sexes,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,3452
+2022,Both sexes,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,869
+2022,Both sexes,(V01-Y98) External causes of mortality,Number,5
+2022,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,5
+2022,Both sexes,Covid-19,Number,3379
+2022,Both sexes,Unknown,Number,571
+2022,Both sexes,Total,Number,41296
