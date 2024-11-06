@@ -1336,19 +1336,19 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2023,Oba spola,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,392
 2023,Oba spola,(G00-G99) Bolesti nervnog sustava,Broj,394
 2023,Oba spola,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
-2022,Oba spola,(I00-I99) Bolesti cirkulacijskog sustava,Broj,18126
-2022,Oba spola,(J00-J99) Bolesti respiratornog sustava,Broj,1951
-2022,Oba spola,(K00-K93) Bolesti digestivnog sustava,Broj,1043
-2022,Oba spola,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,50
-2022,Oba spola,(M00-M99) Bolesti muskuloskeletnog sustava i vezivnog tkiva,Broj,49
-2022,Oba spola,(N00-N99) Bolesti genitalno-urinarnog sustava,Broj,668
-2022,Oba spola,"(O00-O99) Trudnoća, porođaj i postporođajni period",Broj,5
-2022,Oba spola,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,93
-2022,Oba spola,"(Q00-Q99) Kongenitalne malformacije, deformiteti i kromosomske abnormalnosti",Broj,36
-2022,Oba spola,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi nesvrstani drugamo",Broj,3452
-2022,Oba spola,"(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka",Broj,869
-2022,Oba spola,(V01-Y98) Vanjski uzroci mortaliteta,Broj,5
-2022,Oba spola,(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom,Broj,5
-2022,Oba spola,Covid-19,Broj,3379
-2022,Oba spola,Nepoznato,Broj,571
-2022,Oba spola,Ukupno,Broj,41296
+2023,Oba spola,(I00-I99) Bolesti cirkulacijskog sustava,Broj,16340
+2023,Oba spola,(J00-J99) Bolesti respiratornog sustava,Broj,1893
+2023,Oba spola,(K00-K93) Bolesti digestivnog sustava,Broj,978
+2023,Oba spola,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,62
+2023,Oba spola,(M00-M99) Bolesti muskuloskeletnog sustava i vezivnog tkiva,Broj,46
+2023,Oba spola,(N00-N99) Bolesti genitalno-urinarnog sustava,Broj,741
+2023,Oba spola,"(O00-O99) Trudnoća, porođaj i postporođajni period",Broj,0
+2023,Oba spola,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,88
+2023,Oba spola,"(Q00-Q99) Kongenitalne malformacije, deformiteti i kromosomske abnormalnosti",Broj,25
+2023,Oba spola,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi nesvrstani drugamo",Broj,2643
+2023,Oba spola,"(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka",Broj,868
+2023,Oba spola,(V01-Y98) Vanjski uzroci mortaliteta,Broj,3
+2023,Oba spola,(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom,Broj,6
+2023,Oba spola,Covid-19,Broj,292
+2023,Oba spola,Nepoznato,Broj,519
+2023,Oba spola,Ukupno,Broj,35471
