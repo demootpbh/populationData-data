@@ -1374,3 +1374,26 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2023,M,Covid-19,Broj,158
 2023,M,Nepoznato,Broj,291
 2023,M,Ukupno,Broj,18048
+2023,Ž,(A00-B99) Zarazne i parazitarne bolesti,Broj,208
+2023,Ž,"(C00-C97,D00-D48) Neoplazme",Broj,3264
+2023,Ž,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sustava",Broj,38
+2023,Ž,"(E00-E90) Endokrine bolesti, bolesti prehrane i bolesti metabolizma",Broj,1278
+2023,Ž,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,213
+2023,Ž,(G00-G99) Bolesti nervnog sustava,Broj,210
+2023,Ž,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
+2023,Ž,(I00-I99) Bolesti cirkulacijskog sustava,Broj,8689
+2023,Ž,(J00-J99) Bolesti respiratornog sustava,Broj,817
+2023,Ž,(K00-K93) Bolesti digestivnog sustava,Broj,398
+2023,Ž,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,36
+2023,Ž,(M00-M99) Bolesti muskuloskeletnog sustava i vezivnog tkiva,Broj,33
+2023,Ž,(N00-N99) Bolesti genitalno-urinarnog sustava,Broj,371
+2023,Ž,"(O00-O99) Trudnoća, porođaj i postporođajni period",Broj,0
+2023,Ž,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,37
+2023,Ž,"(Q00-Q99) Kongenitalne malformacije, deformiteti i kromosomske abnormalnosti",Broj,6
+2023,Ž,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi nesvrstani drugamo",Broj,1249
+2023,Ž,"(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka",Broj,211
+2023,Ž,(V01-Y98) Vanjski uzroci mortaliteta,Broj,1
+2023,Ž,(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom,Broj,2
+2023,Ž,Covid-19,Broj,134
+2023,Ž,Nepoznato,Broj,228
+2023,Ž,Ukupno,Broj,17423

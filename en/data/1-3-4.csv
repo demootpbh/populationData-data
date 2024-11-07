@@ -1374,3 +1374,26 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2023,M,Covid-19,Number,158
 2023,M,Unknown,Number,291
 2023,M,Total,Number,18048
+2023,F,(A00-B99) Infectious and parasitic diseases,Number,208
+2023,F,"(C00-C97,D00-D48) Neoplasms",Number,3264
+2023,F,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,38
+2023,F,(E00-E90) Endocrine metabolic and nutritional diseases,Number,1278
+2023,F,(F00-F99) Mental and behavioural disorders,Number,213
+2023,F,(G00-G99) Diseases of the nervous system,Number,210
+2023,F,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
+2023,F,(I00-I99) Diseases of the circulatory system,Number,8689
+2023,F,(J00-J99) Diseases of the respiratory system,Number,817
+2023,F,(K00-K93) Diseases of the digestive system,Number,398
+2023,F,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,36
+2023,F,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,33
+2023,F,(N00-N99) Diseases of the genitourinary system,Number,371
+2023,F,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,0
+2023,F,(P00-P96) Certain conditions originating in the perinatal period,Number,37
+2023,F,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,6
+2023,F,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1249
+2023,F,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,211
+2023,F,(V01-Y98) External causes of mortality,Number,1
+2023,F,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
+2023,F,Covid-19,Number,134
+2023,F,Unknown,Number,228
+2023,F,Total,Number,17423
