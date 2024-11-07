@@ -1352,3 +1352,25 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2023,Both sexes,Covid-19,Number,292
 2023,Both sexes,Unknown,Number,519
 2023,Both sexes,Total,Number,35471
+2023,M,(A00-B99) Infectious and parasitic diseases,Number,255
+2023,M,"(C00-C97,D00-D48) Neoplasms",Number,4224
+2023,M,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,33
+2023,M,(E00-E90) Endocrine metabolic and nutritional diseases,Number,881
+2023,M,(F00-F99) Mental and behavioural disorders,Number,179
+2023,M,(G00-G99) Diseases of the nervous system,Number,184
+2023,M,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
+2023,M,(I00-I99) Diseases of the circulatory system,Number,7651
+2023,M,(J00-J99) Diseases of the respiratory system,Number,1076
+2023,M,(K00-K93) Diseases of the digestive system,Number,580
+2023,M,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,26
+2023,M,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,13
+2023,M,(N00-N99) Diseases of the genitourinary system,Number,370
+2023,M,(P00-P96) Certain conditions originating in the perinatal period,Number,51
+2023,M,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,19
+2023,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1394
+2023,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,657
+2023,M,(V01-Y98) External causes of mortality,Number,2
+2023,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,4
+2023,M,Covid-19,Number,158
+2023,M,Unknown,Number,291
+2023,M,Total,Number,18048

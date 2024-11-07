@@ -1352,3 +1352,25 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2023,Oba spola,Covid-19,Broj,292
 2023,Oba spola,Nepoznato,Broj,519
 2023,Oba spola,Ukupno,Broj,35471
+2023,M,(A00-B99) Zarazne i parazitarne bolesti,Broj,255
+2023,M,"(C00-C97,D00-D48) Neoplazme",Broj,4224
+2023,M,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sistema",Broj,33
+2023,M,"(E00-E90) Endokrine bolesti, bolesti ishrane i bolesti metabolizma",Broj,881
+2023,M,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,179
+2023,M,(G00-G99) Bolesti nervnog sistema,Broj,184
+2023,M,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
+2023,M,(I00-I99) Bolesti cirkulacijskog sistema,Broj,7651
+2023,M,(J00-J99) Bolesti respiratornog sistema,Broj,1076
+2023,M,(K00-K93) Bolesti digestivnog sistema,Broj,580
+2023,M,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,26
+2023,M,(M00-M99) Bolesti muskuloskeletnog sistema i vezivnog tkiva,Broj,13
+2023,M,(N00-N99) Bolesti genitalno-urinarnog sistema,Broj,370
+2023,M,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,51
+2023,M,"(Q00-Q99) Kongenitalne malformacije, deformiteti i hromosomske abnormalnosti",Broj,19
+2023,M,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi koji nisu drugdje klasificirani",Broj,1394
+2023,M,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,657
+2023,M,(V01-Y98) Vanjski uzroci smrtnosti,Broj,2
+2023,M,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,4
+2023,M,Covid-19,Broj,158
+2023,M,Nepoznato,Broj,291
+2023,M,Ukupno,Broj,18048
