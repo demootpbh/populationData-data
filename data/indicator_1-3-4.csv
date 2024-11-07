@@ -1352,4 +1352,26 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2023,_T,Covid-19,NUMBER,292
 2023,_T,unknown,NUMBER,519
 2023,_T,total,NUMBER,35471
+2023,M,infectious_and_parasitic,NUMBER,255
+2023,M,neoplasms,NUMBER,4224
+2023,M,diseases_of_the_blood,NUMBER,33
+2023,M,endocrine_metabolic_and_nutritional,NUMBER,881
+2023,M,mental_and_behavioural_disorders,NUMBER,179
+2023,M,diseases_of_the_nervous,NUMBER,184
+2023,M,diseases_of_the_eye,NUMBER,0
+2023,M,diseases_of_the_circulatory,NUMBER,7651
+2023,M,diseases_of_the_respiratory,NUMBER,1076
+2023,M,diseases_of_the_digestive,NUMBER,580
+2023,M,diseases_of_the_skin,NUMBER,26
+2023,M,diseases_of_the_musculoskeletal,NUMBER,13
+2023,M,diseases_of_the_genitourinary,NUMBER,370
+2023,M,certain_conditions_originating,NUMBER,51
+2023,M,congenital_malformations_deformations,NUMBER,19
+2023,M,symptoms_signs_and_abnormal,NUMBER,1394
+2023,M,injuries_poisoning_and_consequences,NUMBER,657
+2023,M,external_causes_of_mortality,NUMBER,2
+2023,M,factors_influencing_health_status,NUMBER,4
+2023,M,Covid-19,NUMBER,158
+2023,M,unknown,NUMBER,291
+2023,M,total,NUMBER,18048
 
