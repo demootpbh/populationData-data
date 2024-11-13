@@ -11,6 +11,7 @@ Year,UNIT_MEASURE,Spol,Value
 2020,Broj,Oba spola,12288
 2021,Broj,Oba spola,11340
 2022,Broj,Oba spola,10223
+2023,Broj,Oba spola,9023
 2011,Broj,M,6984
 2012,Broj,M,7168
 2013,Broj,M,7248
@@ -23,6 +24,7 @@ Year,UNIT_MEASURE,Spol,Value
 2020,Broj,M,4977
 2021,Broj,M,4547
 2022,Broj,M,3983
+2023,Broj,M,3524
 2011,Broj,Ž,10740
 2012,Broj,Ž,10872
 2013,Broj,Ž,10759
@@ -35,3 +37,4 @@ Year,UNIT_MEASURE,Spol,Value
 2020,Broj,Ž,7311
 2021,Broj,Ž,6793
 2022,Broj,Ž,6240
+2023,Broj,Ž,5499
