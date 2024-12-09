@@ -323,3 +323,39 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2022,Number,Health and social protection,F,339
 2022,Number,Services,F,163
 2022,Number,Unknown,F,38
+2023,Number,Total,Both sexes,3003
+2023,Number,Education,Both sexes,290
+2023,Number,Arts and humanities,Both sexes,439
+2023,Number,"Social sciences, journalism and information",Both sexes,358
+2023,Number,Business administration and the law,Both sexes,473
+2023,Number,"Natural sciences, mathematics and statistics",Both sexes,162
+2023,Number,Information and communication technologies,Both sexes,126
+2023,Number,"Engineering, manufacturing and construction",Both sexes,475
+2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,66
+2023,Number,Health and social protection,Both sexes,408
+2023,Number,Services,Both sexes,232
+2023,Number,Unknown,Both sexes,0
+2023,Number,Total,M,1024
+2023,Number,Education,M,75
+2023,Number,Arts and humanities,M,70
+2023,Number,"Social sciences, journalism and information",M,119
+2023,Number,Business administration and the law,M,177
+2023,Number,"Natural sciences, mathematics and statistics",M,50
+2023,Number,Information and communication technologies,M,61
+2023,Number,"Engineering, manufacturing and construction",M,219
+2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,31
+2023,Number,Health and social protection,M,102
+2023,Number,Services,M,120
+2023,Number,Unknown,M,0
+2023,Number,Total,F,1979
+2023,Number,Education,F,364
+2023,Number,Arts and humanities,F,194
+2023,Number,"Social sciences, journalism and information",F,239
+2023,Number,Business administration and the law,F,296
+2023,Number,"Natural sciences, mathematics and statistics",F,112
+2023,Number,Information and communication technologies,F,65
+2023,Number,"Engineering, manufacturing and construction",F,256
+2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,35
+2023,Number,Health and social protection,F,306
+2023,Number,Services,F,112
+2023,Number,Unknown,F,0
