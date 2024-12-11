@@ -107,6 +107,18 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2022,Number,Health and social protection,Both sexes,1015
 2022,Number,Services,Both sexes,0
 2022,Number,Unknown,Both sexes,0
+2023,Number,Total,Both sexes,2030
+2023,Number,Education,Both sexes,0
+2023,Number,Arts and humanities,Both sexes,11
+2023,Number,"Social sciences, journalism and information",Both sexes,0
+2023,Number,Business administration and the law,Both sexes,0
+2023,Number,"Natural sciences, mathematics and statistics",Both sexes,0
+2023,Number,Information and communication technologies,Both sexes,0
+2023,Number,"Engineering, manufacturing and construction",Both sexes,1
+2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,39
+2023,Number,Health and social protection,Both sexes,962
+2023,Number,Services,Both sexes,0
+2023,Number,Unknown,Both sexes,0
 2014,Number,Total,M,247
 2014,Number,Education,M,0
 2014,Number,Arts and humanities,M,11
@@ -215,6 +227,18 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2022,Number,Health and social protection,M,276
 2022,Number,Services,M,0
 2022,Number,Unknown,M,0
+2023,Number,Total,M,271
+2023,Number,Education,M,0
+2023,Number,Arts and humanities,M,4
+2023,Number,"Social sciences, journalism and information",M,0
+2023,Number,Business administration and the law,M,0
+2023,Number,"Natural sciences, mathematics and statistics",M,0
+2023,Number,Information and communication technologies,M,0
+2023,Number,"Engineering, manufacturing and construction",M,0
+2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,12
+2023,Number,Health and social protection,M,254
+2023,Number,Services,M,1
+2023,Number,Unknown,M,0
 2014,Number,Total,F,544
 2014,Number,Education,F,0
 2014,Number,Arts and humanities,F,10
@@ -323,3 +347,15 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2022,Number,Health and social protection,F,739
 2022,Number,Services,F,0
 2022,Number,Unknown,F,0
+2023,Number,Total,F,743
+2023,Number,Education,F,0
+2023,Number,Arts and humanities,F,7
+2023,Number,"Social sciences, journalism and information",F,0
+2023,Number,Business administration and the law,F,0
+2023,Number,"Natural sciences, mathematics and statistics",F,0
+2023,Number,Information and communication technologies,F,0
+2023,Number,"Engineering, manufacturing and construction",F,1
+2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,27
+2023,Number,Health and social protection,F,708
+2023,Number,Services,F,1
+2023,Number,Unknown,F,0
