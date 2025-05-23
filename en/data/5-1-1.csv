@@ -12,6 +12,7 @@ Year,UNIT_MEASURE,Type of institution,Value
 2021,Number,Both sexes,427
 2022,Number,Both sexes,465
 2023,Number,Both sexes,493
+2024,Number,Both sexes,529
 2011,Number,Public,176
 2012,Number,Public,180
 2013,Number,Public,180
@@ -25,6 +26,7 @@ Year,UNIT_MEASURE,Type of institution,Value
 2021,Number,Public,227
 2022,Number,Public,229
 2023,Number,Public,250
+2024,Number,Public,253
 2011,Number,Private,51
 2012,Number,Private,66
 2013,Number,Private,81
@@ -38,3 +40,4 @@ Year,UNIT_MEASURE,Type of institution,Value
 2021,Number,Private,200
 2022,Number,Private,236
 2023,Number,Private,243
+2024,Number,Private,276

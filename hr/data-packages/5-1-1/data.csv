@@ -12,6 +12,7 @@ Year,UNIT_MEASURE,Vrsta ustanove,Value
 2021,Broj,Oba spola,427
 2022,Broj,Oba spola,465
 2023,Broj,Oba spola,493
+2024,Broj,Oba spola,529
 2011,Broj,Javna,176
 2012,Broj,Javna,180
 2013,Broj,Javna,180
@@ -25,6 +26,7 @@ Year,UNIT_MEASURE,Vrsta ustanove,Value
 2021,Broj,Javna,227
 2022,Broj,Javna,229
 2023,Broj,Javna,250
+2024,Broj,Javna,253
 2011,Broj,Privatna,51
 2012,Broj,Privatna,66
 2013,Broj,Privatna,81
@@ -38,3 +40,4 @@ Year,UNIT_MEASURE,Vrsta ustanove,Value
 2021,Broj,Privatna,200
 2022,Broj,Privatna,236
 2023,Broj,Privatna,243
+2024,Broj,Privatna,276
