@@ -17,6 +17,7 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2021,%,self_employed,_T,13.1
 2022,%,self_employed,_T,11.7
 2023,%,self_employed,_T,11.7
+2024,%,self_employed,_T,11.7
 2015,%,unpaid_family_workers,_T,3.5
 2016,%,unpaid_family_workers,_T,3.3
 2017,%,unpaid_family_workers,_T,3.9
@@ -26,6 +27,7 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2021,%,unpaid_family_workers,_T,1.8
 2022,%,unpaid_family_workers,_T,1.4
 2023,%,unpaid_family_workers,_T,1.6
+2024,%,unpaid_family_workers,_T,1.7
 2015,%,employees,M,74.3
 2016,%,employees,M,74.7
 2017,%,employees,M,75.6
@@ -35,6 +37,7 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2021,%,employees,M,84.6
 2022,%,employees,M,85.5
 2023,%,employees,M,84.9
+2024,%,employees,M,84.9
 2015,%,self_employed,M,23.9
 2016,%,self_employed,M,23.6
 2017,%,self_employed,M,22.6
@@ -44,6 +47,7 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2021,%,self_employed,M,14.5
 2022,%,self_employed,M,13.8
 2023,%,self_employed,M,14.2
+2024,%,self_employed,M,14.2
 2015,%,unpaid_family_workers,M,1.7
 2016,%,unpaid_family_workers,M,1.7
 2017,%,unpaid_family_workers,M,1.9
@@ -53,6 +57,7 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2021,%,unpaid_family_workers,M,0.9
 2022,%,unpaid_family_workers,M,0.7
 2023,%,unpaid_family_workers,M,0.9
+2024,%,unpaid_family_workers,M,0.9
 2015,%,employees,F,78.2
 2016,%,employees,F,77.2
 2017,%,employees,F,75.2
@@ -61,7 +66,8 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2020,%,employees,F,80.6
 2021,%,employees,F,86.1
 2022,%,employees,F,89.3
-2023,%,employees,F,89.6
+2023,%,employees,F,89.3
+2024,%,employees,F,89.4
 2015,%,self_employed,F,15.2
 2016,%,self_employed,F,16.5
 2017,%,self_employed,F,17.4
@@ -71,6 +77,7 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2021,%,self_employed,F,10.5
 2022,%,self_employed,F,8.1
 2023,%,self_employed,F,7.6
+2024,%,self_employed,F,7.7
 2015,%,unpaid_family_workers,F,6.6
 2016,%,unpaid_family_workers,F,6.3
 2017,%,unpaid_family_workers,F,7.4
@@ -80,3 +87,4 @@ Year,UNIT_MEASURE,status_in_employment,SEX,Value
 2021,%,unpaid_family_workers,F,3.4
 2022,%,unpaid_family_workers,F,2.6
 2023,%,unpaid_family_workers,F,2.8
+2024,%,unpaid_family_workers,F,2.9
