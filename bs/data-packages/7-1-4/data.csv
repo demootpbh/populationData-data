@@ -17,6 +17,7 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2021,%,Samozaposlenici,Oba spola,13.1
 2022,%,Samozaposlenici,Oba spola,11.7
 2023,%,Samozaposlenici,Oba spola,11.7
+2024,%,Samozaposlenici,Oba spola,11.7
 2015,%,Neplaćeni pomažući članovi,Oba spola,3.5
 2016,%,Neplaćeni pomažući članovi,Oba spola,3.3
 2017,%,Neplaćeni pomažući članovi,Oba spola,3.9
@@ -26,6 +27,7 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2021,%,Neplaćeni pomažući članovi,Oba spola,1.8
 2022,%,Neplaćeni pomažući članovi,Oba spola,1.4
 2023,%,Neplaćeni pomažući članovi,Oba spola,1.6
+2024,%,Neplaćeni pomažući članovi,Oba spola,1.7
 2015,%,Zaposlenici,M,74.3
 2016,%,Zaposlenici,M,74.7
 2017,%,Zaposlenici,M,75.6
@@ -35,6 +37,7 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2021,%,Zaposlenici,M,84.6
 2022,%,Zaposlenici,M,85.5
 2023,%,Zaposlenici,M,84.9
+2024,%,Zaposlenici,M,84.9
 2015,%,Samozaposlenici,M,23.9
 2016,%,Samozaposlenici,M,23.6
 2017,%,Samozaposlenici,M,22.6
@@ -44,6 +47,7 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2021,%,Samozaposlenici,M,14.5
 2022,%,Samozaposlenici,M,13.8
 2023,%,Samozaposlenici,M,14.2
+2024,%,Samozaposlenici,M,14.2
 2015,%,Neplaćeni pomažući članovi,M,1.7
 2016,%,Neplaćeni pomažući članovi,M,1.7
 2017,%,Neplaćeni pomažući članovi,M,1.9
@@ -53,6 +57,7 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2021,%,Neplaćeni pomažući članovi,M,0.9
 2022,%,Neplaćeni pomažući članovi,M,0.7
 2023,%,Neplaćeni pomažući članovi,M,0.9
+2024,%,Neplaćeni pomažući članovi,M,0.9
 2015,%,Zaposlenici,Ž,78.2
 2016,%,Zaposlenici,Ž,77.2
 2017,%,Zaposlenici,Ž,75.2
@@ -61,7 +66,8 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2020,%,Zaposlenici,Ž,80.6
 2021,%,Zaposlenici,Ž,86.1
 2022,%,Zaposlenici,Ž,89.3
-2023,%,Zaposlenici,Ž,89.6
+2023,%,Zaposlenici,Ž,89.3
+2024,%,Zaposlenici,Ž,89.4
 2015,%,Samozaposlenici,Ž,15.2
 2016,%,Samozaposlenici,Ž,16.5
 2017,%,Samozaposlenici,Ž,17.4
@@ -71,6 +77,7 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2021,%,Samozaposlenici,Ž,10.5
 2022,%,Samozaposlenici,Ž,8.1
 2023,%,Samozaposlenici,Ž,7.6
+2024,%,Samozaposlenici,Ž,7.7
 2015,%,Neplaćeni pomažući članovi,Ž,6.6
 2016,%,Neplaćeni pomažući članovi,Ž,6.3
 2017,%,Neplaćeni pomažući članovi,Ž,7.4
@@ -80,3 +87,4 @@ Year,UNIT_MEASURE,Radni status,Spol,Value
 2021,%,Neplaćeni pomažući članovi,Ž,3.4
 2022,%,Neplaćeni pomažući članovi,Ž,2.6
 2023,%,Neplaćeni pomažući članovi,Ž,2.8
+2024,%,Neplaćeni pomažući članovi,Ž,2.9
