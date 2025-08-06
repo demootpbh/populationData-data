@@ -110,6 +110,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,_T,M,15026
 2022,NUMBER,_T,M,13849
 2023,NUMBER,_T,M,14797
+2024,NUMBER,_T,M,13843
 2011,NUMBER,gymnasium,M,3246
 2012,NUMBER,gymnasium,M,3021
 2013,NUMBER,gymnasium,M,3642
@@ -123,6 +124,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,gymnasium,M,2316
 2022,NUMBER,gymnasium,M,1891
 2023,NUMBER,gymnasium,M,2106
+2024,NUMBER,gymnasium,M,1991
 2011,NUMBER,technical_schools,M,8794
 2012,NUMBER,technical_schools,M,8333
 2013,NUMBER,technical_schools,M,9735
@@ -136,6 +138,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,technical_schools,M,7391
 2022,NUMBER,technical_schools,M,6511
 2023,NUMBER,technical_schools,M,7492
+2024,NUMBER,technical_schools,M,7034
 2011,NUMBER,art_schools,M,113
 2012,NUMBER,art_schools,M,120
 2013,NUMBER,art_schools,M,137
@@ -149,6 +152,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,art_schools,M,94
 2022,NUMBER,art_schools,M,99
 2023,NUMBER,art_schools,M,125
+2024,NUMBER,art_schools,M,100
 2011,NUMBER,religion_schools,M,228
 2012,NUMBER,religion_schools,M,176
 2013,NUMBER,religion_schools,M,209
@@ -162,6 +166,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,religion_schools,M,266
 2022,NUMBER,religion_schools,M,232
 2023,NUMBER,religion_schools,M,236
+2024,NUMBER,religion_schools,M,234
 2011,NUMBER,vocational_schools,M,5576
 2012,NUMBER,vocational_schools,M,6443
 2013,NUMBER,vocational_schools,M,7094
@@ -175,6 +180,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,vocational_schools,M,4886
 2022,NUMBER,vocational_schools,M,5067
 2023,NUMBER,vocational_schools,M,4788
+2024,NUMBER,vocational_schools,M,4445
 2011,NUMBER,high_schools_for_children_with_special_needs,M,65
 2012,NUMBER,high_schools_for_children_with_special_needs,M,60
 2013,NUMBER,high_schools_for_children_with_special_needs,M,78
@@ -188,6 +194,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,high_schools_for_children_with_special_needs,M,73
 2022,NUMBER,high_schools_for_children_with_special_needs,M,49
 2023,NUMBER,high_schools_for_children_with_special_needs,M,50
+2024,NUMBER,high_schools_for_children_with_special_needs,M,39
 2011,NUMBER,_T,F,17327
 2012,NUMBER,_T,F,16638
 2013,NUMBER,_T,F,19735
@@ -201,6 +208,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,_T,F,14342
 2022,NUMBER,_T,F,12919
 2023,NUMBER,_T,F,14150
+2024,NUMBER,_T,F,13435
 2011,NUMBER,gymnasium,F,5617
 2012,NUMBER,gymnasium,F,5080
 2013,NUMBER,gymnasium,F,6090
@@ -214,6 +222,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,gymnasium,F,4120
 2022,NUMBER,gymnasium,F,3446
 2023,NUMBER,gymnasium,F,3704
+2024,NUMBER,gymnasium,F,3524
 2011,NUMBER,technical_schools,F,8716
 2012,NUMBER,technical_schools,F,8220
 2013,NUMBER,technical_schools,F,9944
@@ -227,6 +236,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,technical_schools,F,7932
 2022,NUMBER,technical_schools,F,7280
 2023,NUMBER,technical_schools,F,8289
+2024,NUMBER,technical_schools,F,7698
 2011,NUMBER,art_schools,F,163
 2012,NUMBER,art_schools,F,173
 2013,NUMBER,art_schools,F,179
@@ -240,6 +250,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,art_schools,F,168
 2022,NUMBER,art_schools,F,163
 2023,NUMBER,art_schools,F,245
+2024,NUMBER,art_schools,F,203
 2011,NUMBER,religion_schools,F,219
 2012,NUMBER,religion_schools,F,180
 2013,NUMBER,religion_schools,F,251
@@ -253,6 +264,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,religion_schools,F,296
 2022,NUMBER,religion_schools,F,262
 2023,NUMBER,religion_schools,F,297
+2024,NUMBER,religion_schools,F,282
 2011,NUMBER,vocational_schools,F,2578
 2012,NUMBER,vocational_schools,F,2943
 2013,NUMBER,vocational_schools,F,3237
@@ -266,6 +278,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,vocational_schools,F,1796
 2022,NUMBER,vocational_schools,F,1736
 2023,NUMBER,vocational_schools,F,1598
+2024,NUMBER,vocational_schools,F,1704
 2011,NUMBER,high_schools_for_children_with_special_needs,F,34
 2012,NUMBER,high_schools_for_children_with_special_needs,F,42
 2013,NUMBER,high_schools_for_children_with_special_needs,F,34
@@ -279,3 +292,4 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,high_schools_for_children_with_special_needs,F,30
 2022,NUMBER,high_schools_for_children_with_special_needs,F,32
 2023,NUMBER,high_schools_for_children_with_special_needs,F,17
+2024,NUMBER,high_schools_for_children_with_special_needs,F,24
