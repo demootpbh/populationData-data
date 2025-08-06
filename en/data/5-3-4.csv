@@ -12,6 +12,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2021,Number,Both sexes,Both sexes,29368
 2022,Number,Both sexes,Both sexes,26768
 2023,Number,Both sexes,Both sexes,28947
+2024,Number,Both sexes,Both sexes,27728
 2011,Number,Gymnasium,Both sexes,8863
 2012,Number,Gymnasium,Both sexes,8101
 2013,Number,Gymnasium,Both sexes,9732
@@ -25,6 +26,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2021,Number,Gymnasium,Both sexes,6436
 2022,Number,Gymnasium,Both sexes,5337
 2023,Number,Gymnasium,Both sexes,5810
+2024,Number,Gymnasium,Both sexes,5515
 2011,Number,Technical schools,Both sexes,17510
 2012,Number,Technical schools,Both sexes,16553
 2013,Number,Technical schools,Both sexes,19679
@@ -38,6 +40,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2021,Number,Technical schools,Both sexes,15323
 2022,Number,Technical schools,Both sexes,13791
 2023,Number,Technical schools,Both sexes,15781
+2024,Number,Technical schools,Both sexes,14732
 2011,Number,Art schools,Both sexes,276
 2012,Number,Art schools,Both sexes,293
 2013,Number,Art schools,Both sexes,316
@@ -51,6 +54,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2021,Number,Art schools,Both sexes,262
 2022,Number,Art schools,Both sexes,262
 2023,Number,Art schools,Both sexes,370
+2024,Number,Art schools,Both sexes,303
 2011,Number,Religion schools,Both sexes,447
 2012,Number,Religion schools,Both sexes,356
 2013,Number,Religion schools,Both sexes,460
@@ -64,6 +68,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2021,Number,Religion schools,Both sexes,562
 2022,Number,Religion schools,Both sexes,494
 2023,Number,Religion schools,Both sexes,533
+2024,Number,Religion schools,Both sexes,516
 2011,Number,Vocational schools,Both sexes,8154
 2012,Number,Vocational schools,Both sexes,9386
 2013,Number,Vocational schools,Both sexes,10331
@@ -77,6 +82,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2021,Number,Vocational schools,Both sexes,6682
 2022,Number,Vocational schools,Both sexes,6803
 2023,Number,Vocational schools,Both sexes,6386
+2024,Number,Vocational schools,Both sexes,6149
 2011,Number,High schools for children with special needs,Both sexes,99
 2012,Number,High schools for children with special needs,Both sexes,102
 2013,Number,High schools for children with special needs,Both sexes,112
@@ -90,6 +96,7 @@ Year,UNIT_MEASURE,Type of school,Sex,Value
 2021,Number,High schools for children with special needs,Both sexes,103
 2022,Number,High schools for children with special needs,Both sexes,81
 2023,Number,High schools for children with special needs,Both sexes,67
+2024,Number,High schools for children with special needs,Both sexes,63
 2011,Number,Both sexes,M,18022
 2012,Number,Both sexes,M,18153
 2013,Number,Both sexes,M,20895

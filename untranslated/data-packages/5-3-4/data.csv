@@ -12,6 +12,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,_T,_T,29368
 2022,NUMBER,_T,_T,26768
 2023,NUMBER,_T,_T,28947
+2024,NUMBER,_T,_T,27728
 2011,NUMBER,gymnasium,_T,8863
 2012,NUMBER,gymnasium,_T,8101
 2013,NUMBER,gymnasium,_T,9732
@@ -25,6 +26,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,gymnasium,_T,6436
 2022,NUMBER,gymnasium,_T,5337
 2023,NUMBER,gymnasium,_T,5810
+2024,NUMBER,gymnasium,_T,5515
 2011,NUMBER,technical_schools,_T,17510
 2012,NUMBER,technical_schools,_T,16553
 2013,NUMBER,technical_schools,_T,19679
@@ -38,6 +40,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,technical_schools,_T,15323
 2022,NUMBER,technical_schools,_T,13791
 2023,NUMBER,technical_schools,_T,15781
+2024,NUMBER,technical_schools,_T,14732
 2011,NUMBER,art_schools,_T,276
 2012,NUMBER,art_schools,_T,293
 2013,NUMBER,art_schools,_T,316
@@ -51,6 +54,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,art_schools,_T,262
 2022,NUMBER,art_schools,_T,262
 2023,NUMBER,art_schools,_T,370
+2024,NUMBER,art_schools,_T,303
 2011,NUMBER,religion_schools,_T,447
 2012,NUMBER,religion_schools,_T,356
 2013,NUMBER,religion_schools,_T,460
@@ -64,6 +68,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,religion_schools,_T,562
 2022,NUMBER,religion_schools,_T,494
 2023,NUMBER,religion_schools,_T,533
+2024,NUMBER,religion_schools,_T,516
 2011,NUMBER,vocational_schools,_T,8154
 2012,NUMBER,vocational_schools,_T,9386
 2013,NUMBER,vocational_schools,_T,10331
@@ -77,6 +82,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,vocational_schools,_T,6682
 2022,NUMBER,vocational_schools,_T,6803
 2023,NUMBER,vocational_schools,_T,6386
+2024,NUMBER,vocational_schools,_T,6149
 2011,NUMBER,high_schools_for_children_with_special_needs,_T,99
 2012,NUMBER,high_schools_for_children_with_special_needs,_T,102
 2013,NUMBER,high_schools_for_children_with_special_needs,_T,112
@@ -90,6 +96,7 @@ Year,UNIT_MEASURE,Type_of_school,SEX,Value
 2021,NUMBER,high_schools_for_children_with_special_needs,_T,103
 2022,NUMBER,high_schools_for_children_with_special_needs,_T,81
 2023,NUMBER,high_schools_for_children_with_special_needs,_T,67
+2024,NUMBER,high_schools_for_children_with_special_needs,_T,63
 2011,NUMBER,_T,M,18022
 2012,NUMBER,_T,M,18153
 2013,NUMBER,_T,M,20895
