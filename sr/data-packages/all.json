@@ -3,8 +3,8 @@
   "title": "All indicators",
   "resources": [
     {
-      "path": "3-3-1/data.csv",
-      "name": "3-3-1",
+      "path": "1-4-3/data.csv",
+      "name": "1-4-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -16,6 +16,19 @@
             "name": "Year",
             "type": "integer",
             "title": "Година"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "Ж",
+                "Оба пола",
+                ""
+              ]
+            },
+            "title": "Пол"
           },
           {
             "name": "UNIT_MEASURE",
@@ -29,11 +42,11 @@
           }
         ]
       },
-      "title": "Инциденца сифилиса"
+      "title": "Просјечна старост приликом умирања према полу"
     },
     {
-      "path": "1-3-2/data.csv",
-      "name": "1-3-2",
+      "path": "3-1-1/data.csv",
+      "name": "3-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -60,64 +73,41 @@
             "title": "Пол"
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Умрла дојенчад према полу"
-    },
-    {
-      "path": "4-1-1/data.csv",
-      "name": "4-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Type_of_user",
+            "name": "CAUSE_OF_DEATH",
             "type": "string",
             "constraints": {
               "enum": [
+                "(Ц00-Ц97,Д00-Д48) Неоплазме",
+                "(И00-И99) Болести циркулацијског система",
+                "(Ј00-Ј99) Болести респираторног система",
+                "(К00-К93) Болести дигестивног система",
+                "(Р00-Р99) Симптоми, знакови и абнормални клинички и лабораторијски налази који нису другдје класифицирани",
+                "(С00-Т98) Повреде, тровања и друге посљедице дејстава спољних фактора",
                 "Укупно",
-                "Малољетни корисници",
-                "Одрасли корисници",
+                "(А00-Б99) Заразне и паразитарне болести",
+                "(Д50-Д89) Болести крви и крвотворних органа, као и поремећаји имунолошког система",
+                "(Е00-Е90) Ендокрине болести, болести исхране и болести метаболизма",
+                "(Ф00-Ф99) Душевни поремећаји и поремећаји понашања",
+                "(Г00-Г99) Болести нервног система",
+                "(Х00-Х93) Болести ока, уха и аднекса",
+                "(Л00-Л99) Болести коже и поткожног ткива",
+                "(М00-М99) Болести мускулоскелетног система и везивног ткива",
+                "(Н00-Н99) Болести генитално-уринарног система",
+                "(О00-О99) Трудноћа, порођај и постпорођајни период",
+                "(П00-П96) Одређена стања настала у перинаталном периоду",
+                "(Q00-Q99) Конгениталне малформације, деформитети и хромосомске абнормалности",
+                "(В01-Y98) Спољни узроци смртности",
+                "(З00-З99) Фактори који утичу на здравствено стање и контакт са здравственом службом",
+                "Непознато",
                 ""
               ]
             },
-            "title": "Врста корисника"
+            "title": "Узрок смрти (према шифрама болести по МКБ-10)"
           },
           {
-            "name": "SEX",
+            "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
+            "title": "Мјерна јединица"
           },
           {
             "name": "Value",
@@ -126,11 +116,11 @@
           }
         ]
       },
-      "title": "Корисници социјалне заштите према врсти корисника и полу"
+      "title": "Умрла одојчад према полу"
     },
     {
-      "path": "5-6-4/data.csv",
-      "name": "5-6-4",
+      "path": "5-6-2/data.csv",
+      "name": "5-6-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -190,40 +180,11 @@
           }
         ]
       },
-      "title": "Доктори наука према области образовања"
+      "title": "Уписани на докторске студије према области образовања"
     },
     {
-      "path": "1-6-2/data.csv",
-      "name": "1-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа нупцијалитета"
-    },
-    {
-      "path": "5-5-2/data.csv",
-      "name": "5-5-2",
+      "path": "1-5-1/data.csv",
+      "name": "1-5-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -246,7 +207,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Оба пола",
                 "M",
                 "Ж",
                 ""
@@ -256,16 +216,16 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Дипломирани студенти интегрисаних студија према полу"
+      "title": "Очекивано трајање живота при рођењу према полу"
     },
     {
-      "path": "8-1-1/data.csv",
-      "name": "8-1-1",
+      "path": "1-2-5/data.csv",
+      "name": "1-2-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -277,41 +237,36 @@
             "name": "Year",
             "type": "integer",
             "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
           },
           {
             "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "15+",
-                "18-24",
-                "25-34",
-                "35-44",
-                "45-54",
-                "55-64",
-                "65+",
+                "13 - 14",
+                "15 - 19",
                 ""
               ]
             },
             "title": "Старосна доб"
           },
           {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Насиље над женама након напуњених 15 година живота (све врсте)"
+      "title": "Број порођаја адолесценткиња према старосним групама"
     },
     {
-      "path": "1-3-5/data.csv",
-      "name": "1-3-5",
+      "path": "5-5-3/data.csv",
+      "name": "5-5-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -330,46 +285,26 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "SEX",
+            "name": "type_of_education",
             "type": "string",
             "constraints": {
               "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
+                "Укупно",
+                "Образовање",
+                "Умјетност и хуманистичке науке",
+                "Друштвене науке, новинарство и информисање",
+                "Пословање, администрација, и право",
+                "Природне науке, математика, и статистика",
+                "Информационе и комуникационе технологије",
+                "Инжењерство, производња и грађевинарство",
+                "Пољопривреда, шумарство, рибарство и ветеринарство",
+                "Здравство и социјална заштита",
+                "Услуге",
+                "Непознато",
                 ""
               ]
             },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Мртворођени према полу"
-    },
-    {
-      "path": "5-5-1/data.csv",
-      "name": "5-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
+            "title": "Врста образовања"
           },
           {
             "name": "SEX",
@@ -391,204 +326,7 @@
           }
         ]
       },
-      "title": "Уписани на интегрисане студије према полу"
-    },
-    {
-      "path": "3-1-3/data.csv",
-      "name": "3-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "Ж",
-                "Оба пола",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Умрли према узроку смрти и полу"
-    },
-    {
-      "path": "5-4-2/data.csv",
-      "name": "5-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Дипломирани студенти према полу"
-    },
-    {
-      "path": "1-4-1/data.csv",
-      "name": "1-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Просјечна старост мајке приликом рођења првог дјетета"
-    },
-    {
-      "path": "5-1-4/data.csv",
-      "name": "5-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број васпитача у предшколским установама према полу"
-    },
-    {
-      "path": "5-2-3/data.csv",
-      "name": "5-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број наставника у основним школама према полу"
+      "title": "Дипломирани студенти интегрисаних студија према области образовања"
     },
     {
       "path": "5-3-1/data.csv",
@@ -633,8 +371,91 @@
       "title": "Број ученика на почетку школске године према полу (средња школа)"
     },
     {
-      "path": "1-2-4/data.csv",
-      "name": "1-2-4",
+      "path": "5-1-2/data.csv",
+      "name": "5-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број дјеце у предшколским установама према полу"
+    },
+    {
+      "path": "2-2-2/data.csv",
+      "name": "2-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "AGRICULTURAL_ACTIVITY",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Обављање пољопривредне дјелатности",
+                "Обављање пољопривредне дјелатности и продаја пољопривредних производа на пијаци",
+                ""
+              ]
+            },
+            "title": "Пољопривредна активност"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Домаћинства према пољопривредној активности"
+    },
+    {
+      "path": "3-6-3/data.csv",
+      "name": "3-6-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -659,11 +480,153 @@
           }
         ]
       },
-      "title": "Омјер мушке и женске новорођенчади"
+      "title": "Задовољене потребе за планирањем породице"
     },
     {
-      "path": "1-7-7/data.csv",
-      "name": "1-7-7",
+      "path": "5-2-3/data.csv",
+      "name": "5-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број наставника у основним школама према полу"
+    },
+    {
+      "path": "3-5-2/data.csv",
+      "name": "3-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број кревета у болницама на 100.000 становника"
+    },
+    {
+      "path": "5-6-3/data.csv",
+      "name": "5-6-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Доктори наука према полу"
+    },
+    {
+      "path": "1-3-1/data.csv",
+      "name": "1-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа морталитета"
+    },
+    {
+      "path": "1-3-2/data.csv",
+      "name": "1-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -696,297 +659,12 @@
           },
           {
             "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Пројекције просјечне старости становништва"
-    },
-    {
-      "path": "7-1-1/data.csv",
-      "name": "7-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 - 89",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "15 - 74",
-                "20 - 64",
-                "25 - 34",
-                "65 - 74",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа активности према старосним групама и полу"
-    },
-    {
-      "path": "3-3-3/data.csv",
-      "name": "3-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Инциденца АИДС-а"
-    },
-    {
-      "path": "7-2-3/data.csv",
-      "name": "7-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "Quarter",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "I квартал",
-                "II квартал",
-                "III квартал",
-                "IV квартал",
-                ""
-              ]
-            },
-            "title": "Квартал"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                "T",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 - 74",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "20 - 64",
-                "25 - 34",
-                "65 - 74",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа незапослености према старосним групама и полу (квартално)"
-    },
-    {
-      "path": "3-7-1/data.csv",
-      "name": "3-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-14",
-                "15-19",
-                "20-29",
-                "30-49",
-                "50-59",
-                "60-64",
-                "65+",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Становништво са потешкоћама према врсти потешкоће и полу"
-    },
-    {
-      "path": "5-3-4/data.csv",
-      "name": "5-3-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Type_of_school",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "Гимназија",
-                "Техничке школе",
-                "Умјетничке школе",
-                "Вјерске школе",
-                "Стручне школ",
-                "Средње школе за дјецу са посебним потребама",
-                ""
-              ]
-            },
-            "title": "Врста школе"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
             "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Број ученика који су завршили средњу школу према врсти школе"
+      "title": "Умрла дојенчад према полу"
     },
     {
       "path": "1-7-2/data.csv",
@@ -1075,37 +753,8 @@
       "title": "Пројекције становништва према старосним групама и полу"
     },
     {
-      "path": "3-2-1/data.csv",
-      "name": "3-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Инциденца карцинома цервикса"
-    },
-    {
-      "path": "5-5-6/data.csv",
-      "name": "5-5-6",
+      "path": "5-3-3/data.csv",
+      "name": "5-3-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1143,11 +792,11 @@
           }
         ]
       },
-      "title": "Магистри наука, мастери и специјалисти према полу"
+      "title": "Број ученика који су завршили средњу школу према полу"
     },
     {
-      "path": "5-5-3/data.csv",
-      "name": "5-5-3",
+      "path": "1-3-4/data.csv",
+      "name": "1-3-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1161,31 +810,96 @@
             "title": "Година"
           },
           {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "type_of_education",
+            "name": "population_sex",
             "type": "string",
             "constraints": {
               "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "CAUSE_OF_DEATH",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(Ц00-Ц97,Д00-Д48) Неоплазме",
+                "(И00-И99) Болести циркулацијског система",
+                "(Ј00-Ј99) Болести респираторног система",
+                "(К00-К93) Болести дигестивног система",
+                "(Р00-Р99) Симптоми, знакови и абнормални клинички и лабораторијски налази који нису другдје класифицирани",
+                "(С00-Т98) Повреде, тровања и друге посљедице дејстава спољних фактора",
                 "Укупно",
-                "Образовање",
-                "Умјетност и хуманистичке науке",
-                "Друштвене науке, новинарство и информисање",
-                "Пословање, администрација, и право",
-                "Природне науке, математика, и статистика",
-                "Информационе и комуникационе технологије",
-                "Инжењерство, производња и грађевинарство",
-                "Пољопривреда, шумарство, рибарство и ветеринарство",
-                "Здравство и социјална заштита",
-                "Услуге",
+                "(А00-Б99) Заразне и паразитарне болести",
+                "(Д50-Д89) Болести крви и крвотворних органа, као и поремећаји имунолошког система",
+                "(Е00-Е90) Ендокрине болести, болести исхране и болести метаболизма",
+                "(Ф00-Ф99) Душевни поремећаји и поремећаји понашања",
+                "(Г00-Г99) Болести нервног система",
+                "(Х00-Х93) Болести ока, уха и аднекса",
+                "(Л00-Л99) Болести коже и поткожног ткива",
+                "(М00-М99) Болести мускулоскелетног система и везивног ткива",
+                "(Н00-Н99) Болести генитално-уринарног система",
+                "(О00-О99) Трудноћа, порођај и постпорођајни период",
+                "(П00-П96) Одређена стања настала у перинаталном периоду",
+                "(Q00-Q99) Конгениталне малформације, деформитети и хромосомске абнормалности",
+                "(В01-Y98) Спољни узроци смртности",
+                "(З00-З99) Фактори који утичу на здравствено стање и контакт са здравственом службом",
                 "Непознато",
+                "Ковид-19",
                 ""
               ]
             },
-            "title": "Врста образовања"
+            "title": "Узрок смрти (према шифрама болести по МКБ-10)"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Умрли према узроку смрти и полу"
+    },
+    {
+      "path": "2-4-1/data.csv",
+      "name": "2-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "Type_of_disability",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Потешкоће са видом",
+                "Потешкоће са слухом",
+                "Потешкоће са ходом или пењањем уз степенице",
+                "Потешкоће са памћењем",
+                "Потешкоће са одјевањем и одржавањем личне хигијене",
+                "Потешкоће са комуникацијом",
+                "Вишеструке потешкоће",
+                ""
+              ]
+            },
+            "title": "Врста инвалидитета"
           },
           {
             "name": "SEX",
@@ -1201,40 +915,22 @@
             "title": "Пол"
           },
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Дипломирани студенти интегрисаних студија према области образовања"
-    },
-    {
-      "path": "1-4-4/data.csv",
-      "name": "1-4-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "SEX",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "M",
-                "Ж",
+                "0-14",
+                "15-19",
+                "20-29",
+                "30-49",
+                "50-59",
+                "60-64",
+                "65+",
+                "Total",
                 ""
               ]
             },
-            "title": "Пол"
+            "title": "Старосна доб"
           },
           {
             "name": "UNIT_MEASURE",
@@ -1243,16 +939,16 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Просјечна старост приликом склапања првог брака према полу"
+      "title": "Становништво са потешкоћама према врсти потешкоће, старосним групама и полу"
     },
     {
-      "path": "3-3-2/data.csv",
-      "name": "3-3-2",
+      "path": "3-6-4/data.csv",
+      "name": "3-6-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1277,11 +973,11 @@
           }
         ]
       },
-      "title": "Инциденца гонореје"
+      "title": "Присуство стручне особе током порођаја"
     },
     {
-      "path": "1-4-3/data.csv",
-      "name": "1-4-3",
+      "path": "2-3-2/data.csv",
+      "name": "2-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1292,90 +988,6 @@
           {
             "name": "Year",
             "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "Ж",
-                "Оба пола",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Просјечна старост приликом умирања према полу"
-    },
-    {
-      "path": "5-6-3/data.csv",
-      "name": "5-6-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Доктори наука према полу"
-    },
-    {
-      "path": "7-3-2/data.csv",
-      "name": "7-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
             "title": "Година"
           },
           {
@@ -1397,13 +1009,249 @@
             "title": "Мјерна јединица"
           },
           {
+            "name": "Highest_education_atainment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Необразован",
+                "Незавршено основно образовање",
+                "Основна школа",
+                "Средња школа",
+                "Специјализација након завршене средње школе",
+                "Средња школа и прва година факултета",
+                "Напредне школе/факултет/академија/универзитет",
+                ""
+              ]
+            },
+            "title": "Највиши достигнути степен образовања"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Становништво које живи у релативном сиромаштву према полу"
+      "title": "Становништво старо 15 и више година према највишој завршеној школи и полу"
+    },
+    {
+      "path": "1-7-8/data.csv",
+      "name": "1-7-8",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "PYRAMID_SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "PYRAMID_SEX"
+          },
+          {
+            "name": "PYRAMID_AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-14",
+                "0-18",
+                "15-29",
+                "15-49",
+                "15-64",
+                "65+",
+                "75+",
+                "85+",
+                "100+",
+                "0-4",
+                "5-9",
+                "10-14",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50-54",
+                "55-59",
+                "60-64",
+                "65-69",
+                "70-74",
+                "75-79",
+                "80-84",
+                "85-89",
+                "90-94",
+                "95-99",
+                "100-104",
+                "105-109",
+                "110-114",
+                "115-119",
+                "120+",
+                ""
+              ]
+            },
+            "title": "PYRAMID_AGE"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Пројектована популациона пирамида"
+    },
+    {
+      "path": "5-5-4/data.csv",
+      "name": "5-5-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Уписани на магистарске, мастер и специјалистичке студије према полу"
+    },
+    {
+      "path": "5-1-1/data.csv",
+      "name": "5-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "Јавна",
+                "Приватна",
+                ""
+              ]
+            },
+            "title": "Врста установе"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број предшколских установа према својини"
+    },
+    {
+      "path": "2-1-5/data.csv",
+      "name": "2-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "LIVE_BORN_CHILDREN",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Нису рађале",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10 и више",
+                ""
+              ]
+            },
+            "title": "Живорођена дјеца"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Женска популација у доби од 15 и више година према броју живорођене дјеце"
     },
     {
       "path": "1-7-4/data.csv",
@@ -1461,8 +1309,286 @@
       "title": "Пројекције виталне статистике према полу"
     },
     {
-      "path": "1-7-6/data.csv",
-      "name": "1-7-6",
+      "path": "6-1-1/data.csv",
+      "name": "6-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Бруто друштвени производ (БДП) у милионима"
+    },
+    {
+      "path": "3-1-2/data.csv",
+      "name": "3-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "CAUSE_OF_DEATH",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "(Ц00-Ц97,Д00-Д48) Неоплазме",
+                "(И00-И99) Болести циркулацијског система",
+                "(Ј00-Ј99) Болести респираторног система",
+                "(К00-К93) Болести дигестивног система",
+                "(Р00-Р99) Симптоми, знакови и абнормални клинички и лабораторијски налази који нису другдје класифицирани",
+                "(С00-Т98) Повреде, тровања и друге посљедице дејстава спољних фактора",
+                "(А00-Б99) Заразне и паразитарне болести",
+                "(Д50-Д89) Болести крви и крвотворних органа, као и поремећаји имунолошког система",
+                "(Е00-Е90) Ендокрине болести, болести исхране и болести метаболизма",
+                "(Ф00-Ф99) Душевни поремећаји и поремећаји понашања",
+                "(Г00-Г99) Болести нервног система",
+                "(Х00-Х93) Болести ока, уха и аднекса",
+                "(Л00-Л99) Болести коже и поткожног ткива",
+                "(Н00-Н99) Болести генитално-уринарног система",
+                "(П00-П96) Одређена стања настала у перинаталном периоду",
+                "(Q00-Q99) Конгениталне малформације, деформитети и хромосомске абнормалности",
+                "(В01-Y98) Спољни узроци смртности",
+                "(З00-З99) Фактори који утичу на здравствено стање и контакт са здравственом службом",
+                "Непознато",
+                "(М00-М99) Болести мускулоскелетног система и везивног ткива",
+                "(О00-О99) Трудноћа, порођај и постпорођајни период",
+                ""
+              ]
+            },
+            "title": "Узрок смрти (према шифрама болести по МКБ-10)"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа смртности одојчади"
+    },
+    {
+      "path": "1-1-1/data.csv",
+      "name": "1-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "population_sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "BIRTHS",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Живорођени",
+                "Умрли",
+                "Природни прираштај",
+                ""
+              ]
+            },
+            "title": "Витална статистика"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Витална статистика према полу"
+    },
+    {
+      "path": "7-2-3/data.csv",
+      "name": "7-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "Quarter",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "I квартал",
+                "II квартал",
+                "III квартал",
+                "IV квартал",
+                ""
+              ]
+            },
+            "title": "Квартал"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                "T",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 74",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "65 - 74",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа незапослености према старосним групама и полу (квартално)"
+    },
+    {
+      "path": "5-7-1/data.csv",
+      "name": "5-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "25 - 64",
+                "25 - 34",
+                "35 - 44",
+                "35 - 54",
+                "45 - 54",
+                "55 - 64",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Становништво у доби од 25-64 године уписано у неформално образовање одраслих, према старосној доби и полу"
+    },
+    {
+      "path": "1-2-1/data.csv",
+      "name": "1-2-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1487,11 +1613,69 @@
           }
         ]
       },
-      "title": "Пројектована стопа морталитета"
+      "title": "Стопа наталитета"
     },
     {
-      "path": "5-2-1/data.csv",
-      "name": "5-2-1",
+      "path": "3-2-3/data.csv",
+      "name": "3-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Инциденца карцинома цервикса на 100.000 женске популације"
+    },
+    {
+      "path": "6-1-2/data.csv",
+      "name": "6-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Бруто друштвени производ (БДП) према глави становника"
+    },
+    {
+      "path": "5-1-3/data.csv",
+      "name": "5-1-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1529,11 +1713,11 @@
           }
         ]
       },
-      "title": "Број ученика на почетку школске године према полу (основна школа)"
+      "title": "Број дјеце у јаслицама према полу"
     },
     {
-      "path": "2-2-2/data.csv",
-      "name": "2-2-2",
+      "path": "3-5-6/data.csv",
+      "name": "3-5-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1550,18 +1734,6 @@
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Мјерна јединица"
-          },
-          {
-            "name": "AGRICULTURAL_ACTIVITY",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Обављање пољопривредне дјелатности",
-                "Обављање пољопривредне дјелатности и продаја пољопривредних производа на пијаци",
-                ""
-              ]
-            },
-            "title": "Пољопривредна активност"
           },
           {
             "name": "Value",
@@ -1570,11 +1742,11 @@
           }
         ]
       },
-      "title": "Домаћинства према пољопривредној активности"
+      "title": "Број медицинских техничара запослених у установама за пружање здравствене заштите"
     },
     {
-      "path": "7-1-2/data.csv",
-      "name": "7-1-2",
+      "path": "5-1-4/data.csv",
+      "name": "5-1-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1591,6 +1763,72 @@
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број васпитача у предшколским установама према полу"
+    },
+    {
+      "path": "1-1-2/data.csv",
+      "name": "1-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа природног раста"
+    },
+    {
+      "path": "3-7-1/data.csv",
+      "name": "3-7-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
           },
           {
             "name": "SEX",
@@ -1610,17 +1848,104 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15+",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
+                "0-14",
+                "15-19",
+                "20-29",
+                "30-49",
+                "50-59",
+                "60-64",
                 "65+",
-                "15 - 64",
-                "15 - 89",
-                "20 - 64",
-                "25 - 34",
-                "15 - 74",
-                "65 - 74",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Становништво са потешкоћама према врсти потешкоће и полу"
+    },
+    {
+      "path": "3-1-4/data.csv",
+      "name": "3-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Мртворођени према полу"
+    },
+    {
+      "path": "8-1-1/data.csv",
+      "name": "8-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15+",
+                "18-24",
+                "25-34",
+                "35-44",
+                "45-54",
+                "55-64",
+                "65+",
                 ""
               ]
             },
@@ -1633,7 +1958,7 @@
           }
         ]
       },
-      "title": "Стопа запослености према старосним групама и полу"
+      "title": "Насиље над женама након напуњених 15 година живота (све врсте)"
     },
     {
       "path": "5-4-3/data.csv",
@@ -1700,8 +2025,8 @@
       "title": "Дипломирани студенти према области образовања"
     },
     {
-      "path": "1-1-2/data.csv",
-      "name": "1-1-2",
+      "path": "1-6-4/data.csv",
+      "name": "1-6-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1726,11 +2051,95 @@
           }
         ]
       },
-      "title": "Стопа природног раста"
+      "title": "Стопа диворцијалитета"
     },
     {
-      "path": "1-3-1/data.csv",
-      "name": "1-3-1",
+      "path": "1-7-7/data.csv",
+      "name": "1-7-7",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Пројекције просјечне старости становништва"
+    },
+    {
+      "path": "5-6-1/data.csv",
+      "name": "5-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Уписани на докторске студије према полу"
+    },
+    {
+      "path": "6-1-3/data.csv",
+      "name": "6-1-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -1755,7 +2164,250 @@
           }
         ]
       },
-      "title": "Стопа морталитета"
+      "title": "Стопа реалног раста бруто друштвеног производа"
+    },
+    {
+      "path": "1-2-3/data.csv",
+      "name": "1-2-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-15",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50+",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа фертилитета према старосним групама"
+    },
+    {
+      "path": "5-5-1/data.csv",
+      "name": "5-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Уписани на интегрисане студије према полу"
+    },
+    {
+      "path": "3-6-1/data.csv",
+      "name": "3-6-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "MICS_NUMBER",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Све методе",
+                "Традиционалне методе",
+                "Савремене методе",
+                ""
+              ]
+            },
+            "title": "Метода"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа употребе контрацептива"
+    },
+    {
+      "path": "3-1-5/data.csv",
+      "name": "3-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа мртворођених"
+    },
+    {
+      "path": "3-1-3/data.csv",
+      "name": "3-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "Ж",
+                "Оба пола",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Умрли према узроку смрти и полу"
+    },
+    {
+      "path": "3-2-1/data.csv",
+      "name": "3-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Инциденца карцинома цервикса"
     },
     {
       "path": "2-3-1/data.csv",
@@ -1812,6 +2464,64 @@
       "title": "Становништво старо 10 и више година према писмености и полу"
     },
     {
+      "path": "1-2-4/data.csv",
+      "name": "1-2-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Омјер мушке и женске новорођенчади"
+    },
+    {
+      "path": "1-7-6/data.csv",
+      "name": "1-7-6",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Пројектована стопа морталитета"
+    },
+    {
       "path": "3-2-4/data.csv",
       "name": "3-2-4",
       "profile": "tabular-data-resource",
@@ -1839,53 +2549,6 @@
         ]
       },
       "title": "Инциденца карцинома дојке на 100.000 женске популације"
-    },
-    {
-      "path": "2-2-1/data.csv",
-      "name": "2-2-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "1 члан",
-                "2 члана",
-                "3 члана",
-                "4 члана",
-                "5 чланова",
-                "6 чланова",
-                "7 чланова",
-                "8+ чланова",
-                ""
-              ]
-            },
-            "title": "Величина домаћинства"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Домаћинства према броју чланова"
     },
     {
       "path": "2-1-3/data.csv",
@@ -2111,8 +2774,8 @@
       "title": "Становништво према граду/општини, старосним групама и полу"
     },
     {
-      "path": "3-5-1/data.csv",
-      "name": "3-5-1",
+      "path": "5-7-3/data.csv",
+      "name": "5-7-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2131,70 +2794,17 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број кревета у болницама"
-    },
-    {
-      "path": "5-5-5/data.csv",
-      "name": "5-5-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "type_of_education",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Укупно",
-                "Образовање",
-                "Умјетност и хуманистичке науке",
-                "Друштвене науке, новинарство и информисање",
-                "Пословање, администрација, и право",
-                "Природне науке, математика, и статистика",
-                "Информационе и комуникационе технологије",
-                "Инжењерство, производња и грађевинарство",
-                "Пољопривреда, шумарство, рибарство и ветеринарство",
-                "Здравство и социјална заштита",
-                "Услуге",
-                "Непознато",
-                "Оба пола",
-                ""
-              ]
-            },
-            "title": "Врста образовања"
-          },
-          {
-            "name": "SEX",
+            "name": "type_of_institution",
             "type": "string",
             "constraints": {
               "enum": [
                 "Оба пола",
-                "M",
-                "Ж",
-                "1064",
+                "Јавна",
+                "Приватна",
                 ""
               ]
             },
-            "title": "Пол"
+            "title": "Врста установе"
           },
           {
             "name": "Value",
@@ -2203,11 +2813,11 @@
           }
         ]
       },
-      "title": "Уписани на магистарске, мастер и специјалистичке студије према области образовања"
+      "title": "Становништво старо 10 и више година према писмености и полу"
     },
     {
-      "path": "2-1-6/data.csv",
-      "name": "2-1-6",
+      "path": "3-3-5/data.csv",
+      "name": "3-3-5",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2226,18 +2836,62 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "TYPE_OF_DEPENDENCY_RATIO",
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Инциденца ХИВ-а на 100.000 становника"
+    },
+    {
+      "path": "1-4-1/data.csv",
+      "name": "1-4-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "Укупан омјер економске подршке",
-                "Омјер економске подршке младима",
-                "Омјер економске подршке старијим лицима",
-                "Омјер старијих и младих",
-                ""
-              ]
-            },
-            "title": "Тип односа зависности"
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Просјечна старост мајке приликом рођења првог дјетета"
+    },
+    {
+      "path": "5-5-2/data.csv",
+      "name": "5-5-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
           },
           {
             "name": "SEX",
@@ -2254,16 +2908,16 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Коефицијенти зависности према полу"
+      "title": "Дипломирани студенти интегрисаних студија према полу"
     },
     {
-      "path": "2-1-5/data.csv",
-      "name": "2-1-5",
+      "path": "3-3-3/data.csv",
+      "name": "3-3-3",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -2282,34 +2936,83 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "LIVE_BORN_CHILDREN",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Нису рађале",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9",
-                "10 и више",
-                ""
-              ]
-            },
-            "title": "Живорођена дјеца"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Женска популација у доби од 15 и више година према броју живорођене дјеце"
+      "title": "Инциденца АИДС-а"
+    },
+    {
+      "path": "1-4-4/data.csv",
+      "name": "1-4-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Просјечна старост приликом склапања првог брака према полу"
+    },
+    {
+      "path": "3-6-2/data.csv",
+      "name": "3-6-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Незадовољене потребе за планирањем породице"
     },
     {
       "path": "5-5-7/data.csv",
@@ -2376,1085 +3079,6 @@
       "title": "Магистри наука, мастери и специјалисти према области образовања"
     },
     {
-      "path": "7-1-4/data.csv",
-      "name": "7-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "status_in_employment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Запосленици",
-                "Самозапосленици",
-                "Неплаћени помажући чланови",
-                ""
-              ]
-            },
-            "title": "Радни статус"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Структура запослених према радном статусу и полу"
-    },
-    {
-      "path": "1-7-8/data.csv",
-      "name": "1-7-8",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "PYRAMID_SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "PYRAMID_SEX"
-          },
-          {
-            "name": "PYRAMID_AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-14",
-                "0-18",
-                "15-29",
-                "15-49",
-                "15-64",
-                "65+",
-                "75+",
-                "85+",
-                "100+",
-                "0-4",
-                "5-9",
-                "10-14",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "50-54",
-                "55-59",
-                "60-64",
-                "65-69",
-                "70-74",
-                "75-79",
-                "80-84",
-                "85-89",
-                "90-94",
-                "95-99",
-                "100-104",
-                "105-109",
-                "110-114",
-                "115-119",
-                "120+",
-                ""
-              ]
-            },
-            "title": "PYRAMID_AGE"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Пројектована популациона пирамида"
-    },
-    {
-      "path": "3-1-5/data.csv",
-      "name": "3-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа мртворођених"
-    },
-    {
-      "path": "3-6-4/data.csv",
-      "name": "3-6-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Присуство стручне особе током порођаја"
-    },
-    {
-      "path": "5-3-2/data.csv",
-      "name": "5-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Type_of_school",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "Гимназија",
-                "Техничке школе",
-                "Умјетничке школе",
-                "Вјерске школе",
-                "Стручне школ",
-                "Средње школе за дјецу са посебним потребама",
-                ""
-              ]
-            },
-            "title": "Врста школе"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број ученика на почетку школске године према врсти средње школе"
-    },
-    {
-      "path": "5-1-2/data.csv",
-      "name": "5-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број дјеце у предшколским установама према полу"
-    },
-    {
-      "path": "3-6-1/data.csv",
-      "name": "3-6-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "MICS_NUMBER",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Све методе",
-                "Традиционалне методе",
-                "Савремене методе",
-                ""
-              ]
-            },
-            "title": "Метода"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа употребе контрацептива"
-    },
-    {
-      "path": "1-7-5/data.csv",
-      "name": "1-7-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Пројектована стопа наталитета"
-    },
-    {
-      "path": "1-2-5/data.csv",
-      "name": "1-2-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "13 - 14",
-                "15 - 19",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број порођаја адолесценткиња према старосним групама"
-    },
-    {
-      "path": "5-7-3/data.csv",
-      "name": "5-7-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "Јавна",
-                "Приватна",
-                ""
-              ]
-            },
-            "title": "Врста установе"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Становништво старо 10 и више година према писмености и полу"
-    },
-    {
-      "path": "2-3-2/data.csv",
-      "name": "2-3-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Highest_education_atainment",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Необразован",
-                "Незавршено основно образовање",
-                "Основна школа",
-                "Средња школа",
-                "Специјализација након завршене средње школе",
-                "Средња школа и прва година факултета",
-                "Напредне школе/факултет/академија/универзитет",
-                ""
-              ]
-            },
-            "title": "Највиши достигнути степен образовања"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Становништво старо 15 и више година према највишој завршеној школи и полу"
-    },
-    {
-      "path": "5-1-1/data.csv",
-      "name": "5-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "Јавна",
-                "Приватна",
-                ""
-              ]
-            },
-            "title": "Врста установе"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број предшколских установа према својини"
-    },
-    {
-      "path": "3-5-4/data.csv",
-      "name": "3-5-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број опстетричара и гинеколога запослених у установама за пружање здравствене заштите"
-    },
-    {
-      "path": "7-1-5/data.csv",
-      "name": "7-1-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "type_of_institution",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "Јавна",
-                "Приватна",
-                ""
-              ]
-            },
-            "title": "Врста установе"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "НЕЕТ_Становништво које није запослено, не образује се нити се усавршава, према старосним групама и полу"
-    },
-    {
-      "path": "3-1-2/data.csv",
-      "name": "3-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "CAUSE_OF_DEATH",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "(Ц00-Ц97,Д00-Д48) Неоплазме",
-                "(И00-И99) Болести циркулацијског система",
-                "(Ј00-Ј99) Болести респираторног система",
-                "(К00-К93) Болести дигестивног система",
-                "(Р00-Р99) Симптоми, знакови и абнормални клинички и лабораторијски налази који нису другдје класифицирани",
-                "(С00-Т98) Повреде, тровања и друге посљедице дејстава спољних фактора",
-                "(А00-Б99) Заразне и паразитарне болести",
-                "(Д50-Д89) Болести крви и крвотворних органа, као и поремећаји имунолошког система",
-                "(Е00-Е90) Ендокрине болести, болести исхране и болести метаболизма",
-                "(Ф00-Ф99) Душевни поремећаји и поремећаји понашања",
-                "(Г00-Г99) Болести нервног система",
-                "(Х00-Х93) Болести ока, уха и аднекса",
-                "(Л00-Л99) Болести коже и поткожног ткива",
-                "(Н00-Н99) Болести генитално-уринарног система",
-                "(П00-П96) Одређена стања настала у перинаталном периоду",
-                "(Q00-Q99) Конгениталне малформације, деформитети и хромосомске абнормалности",
-                "(В01-Y98) Спољни узроци смртности",
-                "(З00-З99) Фактори који утичу на здравствено стање и контакт са здравственом службом",
-                "Непознато",
-                "(М00-М99) Болести мускулоскелетног система и везивног ткива",
-                "(О00-О99) Трудноћа, порођај и постпорођајни период",
-                ""
-              ]
-            },
-            "title": "Узрок смрти (према шифрама болести по МКБ-10)"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа смртности одојчади"
-    },
-    {
-      "path": "3-4-2/data.csv",
-      "name": "3-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број царских резова на 1,000 живорођене дјеце"
-    },
-    {
-      "path": "5-5-4/data.csv",
-      "name": "5-5-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Уписани на магистарске, мастер и специјалистичке студије према полу"
-    },
-    {
-      "path": "7-1-3/data.csv",
-      "name": "7-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 - 74",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "15 - 89",
-                "20 - 64",
-                "25 - 34",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа незапослености према старосним групама и полу"
-    },
-    {
-      "path": "3-1-1/data.csv",
-      "name": "3-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "CAUSE_OF_DEATH",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "(Ц00-Ц97,Д00-Д48) Неоплазме",
-                "(И00-И99) Болести циркулацијског система",
-                "(Ј00-Ј99) Болести респираторног система",
-                "(К00-К93) Болести дигестивног система",
-                "(Р00-Р99) Симптоми, знакови и абнормални клинички и лабораторијски налази који нису другдје класифицирани",
-                "(С00-Т98) Повреде, тровања и друге посљедице дејстава спољних фактора",
-                "Укупно",
-                "(А00-Б99) Заразне и паразитарне болести",
-                "(Д50-Д89) Болести крви и крвотворних органа, као и поремећаји имунолошког система",
-                "(Е00-Е90) Ендокрине болести, болести исхране и болести метаболизма",
-                "(Ф00-Ф99) Душевни поремећаји и поремећаји понашања",
-                "(Г00-Г99) Болести нервног система",
-                "(Х00-Х93) Болести ока, уха и аднекса",
-                "(Л00-Л99) Болести коже и поткожног ткива",
-                "(М00-М99) Болести мускулоскелетног система и везивног ткива",
-                "(Н00-Н99) Болести генитално-уринарног система",
-                "(О00-О99) Трудноћа, порођај и постпорођајни период",
-                "(П00-П96) Одређена стања настала у перинаталном периоду",
-                "(Q00-Q99) Конгениталне малформације, деформитети и хромосомске абнормалности",
-                "(В01-Y98) Спољни узроци смртности",
-                "(З00-З99) Фактори који утичу на здравствено стање и контакт са здравственом службом",
-                "Непознато",
-                ""
-              ]
-            },
-            "title": "Узрок смрти (према шифрама болести по МКБ-10)"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Умрла одојчад према полу"
-    },
-    {
-      "path": "5-4-1/data.csv",
-      "name": "5-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Уписани у основне студијске програме према полу"
-    },
-    {
-      "path": "6-1-2/data.csv",
-      "name": "6-1-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Бруто друштвени производ (БДП) према глави становника"
-    },
-    {
-      "path": "3-2-2/data.csv",
-      "name": "3-2-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Инциденца карцинома дојке"
-    },
-    {
-      "path": "3-2-3/data.csv",
-      "name": "3-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Инциденца карцинома цервикса на 100.000 женске популације"
-    },
-    {
-      "path": "1-2-3/data.csv",
-      "name": "1-2-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-15",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "50+",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа фертилитета према старосним групама"
-    },
-    {
       "path": "1-6-1/data.csv",
       "name": "1-6-1",
       "profile": "tabular-data-resource",
@@ -3484,8 +3108,8 @@
       "title": "Закључени бракови"
     },
     {
-      "path": "7-2-1/data.csv",
-      "name": "7-2-1",
+      "path": "1-2-2/data.csv",
+      "name": "1-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3499,23 +3123,53 @@
             "title": "Година"
           },
           {
-            "name": "Quarter",
+            "name": "UNIT_MEASURE",
             "type": "string",
-            "constraints": {
-              "enum": [
-                "I квартал",
-                "II квартал",
-                "III квартал",
-                "IV квартал",
-                ""
-              ]
-            },
-            "title": "Квартал"
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа укупног фертилитета"
+    },
+    {
+      "path": "4-1-2/data.csv",
+      "name": "4-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
           },
           {
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Мјерна јединица"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "Домови за дјецу и младе без родитељског старања",
+                "Установе социјалне заштите за дјецу, младе и одрасле са менталним и физичким инвалидитетом",
+                "Установе социјалне заштите за одрасле особе са инвалидитетом",
+                "Установе социјалне заштите за одрасле",
+                ""
+              ]
+            },
+            "title": "Врста установе"
           },
           {
             "name": "SEX",
@@ -3531,33 +3185,42 @@
             "title": "Пол"
           },
           {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15 - 89",
-                "15 - 24",
-                "25 - 49",
-                "50 - 64",
-                "65+",
-                "15 - 64",
-                "20 - 64",
-                "25 - 34",
-                "15 - 74",
-                "65 - 74",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Стопа активности према старосним групама и полу (квартално)"
+      "title": "Корисници социјалне заштите према врсти установе и полу"
+    },
+    {
+      "path": "3-5-5/data.csv",
+      "name": "3-5-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број бабица запослених у установама за пружање здравствене заштите"
     },
     {
       "path": "1-7-1/data.csv",
@@ -3734,132 +3397,8 @@
       "title": "Пројекције становништва према старости и полу"
     },
     {
-      "path": "3-3-5/data.csv",
-      "name": "3-3-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Инциденца ХИВ-а на 100.000 становника"
-    },
-    {
-      "path": "5-7-2/data.csv",
-      "name": "5-7-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "15-24",
-                "25-29",
-                "15-29",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "НЕЕТ_Становништво које није запослено, не образује се нити се усавршава, према старосним групама и полу"
-    },
-    {
-      "path": "1-3-6/data.csv",
-      "name": "1-3-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа мртворођених"
-    },
-    {
-      "path": "5-3-3/data.csv",
-      "name": "5-3-3",
+      "path": "5-5-6/data.csv",
+      "name": "5-5-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3897,11 +3436,11 @@
           }
         ]
       },
-      "title": "Број ученика који су завршили средњу школу према полу"
+      "title": "Магистри наука, мастери и специјалисти према полу"
     },
     {
-      "path": "3-6-2/data.csv",
-      "name": "3-6-2",
+      "path": "7-3-2/data.csv",
+      "name": "7-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3911,8 +3450,21 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "string",
             "title": "Година"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
           },
           {
             "name": "UNIT_MEASURE",
@@ -3926,7 +3478,7 @@
           }
         ]
       },
-      "title": "Незадовољене потребе за планирањем породице"
+      "title": "Становништво које живи у релативном сиромаштву према полу"
     },
     {
       "path": "5-7-4/data.csv",
@@ -3971,8 +3523,8 @@
       "title": "Становништво старо 15 и више година према највишој завршеној школи и полу"
     },
     {
-      "path": "6-1-3/data.csv",
-      "name": "6-1-3",
+      "path": "2-1-6/data.csv",
+      "name": "2-1-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -3991,45 +3543,18 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа реалног раста бруто друштвеног производа"
-    },
-    {
-      "path": "2-4-1/data.csv",
-      "name": "2-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "Type_of_disability",
+            "name": "TYPE_OF_DEPENDENCY_RATIO",
             "type": "string",
             "constraints": {
               "enum": [
-                "Потешкоће са видом",
-                "Потешкоће са слухом",
-                "Потешкоће са ходом или пењањем уз степенице",
-                "Потешкоће са памћењем",
-                "Потешкоће са одјевањем и одржавањем личне хигијене",
-                "Потешкоће са комуникацијом",
-                "Вишеструке потешкоће",
+                "Укупан омјер економске подршке",
+                "Омјер економске подршке младима",
+                "Омјер економске подршке старијим лицима",
+                "Омјер старијих и младих",
                 ""
               ]
             },
-            "title": "Врста инвалидитета"
+            "title": "Тип односа зависности"
           },
           {
             "name": "SEX",
@@ -4037,70 +3562,6 @@
             "constraints": {
               "enum": [
                 "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-14",
-                "15-19",
-                "20-29",
-                "30-49",
-                "50-59",
-                "60-64",
-                "65+",
-                "Total",
-                ""
-              ]
-            },
-            "title": "Старосна доб"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Становништво са потешкоћама према врсти потешкоће, старосним групама и полу"
-    },
-    {
-      "path": "1-5-1/data.csv",
-      "name": "1-5-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
                 "M",
                 "Ж",
                 ""
@@ -4115,11 +3576,53 @@
           }
         ]
       },
-      "title": "Очекивано трајање живота при рођењу према полу"
+      "title": "Коефицијенти зависности према полу"
     },
     {
-      "path": "5-6-1/data.csv",
-      "name": "5-6-1",
+      "path": "3-5-3/data.csv",
+      "name": "3-5-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Sex",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број доктора медицине запослених у установама за пружање здравствене заштите према полу"
+    },
+    {
+      "path": "1-3-6/data.csv",
+      "name": "1-3-6",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4143,49 +3646,6 @@
             "constraints": {
               "enum": [
                 "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Уписани на докторске студије према полу"
-    },
-    {
-      "path": "1-4-2/data.csv",
-      "name": "1-4-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "Ж",
                 ""
               ]
             },
@@ -4198,255 +3658,7 @@
           }
         ]
       },
-      "title": "Просјечна старост становништва према полу"
-    },
-    {
-      "path": "5-6-2/data.csv",
-      "name": "5-6-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "type_of_education",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Укупно",
-                "Образовање",
-                "Умјетност и хуманистичке науке",
-                "Друштвене науке, новинарство и информисање",
-                "Пословање, администрација, и право",
-                "Природне науке, математика, и статистика",
-                "Информационе и комуникационе технологије",
-                "Инжењерство, производња и грађевинарство",
-                "Пољопривреда, шумарство, рибарство и ветеринарство",
-                "Здравство и социјална заштита",
-                "Услуге",
-                "Непознато",
-                ""
-              ]
-            },
-            "title": "Врста образовања"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Уписани на докторске студије према области образовања"
-    },
-    {
-      "path": "1-3-3/data.csv",
-      "name": "1-3-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Стопа смртности одојчади"
-    },
-    {
-      "path": "5-3-5/data.csv",
-      "name": "5-3-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број наставника у средњим школама према полу"
-    },
-    {
-      "path": "3-5-5/data.csv",
-      "name": "3-5-5",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број бабица запослених у установама за пружање здравствене заштите"
-    },
-    {
-      "path": "5-1-3/data.csv",
-      "name": "5-1-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број дјеце у јаслицама према полу"
-    },
-    {
-      "path": "3-4-1/data.csv",
-      "name": "3-4-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број царских резова"
+      "title": "Стопа мртворођених"
     },
     {
       "path": "7-2-2/data.csv",
@@ -4525,8 +3737,8 @@
       "title": "Стопа запослености према старосним групама и полу (квартално)"
     },
     {
-      "path": "4-1-2/data.csv",
-      "name": "4-1-2",
+      "path": "5-6-4/data.csv",
+      "name": "5-6-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4545,19 +3757,26 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "type_of_institution",
+            "name": "type_of_education",
             "type": "string",
             "constraints": {
               "enum": [
-                "Оба пола",
-                "Домови за дјецу и младе без родитељског старања",
-                "Установе социјалне заштите за дјецу, младе и одрасле са менталним и физичким инвалидитетом",
-                "Установе социјалне заштите за одрасле особе са инвалидитетом",
-                "Установе социјалне заштите за одрасле",
+                "Укупно",
+                "Образовање",
+                "Умјетност и хуманистичке науке",
+                "Друштвене науке, новинарство и информисање",
+                "Пословање, администрација, и право",
+                "Природне науке, математика, и статистика",
+                "Информационе и комуникационе технологије",
+                "Инжењерство, производња и грађевинарство",
+                "Пољопривреда, шумарство, рибарство и ветеринарство",
+                "Здравство и социјална заштита",
+                "Услуге",
+                "Непознато",
                 ""
               ]
             },
-            "title": "Врста установе"
+            "title": "Врста образовања"
           },
           {
             "name": "SEX",
@@ -4579,115 +3798,11 @@
           }
         ]
       },
-      "title": "Корисници социјалне заштите према врсти установе и полу"
+      "title": "Доктори наука према области образовања"
     },
     {
-      "path": "3-5-2/data.csv",
-      "name": "3-5-2",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број кревета у болницама на 100.000 становника"
-    },
-    {
-      "path": "2-1-4/data.csv",
-      "name": "2-1-4",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "PYRAMID_SEX",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "PYRAMID_SEX"
-          },
-          {
-            "name": "PYRAMID_AGE",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "0-4",
-                "5-9",
-                "10-14",
-                "15-19",
-                "20-24",
-                "25-29",
-                "30-34",
-                "35-39",
-                "40-44",
-                "45-49",
-                "50-54",
-                "55-59",
-                "60-64",
-                "65-69",
-                "70-74",
-                "75-79",
-                "80-84",
-                "85-89",
-                "90-94",
-                "95-99",
-                "100-104",
-                "105-109",
-                "110-114",
-                "115-120",
-                ""
-              ]
-            },
-            "title": "PYRAMID_AGE"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Популациона пирамида"
-    },
-    {
-      "path": "5-2-2/data.csv",
-      "name": "5-2-2",
+      "path": "5-4-1/data.csv",
+      "name": "5-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4725,11 +3840,11 @@
           }
         ]
       },
-      "title": "Број ученика који су завршили основну школу према полу"
+      "title": "Уписани у основне студијске програме према полу"
     },
     {
-      "path": "1-6-3/data.csv",
-      "name": "1-6-3",
+      "path": "1-4-2/data.csv",
+      "name": "1-4-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4748,40 +3863,10 @@
             "title": "Мјерна јединица"
           },
           {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Разведени бракови"
-    },
-    {
-      "path": "3-5-3/data.csv",
-      "name": "3-5-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Sex",
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
-                "Оба пола",
                 "M",
                 "Ж",
                 ""
@@ -4791,12 +3876,12 @@
           },
           {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Број доктора медицине запослених у установама за пружање здравствене заштите према полу"
+      "title": "Просјечна старост становништва према полу"
     },
     {
       "path": "2-1-2/data.csv",
@@ -4885,8 +3970,8 @@
       "title": "Становништво према старосним групама и полу"
     },
     {
-      "path": "1-2-1/data.csv",
-      "name": "1-2-1",
+      "path": "3-3-4/data.csv",
+      "name": "3-3-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -4911,7 +3996,744 @@
           }
         ]
       },
-      "title": "Стопа наталитета"
+      "title": "Инциденца ХИВ-а"
+    },
+    {
+      "path": "5-4-2/data.csv",
+      "name": "5-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Дипломирани студенти према полу"
+    },
+    {
+      "path": "3-2-2/data.csv",
+      "name": "3-2-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Инциденца карцинома дојке"
+    },
+    {
+      "path": "1-6-3/data.csv",
+      "name": "1-6-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Разведени бракови"
+    },
+    {
+      "path": "5-3-5/data.csv",
+      "name": "5-3-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број наставника у средњим школама према полу"
+    },
+    {
+      "path": "2-1-4/data.csv",
+      "name": "2-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "PYRAMID_SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "PYRAMID_SEX"
+          },
+          {
+            "name": "PYRAMID_AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "0-4",
+                "5-9",
+                "10-14",
+                "15-19",
+                "20-24",
+                "25-29",
+                "30-34",
+                "35-39",
+                "40-44",
+                "45-49",
+                "50-54",
+                "55-59",
+                "60-64",
+                "65-69",
+                "70-74",
+                "75-79",
+                "80-84",
+                "85-89",
+                "90-94",
+                "95-99",
+                "100-104",
+                "105-109",
+                "110-114",
+                "115-120",
+                ""
+              ]
+            },
+            "title": "PYRAMID_AGE"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Популациона пирамида"
+    },
+    {
+      "path": "3-3-1/data.csv",
+      "name": "3-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Инциденца сифилиса"
+    },
+    {
+      "path": "7-2-1/data.csv",
+      "name": "7-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "Quarter",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "I квартал",
+                "II квартал",
+                "III квартал",
+                "IV квартал",
+                ""
+              ]
+            },
+            "title": "Квартал"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 89",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "20 - 64",
+                "25 - 34",
+                "15 - 74",
+                "65 - 74",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа активности према старосним групама и полу (квартално)"
+    },
+    {
+      "path": "7-1-5/data.csv",
+      "name": "7-1-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "type_of_institution",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "Јавна",
+                "Приватна",
+                ""
+              ]
+            },
+            "title": "Врста установе"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "НЕЕТ_Становништво које није запослено, не образује се нити се усавршава, према старосним групама и полу"
+    },
+    {
+      "path": "1-3-5/data.csv",
+      "name": "1-3-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Мртворођени према полу"
+    },
+    {
+      "path": "7-1-4/data.csv",
+      "name": "7-1-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "status_in_employment",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Запосленици",
+                "Самозапосленици",
+                "Неплаћени помажући чланови",
+                ""
+              ]
+            },
+            "title": "Радни статус"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Структура запослених према радном статусу и полу"
+    },
+    {
+      "path": "7-3-1/data.csv",
+      "name": "7-3-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Домаћинства која живе у релативном сиромаштву"
+    },
+    {
+      "path": "5-2-1/data.csv",
+      "name": "5-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број ученика на почетку школске године према полу (основна школа)"
+    },
+    {
+      "path": "3-5-4/data.csv",
+      "name": "3-5-4",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број опстетричара и гинеколога запослених у установама за пружање здравствене заштите"
+    },
+    {
+      "path": "1-7-5/data.csv",
+      "name": "1-7-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Пројектована стопа наталитета"
+    },
+    {
+      "path": "7-1-2/data.csv",
+      "name": "7-1-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15+",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "15 - 89",
+                "20 - 64",
+                "25 - 34",
+                "15 - 74",
+                "65 - 74",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа запослености према старосним групама и полу"
+    },
+    {
+      "path": "3-3-2/data.csv",
+      "name": "3-3-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Инциденца гонореје"
+    },
+    {
+      "path": "1-7-3/data.csv",
+      "name": "1-7-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "TYPE_OF_DEPENDENCY_RATIO",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Укупан омјер економске подршке",
+                "Омјер економске подршке младима",
+                "Омјер економске подршке старијим лицима",
+                ""
+              ]
+            },
+            "title": "Тип односа зависности"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Пројектовани коефицијенти зависности према полу"
     },
     {
       "path": "2-1-1/data.csv",
@@ -5089,8 +4911,8 @@
       "title": "Становништво према старости и полу"
     },
     {
-      "path": "6-1-1/data.csv",
-      "name": "6-1-1",
+      "path": "5-2-2/data.csv",
+      "name": "5-2-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5107,103 +4929,6 @@
             "name": "UNIT_MEASURE",
             "type": "string",
             "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Бруто друштвени производ (БДП) у милионима"
-    },
-    {
-      "path": "1-1-1/data.csv",
-      "name": "1-1-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "population_sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Оба пола",
-                "M",
-                "Ж",
-                ""
-              ]
-            },
-            "title": "Пол"
-          },
-          {
-            "name": "BIRTHS",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Живорођени",
-                "Умрли",
-                "Природни прираштај",
-                ""
-              ]
-            },
-            "title": "Витална статистика"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Витална статистика према полу"
-    },
-    {
-      "path": "1-7-3/data.csv",
-      "name": "1-7-3",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "TYPE_OF_DEPENDENCY_RATIO",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Укупан омјер економске подршке",
-                "Омјер економске подршке младима",
-                "Омјер економске подршке старијим лицима",
-                ""
-              ]
-            },
-            "title": "Тип односа зависности"
           },
           {
             "name": "SEX",
@@ -5220,45 +4945,16 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Пројектовани коефицијенти зависности према полу"
+      "title": "Број ученика који су завршили основну школу према полу"
     },
     {
-      "path": "7-3-1/data.csv",
-      "name": "7-3-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "string",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Домаћинства која живе у релативном сиромаштву"
-    },
-    {
-      "path": "3-6-3/data.csv",
-      "name": "3-6-3",
+      "path": "5-7-2/data.csv",
+      "name": "5-7-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5272,56 +4968,66 @@
             "title": "Година"
           },
           {
-            "name": "UNIT_MEASURE",
+            "name": "SEX",
             "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "number",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Задовољене потребе за планирањем породице"
-    },
-    {
-      "path": "5-7-1/data.csv",
-      "name": "5-7-1",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
           },
           {
             "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "25 - 64",
-                "25 - 34",
-                "35 - 44",
-                "35 - 54",
-                "45 - 54",
-                "55 - 64",
+                "15-24",
+                "25-29",
+                "15-29",
                 ""
               ]
             },
             "title": "Старосна доб"
           },
           {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "НЕЕТ_Становништво које није запослено, не образује се нити се усавршава, према старосним групама и полу"
+    },
+    {
+      "path": "7-1-3/data.csv",
+      "name": "7-1-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
             "name": "SEX",
             "type": "string",
             "constraints": {
@@ -5335,46 +5041,36 @@
             "title": "Пол"
           },
           {
+            "name": "AGE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "15 - 74",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "15 - 89",
+                "20 - 64",
+                "25 - 34",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
             "name": "Value",
             "type": "number",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Становништво у доби од 25-64 године уписано у неформално образовање одраслих, према старосној доби и полу"
+      "title": "Стопа незапослености према старосним групама и полу"
     },
     {
-      "path": "3-5-6/data.csv",
-      "name": "3-5-6",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "Year",
-            "type": "integer",
-            "title": "Година"
-          },
-          {
-            "name": "UNIT_MEASURE",
-            "type": "string",
-            "title": "Мјерна јединица"
-          },
-          {
-            "name": "Value",
-            "type": "integer",
-            "title": "Вриједност"
-          }
-        ]
-      },
-      "title": "Број медицинских техничара запослених у установама за пружање здравствене заштите"
-    },
-    {
-      "path": "3-3-4/data.csv",
-      "name": "3-3-4",
+      "path": "1-6-2/data.csv",
+      "name": "1-6-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5399,11 +5095,58 @@
           }
         ]
       },
-      "title": "Инциденца ХИВ-а"
+      "title": "Стопа нупцијалитета"
     },
     {
-      "path": "1-2-2/data.csv",
-      "name": "1-2-2",
+      "path": "2-2-1/data.csv",
+      "name": "2-2-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "NUMBER_OF_HOUSEHOLDS_BY_HOUSEHOLD_SIZE",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "1 члан",
+                "2 члана",
+                "3 члана",
+                "4 члана",
+                "5 чланова",
+                "6 чланова",
+                "7 чланова",
+                "8+ чланова",
+                ""
+              ]
+            },
+            "title": "Величина домаћинства"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Домаћинства према броју чланова"
+    },
+    {
+      "path": "3-4-1/data.csv",
+      "name": "3-4-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5423,16 +5166,16 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Стопа укупног фертилитета"
+      "title": "Број царских резова"
     },
     {
-      "path": "1-3-4/data.csv",
-      "name": "1-3-4",
+      "path": "7-1-1/data.csv",
+      "name": "7-1-1",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5446,7 +5189,12 @@
             "title": "Година"
           },
           {
-            "name": "population_sex",
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
@@ -5459,42 +5207,108 @@
             "title": "Пол"
           },
           {
-            "name": "CAUSE_OF_DEATH",
+            "name": "AGE",
             "type": "string",
             "constraints": {
               "enum": [
-                "(Ц00-Ц97,Д00-Д48) Неоплазме",
-                "(И00-И99) Болести циркулацијског система",
-                "(Ј00-Ј99) Болести респираторног система",
-                "(К00-К93) Болести дигестивног система",
-                "(Р00-Р99) Симптоми, знакови и абнормални клинички и лабораторијски налази који нису другдје класифицирани",
-                "(С00-Т98) Повреде, тровања и друге посљедице дејстава спољних фактора",
+                "15 - 89",
+                "15 - 24",
+                "25 - 49",
+                "50 - 64",
+                "65+",
+                "15 - 64",
+                "15 - 74",
+                "20 - 64",
+                "25 - 34",
+                "65 - 74",
+                ""
+              ]
+            },
+            "title": "Старосна доб"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа активности према старосним групама и полу"
+    },
+    {
+      "path": "3-4-2/data.csv",
+      "name": "3-4-2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број царских резова на 1,000 живорођене дјеце"
+    },
+    {
+      "path": "4-1-1/data.csv",
+      "name": "4-1-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Type_of_user",
+            "type": "string",
+            "constraints": {
+              "enum": [
                 "Укупно",
-                "(А00-Б99) Заразне и паразитарне болести",
-                "(Д50-Д89) Болести крви и крвотворних органа, као и поремећаји имунолошког система",
-                "(Е00-Е90) Ендокрине болести, болести исхране и болести метаболизма",
-                "(Ф00-Ф99) Душевни поремећаји и поремећаји понашања",
-                "(Г00-Г99) Болести нервног система",
-                "(Х00-Х93) Болести ока, уха и аднекса",
-                "(Л00-Л99) Болести коже и поткожног ткива",
-                "(М00-М99) Болести мускулоскелетног система и везивног ткива",
-                "(Н00-Н99) Болести генитално-уринарног система",
-                "(О00-О99) Трудноћа, порођај и постпорођајни период",
-                "(П00-П96) Одређена стања настала у перинаталном периоду",
-                "(Q00-Q99) Конгениталне малформације, деформитети и хромосомске абнормалности",
-                "(В01-Y98) Спољни узроци смртности",
-                "(З00-З99) Фактори који утичу на здравствено стање и контакт са здравственом службом",
-                "Непознато",
-                "Ковид-19",
+                "Малољетни корисници",
+                "Одрасли корисници",
                 ""
               ]
             },
-            "title": "Узрок смрти (према шифрама болести по МКБ-10)"
+            "title": "Врста корисника"
           },
           {
-            "name": "UNIT_MEASURE",
+            "name": "SEX",
             "type": "string",
-            "title": "Мјерна јединица"
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
           },
           {
             "name": "Value",
@@ -5503,11 +5317,11 @@
           }
         ]
       },
-      "title": "Умрли према узроку смрти и полу"
+      "title": "Корисници социјалне заштите према врсти корисника и полу"
     },
     {
-      "path": "3-1-4/data.csv",
-      "name": "3-1-4",
+      "path": "5-3-2/data.csv",
+      "name": "5-3-2",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5526,11 +5340,125 @@
             "title": "Мјерна јединица"
           },
           {
+            "name": "Type_of_school",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "Гимназија",
+                "Техничке школе",
+                "Умјетничке школе",
+                "Вјерске школе",
+                "Стручне школ",
+                "Средње школе за дјецу са посебним потребама",
+                ""
+              ]
+            },
+            "title": "Врста школе"
+          },
+          {
             "name": "SEX",
             "type": "string",
             "constraints": {
               "enum": [
                 "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број ученика на почетку школске године према врсти средње школе"
+    },
+    {
+      "path": "3-5-1/data.csv",
+      "name": "3-5-1",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Број кревета у болницама"
+    },
+    {
+      "path": "5-5-5/data.csv",
+      "name": "5-5-5",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "string",
+            "title": "Година"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "type_of_education",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Укупно",
+                "Образовање",
+                "Умјетност и хуманистичке науке",
+                "Друштвене науке, новинарство и информисање",
+                "Пословање, администрација, и право",
+                "Природне науке, математика, и статистика",
+                "Информационе и комуникационе технологије",
+                "Инжењерство, производња и грађевинарство",
+                "Пољопривреда, шумарство, рибарство и ветеринарство",
+                "Здравство и социјална заштита",
+                "Услуге",
+                "Непознато",
+                "Оба пола",
+                ""
+              ]
+            },
+            "title": "Врста образовања"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                "1064",
                 ""
               ]
             },
@@ -5543,11 +5471,53 @@
           }
         ]
       },
-      "title": "Мртворођени према полу"
+      "title": "Уписани на магистарске, мастер и специјалистичке студије према области образовања"
     },
     {
-      "path": "1-6-4/data.csv",
-      "name": "1-6-4",
+      "path": "1-3-3/data.csv",
+      "name": "1-3-3",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Година"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
+            "name": "UNIT_MEASURE",
+            "type": "string",
+            "title": "Мјерна јединица"
+          },
+          {
+            "name": "Value",
+            "type": "number",
+            "title": "Вриједност"
+          }
+        ]
+      },
+      "title": "Стопа смртности одојчади"
+    },
+    {
+      "path": "5-3-4/data.csv",
+      "name": "5-3-4",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -5566,13 +5536,43 @@
             "title": "Мјерна јединица"
           },
           {
+            "name": "Type_of_school",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "Гимназија",
+                "Техничке школе",
+                "Умјетничке школе",
+                "Вјерске школе",
+                "Стручне школ",
+                "Средње школе за дјецу са посебним потребама",
+                ""
+              ]
+            },
+            "title": "Врста школе"
+          },
+          {
+            "name": "SEX",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Оба пола",
+                "M",
+                "Ж",
+                ""
+              ]
+            },
+            "title": "Пол"
+          },
+          {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Вриједност"
           }
         ]
       },
-      "title": "Стопа диворцијалитета"
+      "title": "Број ученика који су завршили средњу школу према врсти школе"
     }
   ]
 }
