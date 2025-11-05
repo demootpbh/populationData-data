@@ -12,6 +12,7 @@ Year,UNIT_MEASURE,Spol,Value
 2021,Broj,Oba spola,147
 2022,Broj,Oba spola,195
 2023,Broj,Oba spola,122
+2024,Broj,Oba spola,83
 2011,Broj,M,114
 2012,Broj,M,126
 2013,Broj,M,163
@@ -25,6 +26,7 @@ Year,UNIT_MEASURE,Spol,Value
 2021,Broj,M,76
 2022,Broj,M,104
 2023,Broj,M,58
+2024,Broj,M,49
 2011,Broj,Ž,75
 2012,Broj,Ž,89
 2013,Broj,Ž,112
@@ -38,3 +40,4 @@ Year,UNIT_MEASURE,Spol,Value
 2021,Broj,Ž,71
 2022,Broj,Ž,91
 2023,Broj,Ž,64
+2024,Broj,Ž,34
