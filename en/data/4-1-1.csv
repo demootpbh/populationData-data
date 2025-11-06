@@ -80,3 +80,6 @@ Year,UNIT_MEASURE,Type of beneficiary,Sex,Value
 2023,Number,Adult beneficiaries,Both sexes,393513
 2023,Number,Adult beneficiaries,M,191874
 2023,Number,Adult beneficiaries,F,201639
+2024,Number,Total,Both sexes,510120
+2024,Number,Total,M,256001
+2024,Number,Total,F,254119
