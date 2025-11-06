@@ -80,6 +80,9 @@ Year,UNIT_MEASURE,Type_of_user,SEX,Value
 2023,NUMBER,adult_beneficiaries,_T,393513
 2023,NUMBER,adult_beneficiaries,M,191874
 2023,NUMBER,adult_beneficiaries,F,201639
+2024,NUMBER,total,_T,510120
+2024,NUMBER,total,M,256001
+2024,NUMBER,total,F,254119
 
 
 
