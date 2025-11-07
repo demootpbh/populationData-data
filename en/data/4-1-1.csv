@@ -83,3 +83,9 @@ Year,UNIT_MEASURE,Type of beneficiary,Sex,Value
 2024,Number,Total,Both sexes,510120
 2024,Number,Total,M,256001
 2024,Number,Total,F,254119
+2024,Number,Minor beneficiaries,Both sexes,110585
+2024,Number,Minor beneficiaries,M,58474
+2024,Number,Minor beneficiaries,F,52111
+2024,Number,Adult beneficiaries,Both sexes,399535
+2024,Number,Adult beneficiaries,M,197527
+2024,Number,Adult beneficiaries,F,202008

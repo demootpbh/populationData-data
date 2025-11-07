@@ -83,3 +83,9 @@ Year,UNIT_MEASURE,Type_of_user,SEX,Value
 2024,NUMBER,total,_T,510120
 2024,NUMBER,total,M,256001
 2024,NUMBER,total,F,254119
+2024,NUMBER,minor_beneficiaries,_T,110585
+2024,NUMBER,minor_beneficiaries,M,58474
+2024,NUMBER,minor_beneficiaries,F,52111
+2024,NUMBER,adult_beneficiaries,_T,399535
+2024,NUMBER,adult_beneficiaries,M,197527
+2024,NUMBER,adult_beneficiaries,F,202008
