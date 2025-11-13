@@ -27,6 +27,7 @@ Year,UNIT_MEASURE,Sex,Value
 2021,Number,Both sexes,85.0
 2022,Number,Both sexes,95.0
 2023,Number,Both sexes,74.0
+2024,Number,Both sexes,74.0
 2001,Number,M,98.0
 2002,Number,M,77.0
 2003,Number,M,91.0
@@ -50,6 +51,7 @@ Year,UNIT_MEASURE,Sex,Value
 2021,Number,M,38.0
 2022,Number,M,51.0
 2023,Number,M,33.0
+2024,Number,M,43.0
 2001,Number,F,95.0
 2002,Number,F,61.0
 2003,Number,F,59.0
@@ -73,3 +75,4 @@ Year,UNIT_MEASURE,Sex,Value
 2021,Number,F,47.0
 2022,Number,F,44.0
 2023,Number,F,41.0
+2024,Number,F,31.0
