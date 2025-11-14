@@ -1397,3 +1397,68 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2023,F,Covid-19,Number,134
 2023,F,Unknown,Number,228
 2023,F,Total,Number,17423
+2024,Both sexes,(A00-B99) Infectious and parasitic diseases,Number,520
+2024,Both sexes,"(C00-C97,D00-D48) Neoplasms",Number,7508
+2024,Both sexes,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,65
+2024,Both sexes,(E00-E90) Endocrine metabolic and nutritional diseases,Number,2162
+2024,Both sexes,(F00-F99) Mental and behavioural disorders,Number,358
+2024,Both sexes,(G00-G99) Diseases of the nervous system,Number,395
+2024,Both sexes,diseases_of_the_ear,Number,0
+2024,Both sexes,(I00-I99) Diseases of the circulatory system,Number,16704
+2024,Both sexes,(J00-J99) Diseases of the respiratory system,Number,2222
+2024,Both sexes,(K00-K93) Diseases of the digestive system,Number,936
+2024,Both sexes,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,69
+2024,Both sexes,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,36
+2024,Both sexes,(N00-N99) Diseases of the genitourinary system,Number,773
+2024,Both sexes,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,1
+2024,Both sexes,(P00-P96) Certain conditions originating in the perinatal period,Number,86
+2024,Both sexes,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,28
+2024,Both sexes,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,3058
+2024,Both sexes,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,854
+2024,Both sexes,(V01-Y98) External causes of mortality,Number,7
+2024,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,4
+2024,Both sexes,Unknown,Number,535
+2024,Both sexes,Total,Number,36423
+2024,M,(A00-B99) Infectious and parasitic diseases,Number,246
+2024,M,"(C00-C97,D00-D48) Neoplasms",Number,4288
+2024,M,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,34
+2024,M,(E00-E90) Endocrine metabolic and nutritional diseases,Number,943
+2024,M,(F00-F99) Mental and behavioural disorders,Number,177
+2024,M,(G00-G99) Diseases of the nervous system,Number,199
+2024,M,diseases_of_the_ear,Number,0
+2024,M,(I00-I99) Diseases of the circulatory system,Number,7796
+2024,M,(J00-J99) Diseases of the respiratory system,Number,1242
+2024,M,(K00-K93) Diseases of the digestive system,Number,551
+2024,M,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,26
+2024,M,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,11
+2024,M,(N00-N99) Diseases of the genitourinary system,Number,375
+2024,M,(P00-P96) Certain conditions originating in the perinatal period,Number,51
+2024,M,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,8
+2024,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1599
+2024,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,623
+2024,M,(V01-Y98) External causes of mortality,Number,5
+2024,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,4
+2024,M,Unknown,Number,288
+2024,M,Total,Number,18519
+2024,F,(A00-B99) Infectious and parasitic diseases,Number,274
+2024,F,"(C00-C97,D00-D48) Neoplasms",Number,3220
+2024,F,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,65
+2024,F,(E00-E90) Endocrine metabolic and nutritional diseases,Number,1219
+2024,F,(F00-F99) Mental and behavioural disorders,Number,181
+2024,F,(G00-G99) Diseases of the nervous system,Number,196
+2024,F,diseases_of_the_ear,Number,0
+2024,F,(I00-I99) Diseases of the circulatory system,Number,8908
+2024,F,(J00-J99) Diseases of the respiratory system,Number,980
+2024,F,(K00-K93) Diseases of the digestive system,Number,385
+2024,F,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,43
+2024,F,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,25
+2024,F,(N00-N99) Diseases of the genitourinary system,Number,398
+2024,F,"(O00-O99) Pregnancy, childbirth and the puerperium",Number,1
+2024,F,(P00-P96) Certain conditions originating in the perinatal period,Number,35
+2024,F,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,20
+2024,F,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1459
+2024,F,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,211
+2024,F,(V01-Y98) External causes of mortality,Number,2
+2024,F,(Z00-Z99) Factors influencing health status and contract with health services,Number,0
+2024,F,Unknown,Number,247
+2024,F,Total,Number,17904
