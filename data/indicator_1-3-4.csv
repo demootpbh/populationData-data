@@ -1403,7 +1403,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2024,_T,endocrine_metabolic_and_nutritional,NUMBER,2162
 2024,_T,mental_and_behavioural_disorders,NUMBER,358
 2024,_T,diseases_of_the_nervous,NUMBER,395
-2024,_T,diseases_of_the_ear,NUMBER,0
+2024,_T,diseases_of_the_eye,NUMBER,0
 2024,_T,diseases_of_the_circulatory,NUMBER,16704
 2024,_T,diseases_of_the_respiratory,NUMBER,2222
 2024,_T,diseases_of_the_digestive,NUMBER,936
@@ -1425,7 +1425,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2024,M,endocrine_metabolic_and_nutritional,NUMBER,943
 2024,M,mental_and_behavioural_disorders,NUMBER,177
 2024,M,diseases_of_the_nervous,NUMBER,199
-2024,M,diseases_of_the_ear,NUMBER,0
+2024,M,diseases_of_the_eye,NUMBER,0
 2024,M,diseases_of_the_circulatory,NUMBER,7796
 2024,M,diseases_of_the_respiratory,NUMBER,1242
 2024,M,diseases_of_the_digestive,NUMBER,551
@@ -1446,7 +1446,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2024,F,endocrine_metabolic_and_nutritional,NUMBER,1219
 2024,F,mental_and_behavioural_disorders,NUMBER,181
 2024,F,diseases_of_the_nervous,NUMBER,196
-2024,F,diseases_of_the_ear,NUMBER,0
+2024,F,diseases_of_the_eye,NUMBER,0
 2024,F,diseases_of_the_circulatory,NUMBER,8908
 2024,F,diseases_of_the_respiratory,NUMBER,980
 2024,F,diseases_of_the_digestive,NUMBER,385
