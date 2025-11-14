@@ -1403,7 +1403,7 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2024,Oba spola,"(E00-E90) Endokrine bolesti, bolesti ishrane i bolesti metabolizma",Broj,2162
 2024,Oba spola,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,358
 2024,Oba spola,(G00-G99) Bolesti nervnog sistema,Broj,395
-2024,Oba spola,diseases_of_the_ear,Broj,0
+2024,Oba spola,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
 2024,Oba spola,(I00-I99) Bolesti cirkulacijskog sistema,Broj,16704
 2024,Oba spola,(J00-J99) Bolesti respiratornog sistema,Broj,2222
 2024,Oba spola,(K00-K93) Bolesti digestivnog sistema,Broj,936
@@ -1425,7 +1425,7 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2024,M,"(E00-E90) Endokrine bolesti, bolesti ishrane i bolesti metabolizma",Broj,943
 2024,M,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,177
 2024,M,(G00-G99) Bolesti nervnog sistema,Broj,199
-2024,M,diseases_of_the_ear,Broj,0
+2024,M,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
 2024,M,(I00-I99) Bolesti cirkulacijskog sistema,Broj,7796
 2024,M,(J00-J99) Bolesti respiratornog sistema,Broj,1242
 2024,M,(K00-K93) Bolesti digestivnog sistema,Broj,551
@@ -1446,7 +1446,7 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2024,Ž,"(E00-E90) Endokrine bolesti, bolesti ishrane i bolesti metabolizma",Broj,1219
 2024,Ž,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,181
 2024,Ž,(G00-G99) Bolesti nervnog sistema,Broj,196
-2024,Ž,diseases_of_the_ear,Broj,0
+2024,Ž,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
 2024,Ž,(I00-I99) Bolesti cirkulacijskog sistema,Broj,8908
 2024,Ž,(J00-J99) Bolesti respiratornog sistema,Broj,980
 2024,Ž,(K00-K93) Bolesti digestivnog sistema,Broj,385

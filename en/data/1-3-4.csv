@@ -1403,7 +1403,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2024,Both sexes,(E00-E90) Endocrine metabolic and nutritional diseases,Number,2162
 2024,Both sexes,(F00-F99) Mental and behavioural disorders,Number,358
 2024,Both sexes,(G00-G99) Diseases of the nervous system,Number,395
-2024,Both sexes,diseases_of_the_ear,Number,0
+2024,Both sexes,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
 2024,Both sexes,(I00-I99) Diseases of the circulatory system,Number,16704
 2024,Both sexes,(J00-J99) Diseases of the respiratory system,Number,2222
 2024,Both sexes,(K00-K93) Diseases of the digestive system,Number,936
@@ -1425,7 +1425,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2024,M,(E00-E90) Endocrine metabolic and nutritional diseases,Number,943
 2024,M,(F00-F99) Mental and behavioural disorders,Number,177
 2024,M,(G00-G99) Diseases of the nervous system,Number,199
-2024,M,diseases_of_the_ear,Number,0
+2024,M,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
 2024,M,(I00-I99) Diseases of the circulatory system,Number,7796
 2024,M,(J00-J99) Diseases of the respiratory system,Number,1242
 2024,M,(K00-K93) Diseases of the digestive system,Number,551
@@ -1446,7 +1446,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2024,F,(E00-E90) Endocrine metabolic and nutritional diseases,Number,1219
 2024,F,(F00-F99) Mental and behavioural disorders,Number,181
 2024,F,(G00-G99) Diseases of the nervous system,Number,196
-2024,F,diseases_of_the_ear,Number,0
+2024,F,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
 2024,F,(I00-I99) Diseases of the circulatory system,Number,8908
 2024,F,(J00-J99) Diseases of the respiratory system,Number,980
 2024,F,(K00-K93) Diseases of the digestive system,Number,385
