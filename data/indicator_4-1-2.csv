@@ -135,6 +135,8 @@ Year,UNIT_MEASURE,type_of_institution,SEX,Value
 2023,NUMBER,social_welfare_institutions_for_adults,M,3795
 2023,NUMBER,social_welfare_institutions_for_adults,F,4352
 2024,NUMBER,_T,_T,12717
+2024,NUMBER,_T,M,5170
+2024,NUMBER,_T,F,7547
 2024,NUMBER,homes_for_children_and_youth_without_parental_care,_T,881
 2024,NUMBER,homes_for_children_and_youth_without_parental_care,M,443
 2024,NUMBER,homes_for_children_and_youth_without_parental_care,F,438
@@ -142,7 +144,13 @@ Year,UNIT_MEASURE,type_of_institution,SEX,Value
 2024,NUMBER,adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults_with_mental_and_physical_disabilities,M,1564
 2024,NUMBER,adult_beneficiaries_social_protection_institutions_for_children_youth_and_adults_with_mental_and_physical_disabilities,F,1028
 2024,NUMBER,social_welfare_institutions_for_adults_with_disabilities,_T,270
+2024,NUMBER,social_welfare_institutions_for_adults_with_disabilities,M,207
+2024,NUMBER,social_welfare_institutions_for_adults_with_disabilities,F,63
 2024,NUMBER,social_welfare_institutions_for_adults,_T,8974
+2024,NUMBER,social_welfare_institutions_for_adults,M,2956
+2024,NUMBER,social_welfare_institutions_for_adults,F,6018
+
+
 
 
 
