@@ -383,6 +383,19 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2024,NUMBER,health_and_social_protection,M,246
 2024,NUMBER,services,M,403
 2024,NUMBER,unknown,M,0
+2024,NUMBER,total,F,5632
+2024,NUMBER,education,F,833
+2024,NUMBER,arts_and_humanities,F,463
+2024,NUMBER,social_sciences_journalism_and_information,F,640
+2024,NUMBER,business_administration_and_the_law_of_everything,F,1058
+2024,NUMBER,natural_sciences_mathematics_and_statistics_of_all,F,208
+2024,NUMBER,information_and_communication_technologies,F,290
+2024,NUMBER,engineering_manufacturing_and_construction,F,543
+2024,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,F,105
+2024,NUMBER,health_and_social_protection,F,1201
+2024,NUMBER,services,F,291
+2024,NUMBER,unknown,F,0
+
 
 
 
