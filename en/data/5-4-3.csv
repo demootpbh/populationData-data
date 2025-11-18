@@ -383,3 +383,15 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2024,Number,Health and social protection,M,246
 2024,Number,Services,M,403
 2024,Number,Unknown,M,0
+2024,Number,Total,F,5632
+2024,Number,Education,F,833
+2024,Number,Arts and humanities,F,463
+2024,Number,"Social sciences, journalism and information",F,640
+2024,Number,Business administration and the law,F,1058
+2024,Number,"Natural sciences, mathematics and statistics",F,208
+2024,Number,Information and communication technologies,F,290
+2024,Number,"Engineering, manufacturing and construction",F,543
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,105
+2024,Number,Health and social protection,F,1201
+2024,Number,Services,F,291
+2024,Number,Unknown,F,0
