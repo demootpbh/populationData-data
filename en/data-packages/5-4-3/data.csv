@@ -371,3 +371,15 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2024,Number,Health and social protection,Both sexes,1447
 2024,Number,Services,Both sexes,694
 2024,Number,Unknown,Both sexes,0
+2024,Number,Total,M,3295
+2024,Number,Education,M,176
+2024,Number,Arts and humanities,M,244
+2024,Number,"Social sciences, journalism and information",M,575
+2024,Number,Business administration and the law,M,714
+2024,Number,"Natural sciences, mathematics and statistics",M,99
+2024,Number,Information and communication technologies,M,560
+2024,Number,"Engineering, manufacturing and construction",M,546
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,104
+2024,Number,Health and social protection,M,246
+2024,Number,Services,M,403
+2024,Number,Unknown,M,0
