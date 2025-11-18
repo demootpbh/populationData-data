@@ -326,7 +326,7 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2023,NUMBER,total,_T,9023
 2023,NUMBER,education,_T,973
 2023,NUMBER,arts_and_humanities,_T,770
-2023,NUMBER,social_sciences_journalism_and_information,_T,119
+2023,NUMBER,social_sciences_journalism_and_information,_T,1119
 2023,NUMBER,business_administration_and_the_law_of_everything,_T,1790
 2023,NUMBER,natural_sciences_mathematics_and_statistics_of_all,_T,224
 2023,NUMBER,information_and_communication_technologies,_T,796
@@ -359,3 +359,18 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2023,NUMBER,health_and_social_protection,F,1077
 2023,NUMBER,services,F,247
 2023,NUMBER,unknown,F,0
+2024,NUMBER,total,_T,8927
+2024,NUMBER,education,_T,1009
+2024,NUMBER,arts_and_humanities,_T,707
+2024,NUMBER,social_sciences_journalism_and_information,_T,982
+2024,NUMBER,business_administration_and_the_law_of_everything,_T,1633
+2024,NUMBER,natural_sciences_mathematics_and_statistics_of_all,_T,307
+2024,NUMBER,information_and_communication_technologies,_T,850
+2024,NUMBER,engineering_manufacturing_and_construction,_T,1089
+2024,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,_T,209
+2024,NUMBER,health_and_social_protection,_T,1447
+2024,NUMBER,services,_T,694
+2024,NUMBER,unknown,_T,0
+
+
+
