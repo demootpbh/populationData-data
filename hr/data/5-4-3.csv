@@ -326,7 +326,7 @@ Year,UNIT_MEASURE,Vrsta obrazovanja,Spol,Value
 2023,Broj,Ukupno,Oba spola,9023
 2023,Broj,Obrazovanje,Oba spola,973
 2023,Broj,Umjetnost i humanističke znanosti,Oba spola,770
-2023,Broj,"Društvene znanosti, novinarstvo i informiranje",Oba spola,119
+2023,Broj,"Društvene znanosti, novinarstvo i informiranje",Oba spola,1119
 2023,Broj,"Poslovanje, administracija i pravo",Oba spola,1790
 2023,Broj,"Prirodne znanosti, matematika i statistika",Oba spola,224
 2023,Broj,Informacijske i komunikacijske tehnologije,Oba spola,796
@@ -359,3 +359,15 @@ Year,UNIT_MEASURE,Vrsta obrazovanja,Spol,Value
 2023,Broj,Zdravstvo i socijalna skrb,Ž,1077
 2023,Broj,Usluge,Ž,247
 2023,Broj,Nepoznato,Ž,0
+2024,Broj,Ukupno,Oba spola,8927
+2024,Broj,Obrazovanje,Oba spola,1009
+2024,Broj,Umjetnost i humanističke znanosti,Oba spola,707
+2024,Broj,"Društvene znanosti, novinarstvo i informiranje",Oba spola,982
+2024,Broj,"Poslovanje, administracija i pravo",Oba spola,1633
+2024,Broj,"Prirodne znanosti, matematika i statistika",Oba spola,307
+2024,Broj,Informacijske i komunikacijske tehnologije,Oba spola,850
+2024,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",Oba spola,1089
+2024,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",Oba spola,209
+2024,Broj,Zdravstvo i socijalna skrb,Oba spola,1447
+2024,Broj,Usluge,Oba spola,694
+2024,Broj,Nepoznato,Oba spola,0

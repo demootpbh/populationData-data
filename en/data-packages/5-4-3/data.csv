@@ -326,7 +326,7 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2023,Number,Total,Both sexes,9023
 2023,Number,Education,Both sexes,973
 2023,Number,Arts and humanities,Both sexes,770
-2023,Number,"Social sciences, journalism and information",Both sexes,119
+2023,Number,"Social sciences, journalism and information",Both sexes,1119
 2023,Number,Business administration and the law,Both sexes,1790
 2023,Number,"Natural sciences, mathematics and statistics",Both sexes,224
 2023,Number,Information and communication technologies,Both sexes,796
@@ -359,3 +359,15 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2023,Number,Health and social protection,F,1077
 2023,Number,Services,F,247
 2023,Number,Unknown,F,0
+2024,Number,Total,Both sexes,8927
+2024,Number,Education,Both sexes,1009
+2024,Number,Arts and humanities,Both sexes,707
+2024,Number,"Social sciences, journalism and information",Both sexes,982
+2024,Number,Business administration and the law,Both sexes,1633
+2024,Number,"Natural sciences, mathematics and statistics",Both sexes,307
+2024,Number,Information and communication technologies,Both sexes,850
+2024,Number,"Engineering, manufacturing and construction",Both sexes,1089
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,209
+2024,Number,Health and social protection,Both sexes,1447
+2024,Number,Services,Both sexes,694
+2024,Number,Unknown,Both sexes,0
