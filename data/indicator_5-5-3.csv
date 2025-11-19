@@ -119,6 +119,18 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2023,NUMBER,health_and_social_protection,_T,962
 2023,NUMBER,services,_T,0
 2023,NUMBER,unknown,_T,0
+2024,NUMBER,total,_T,1026
+2024,NUMBER,education,_T,0
+2024,NUMBER,arts_and_humanities,_T,0
+2024,NUMBER,social_sciences_journalism_and_information,_T,0
+2024,NUMBER,business_administration_and_the_law_of_everything,_T,1
+2024,NUMBER,natural_sciences_mathematics_and_statistics_of_all,_T,0
+2024,NUMBER,information_and_communication_technologies,_T,0
+2024,NUMBER,engineering_manufacturing_and_construction,_T,0
+2024,NUMBER,agriculture_forestry_fisheries_and_veterinary_medicine,_T,26
+2024,NUMBER,health_and_social_protection,_T,982
+2024,NUMBER,services,_T,17
+2024,NUMBER,unknown,_T,0
 2014,NUMBER,total,M,247
 2014,NUMBER,education,M,0
 2014,NUMBER,arts_and_humanities,M,11
@@ -359,4 +371,5 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2023,NUMBER,health_and_social_protection,F,708
 2023,NUMBER,services,F,1
 2023,NUMBER,unknown,F,0
+
 
