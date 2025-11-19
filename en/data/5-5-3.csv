@@ -119,6 +119,18 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2023,Number,Health and social protection,Both sexes,962
 2023,Number,Services,Both sexes,0
 2023,Number,Unknown,Both sexes,0
+2024,Number,Total,Both sexes,1026
+2024,Number,Education,Both sexes,0
+2024,Number,Arts and humanities,Both sexes,0
+2024,Number,"Social sciences, journalism and information",Both sexes,0
+2024,Number,Business administration and the law,Both sexes,1
+2024,Number,"Natural sciences, mathematics and statistics",Both sexes,0
+2024,Number,Information and communication technologies,Both sexes,0
+2024,Number,"Engineering, manufacturing and construction",Both sexes,0
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,26
+2024,Number,Health and social protection,Both sexes,982
+2024,Number,Services,Both sexes,17
+2024,Number,Unknown,Both sexes,0
 2014,Number,Total,M,247
 2014,Number,Education,M,0
 2014,Number,Arts and humanities,M,11
