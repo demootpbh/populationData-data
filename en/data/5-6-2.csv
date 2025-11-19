@@ -358,4 +358,40 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,43
 2023,Number,Health and social protection,F,216
 2023,Number,Services,F,11
-2022,Number,Unknown,F,0
+2023,Number,Unknown,F,0
+2024,Number,Total,Both sexes,1515
+2024,Number,Education,Both sexes,114
+2024,Number,Arts and humanities,Both sexes,159
+2024,Number,"Social sciences, journalism and information",Both sexes,162
+2024,Number,Business administration and the law,Both sexes,228
+2024,Number,"Natural sciences, mathematics and statistics",Both sexes,89
+2024,Number,Information and communication technologies,Both sexes,65
+2024,Number,"Engineering, manufacturing and construction",Both sexes,139
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,48
+2024,Number,Health and social protection,Both sexes,439
+2024,Number,Services,Both sexes,72
+2024,Number,Unknown,Both sexes,0
+2024,Number,Total,M,747
+2024,Number,Education,M,56
+2024,Number,Arts and humanities,M,81
+2024,Number,"Social sciences, journalism and information",M,73
+2024,Number,Business administration and the law,M,115
+2024,Number,"Natural sciences, mathematics and statistics",M,40
+2024,Number,Information and communication technologies,M,47
+2024,Number,"Engineering, manufacturing and construction",M,90
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,22
+2024,Number,Health and social protection,M,167
+2024,Number,Services,M,56
+2024,Number,Unknown,M,0
+2024,Number,Total,F,768
+2024,Number,Education,F,58
+2024,Number,Arts and humanities,F,78
+2024,Number,"Social sciences, journalism and information",F,89
+2024,Number,Business administration and the law,F,113
+2024,Number,"Natural sciences, mathematics and statistics",F,49
+2024,Number,Information and communication technologies,F,18
+2024,Number,"Engineering, manufacturing and construction",F,49
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,43
+2024,Number,Health and social protection,F,272
+2024,Number,Services,F,16
+2024,Number,Unknown,F,0
