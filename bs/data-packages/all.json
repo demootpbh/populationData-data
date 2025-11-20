@@ -2103,7 +2103,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Dan"
           },
           {
@@ -2128,7 +2128,6 @@
                 "Zdravstvo i socijalna zaštita",
                 "Usluge",
                 "Nepoznato",
-                "Oba spola",
                 ""
               ]
             },
@@ -2142,7 +2141,6 @@
                 "Oba spola",
                 "M",
                 "Ž",
-                "1064",
                 ""
               ]
             },
@@ -2150,7 +2148,7 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Vrijednost"
           }
         ]

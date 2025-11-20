@@ -1942,7 +1942,7 @@
         "fields": [
           {
             "name": "Year",
-            "type": "string"
+            "type": "integer"
           },
           {
             "name": "UNIT_MEASURE",
@@ -1965,7 +1965,6 @@
                 "health_and_social_protection",
                 "services",
                 "unknown",
-                "_T",
                 ""
               ]
             }
@@ -1978,14 +1977,13 @@
                 "_T",
                 "M",
                 "F",
-                "1064",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "number"
+            "type": "integer"
           }
         ]
       },

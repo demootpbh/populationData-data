@@ -16,7 +16,6 @@
             "constraints": {
               "enum": [
                 "",
-                "1064",
                 "F",
                 "M",
                 "Both sexes"
@@ -31,12 +30,12 @@
           },
           {
             "name": "Value",
-            "type": "number",
+            "type": "integer",
             "title": "Value"
           },
           {
             "name": "Year",
-            "type": "string",
+            "type": "integer",
             "title": "Year"
           },
           {
@@ -45,7 +44,6 @@
             "constraints": {
               "enum": [
                 "",
-                "Both sexes",
                 "Agriculture, forestry, fisheries and veterinary medicine",
                 "Arts and humanities",
                 "Business administration and the law",
