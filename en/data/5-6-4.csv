@@ -476,7 +476,7 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2023,Number,Information and communication technologies,Both sexes,2
 2023,Number,"Engineering, manufacturing and construction",Both sexes,23
 2023,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,4
-2022,Number,Health and social protection,Both sexes,28
+2023,Number,Health and social protection,Both sexes,28
 2023,Number,Services,Both sexes,2
 2023,Number,Unknown,Both sexes,0
 2023,Number,Total,M,58
@@ -503,3 +503,39 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2023,Number,Health and social protection,F,20
 2023,Number,Services,F,0
 2023,Number,Unknown,F,0
+2024,Number,Total,Both sexes,83
+2024,Number,Education,Both sexes,13
+2024,Number,Arts and humanities,Both sexes,9
+2024,Number,"Social sciences, journalism and information",Both sexes,15
+2024,Number,Business administration and the law,Both sexes,13
+2024,Number,"Natural sciences, mathematics and statistics",Both sexes,4
+2024,Number,Information and communication technologies,Both sexes,2
+2024,Number,"Engineering, manufacturing and construction",Both sexes,11
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",Both sexes,1
+2024,Number,Health and social protection,Both sexes,12
+2024,Number,Services,Both sexes,3
+2024,Number,Unknown,Both sexes,0
+2024,Number,Total,M,49
+2024,Number,Education,M,7
+2024,Number,Arts and humanities,M,5
+2024,Number,"Social sciences, journalism and information",M,7
+2024,Number,Business administration and the law,M,10
+2024,Number,"Natural sciences, mathematics and statistics",M,2
+2024,Number,Information and communication technologies,M,2
+2024,Number,"Engineering, manufacturing and construction",M,9
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",M,1
+2024,Number,Health and social protection,M,4
+2024,Number,Services,M,2
+2024,Number,Unknown,M,0
+2024,Number,Total,F,34
+2024,Number,Education,F,6
+2024,Number,Arts and humanities,F,4
+2024,Number,"Social sciences, journalism and information",F,8
+2024,Number,Business administration and the law,F,3
+2024,Number,"Natural sciences, mathematics and statistics",F,2
+2024,Number,Information and communication technologies,F,0
+2024,Number,"Engineering, manufacturing and construction",F,2
+2024,Number,"Agriculture, forestry, fisheries and veterinary medicine",F,0
+2024,Number,Health and social protection,F,8
+2024,Number,Services,F,1
+2024,Number,Unknown,F,0

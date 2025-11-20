@@ -476,7 +476,7 @@ Year,UNIT_MEASURE,Vrsta obrazovanja,Spol,Value
 2023,Broj,Informacijske i komunikacijske tehnologije,Oba spola,2
 2023,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",Oba spola,23
 2023,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",Oba spola,4
-2022,Broj,Zdravstvo i socijalna skrb,Oba spola,28
+2023,Broj,Zdravstvo i socijalna skrb,Oba spola,28
 2023,Broj,Usluge,Oba spola,2
 2023,Broj,Nepoznato,Oba spola,0
 2023,Broj,Ukupno,M,58
@@ -503,3 +503,39 @@ Year,UNIT_MEASURE,Vrsta obrazovanja,Spol,Value
 2023,Broj,Zdravstvo i socijalna skrb,Ž,20
 2023,Broj,Usluge,Ž,0
 2023,Broj,Nepoznato,Ž,0
+2024,Broj,Ukupno,Oba spola,83
+2024,Broj,Obrazovanje,Oba spola,13
+2024,Broj,Umjetnost i humanističke znanosti,Oba spola,9
+2024,Broj,"Društvene znanosti, novinarstvo i informiranje",Oba spola,15
+2024,Broj,"Poslovanje, administracija i pravo",Oba spola,13
+2024,Broj,"Prirodne znanosti, matematika i statistika",Oba spola,4
+2024,Broj,Informacijske i komunikacijske tehnologije,Oba spola,2
+2024,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",Oba spola,11
+2024,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",Oba spola,1
+2024,Broj,Zdravstvo i socijalna skrb,Oba spola,12
+2024,Broj,Usluge,Oba spola,3
+2024,Broj,Nepoznato,Oba spola,0
+2024,Broj,Ukupno,M,49
+2024,Broj,Obrazovanje,M,7
+2024,Broj,Umjetnost i humanističke znanosti,M,5
+2024,Broj,"Društvene znanosti, novinarstvo i informiranje",M,7
+2024,Broj,"Poslovanje, administracija i pravo",M,10
+2024,Broj,"Prirodne znanosti, matematika i statistika",M,2
+2024,Broj,Informacijske i komunikacijske tehnologije,M,2
+2024,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",M,9
+2024,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",M,1
+2024,Broj,Zdravstvo i socijalna skrb,M,4
+2024,Broj,Usluge,M,2
+2024,Broj,Nepoznato,M,0
+2024,Broj,Ukupno,Ž,34
+2024,Broj,Obrazovanje,Ž,6
+2024,Broj,Umjetnost i humanističke znanosti,Ž,4
+2024,Broj,"Društvene znanosti, novinarstvo i informiranje",Ž,8
+2024,Broj,"Poslovanje, administracija i pravo",Ž,3
+2024,Broj,"Prirodne znanosti, matematika i statistika",Ž,2
+2024,Broj,Informacijske i komunikacijske tehnologije,Ž,0
+2024,Broj,"Inženjerstvo, proizvodnja i građevinarstvo",Ž,2
+2024,Broj,"Poljoprivreda, šumarstvo, ribarstvo i veterinarstvo",Ž,0
+2024,Broj,Zdravstvo i socijalna skrb,Ž,8
+2024,Broj,Usluge,Ž,1
+2024,Broj,Nepoznato,Ž,0
