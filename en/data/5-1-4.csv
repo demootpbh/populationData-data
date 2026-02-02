@@ -13,6 +13,7 @@ Year,UNIT_MEASURE,Sex,Value
 2022,Number,Both sexes,3213
 2023,Number,Both sexes,3475
 2024,Number,Both sexes,3736
+2025/2026,Number,Both sexes,3995
 2011,Number,M,22
 2012,Number,M,17
 2013,Number,M,22
@@ -27,6 +28,7 @@ Year,UNIT_MEASURE,Sex,Value
 2022,Number,M,35
 2023,Number,M,108
 2024,Number,M,49
+2024/2025,Number,M,41
 2011,Number,F,1216
 2012,Number,F,1284
 2013,Number,F,1366
@@ -41,3 +43,4 @@ Year,UNIT_MEASURE,Sex,Value
 2022,Number,F,3178
 2023,Number,F,3367
 2024,Number,F,3687
+2024/2025,Number,F,3954
