@@ -395,3 +395,6 @@ Year,UNIT_MEASURE,Type of education,Sex,Value
 2024,Number,Health and social protection,F,1201
 2024,Number,Services,F,291
 2024,Number,Unknown,F,0
+2025,Number,Total,Both sexes,10220
+2025,Number,Total,M,3677
+2025,Number,Total,F,6543
