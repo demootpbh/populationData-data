@@ -395,6 +395,9 @@ Year,UNIT_MEASURE,type_of_education,SEX,Value
 2024,NUMBER,health_and_social_protection,F,1201
 2024,NUMBER,services,F,291
 2024,NUMBER,unknown,F,0
+2025,NUMBER,total,_T,10220
+2025,NUMBER,total,M,3677
+2025,NUMBER,total,F,6543
 
 
 
