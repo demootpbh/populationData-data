@@ -1503,27 +1503,27 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2025,M,"(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka",Broj,633
 2025,M,(V01-Y98) Vanjski uzroci mortaliteta,Broj,4
 2025,M,(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom,Broj,2
-2024,M,Nepoznato,Broj,318
-2024,M,Ukupno,Broj,18776
-2024,Ž,(A00-B99) Zarazne i parazitarne bolesti,Broj,274
-2024,Ž,"(C00-C97,D00-D48) Neoplazme",Broj,3220
-2024,Ž,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sustava",Broj,65
-2024,Ž,"(E00-E90) Endokrine bolesti, bolesti prehrane i bolesti metabolizma",Broj,1219
-2024,Ž,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,181
-2024,Ž,(G00-G99) Bolesti nervnog sustava,Broj,196
-2024,Ž,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
-2024,Ž,(I00-I99) Bolesti cirkulacijskog sustava,Broj,8908
-2024,Ž,(J00-J99) Bolesti respiratornog sustava,Broj,980
-2024,Ž,(K00-K93) Bolesti digestivnog sustava,Broj,385
-2024,Ž,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,43
-2024,Ž,(M00-M99) Bolesti muskuloskeletnog sustava i vezivnog tkiva,Broj,25
-2024,Ž,(N00-N99) Bolesti genitalno-urinarnog sustava,Broj,398
-2024,Ž,"(O00-O99) Trudnoća, porođaj i postporođajni period",Broj,1
-2024,Ž,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,35
-2024,Ž,"(Q00-Q99) Kongenitalne malformacije, deformiteti i kromosomske abnormalnosti",Broj,20
-2024,Ž,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi nesvrstani drugamo",Broj,1459
-2024,Ž,"(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka",Broj,211
-2024,Ž,(V01-Y98) Vanjski uzroci mortaliteta,Broj,2
-2024,Ž,(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom,Broj,0
-2024,Ž,Nepoznato,Broj,247
-2024,Ž,Ukupno,Broj,17904
+2025,M,Nepoznato,Broj,318
+2025,M,Ukupno,Broj,18776
+2025,Ž,(A00-B99) Zarazne i parazitarne bolesti,Broj,230
+2025,Ž,"(C00-C97,D00-D48) Neoplazme",Broj,3341
+2025,Ž,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sustava",Broj,52
+2025,Ž,"(E00-E90) Endokrine bolesti, bolesti prehrane i bolesti metabolizma",Broj,1392
+2025,Ž,(F00-F99) Duševni poremećaji i poremećaji ponašanja,Broj,189
+2025,Ž,(G00-G99) Bolesti nervnog sustava,Broj,198
+2025,Ž,"(H00-H93) Bolesti oka, uha i adneksa",Broj,0
+2025,Ž,(I00-I99) Bolesti cirkulacijskog sustava,Broj,8737
+2025,Ž,(J00-J99) Bolesti respiratornog sustava,Broj,1199
+2025,Ž,(K00-K93) Bolesti digestivnog sustava,Broj,406
+2025,Ž,(L00-L99) Bolesti kože i potkožnog tkiva,Broj,40
+2025,Ž,(M00-M99) Bolesti muskuloskeletnog sustava i vezivnog tkiva,Broj,43
+2025,Ž,(N00-N99) Bolesti genitalno-urinarnog sustava,Broj,412
+2025,Ž,"(O00-O99) Trudnoća, porođaj i postporođajni period",Broj,0
+2025,Ž,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,40
+2025,Ž,"(Q00-Q99) Kongenitalne malformacije, deformiteti i kromosomske abnormalnosti",Broj,7
+2025,Ž,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi nesvrstani drugamo",Broj,1611
+2025,Ž,"(S00-T98) Ozljede, otrovanja i ostale posljedice vanjskih uzroka",Broj,224
+2025,Ž,(V01-Y98) Vanjski uzroci mortaliteta,Broj,0
+2025,Ž,(Z00-Z99) Čimbenici koji utječu na stanje zdravlja i kontakt sa zdravstvenom službom,Broj,2
+2025,Ž,Nepoznato,Broj,236
+2025,Ž,Ukupno,Broj,18377
