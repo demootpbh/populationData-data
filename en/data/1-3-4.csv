@@ -1417,6 +1417,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2024,Both sexes,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,854
 2024,Both sexes,(V01-Y98) External causes of mortality,Number,7
 2024,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,4
+2024,Both sexes,Covid-19,Number,0
 2024,Both sexes,Unknown,Number,535
 2024,Both sexes,Total,Number,36423
 2024,M,(A00-B99) Infectious and parasitic diseases,Number,246
@@ -1438,6 +1439,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2024,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,623
 2024,M,(V01-Y98) External causes of mortality,Number,5
 2024,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,4
+2023,M,Covid-19,Number,134
 2024,M,Unknown,Number,288
 2024,M,Total,Number,18519
 2024,F,(A00-B99) Infectious and parasitic diseases,Number,274
@@ -1460,6 +1462,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2024,F,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,211
 2024,F,(V01-Y98) External causes of mortality,Number,2
 2024,F,(Z00-Z99) Factors influencing health status and contract with health services,Number,0
+2024,F,Covid-19,Number,0
 2024,F,Unknown,Number,247
 2024,F,Total,Number,17904
 2025,Both sexes,(A00-B99) Infectious and parasitic diseases,Number,429
@@ -1482,6 +1485,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2025,Both sexes,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,857
 2025,Both sexes,(V01-Y98) External causes of mortality,Number,4
 2025,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
+2025,Both sexes,Covid-19,Number,0
 2025,Both sexes,Unknown,Number,554
 2025,Both sexes,Total,Number,37153
 2025,M,(A00-B99) Infectious and parasitic diseases,Number,199
@@ -1503,6 +1507,7 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2025,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,633
 2025,M,(V01-Y98) External causes of mortality,Number,4
 2025,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
+2025,M,Covid-19,Number,134
 2025,M,Unknown,Number,318
 2025,M,Total,Number,18776
 2025,F,(A00-B99) Infectious and parasitic diseases,Number,230
@@ -1525,5 +1530,6 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2025,F,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,224
 2025,F,(V01-Y98) External causes of mortality,Number,0
 2025,F,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
-2025,F,Unknown,Number,236
+2025,F,Covid-19,Number,134
+2025,F,Unknown,Number,0
 2025,F,Total,Number,18377
