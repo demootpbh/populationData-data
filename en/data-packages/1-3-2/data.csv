@@ -28,6 +28,7 @@ Year,Sex,UNIT_MEASURE,Value
 2022,Both sexes,Number,154
 2023,Both sexes,Number,140
 2024,Both sexes,Number,134
+2025,Both sexes,Number,127
 1996,M,Number,360
 1997,M,Number,369
 1998,M,Number,302
@@ -57,6 +58,7 @@ Year,Sex,UNIT_MEASURE,Value
 2022,M,Number,90
 2023,M,Number,80
 2024,M,Number,74
+2025,M,Number,70
 1996,F,Number,293
 1997,F,Number,232
 1998,F,Number,192
@@ -86,3 +88,4 @@ Year,Sex,UNIT_MEASURE,Value
 2022,F,Number,64
 2023,F,Number,60
 2024,F,Number,60
+2025,F,Number,57
