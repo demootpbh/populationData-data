@@ -1499,12 +1499,12 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2025,M,(N00-N99) Bolesti genitalno-urinarnog sistema,Broj,406
 2025,M,(P00-P96) Određena stanja nastala u perinatalnom periodu,Broj,47
 2025,M,"(Q00-Q99) Kongenitalne malformacije, deformiteti i hromosomske abnormalnosti",Broj,18
-2025,M,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi koji nisu drugdje klasificirani",Broj,33
-2024,M,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,623
-2024,M,(V01-Y98) Vanjski uzroci smrtnosti,Broj,5
-2024,M,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,4
-2024,M,Nepoznato,Broj,288
-2024,M,Ukupno,Broj,18519
+2025,M,"(R00-R99) Simptomi, znakovi i abnormalni klinički i laboratorijski nalazi koji nisu drugdje klasificirani",Broj,1672
+2025,M,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,633
+2025,M,(V01-Y98) Vanjski uzroci smrtnosti,Broj,4
+2025,M,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,2
+2024,M,Nepoznato,Broj,318
+2024,M,Ukupno,Broj,18776
 2024,Ž,(A00-B99) Zarazne i parazitarne bolesti,Broj,274
 2024,Ž,"(C00-C97,D00-D48) Neoplazme",Broj,3220
 2024,Ž,"(D50-D89) Bolesti krvi i krvotvornih organa, kao i poremećaji imunološkog sistema",Broj,65

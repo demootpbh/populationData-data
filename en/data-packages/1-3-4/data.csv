@@ -1499,12 +1499,12 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2025,M,(N00-N99) Diseases of the genitourinary system,Number,406
 2025,M,(P00-P96) Certain conditions originating in the perinatal period,Number,47
 2025,M,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,18
-2025,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,33
-2024,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,623
-2024,M,(V01-Y98) External causes of mortality,Number,5
-2024,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,4
-2024,M,Unknown,Number,288
-2024,M,Total,Number,18519
+2025,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1672
+2025,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,633
+2025,M,(V01-Y98) External causes of mortality,Number,4
+2025,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
+2024,M,Unknown,Number,318
+2024,M,Total,Number,18776
 2024,F,(A00-B99) Infectious and parasitic diseases,Number,274
 2024,F,"(C00-C97,D00-D48) Neoplasms",Number,3220
 2024,F,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,65
