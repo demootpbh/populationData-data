@@ -1484,22 +1484,22 @@ Year,Sex,Cause of death (as per ICD-10 codes),UNIT_MEASURE,Value
 2025,Both sexes,(Z00-Z99) Factors influencing health status and contract with health services,Number,2
 2025,Both sexes,Unknown,Number,554
 2025,Both sexes,Total,Number,37153
-2024,M,(A00-B99) Infectious and parasitic diseases,Number,246
-2024,M,"(C00-C97,D00-D48) Neoplasms",Number,4288
-2024,M,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,34
-2024,M,(E00-E90) Endocrine metabolic and nutritional diseases,Number,943
-2024,M,(F00-F99) Mental and behavioural disorders,Number,177
-2024,M,(G00-G99) Diseases of the nervous system,Number,199
-2024,M,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
-2024,M,(I00-I99) Diseases of the circulatory system,Number,7796
-2024,M,(J00-J99) Diseases of the respiratory system,Number,1242
-2024,M,(K00-K93) Diseases of the digestive system,Number,551
-2024,M,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,26
-2024,M,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,11
-2024,M,(N00-N99) Diseases of the genitourinary system,Number,375
-2024,M,(P00-P96) Certain conditions originating in the perinatal period,Number,51
-2024,M,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,8
-2024,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,1599
+2025,M,(A00-B99) Infectious and parasitic diseases,Number,199
+2025,M,"(C00-C97,D00-D48) Neoplasms",Number,4263
+2025,M,"(D50-D89) Diseases of the blood and blood-forming organs, disorders involving the immune mechanism",Number,31
+2025,M,(E00-E90) Endocrine metabolic and nutritional diseases,Number,1012
+2025,M,(F00-F99) Mental and behavioural disorders,Number,178
+2025,M,(G00-G99) Diseases of the nervous system,Number,235
+2025,M,"(H00-H93) Diseases of the eye, ear and adnexa",Number,0
+2025,M,(I00-I99) Diseases of the circulatory system,Number,7710
+2025,M,(J00-J99) Diseases of the respiratory system,Number,1397
+2025,M,(K00-K93) Diseases of the digestive system,Number,590
+2025,M,(L00-L99) Diseases of the skin and subcutaneous tissue,Number,36
+2025,M,(M00-M99) Diseases of the musculoskeletal system and connective tissue,Number,11
+2025,M,(N00-N99) Diseases of the genitourinary system,Number,406
+2025,M,(P00-P96) Certain conditions originating in the perinatal period,Number,47
+2025,M,"(Q00-Q99) Congenital malformations, deformations and chromosomal abnormalities",Number,18
+2025,M,"(R00-R99) Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified",Number,33
 2024,M,"(S00-T98) Injuries, poisoning and consequences of external causes",Number,623
 2024,M,(V01-Y98) External causes of mortality,Number,5
 2024,M,(Z00-Z99) Factors influencing health status and contract with health services,Number,4
