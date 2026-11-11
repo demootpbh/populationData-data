@@ -1417,6 +1417,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2024,_T,injuries_poisoning_and_consequences,NUMBER,854
 2024,_T,external_causes_of_mortality,NUMBER,7
 2024,_T,factors_influencing_health_status,NUMBER,4
+2024,_T,Covid-19,NUMBER,0
 2024,_T,unknown,NUMBER,535
 2024,_T,total,NUMBER,36423
 2024,M,infectious_and_parasitic,NUMBER,246
@@ -1438,6 +1439,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2024,M,injuries_poisoning_and_consequences,NUMBER,623
 2024,M,external_causes_of_mortality,NUMBER,5
 2024,M,factors_influencing_health_status,NUMBER,4
+2023,M,Covid-19,NUMBER,134
 2024,M,unknown,NUMBER,288
 2024,M,total,NUMBER,18519
 2024,F,infectious_and_parasitic,NUMBER,274
@@ -1460,6 +1462,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2024,F,injuries_poisoning_and_consequences,NUMBER,211
 2024,F,external_causes_of_mortality,NUMBER,2
 2024,F,factors_influencing_health_status,NUMBER,0
+2024,F,Covid-19,NUMBER,0
 2024,F,unknown,NUMBER,247
 2024,F,total,NUMBER,17904
 2025,_T,infectious_and_parasitic,NUMBER,429
@@ -1482,6 +1485,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2025,_T,injuries_poisoning_and_consequences,NUMBER,857
 2025,_T,external_causes_of_mortality,NUMBER,4
 2025,_T,factors_influencing_health_status,NUMBER,2
+2025,_T,Covid-19,NUMBER,0
 2025,_T,unknown,NUMBER,554
 2025,_T,total,NUMBER,37153
 2025,M,infectious_and_parasitic,NUMBER,199
@@ -1503,6 +1507,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2025,M,injuries_poisoning_and_consequences,NUMBER,633
 2025,M,external_causes_of_mortality,NUMBER,4
 2025,M,factors_influencing_health_status,NUMBER,2
+2025,M,Covid-19,NUMBER,134
 2025,M,unknown,NUMBER,318
 2025,M,total,NUMBER,18776
 2025,F,infectious_and_parasitic,NUMBER,230
@@ -1525,7 +1530,9 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2025,F,injuries_poisoning_and_consequences,NUMBER,224
 2025,F,external_causes_of_mortality,NUMBER,0
 2025,F,factors_influencing_health_status,NUMBER,2
-2025,F,unknown,NUMBER,236
+2025,F,Covid-19,NUMBER,134
+2025,F,unknown,NUMBER,0
 2025,F,total,NUMBER,18377
+
 
 
