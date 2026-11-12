@@ -28,6 +28,7 @@ Year,Spol,UNIT_MEASURE,Value
 2022,M,Starosna dob,72.2
 2023,M,Starosna dob,71.8
 2024,M,Starosna dob,72.2
+2025,M,Starosna dob,72.3
 1961,Ž,Starosna dob,34.5
 1971,Ž,Starosna dob,51.6
 1998,Ž,Starosna dob,69.2
@@ -57,6 +58,7 @@ Year,Spol,UNIT_MEASURE,Value
 2022,Ž,Starosna dob,77.4
 2023,Ž,Starosna dob,77.5
 2024,Ž,Starosna dob,77.5
+2025,Ž,Starosna dob,77.6
 1998,Oba spola,Starosna dob,66.1
 1999,Oba spola,Starosna dob,66.6
 2000,Oba spola,Starosna dob,66.8
@@ -84,3 +86,4 @@ Year,Spol,UNIT_MEASURE,Value
 2022,Oba spola,Starosna dob,74.7
 2023,Oba spola,Starosna dob,74.6
 2024,Oba spola,Starosna dob,74.8
+2025,Oba spola,Starosna dob,74.9
