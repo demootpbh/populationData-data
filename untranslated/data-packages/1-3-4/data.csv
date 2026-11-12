@@ -1485,7 +1485,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2025,_T,injuries_poisoning_and_consequences,NUMBER,857
 2025,_T,external_causes_of_mortality,NUMBER,4
 2025,_T,factors_influencing_health_status,NUMBER,2
-2025,_T,Covid-19,NUMBER,0
+2025,_T,Covid-19,NUMBER,30
 2025,_T,unknown,NUMBER,554
 2025,_T,total,NUMBER,37153
 2025,M,infectious_and_parasitic,NUMBER,199
@@ -1507,7 +1507,7 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2025,M,injuries_poisoning_and_consequences,NUMBER,633
 2025,M,external_causes_of_mortality,NUMBER,4
 2025,M,factors_influencing_health_status,NUMBER,2
-2025,M,Covid-19,NUMBER,134
+2025,M,Covid-19,NUMBER,14
 2025,M,unknown,NUMBER,318
 2025,M,total,NUMBER,18776
 2025,F,infectious_and_parasitic,NUMBER,230
@@ -1530,6 +1530,6 @@ Year,population_sex,CAUSE_OF_DEATH,UNIT_MEASURE,Value
 2025,F,injuries_poisoning_and_consequences,NUMBER,224
 2025,F,external_causes_of_mortality,NUMBER,0
 2025,F,factors_influencing_health_status,NUMBER,2
-2025,F,Covid-19,NUMBER,134
-2025,F,unknown,NUMBER,0
+2025,F,Covid-19,NUMBER,16
+2025,F,unknown,NUMBER,236
 2025,F,total,NUMBER,18377

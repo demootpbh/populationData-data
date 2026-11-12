@@ -1485,7 +1485,7 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2025,Oba spola,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,857
 2025,Oba spola,(V01-Y98) Vanjski uzroci smrtnosti,Broj,4
 2025,Oba spola,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,2
-2025,Oba spola,Covid-19,Broj,0
+2025,Oba spola,Covid-19,Broj,30
 2025,Oba spola,Nepoznato,Broj,554
 2025,Oba spola,Ukupno,Broj,37153
 2025,M,(A00-B99) Zarazne i parazitarne bolesti,Broj,199
@@ -1507,7 +1507,7 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2025,M,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,633
 2025,M,(V01-Y98) Vanjski uzroci smrtnosti,Broj,4
 2025,M,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,2
-2025,M,Covid-19,Broj,134
+2025,M,Covid-19,Broj,14
 2025,M,Nepoznato,Broj,318
 2025,M,Ukupno,Broj,18776
 2025,Ž,(A00-B99) Zarazne i parazitarne bolesti,Broj,230
@@ -1530,6 +1530,6 @@ Year,Spol,Uzrok smrti (prema šiframa bolesti po MKB-10),UNIT_MEASURE,Value
 2025,Ž,"(S00-T98) Ozljede, trovanja i druge posljedice s vanjskim uzrokom",Broj,224
 2025,Ž,(V01-Y98) Vanjski uzroci smrtnosti,Broj,0
 2025,Ž,(Z00-Z99) Faktori koji utječu na zdravstveno stanje i kontakt sa zdravstvenom službom,Broj,2
-2025,Ž,Covid-19,Broj,134
-2025,Ž,Nepoznato,Broj,0
+2025,Ž,Covid-19,Broj,16
+2025,Ž,Nepoznato,Broj,236
 2025,Ž,Ukupno,Broj,18377
