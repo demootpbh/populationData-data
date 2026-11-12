@@ -28,6 +28,7 @@ Year,UNIT_MEASURE,Spol,Value
 2022,Broj,Oba spola,95.0
 2023,Broj,Oba spola,74.0
 2024,Broj,Oba spola,74.0
+2025,Broj,Oba spola,59.0
 2001,Broj,M,98.0
 2002,Broj,M,77.0
 2003,Broj,M,91.0
@@ -52,6 +53,7 @@ Year,UNIT_MEASURE,Spol,Value
 2022,Broj,M,51.0
 2023,Broj,M,33.0
 2024,Broj,M,43.0
+2025,Broj,M,24.0
 2001,Broj,Ž,95.0
 2002,Broj,Ž,61.0
 2003,Broj,Ž,59.0
@@ -76,3 +78,4 @@ Year,UNIT_MEASURE,Spol,Value
 2022,Broj,Ž,44.0
 2023,Broj,Ž,41.0
 2024,Broj,Ž,31.0
+2025,Broj,Ž,35.0
